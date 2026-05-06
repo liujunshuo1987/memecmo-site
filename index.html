@@ -1,0 +1,722 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta name="x-poe-datastore-behavior" content="local_only"><meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://code.jquery.com https://unpkg.com https://d3js.org https://threejs.org https://cdn.plot.ly https://stackpath.bootstrapcdn.com https://maps.googleapis.com https://cdn.tailwindcss.com https://ajax.googleapis.com https://kit.fontawesome.com https://cdn.datatables.net https://maxcdn.bootstrapcdn.com https://code.highcharts.com https://tako-static-assets-production.s3.amazonaws.com https://www.youtube.com https://fonts.googleapis.com https://fonts.gstatic.com https://pfst.cf2.poecdn.net https://puc.poecdn.net https://i.imgur.com https://wikimedia.org https://*.icons8.com https://*.giphy.com https://picsum.photos https://images.unsplash.com; frame-src 'self' https://www.youtube.com https://trytako.com; child-src 'self'; manifest-src 'self'; worker-src 'self'; upgrade-insecure-requests; block-all-mixed-content;">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MemeCMO.ai — 让品牌成为 AI 的答案</title>
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --accent:#8b5cf6;
+  --accent2:#6366f1;
+  --accent-light:#a78bfa;
+  --accent-dim:rgba(139,92,246,.26);
+  --accent-glow:rgba(139,92,246,.10);
+  --accent-subtle:rgba(139,92,246,.06);
+  --grad:linear-gradient(135deg,#c850c0,#4158d0);
+  --grad-btn:linear-gradient(135deg,#a78bfa,#6366f1);
+  --grad-btn-hover:linear-gradient(135deg,#c084fc,#818cf8);
+  --dark:#07060c;--dark2:#0c0b14;--dark3:#100f1a;
+  --card:#13121e;--card-border:#1f1d30;
+  --text1:#f0eef5;--text2:#908da0;--text3:#5e5b72;
+}
+html{scroll-behavior:smooth;font-size:16px}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","PingFang SC","Noto Sans SC",sans-serif;
+  background:var(--dark);color:var(--text1);overflow-x:hidden;line-height:1.7;
+}
+a{color:var(--accent-light);text-decoration:none;transition:.3s}
+a:hover{opacity:.85}
+::-webkit-scrollbar{width:5px}
+::-webkit-scrollbar-track{background:var(--dark)}
+::-webkit-scrollbar-thumb{background:var(--accent-dim);border-radius:3px}
+
+/* ===================== NAV ===================== */
+.nav{
+  position:fixed;top:0;left:0;right:0;z-index:1000;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:18px 48px;
+  background:rgba(7,6,12,.55);backdrop-filter:blur(28px);
+  border-bottom:1px solid transparent;transition:.4s;
+}
+.nav.scrolled{border-bottom-color:var(--card-border);background:rgba(7,6,12,.92)}
+.nav-logo{display:flex;align-items:center;gap:14px}
+.nav-logo-icon{
+  width:38px;height:38px;border-radius:11px;
+  background:var(--grad);
+  display:flex;align-items:center;justify-content:center;
+  font-weight:800;font-size:17px;color:#fff;
+}
+.nav-logo-text{font-size:14px;font-weight:600;letter-spacing:4px;color:var(--text2)}
+.nav-links{display:flex;gap:32px}
+.nav-links a{font-size:13.5px;color:var(--text2);letter-spacing:.5px;transition:.3s}
+.nav-links a:hover{color:var(--accent-light);opacity:1}
+.nav-cta{
+  padding:9px 22px;border-radius:8px;font-size:13.5px;font-weight:600;
+  background:var(--grad-btn);color:#fff;
+  border:none;cursor:pointer;transition:.3s;
+}
+.nav-cta:hover{transform:translateY(-1px);box-shadow:0 8px 28px var(--accent-dim)}
+.nav-hamburger{display:none;background:none;border:none;cursor:pointer;z-index:1001}
+.nav-hamburger span{display:block;width:22px;height:2px;background:var(--text2);margin:5px auto;transition:.3s}
+
+/* ===================== HERO SLIDER ===================== */
+.hero-slider{
+  position:relative;width:100%;height:100vh;overflow:hidden;
+  background:var(--dark);
+}
+#heroCanvas{position:absolute;inset:0;z-index:0;pointer-events:none}
+
+.slides-wrapper{position:relative;width:100%;height:100%;z-index:1}
+.slide{
+  position:absolute;inset:0;display:flex;align-items:center;
+  padding:0 clamp(36px,6vw,100px);
+  opacity:0;transform:translateY(30px);
+  transition:opacity .7s ease,transform .7s ease;
+  pointer-events:none;
+}
+.slide.active{opacity:1;transform:translateY(0);pointer-events:auto}
+.slide-inner{max-width:780px}
+
+.slide-tag{
+  display:inline-block;padding:7px 22px;border-radius:100px;
+  background:var(--accent-subtle);border:1px solid rgba(139,92,246,.2);
+  font-size:13.5px;color:var(--accent-light);letter-spacing:2px;
+  margin-bottom:36px;
+}
+.slide-title{
+  font-size:clamp(30px,5vw,58px);font-weight:800;line-height:1.2;margin-bottom:28px;
+}
+.slide-title .hl{
+  background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  background-clip:text;
+}
+.slide-desc{
+  font-size:clamp(15px,1.6vw,17px);color:var(--text2);line-height:1.9;
+  max-width:620px;margin-bottom:40px;
+}
+.slide-btn{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:14px 32px;border-radius:10px;font-size:15px;font-weight:600;
+  background:transparent;color:var(--text1);
+  border:1px solid var(--card-border);cursor:pointer;transition:.3s;
+}
+.slide-btn:hover{border-color:var(--accent);background:var(--accent-subtle);color:var(--text1)}
+
+.slide-glow{
+  position:absolute;width:700px;height:700px;border-radius:50%;
+  background:radial-gradient(circle,rgba(139,92,246,.08) 0%,transparent 70%);
+  right:-100px;top:50%;transform:translateY(-50%);
+  opacity:.7;pointer-events:none;
+}
+
+/* ---- Slider Controls ---- */
+.slider-controls{
+  position:absolute;bottom:48px;left:clamp(36px,6vw,100px);
+  z-index:10;display:flex;align-items:center;gap:16px;
+}
+.slider-dots{display:flex;align-items:center;gap:10px}
+.slider-dot{
+  width:10px;height:10px;border-radius:50%;
+  background:var(--text3);cursor:pointer;transition:.4s;
+  border:none;outline:none;padding:0;
+}
+.slider-dot.active{
+  width:40px;border-radius:5px;height:10px;
+  background:var(--grad-btn);
+  box-shadow:0 0 14px var(--accent-dim);
+}
+.slider-counter{
+  font-size:14px;color:var(--text3);letter-spacing:4px;
+  font-variant-numeric:tabular-nums;margin-left:8px;
+}
+.slider-counter .cur{color:var(--text1);font-weight:600}
+
+.slider-pause{
+  position:absolute;top:100px;right:48px;z-index:10;
+  display:flex;align-items:center;gap:8px;
+  padding:8px 18px;border-radius:8px;
+  background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);
+  font-size:13px;color:var(--text3);cursor:pointer;transition:.3s;
+  user-select:none;
+}
+.slider-pause:hover{border-color:rgba(255,255,255,.15);color:var(--text2)}
+.slider-pause .icon{font-size:11px}
+
+.scroll-hint{
+  position:absolute;bottom:48px;right:48px;z-index:10;
+  display:flex;flex-direction:column;align-items:center;gap:8px;
+}
+.scroll-hint span{font-size:11px;color:var(--text3);letter-spacing:2px}
+.scroll-line{
+  width:1px;height:36px;background:var(--card-border);position:relative;overflow:hidden;
+}
+.scroll-line::after{
+  content:'';position:absolute;top:-50%;left:0;width:100%;height:50%;
+  background:var(--accent);animation:scrollDown 2s ease-in-out infinite;
+}
+@keyframes scrollDown{0%{top:-50%}100%{top:100%}}
+
+/* ===================== SECTIONS COMMON ===================== */
+.section{padding:120px 48px;position:relative}
+.section-inner{max-width:1200px;margin:0 auto}
+.section-tag{
+  display:inline-block;padding:6px 18px;border-radius:100px;
+  background:var(--accent-subtle);border:1px solid rgba(139,92,246,.16);
+  font-size:13px;color:var(--accent-light);letter-spacing:2px;margin-bottom:24px;
+}
+.section-title{font-size:clamp(26px,4vw,46px);font-weight:800;line-height:1.25;margin-bottom:20px}
+.section-desc{font-size:16.5px;color:var(--text2);max-width:620px;margin-bottom:56px;line-height:1.85}
+.divider{height:1px;background:linear-gradient(90deg,transparent,var(--card-border),transparent);max-width:1200px;margin:0 auto}
+
+/* ===================== TAGLINE BANNER ===================== */
+.tagline-banner{
+  padding:100px 48px;text-align:center;position:relative;overflow:hidden;
+  background:linear-gradient(180deg,var(--dark) 0%,var(--dark3) 50%,var(--dark) 100%);
+}
+.tagline-banner::before{
+  content:'';position:absolute;width:800px;height:400px;
+  background:radial-gradient(ellipse,rgba(139,92,246,.09),transparent 70%);
+  top:50%;left:50%;transform:translate(-50%,-50%);
+}
+.tagline-text{
+  position:relative;z-index:1;font-size:clamp(22px,4vw,50px);font-weight:800;letter-spacing:2px;
+}
+.tagline-text .brand{
+  background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+}
+.tagline-sub{position:relative;z-index:1;font-size:17px;color:var(--text2);margin-top:22px;letter-spacing:1px}
+
+/* ===================== PHILOSOPHY ===================== */
+.phi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.phi-card{
+  padding:38px 30px;border-radius:16px;background:var(--card);border:1px solid var(--card-border);
+  transition:.4s;position:relative;overflow:hidden;
+}
+.phi-card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:2px;
+  background:var(--grad);opacity:0;transition:.4s;
+}
+.phi-card:hover{transform:translateY(-4px);border-color:rgba(139,92,246,.3);box-shadow:0 16px 48px rgba(139,92,246,.06)}
+.phi-card:hover::before{opacity:1}
+.phi-icon{
+  width:52px;height:52px;border-radius:13px;background:var(--accent-subtle);
+  display:flex;align-items:center;justify-content:center;font-size:24px;margin-bottom:22px;
+}
+.phi-card h3{font-size:19px;font-weight:700;margin-bottom:10px}
+.phi-card p{font-size:14.5px;color:var(--text2);line-height:1.8}
+
+/* ===================== GEO TECH ===================== */
+.geo-section{background:linear-gradient(180deg,var(--dark),var(--dark2),var(--dark))}
+.geo-layout{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
+.geo-visual{position:relative;width:100%;aspect-ratio:1;display:flex;align-items:center;justify-content:center}
+.geo-ring{
+  position:absolute;border-radius:50%;border:1px solid var(--card-border);
+  animation:spin 30s linear infinite;
+}
+.geo-ring:nth-child(1){width:100%;height:100%}
+.geo-ring:nth-child(2){width:72%;height:72%;animation-direction:reverse;animation-duration:22s;border-color:rgba(139,92,246,.15)}
+.geo-ring:nth-child(3){width:46%;height:46%;animation-duration:16s}
+.geo-dot{
+  position:absolute;width:9px;height:9px;border-radius:50%;
+  background:var(--accent);box-shadow:0 0 10px var(--accent-dim);
+}
+.geo-center{
+  position:relative;z-index:1;width:96px;height:96px;border-radius:50%;
+  background:var(--accent-subtle);border:2px solid var(--accent);
+  display:flex;align-items:center;justify-content:center;
+  font-size:13.5px;font-weight:700;color:var(--accent-light);text-align:center;
+  letter-spacing:1px;line-height:1.3;box-shadow:0 0 50px var(--accent-dim);
+}
+@keyframes spin{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+
+.geo-text h3{font-size:21px;font-weight:700;margin-bottom:14px;color:var(--accent-light)}
+.geo-list{list-style:none;display:flex;flex-direction:column;gap:18px;margin-top:32px}
+.geo-list li{display:flex;gap:14px;align-items:flex-start;font-size:14.5px;color:var(--text2);line-height:1.75}
+.geo-list-dot{margin-top:8px;min-width:7px;height:7px;border-radius:50%;background:var(--accent)}
+
+/* ===================== MARKET ===================== */
+.market-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-bottom:44px}
+.market-card{
+  padding:34px 24px;border-radius:16px;text-align:center;
+  background:var(--card);border:1px solid var(--card-border);transition:.4s;
+}
+.market-card:hover{transform:translateY(-4px);border-color:rgba(139,92,246,.3)}
+.market-flag{font-size:40px;margin-bottom:14px}
+.market-name{font-size:17px;font-weight:700;margin-bottom:3px}
+.market-lang{font-size:12.5px;color:var(--text3);margin-bottom:10px}
+.market-desc{font-size:13.5px;color:var(--text2);line-height:1.7}
+
+.market-insight{
+  padding:36px;border-radius:16px;
+  background:linear-gradient(135deg,rgba(139,92,246,.05),rgba(99,102,241,.02));
+  border:1px solid rgba(139,92,246,.12);
+}
+.market-insight h3{font-size:19px;font-weight:700;margin-bottom:14px}
+.market-insight p{font-size:14.5px;color:var(--text2);line-height:1.9}
+.market-insight .hl{color:var(--accent-light);font-weight:600}
+
+/* ===================== PROCESS ===================== */
+.process-tl{position:relative;padding-left:40px}
+.process-tl::before{
+  content:'';position:absolute;left:15px;top:0;bottom:0;width:2px;
+  background:linear-gradient(180deg,var(--accent),var(--card-border));
+}
+.process-step{position:relative;padding:0 0 56px 40px}
+.process-step:last-child{padding-bottom:0}
+.process-dot{
+  position:absolute;left:-33px;top:4px;width:14px;height:14px;border-radius:50%;
+  background:var(--dark);border:3px solid var(--accent);box-shadow:0 0 14px var(--accent-dim);
+}
+.process-phase{font-size:12.5px;color:var(--accent-light);font-weight:600;letter-spacing:2px;margin-bottom:6px}
+.process-step h3{font-size:21px;font-weight:700;margin-bottom:8px}
+.process-step p{font-size:14.5px;color:var(--text2);max-width:580px;line-height:1.8}
+
+/* ===================== CONTACT ===================== */
+.contact-section{background:linear-gradient(180deg,var(--dark),var(--dark3))}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:start}
+.contact-info h2{font-size:clamp(26px,4vw,42px);font-weight:800;line-height:1.25;margin-bottom:22px}
+.contact-info>p{font-size:16px;color:var(--text2);line-height:1.8;margin-bottom:36px}
+.contact-items{display:flex;flex-direction:column;gap:20px}
+.contact-item{
+  display:flex;gap:18px;align-items:flex-start;padding:22px;border-radius:12px;
+  background:var(--card);border:1px solid var(--card-border);transition:.3s;
+}
+.contact-item:hover{border-color:rgba(139,92,246,.28)}
+.ci-icon{
+  width:46px;height:46px;border-radius:11px;background:var(--accent-subtle);
+  display:flex;align-items:center;justify-content:center;font-size:21px;flex-shrink:0;
+}
+.ci-label{font-size:12.5px;color:var(--text3);margin-bottom:3px;letter-spacing:1px}
+.ci-value{font-size:15px;font-weight:600}
+.ci-value a{color:var(--text1);transition:.3s}
+.ci-value a:hover{color:var(--accent-light)}
+
+.contact-form-box{
+  padding:44px;border-radius:20px;background:var(--card);border:1px solid var(--card-border);
+}
+.contact-form-box h3{font-size:21px;font-weight:700;margin-bottom:6px}
+.contact-form-box .fsub{font-size:13.5px;color:var(--text3);margin-bottom:28px}
+.fg{margin-bottom:18px}
+.fg label{display:block;font-size:12.5px;color:var(--text2);margin-bottom:7px;letter-spacing:.5px}
+.fg input,.fg textarea{
+  width:100%;padding:13px 16px;border-radius:9px;
+  background:rgba(139,92,246,.025);border:1px solid var(--card-border);
+  color:var(--text1);font-size:14.5px;font-family:inherit;outline:none;transition:.3s;
+}
+.fg input:focus,.fg textarea:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(139,92,246,.1)}
+.fg textarea{resize:vertical;min-height:90px}
+.form-submit{
+  width:100%;padding:15px;border-radius:11px;font-size:15.5px;font-weight:700;
+  background:var(--grad-btn);color:#fff;
+  border:none;cursor:pointer;transition:.3s;letter-spacing:1px;
+}
+.form-submit:hover{transform:translateY(-2px);box-shadow:0 10px 36px var(--accent-dim);background:var(--grad-btn-hover)}
+
+/* ===================== FOOTER ===================== */
+.footer{padding:52px 48px 36px;border-top:1px solid var(--card-border)}
+.footer-inner{max-width:1200px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px}
+.footer-left{display:flex;align-items:center;gap:12px}
+.footer-logo-icon{
+  width:30px;height:30px;border-radius:8px;
+  background:var(--grad);
+  display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;color:#fff;
+}
+.footer-copy{font-size:12.5px;color:var(--text3)}
+.footer-right{display:flex;flex-direction:column;align-items:flex-end;gap:8px}
+.footer-links{display:flex;gap:22px}
+.footer-links a{font-size:12.5px;color:var(--text3);transition:.3s}
+.footer-links a:hover{color:var(--accent-light)}
+.footer-license{font-size:11px;color:var(--text3);opacity:.55;letter-spacing:.5px}
+
+/* ===================== ANIMATIONS ===================== */
+@keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+.reveal{opacity:0;transform:translateY(36px);transition:opacity .65s ease-out,transform .65s ease-out}
+.reveal.visible{opacity:1;transform:translateY(0)}
+
+/* ===================== RESPONSIVE ===================== */
+@media(max-width:1024px){
+  .phi-grid{grid-template-columns:repeat(2,1fr)}
+  .market-grid{grid-template-columns:repeat(2,1fr)}
+  .geo-layout{grid-template-columns:1fr;gap:44px}
+  .geo-visual{max-width:340px;margin:0 auto}
+  .contact-grid{grid-template-columns:1fr;gap:44px}
+}
+@media(max-width:768px){
+  .nav{padding:14px 22px}
+  .nav-links,.nav-cta{display:none}
+  .nav-hamburger{display:block}
+  .section{padding:72px 22px}
+  .phi-grid,.market-grid{grid-template-columns:1fr}
+  .tagline-banner{padding:64px 22px}
+  .contact-form-box{padding:28px 22px}
+  .footer{padding:36px 22px}
+  .footer-inner{flex-direction:column;text-align:center}
+  .footer-right{align-items:center}
+  .slide{padding:0 28px}
+  .slider-controls{left:28px}
+  .slider-pause{right:22px;top:88px}
+  .scroll-hint{display:none}
+}
+
+/* ===================== CURSOR GLOW ===================== */
+.cursor-glow{
+  position:fixed;width:280px;height:280px;border-radius:50%;
+  background:radial-gradient(circle,rgba(139,92,246,.06),transparent 70%);
+  pointer-events:none;z-index:9999;transform:translate(-50%,-50%);
+  transition:opacity .35s;opacity:0;
+}
+.cursor-glow.on{opacity:1}
+</style>
+</head>
+<body>
+
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- ===== NAV ===== -->
+<nav class="nav" id="nav">
+  <div class="nav-logo">
+    <div class="nav-logo-icon">M</div>
+    <div class="nav-logo-text">MEMECMO.AI</div>
+  </div>
+  <div class="nav-links" id="navLinks">
+    <a href="#philosophy">理念</a>
+    <a href="#geo-tech">GEO 技术</a>
+    <a href="#market">目标市场</a>
+    <a href="#process">流程</a>
+    <a href="#contact">联系我们</a>
+  </div>
+  <button class="nav-cta" onclick="location.href='#contact'">预约诊断 →</button>
+  <button class="nav-hamburger" id="hamburger" aria-label="菜单"><span></span><span></span><span></span></button>
+</nav>
+
+<!-- ===== HERO SLIDER ===== -->
+<section class="hero-slider" id="hero">
+  <canvas id="heroCanvas"></canvas>
+
+  <div class="slider-pause" id="pauseBtn">
+    <span class="icon">▶</span> <span id="pauseLabel">自动播放中</span>
+  </div>
+
+  <div class="slides-wrapper" id="slidesWrapper">
+
+    <div class="slide active" data-index="0">
+      <div class="slide-glow"></div>
+      <div class="slide-inner">
+        <div class="slide-tag">AI 认知革命 · 出海新范式</div>
+        <h1 class="slide-title"><span class="hl">MemeCMO.ai</span><br>让品牌成为 AI 的答案</h1>
+        <p class="slide-desc">当全球 3 亿用户开始向 ChatGPT、Perplexity、Google AI 提问，你的品牌出现在答案里了吗？我们帮中国出海企业在 AI 引擎中建立持久认知资产。</p>
+        <a href="#contact" class="slide-btn">免费获取 AIGVR 诊断 →</a>
+      </div>
+    </div>
+
+    <div class="slide" data-index="1">
+      <div class="slide-glow"></div>
+      <div class="slide-inner">
+        <div class="slide-tag">GEO 特战队 · 嵌入式服务</div>
+        <h1 class="slide-title">不是远程顾问，<br>是你的 <span class="hl">AI 认知工兵。</span></h1>
+        <p class="slide-desc">从 AIGVR 诊断到结构化数据部署，从高权重信源播种到 AI 智能体开发——策略到执行，一个团队，一条链路，不外包。</p>
+        <a href="#geo-tech" class="slide-btn">了解 GEO 技术栈 →</a>
+      </div>
+    </div>
+
+    <div class="slide" data-index="2">
+      <div class="slide-glow"></div>
+      <div class="slide-inner">
+        <div class="slide-tag">计算公关 · Computational PR</div>
+        <h1 class="slide-title">用算法逻辑<br>重写 <span class="hl">品牌叙事。</span></h1>
+        <p class="slide-desc">"计算公关"方法论——用技术手段系统性地影响 AI 引擎的信息生成逻辑，让品牌精准嵌入 AI 的答案，而不是等待被发现。</p>
+        <a href="#geo-tech" class="slide-btn">深入了解 →</a>
+      </div>
+    </div>
+
+    <div class="slide" data-index="3">
+      <div class="slide-glow"></div>
+      <div class="slide-inner">
+        <div class="slide-tag">战略中枢在港 · 作战网络在地</div>
+        <h1 class="slide-title">大脑在香港，<br>触角在每一个<span class="hl">本地搜索框里。</span></h1>
+        <p class="slide-desc">读得懂中国企业的出海焦虑，也摸得到越南、泰国、印尼市场的信息脉搏。不是远程顾问，是嵌入式 GEO 特战队。</p>
+        <a href="#philosophy" class="slide-btn">继续了解 →</a>
+      </div>
+    </div>
+
+    <div class="slide" data-index="4">
+      <div class="slide-glow"></div>
+      <div class="slide-inner">
+        <div class="slide-tag">小语种蓝海 · 先到者通吃</div>
+        <h1 class="slide-title">东南亚 <span class="hl">5 大小语种，</span><br>AI 认知几乎空白。</h1>
+        <p class="slide-desc">越南语、泰语、印尼语、马来语——这些市场的 AI 知识层一片空白。布局成本最低、先发壁垒最深。现在不入场，以后只能花 5 倍代价追赶。</p>
+        <a href="#market" class="slide-btn">查看目标市场 →</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="slider-controls">
+    <div class="slider-dots" id="sliderDots"></div>
+    <div class="slider-counter"><span class="cur" id="counterCur">01</span> / <span id="counterTotal">05</span></div>
+  </div>
+
+  <div class="scroll-hint">
+    <span>SCROLL</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- ===== TAGLINE ===== -->
+<section class="tagline-banner">
+  <div class="tagline-text reveal"><span class="brand">MemeCMO.ai</span> —— 让品牌成为 AI 的答案</div>
+  <div class="tagline-sub reveal">不是投放广告，而是改写 AI 的记忆。</div>
+</section>
+<div class="divider"></div>
+
+<!-- ===== PHILOSOPHY ===== -->
+<section class="section" id="philosophy">
+  <div class="section-inner">
+    <div class="section-tag reveal">OUR PHILOSOPHY · 我们的理念</div>
+    <h2 class="section-title reveal">认知即资产，先发即壁垒。</h2>
+    <p class="section-desc reveal">AI 引擎中的品牌存在感不是流量——它一旦建立，便持续为你的品牌背书：24/7，跨语种，零边际成本。</p>
+    <div class="phi-grid">
+      <div class="phi-card reveal"><div class="phi-icon">🧬</div><h3>认知即资产</h3><p>AI 给出的品牌回答具有强马太效应——越早被引用，越难被覆盖。每一次 AI 背书都是复利。</p></div>
+      <div class="phi-card reveal"><div class="phi-icon">🎯</div><h3>先发即壁垒</h3><p>AI 知识层有先发优势。后来者改写已固化的认知，需 3–5 倍成本和 6–12 个月时间。</p></div>
+      <div class="phi-card reveal"><div class="phi-icon">🔬</div><h3>数据驱动一切</h3><p>AIGVR 五维量化评分：出现率、首位率、准确率、情感净值、来源深度。每步可衡量。</p></div>
+      <div class="phi-card reveal"><div class="phi-icon">🌏</div><h3>本地化 ≠ 翻译</h3><p>三语品牌叙事不是机器翻译，而是面向每个文化语境的重新编码。</p></div>
+      <div class="phi-card reveal"><div class="phi-icon">⚡</div><h3>能力交付 &gt; 服务交付</h3><p>让客户最终不再需要我们。从外部依赖到内部自主的能力迁移，写入服务协议。</p></div>
+      <div class="phi-card reveal"><div class="phi-icon">🏗️</div><h3>全栈闭环</h3><p>AIGVR 诊断 → 结构化数据 → 信源播种 → 智能体开发——不外包，一条链路。</p></div>
+    </div>
+  </div>
+</section>
+<div class="divider"></div>
+
+<!-- ===== GEO TECH ===== -->
+<section class="section geo-section" id="geo-tech">
+  <div class="section-inner">
+    <div class="section-tag reveal">GEO TECHNOLOGY · 核心技术</div>
+    <h2 class="section-title reveal">计算公关：<br>当公共关系遇上算法逻辑</h2>
+    <p class="section-desc reveal">用技术手段系统性影响 AI 引擎的信息生成逻辑——不是投放广告，而是改写 AI 的认知底层。</p>
+    <div class="geo-layout">
+      <div class="geo-visual reveal">
+        <div class="geo-ring"><div class="geo-dot" style="top:0;left:50%;transform:translate(-50%,-50%)"></div></div>
+        <div class="geo-ring"><div class="geo-dot" style="bottom:0;right:10%;transform:translate(50%,50%)"></div></div>
+        <div class="geo-ring"><div class="geo-dot" style="top:50%;left:0;transform:translate(-50%,-50%)"></div></div>
+        <div class="geo-center">计算<br>公关</div>
+      </div>
+      <div class="geo-text">
+        <h3 class="reveal">GEO 技术栈</h3>
+        <ul class="geo-list">
+          <li class="reveal"><div class="geo-list-dot"></div><div><strong>结构化数据工程</strong> — JSON-LD / Schema.org 全站标注，llms.txt 协议配置</div></li>
+          <li class="reveal"><div class="geo-list-dot"></div><div><strong>高权重信源播种</strong> — 维基百科词条、权威媒体引文级报道、行业数据库植入</div></li>
+          <li class="reveal"><div class="geo-list-dot"></div><div><strong>语义内容矩阵</strong> — 基于问题集的 GEO 优化内容，高事实密度、强引用价值</div></li>
+          <li class="reveal"><div class="geo-list-dot"></div><div><strong>AIGVR 量化监测</strong> — 五维评分 × 六引擎实时追踪 × 竞对动态对标</div></li>
+          <li class="reveal"><div class="geo-list-dot"></div><div><strong>AI 智能体集群</strong> — 需求分析、知识问答、内容辅助三大智能体</div></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="divider"></div>
+
+<!-- ===== MARKET ===== -->
+<section class="section" id="market">
+  <div class="section-inner">
+    <div class="section-tag reveal">MARKET FOCUS · 目标市场</div>
+    <h2 class="section-title reveal">精准瞄准东南亚：<br>小语种的 AI 认知蓝海</h2>
+    <p class="section-desc reveal">越南语、泰语、印尼语、马来语——这些小语种市场的 AI 认知空间几乎空白，先到者通吃。</p>
+    <div class="market-grid">
+      <div class="market-card reveal"><div class="market-flag">🇻🇳</div><div class="market-name">越南</div><div class="market-lang">Tiếng Việt</div><div class="market-desc">ChatGPT 月活 800 万+，GEO 竞争近乎空白</div></div>
+      <div class="market-card reveal"><div class="market-flag">🇹🇭</div><div class="market-name">泰国</div><div class="market-lang">ภาษาไทย</div><div class="market-desc">泰语 AI 内容生态萌芽，品牌窗口完全开放</div></div>
+      <div class="market-card reveal"><div class="market-flag">🇮🇩</div><div class="market-name">印度尼西亚</div><div class="market-lang">Bahasa Indonesia</div><div class="market-desc">2.7 亿人口最大市场，AI 用户领跑东南亚</div></div>
+      <div class="market-card reveal"><div class="market-flag">🇲🇾</div><div class="market-name">马来西亚</div><div class="market-lang">Bahasa Melayu</div><div class="market-desc">多语种交汇（马/英/中），GEO 需三语协同</div></div>
+    </div>
+    <div class="market-insight reveal">
+      <h3>为什么是小语种？</h3>
+      <p>英语市场 AI 认知竞争已成红海。但在<span class="hl">越南语、泰语、印尼语</span>的 AI 知识层中，绝大多数品类仍处于<span class="hl">真空状态</span>——布局成本最低、建设周期最短、先发壁垒最深。中国出海企业要做的不是在英语世界与巨头硬碰，而是在目标市场的本地语言中<span class="hl">悄悄占位</span>。</p>
+    </div>
+  </div>
+</section>
+<div class="divider"></div>
+
+<!-- ===== PROCESS ===== -->
+<section class="section" id="process">
+  <div class="section-inner">
+    <div class="section-tag reveal">HOW WE WORK · 服务流程</div>
+    <h2 class="section-title reveal">先诊断，再破冰，后领跑。</h2>
+    <p class="section-desc reveal">三阶段递进，每步有明确交付与量化验收。</p>
+    <div class="process-tl">
+      <div class="process-step reveal"><div class="process-dot"></div><div class="process-phase">PHASE 0 · 第 1–2 周</div><h3>AIGVR 快速诊断</h3><p>40–50 组问题 × 6 大 AI 引擎测试。2 周交付完整诊断报告与竞争评分卡。</p></div>
+      <div class="process-step reveal"><div class="process-dot"></div><div class="process-phase">PHASE 1 · 第 1–3 个月</div><h3>破冰 — 基建与冷启动</h3><p>品牌语料库、结构化数据、信源播种、首批 GEO 内容、监测看板上线。从"AI 不知道你"到"AI 开始看见你"。</p></div>
+      <div class="process-step reveal"><div class="process-dot"></div><div class="process-phase">PHASE 2 · 第 4–12 个月</div><h3>领跑 — 持续优化与获客</h3><p>月度监测调优、内容持续生产、获客转化链路、智能体集群、团队能力迁移。从"被看见"到"被首选"。</p></div>
+    </div>
+  </div>
+</section>
+<div class="divider"></div>
+
+<!-- ===== CONTACT ===== -->
+<section class="section contact-section" id="contact">
+  <div class="section-inner">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="section-tag reveal">CONTACT US · 联系我们</div>
+        <h2 class="reveal">你的品牌在 AI 里<br>说的第一句话，<br>由你来定义。</h2>
+        <p class="reveal">预约一次免费 AIGVR 评估，看看 AI 引擎今天如何描述你的品牌。</p>
+        <div class="contact-items">
+          <div class="contact-item reveal"><div class="ci-icon">📧</div><div><div class="ci-label">EMAIL</div><div class="ci-value"><a href="mailto:liujunshuo1987@gmail.com">liujunshuo1987@gmail.com</a></div></div></div>
+          <div class="contact-item reveal"><div class="ci-icon">📍</div><div><div class="ci-label">HEADQUARTERS</div><div class="ci-value">香港 · 东南亚本地执行网络</div></div></div>
+        </div>
+      </div>
+      <div class="contact-form-box reveal">
+        <h3>预约 AIGVR 诊断</h3>
+        <p class="fsub">填写以下信息，我们 24 小时内回复</p>
+        <form id="contactForm" onsubmit="handleSubmit(event)">
+          <div class="fg"><label>姓名</label><input type="text" placeholder="您的姓名" required=""></div>
+          <div class="fg"><label>公司</label><input type="text" placeholder="公司名称" required=""></div>
+          <div class="fg"><label>邮箱</label><input type="email" placeholder="your@company.com" required=""></div>
+          <div class="fg"><label>目标市场</label><input type="text" placeholder="越南、泰国、印尼…"></div>
+          <div class="fg"><label>留言</label><textarea placeholder="简要描述品牌与需求…"></textarea></div>
+          <button type="submit" class="form-submit">提交预约 →</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-left"><div class="footer-logo-icon">M</div><div class="footer-copy">© 2026 MemeCMO.ai</div></div>
+    <div class="footer-right">
+      <div class="footer-links">
+        <a href="mailto:liujunshuo1987@gmail.com">Email</a>
+        <a href="#hero">回到顶部 ↑</a>
+      </div>
+      <div class="footer-license">技术授权 香港观澜智库 NEURONSPARK Media-tech LTD</div>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* ========== PARTICLE CANVAS ========== */
+const canvas=document.getElementById('heroCanvas'),ctx=canvas.getContext('2d');
+let particles=[],mouseX=-9999,mouseY=-9999;
+function resizeCanvas(){canvas.width=window.innerWidth;canvas.height=window.innerHeight}
+resizeCanvas();window.addEventListener('resize',resizeCanvas);
+
+class Particle{
+  constructor(){this.reset()}
+  reset(){
+    this.x=Math.random()*canvas.width;this.y=Math.random()*canvas.height;
+    this.r=Math.random()*1.8+.4;
+    this.vx=(Math.random()-.5)*.25;this.vy=(Math.random()-.5)*.25;
+    this.o=Math.random()*.4+.08;
+    const t=Math.random();
+    this.color=t<.5?`rgba(139,92,246,${this.o})`:`rgba(99,102,241,${this.o})`;
+    this.lineColor=t<.5?'139,92,246':'99,102,241';
+  }
+  update(){
+    this.x+=this.vx;this.y+=this.vy;
+    const dx=mouseX-this.x,dy=mouseY-this.y,d=Math.sqrt(dx*dx+dy*dy);
+    if(d<140){const f=(140-d)/140;this.x-=dx*f*.018;this.y-=dy*f*.018}
+    if(this.x<0||this.x>canvas.width||this.y<0||this.y>canvas.height)this.reset();
+  }
+  draw(){ctx.beginPath();ctx.arc(this.x,this.y,this.r,0,Math.PI*2);ctx.fillStyle=this.color;ctx.fill()}
+}
+
+function initP(){
+  const n=Math.min(100,Math.floor(canvas.width*canvas.height/9000));
+  particles=[];for(let i=0;i<n;i++)particles.push(new Particle());
+}
+initP();
+
+function connectP(){
+  for(let i=0;i<particles.length;i++){
+    for(let j=i+1;j<particles.length;j++){
+      const dx=particles[i].x-particles[j].x,dy=particles[i].y-particles[j].y,d=Math.sqrt(dx*dx+dy*dy);
+      if(d<110){
+        ctx.beginPath();ctx.moveTo(particles[i].x,particles[i].y);ctx.lineTo(particles[j].x,particles[j].y);
+        ctx.strokeStyle=`rgba(${particles[i].lineColor},${.06*(1-d/110)})`;
+        ctx.lineWidth=.5;ctx.stroke();
+      }
+    }
+  }
+}
+
+function animateCanvas(){ctx.clearRect(0,0,canvas.width,canvas.height);particles.forEach(p=>{p.update();p.draw()});connectP();requestAnimationFrame(animateCanvas)}
+animateCanvas();
+document.addEventListener('mousemove',e=>{mouseX=e.clientX;mouseY=e.clientY});
+
+/* ========== CURSOR GLOW ========== */
+const cg=document.getElementById('cursorGlow');let cgOn=false;
+document.addEventListener('mousemove',e=>{cg.style.left=e.clientX+'px';cg.style.top=e.clientY+'px';if(!cgOn){cg.classList.add('on');cgOn=true}});
+document.addEventListener('mouseleave',()=>{cg.classList.remove('on');cgOn=false});
+
+/* ========== NAV SCROLL ========== */
+const nav=document.getElementById('nav');
+window.addEventListener('scroll',()=>nav.classList.toggle('scrolled',scrollY>50));
+
+/* ========== HAMBURGER ========== */
+const hamburger=document.getElementById('hamburger'),navLinks=document.getElementById('navLinks');
+let menuOpen=false;
+hamburger.addEventListener('click',()=>{
+  menuOpen=!menuOpen;
+  if(menuOpen){Object.assign(navLinks.style,{display:'flex',flexDirection:'column',position:'fixed',top:'62px',left:'0',right:'0',background:'rgba(7,6,12,.97)',padding:'22px',gap:'22px',zIndex:'999',borderBottom:'1px solid #1f1d30'})}
+  else{['display','flexDirection','position','top','left','right','background','padding','gap','zIndex','borderBottom'].forEach(k=>navLinks.style[k]='')}
+});
+navLinks.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{if(menuOpen)hamburger.click()}));
+
+/* ========== HERO SLIDER ========== */
+const slides=document.querySelectorAll('.slide'),totalSlides=slides.length;
+let currentSlide=0,autoplay=true,autoTimer=null;
+const dotsContainer=document.getElementById('sliderDots'),counterCur=document.getElementById('counterCur');
+const pauseBtn=document.getElementById('pauseBtn'),pauseLabel=document.getElementById('pauseLabel');
+
+for(let i=0;i<totalSlides;i++){
+  const dot=document.createElement('button');dot.className='slider-dot'+(i===0?' active':'');
+  dot.addEventListener('click',()=>goTo(i));dotsContainer.appendChild(dot);
+}
+const dots=dotsContainer.querySelectorAll('.slider-dot');
+
+function goTo(index){
+  slides[currentSlide].classList.remove('active');dots[currentSlide].classList.remove('active');
+  currentSlide=index;
+  slides[currentSlide].classList.add('active');dots[currentSlide].classList.add('active');
+  counterCur.textContent=String(currentSlide+1).padStart(2,'0');resetTimer();
+}
+function next(){goTo((currentSlide+1)%totalSlides)}
+function resetTimer(){clearInterval(autoTimer);if(autoplay)autoTimer=setInterval(next,5000)}
+
+pauseBtn.addEventListener('click',()=>{
+  autoplay=!autoplay;
+  if(autoplay){pauseLabel.textContent='自动播放中';pauseBtn.querySelector('.icon').textContent='▶';resetTimer()}
+  else{pauseLabel.textContent='已暂停 · 悬停浏览';pauseBtn.querySelector('.icon').textContent='⏸';clearInterval(autoTimer)}
+});
+
+const heroSection=document.querySelector('.hero-slider');
+heroSection.addEventListener('mouseenter',()=>{if(autoplay)clearInterval(autoTimer)});
+heroSection.addEventListener('mouseleave',()=>{if(autoplay)resetTimer()});
+
+document.addEventListener('keydown',e=>{
+  if(e.key==='ArrowRight')goTo((currentSlide+1)%totalSlides);
+  if(e.key==='ArrowLeft')goTo((currentSlide-1+totalSlides)%totalSlides);
+});
+
+let touchStartX=0;
+heroSection.addEventListener('touchstart',e=>{touchStartX=e.touches[0].clientX},{passive:true});
+heroSection.addEventListener('touchend',e=>{const diff=e.changedTouches[0].clientX-touchStartX;if(Math.abs(diff)>50){if(diff<0)goTo((currentSlide+1)%totalSlides);else goTo((currentSlide-1+totalSlides)%totalSlides)}},{passive:true});
+heroSection.addEventListener('wheel',e=>{if(Math.abs(e.deltaY)>30){e.preventDefault();if(e.deltaY>0)goTo((currentSlide+1)%totalSlides);else goTo((currentSlide-1+totalSlides)%totalSlides)}},{passive:false});
+
+resetTimer();
+
+/* ========== SCROLL REVEAL ========== */
+const revealEls=document.querySelectorAll('.reveal');
+const revObserver=new IntersectionObserver(entries=>{entries.forEach(en=>{if(en.isIntersecting)en.target.classList.add('visible')})},{threshold:.1,rootMargin:'0px 0px -30px 0px'});
+revealEls.forEach(el=>revObserver.observe(el));
+
+/* ========== FORM ========== */
+function handleSubmit(e){
+  e.preventDefault();const btn=e.target.querySelector('.form-submit');
+  btn.textContent='✓ 已提交，感谢您的关注！';
+  btn.style.background='rgba(139,92,246,.15)';btn.style.color='#a78bfa';btn.disabled=true;
+}
+</script>
+
+
+
+</body></html>
