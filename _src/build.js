@@ -266,6 +266,8 @@ function buildLocale(locale) {
     CONTACT_F_MSG_PH: d.contact.f_msg_ph,
     CONTACT_SUBMIT: d.contact.submit,
     CONTACT_SUBMIT_DONE: d.contact.submit_done,
+    CONTACT_SUBMIT_LOADING: d.contact.submit_loading,
+    CONTACT_SUBMIT_ERROR: d.contact.submit_error,
 
     FOOTER_BACK_TOP: d.footer.back_top,
     FOOTER_LICENSE: d.footer.license,

@@ -184,7 +184,9 @@
     "f_msg": "Mensahe",
     "f_msg_ph": "Maikli ngang ilarawan ang inyong brand at mga pangangailangan…",
     "submit": "Ipadala ang request",
-    "submit_done": "Naipadala — salamat!"
+    "submit_loading": "Ipinapadala…",
+    "submit_done": "Naipadala — salamat!",
+    "submit_error": "Hindi naipadala. Mag-email po sa liujunshuo1987@gmail.com nang direkta."
   },
 
   "footer": {

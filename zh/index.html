@@ -881,13 +881,18 @@ a:hover{opacity:.85}
       <div class="contact-form-box reveal">
         <h3>预约 AIGVR 诊断</h3>
         <p class="fsub">填写以下信息，我们 24 小时内回复。</p>
-        <form id="contactForm" onsubmit="handleSubmit(event)">
+        <form id="contactForm" data-locale="zh" novalidate>
           <div class="fg"><label>姓名</label><input type="text" name="name" placeholder="您的姓名" required=""></div>
           <div class="fg"><label>公司</label><input type="text" name="company" placeholder="公司名称" required=""></div>
           <div class="fg"><label>邮箱</label><input type="email" name="email" placeholder="your@company.com" required=""></div>
           <div class="fg"><label>目标市场</label><input type="text" name="market" placeholder="越南、泰国、印尼……"></div>
           <div class="fg"><label>留言</label><textarea name="message" placeholder="简要描述品牌与需求……"></textarea></div>
-          <button type="submit" class="form-submit" data-done="已提交，感谢您的关注！">提交预约 →</button>
+          <input type="text" name="hp" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden">
+          <button type="submit" class="form-submit"
+            data-default="提交预约 →"
+            data-loading="提交中…"
+            data-done="已提交，感谢您的关注！"
+            data-error="发送失败，请直接邮件至 liujunshuo1987@gmail.com">提交预约 →</button>
         </form>
       </div>
     </div>
@@ -1033,10 +1038,53 @@ const revObserver=new IntersectionObserver(entries=>{entries.forEach(en=>{if(en.
 revealEls.forEach(el=>revObserver.observe(el));
 
 /* ========== FORM ========== */
-function handleSubmit(e){
-  e.preventDefault();const btn=e.target.querySelector('.form-submit');
-  btn.textContent='✓ '+(btn.dataset.done||'Submitted');
-  btn.style.background='rgba(139,92,246,.15)';btn.style.color='#a78bfa';btn.disabled=true;
+const contactForm=document.getElementById('contactForm');
+if(contactForm){
+  contactForm.addEventListener('submit',async function(e){
+    e.preventDefault();
+    const form=e.target,btn=form.querySelector('.form-submit');
+    const txtDefault=btn.dataset.default,txtLoading=btn.dataset.loading,txtDone=btn.dataset.done,txtError=btn.dataset.error;
+    // Basic client-side check
+    const required=['name','company','email'];
+    for(const n of required){
+      const v=(form.elements[n]&&form.elements[n].value||'').trim();
+      if(!v){form.elements[n].focus();return}
+    }
+    const fd=new FormData(form);
+    const payload={
+      name:(fd.get('name')||'').toString(),
+      company:(fd.get('company')||'').toString(),
+      email:(fd.get('email')||'').toString(),
+      market:(fd.get('market')||'').toString(),
+      message:(fd.get('message')||'').toString(),
+      hp:(fd.get('hp')||'').toString(),
+      locale:form.dataset.locale||'en'
+    };
+    btn.disabled=true;btn.textContent=txtLoading;btn.style.opacity='.75';
+    try{
+      const res=await fetch('/api/contact',{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify(payload)
+      });
+      const data=await res.json().catch(()=>({}));
+      if(res.ok&&data.ok){
+        btn.textContent='✓ '+txtDone;
+        btn.style.background='rgba(139,92,246,.18)';btn.style.color='#a78bfa';btn.style.opacity='';
+        form.reset();
+      }else{
+        btn.textContent='✗ '+txtError;
+        btn.style.background='rgba(239,68,68,.18)';btn.style.color='#fca5a5';btn.style.opacity='';
+        btn.disabled=false;
+        setTimeout(()=>{btn.textContent=txtDefault;btn.style.background='';btn.style.color=''},6000);
+      }
+    }catch(err){
+      btn.textContent='✗ '+txtError;
+      btn.style.background='rgba(239,68,68,.18)';btn.style.color='#fca5a5';btn.style.opacity='';
+      btn.disabled=false;
+      setTimeout(()=>{btn.textContent=txtDefault;btn.style.background='';btn.style.color=''},6000);
+    }
+  });
 }
 </script>
 

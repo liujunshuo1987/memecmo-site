@@ -184,7 +184,9 @@
     "f_msg": "Tin nhắn",
     "f_msg_ph": "Mô tả ngắn gọn thương hiệu và nhu cầu…",
     "submit": "Gửi yêu cầu",
-    "submit_done": "Đã gửi — cảm ơn bạn!"
+    "submit_loading": "Đang gửi…",
+    "submit_done": "Đã gửi — cảm ơn bạn!",
+    "submit_error": "Gửi thất bại. Vui lòng email trực tiếp đến liujunshuo1987@gmail.com"
   },
 
   "footer": {

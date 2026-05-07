@@ -881,13 +881,18 @@ a:hover{opacity:.85}
       <div class="contact-form-box reveal">
         <h3>Đặt chẩn đoán AIGVR</h3>
         <p class="fsub">Chúng tôi phản hồi trong vòng 24 giờ.</p>
-        <form id="contactForm" onsubmit="handleSubmit(event)">
+        <form id="contactForm" data-locale="vi" novalidate>
           <div class="fg"><label>Họ tên</label><input type="text" name="name" placeholder="Họ tên của bạn" required=""></div>
           <div class="fg"><label>Công ty</label><input type="text" name="company" placeholder="Tên công ty" required=""></div>
           <div class="fg"><label>Email</label><input type="email" name="email" placeholder="your@company.com" required=""></div>
           <div class="fg"><label>Thị trường mục tiêu</label><input type="text" name="market" placeholder="Việt Nam, Thái Lan, Indonesia…"></div>
           <div class="fg"><label>Tin nhắn</label><textarea name="message" placeholder="Mô tả ngắn gọn thương hiệu và nhu cầu…"></textarea></div>
-          <button type="submit" class="form-submit" data-done="Đã gửi — cảm ơn bạn!">Gửi yêu cầu →</button>
+          <input type="text" name="hp" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden">
+          <button type="submit" class="form-submit"
+            data-default="Gửi yêu cầu →"
+            data-loading="Đang gửi…"
+            data-done="Đã gửi — cảm ơn bạn!"
+            data-error="Gửi thất bại. Vui lòng email trực tiếp đến liujunshuo1987@gmail.com">Gửi yêu cầu →</button>
         </form>
       </div>
     </div>
@@ -1033,10 +1038,53 @@ const revObserver=new IntersectionObserver(entries=>{entries.forEach(en=>{if(en.
 revealEls.forEach(el=>revObserver.observe(el));
 
 /* ========== FORM ========== */
-function handleSubmit(e){
-  e.preventDefault();const btn=e.target.querySelector('.form-submit');
-  btn.textContent='✓ '+(btn.dataset.done||'Submitted');
-  btn.style.background='rgba(139,92,246,.15)';btn.style.color='#a78bfa';btn.disabled=true;
+const contactForm=document.getElementById('contactForm');
+if(contactForm){
+  contactForm.addEventListener('submit',async function(e){
+    e.preventDefault();
+    const form=e.target,btn=form.querySelector('.form-submit');
+    const txtDefault=btn.dataset.default,txtLoading=btn.dataset.loading,txtDone=btn.dataset.done,txtError=btn.dataset.error;
+    // Basic client-side check
+    const required=['name','company','email'];
+    for(const n of required){
+      const v=(form.elements[n]&&form.elements[n].value||'').trim();
+      if(!v){form.elements[n].focus();return}
+    }
+    const fd=new FormData(form);
+    const payload={
+      name:(fd.get('name')||'').toString(),
+      company:(fd.get('company')||'').toString(),
+      email:(fd.get('email')||'').toString(),
+      market:(fd.get('market')||'').toString(),
+      message:(fd.get('message')||'').toString(),
+      hp:(fd.get('hp')||'').toString(),
+      locale:form.dataset.locale||'en'
+    };
+    btn.disabled=true;btn.textContent=txtLoading;btn.style.opacity='.75';
+    try{
+      const res=await fetch('/api/contact',{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify(payload)
+      });
+      const data=await res.json().catch(()=>({}));
+      if(res.ok&&data.ok){
+        btn.textContent='✓ '+txtDone;
+        btn.style.background='rgba(139,92,246,.18)';btn.style.color='#a78bfa';btn.style.opacity='';
+        form.reset();
+      }else{
+        btn.textContent='✗ '+txtError;
+        btn.style.background='rgba(239,68,68,.18)';btn.style.color='#fca5a5';btn.style.opacity='';
+        btn.disabled=false;
+        setTimeout(()=>{btn.textContent=txtDefault;btn.style.background='';btn.style.color=''},6000);
+      }
+    }catch(err){
+      btn.textContent='✗ '+txtError;
+      btn.style.background='rgba(239,68,68,.18)';btn.style.color='#fca5a5';btn.style.opacity='';
+      btn.disabled=false;
+      setTimeout(()=>{btn.textContent=txtDefault;btn.style.background='';btn.style.color=''},6000);
+    }
+  });
 }
 </script>
 

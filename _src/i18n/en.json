@@ -184,7 +184,9 @@
     "f_msg": "Message",
     "f_msg_ph": "Briefly describe your brand and needs…",
     "submit": "Submit request",
-    "submit_done": "Submitted — thank you!"
+    "submit_loading": "Sending…",
+    "submit_done": "Submitted — thank you!",
+    "submit_error": "Send failed. Please email liujunshuo1987@gmail.com directly."
   },
 
   "footer": {

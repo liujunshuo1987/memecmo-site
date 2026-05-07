@@ -881,13 +881,18 @@ a:hover{opacity:.85}
       <div class="contact-form-box reveal">
         <h3>Mag-book ng AIGVR diagnosis</h3>
         <p class="fsub">Sasagutin namin sa loob ng 24 oras.</p>
-        <form id="contactForm" onsubmit="handleSubmit(event)">
+        <form id="contactForm" data-locale="fil" novalidate>
           <div class="fg"><label>Pangalan</label><input type="text" name="name" placeholder="Inyong pangalan" required=""></div>
           <div class="fg"><label>Kumpanya</label><input type="text" name="company" placeholder="Pangalan ng kumpanya" required=""></div>
           <div class="fg"><label>Email</label><input type="email" name="email" placeholder="your@company.com" required=""></div>
           <div class="fg"><label>Target market</label><input type="text" name="market" placeholder="Vietnam, Thailand, Indonesia…"></div>
           <div class="fg"><label>Mensahe</label><textarea name="message" placeholder="Maikli ngang ilarawan ang inyong brand at mga pangangailangan…"></textarea></div>
-          <button type="submit" class="form-submit" data-done="Naipadala — salamat!">Ipadala ang request →</button>
+          <input type="text" name="hp" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden">
+          <button type="submit" class="form-submit"
+            data-default="Ipadala ang request →"
+            data-loading="Ipinapadala…"
+            data-done="Naipadala — salamat!"
+            data-error="Hindi naipadala. Mag-email po sa liujunshuo1987@gmail.com nang direkta.">Ipadala ang request →</button>
         </form>
       </div>
     </div>
@@ -1033,10 +1038,53 @@ const revObserver=new IntersectionObserver(entries=>{entries.forEach(en=>{if(en.
 revealEls.forEach(el=>revObserver.observe(el));
 
 /* ========== FORM ========== */
-function handleSubmit(e){
-  e.preventDefault();const btn=e.target.querySelector('.form-submit');
-  btn.textContent='✓ '+(btn.dataset.done||'Submitted');
-  btn.style.background='rgba(139,92,246,.15)';btn.style.color='#a78bfa';btn.disabled=true;
+const contactForm=document.getElementById('contactForm');
+if(contactForm){
+  contactForm.addEventListener('submit',async function(e){
+    e.preventDefault();
+    const form=e.target,btn=form.querySelector('.form-submit');
+    const txtDefault=btn.dataset.default,txtLoading=btn.dataset.loading,txtDone=btn.dataset.done,txtError=btn.dataset.error;
+    // Basic client-side check
+    const required=['name','company','email'];
+    for(const n of required){
+      const v=(form.elements[n]&&form.elements[n].value||'').trim();
+      if(!v){form.elements[n].focus();return}
+    }
+    const fd=new FormData(form);
+    const payload={
+      name:(fd.get('name')||'').toString(),
+      company:(fd.get('company')||'').toString(),
+      email:(fd.get('email')||'').toString(),
+      market:(fd.get('market')||'').toString(),
+      message:(fd.get('message')||'').toString(),
+      hp:(fd.get('hp')||'').toString(),
+      locale:form.dataset.locale||'en'
+    };
+    btn.disabled=true;btn.textContent=txtLoading;btn.style.opacity='.75';
+    try{
+      const res=await fetch('/api/contact',{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify(payload)
+      });
+      const data=await res.json().catch(()=>({}));
+      if(res.ok&&data.ok){
+        btn.textContent='✓ '+txtDone;
+        btn.style.background='rgba(139,92,246,.18)';btn.style.color='#a78bfa';btn.style.opacity='';
+        form.reset();
+      }else{
+        btn.textContent='✗ '+txtError;
+        btn.style.background='rgba(239,68,68,.18)';btn.style.color='#fca5a5';btn.style.opacity='';
+        btn.disabled=false;
+        setTimeout(()=>{btn.textContent=txtDefault;btn.style.background='';btn.style.color=''},6000);
+      }
+    }catch(err){
+      btn.textContent='✗ '+txtError;
+      btn.style.background='rgba(239,68,68,.18)';btn.style.color='#fca5a5';btn.style.opacity='';
+      btn.disabled=false;
+      setTimeout(()=>{btn.textContent=txtDefault;btn.style.background='';btn.style.color=''},6000);
+    }
+  });
 }
 </script>
 

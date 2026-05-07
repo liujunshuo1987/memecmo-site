@@ -184,7 +184,9 @@
     "f_msg": "Mesej",
     "f_msg_ph": "Terangkan jenama dan keperluan anda secara ringkas…",
     "submit": "Hantar permintaan",
-    "submit_done": "Dihantar — terima kasih!"
+    "submit_loading": "Menghantar…",
+    "submit_done": "Dihantar — terima kasih!",
+    "submit_error": "Gagal dihantar. Sila e-mel terus ke liujunshuo1987@gmail.com"
   },
 
   "footer": {
