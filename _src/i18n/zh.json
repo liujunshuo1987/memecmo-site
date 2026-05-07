@@ -1,0 +1,194 @@
+{
+  "lang_native": "中文",
+  "hreflang": "zh",
+  "og_locale": "zh_CN",
+  "dir": "ltr",
+
+  "meta": {
+    "title": "MemeCMO.ai — 让品牌成为 AI 的答案",
+    "description": "面向出海品牌的生成式引擎优化（GEO）服务。让你的品牌在 ChatGPT、Perplexity、Google AI、Gemini 的回答中被引用 —— 覆盖中、英、越南语、菲律宾语、泰语、马来语 6 大语种。",
+    "keywords": "GEO, 生成式引擎优化, AEO, 答案引擎优化, AI 品牌能见度, ChatGPT 品牌引用, Perplexity 优化, Google AI 概览, 东南亚 GEO, 越南 GEO, 泰国 GEO, 印尼语 AI, schema.org, llms.txt, MemeCMO, AIGVR"
+  },
+  "og": {
+    "title": "MemeCMO.ai — 让品牌成为 AI 的答案",
+    "description": "我们帮助出海品牌进入 ChatGPT、Perplexity、Google AI、Gemini 的答案中——覆盖 6 大语种，配套可量化 AIGVR 评分与全栈式 GEO 特战团队。"
+  },
+
+  "service": {
+    "name": "生成式引擎优化（GEO）服务",
+    "description": "全栈式生成式引擎优化服务：AIGVR 诊断、结构化数据工程、高权重信源播种、语义内容矩阵、AI 智能体开发。",
+    "offer_name": "AIGVR 快速诊断",
+    "offer_desc": "40–50 组问题 × 6 大 AI 引擎测试。2 周交付完整诊断报告与竞争评分卡。"
+  },
+
+  "nav": {
+    "philosophy": "理念",
+    "tech": "GEO 技术",
+    "market": "目标市场",
+    "process": "流程",
+    "contact": "联系我们",
+    "cta": "预约诊断"
+  },
+
+  "hero": {
+    "scroll_label": "SCROLL",
+    "pause_label_playing": "自动播放中",
+    "pause_label_paused": "已暂停 · 悬停浏览",
+    "slides": [
+      {
+        "tag": "AI 答案经济 · 出海新范式",
+        "title": "<span class=\"hl\">MemeCMO.ai</span><br>让品牌成为 AI 的答案",
+        "desc": "当全球每天 3 亿用户开始向 ChatGPT、Perplexity、Google AI 提问，你的品牌出现在答案里了吗？我们帮中国出海品牌在 AI 引擎中建立持久的认知资产。",
+        "btn": "免费获取 AIGVR 诊断",
+        "btn_href": "#contact"
+      },
+      {
+        "tag": "GEO 特战队 · 嵌入式服务",
+        "title": "不是远程顾问，<br>是你的 <span class=\"hl\">AI 认知工兵。</span>",
+        "desc": "从 AIGVR 诊断到结构化数据部署，从高权重信源播种到 AI 智能体开发——策略到执行，一个团队，一条链路，不外包。",
+        "btn": "了解 GEO 技术栈",
+        "btn_href": "#geo-tech"
+      },
+      {
+        "tag": "计算公关 · COMPUTATIONAL PR",
+        "title": "用算法逻辑<br>重写 <span class=\"hl\">品牌叙事。</span>",
+        "desc": "「计算公关」方法论——用技术手段系统性影响 AI 引擎的信息生成逻辑，让品牌精准嵌入 AI 的答案，而不是等待被发现。",
+        "btn": "深入了解",
+        "btn_href": "#geo-tech"
+      },
+      {
+        "tag": "战略中枢在港 · 作战网络在地",
+        "title": "大脑在香港，<br>触角在每一个<span class=\"hl\">本地搜索框里。</span>",
+        "desc": "读得懂中国企业的出海焦虑，也摸得到越南、泰国、印尼、马来、菲律宾市场的信息脉搏。不是远程顾问，是嵌入式 GEO 特战队。",
+        "btn": "继续了解",
+        "btn_href": "#philosophy"
+      },
+      {
+        "tag": "小语种蓝海 · 先到者通吃",
+        "title": "东南亚 <span class=\"hl\">5 大小语种，</span><br>AI 认知几乎空白。",
+        "desc": "越南语、泰语、印尼语、马来语、菲律宾语——这些市场的 AI 知识层一片空白。布局成本最低、先发壁垒最深。现在不入场，以后只能花 5 倍代价追赶。",
+        "btn": "查看目标市场",
+        "btn_href": "#market"
+      }
+    ]
+  },
+
+  "tagline": {
+    "main": "<span class=\"brand\">MemeCMO.ai</span> —— 让品牌成为 AI 的答案",
+    "sub": "不是投放广告，而是改写 AI 的记忆。"
+  },
+
+  "philosophy": {
+    "tag": "OUR PHILOSOPHY · 我们的理念",
+    "title": "认知即资产，先发即壁垒。",
+    "desc": "AI 引擎中的品牌存在感不是流量——它一旦建立，便持续为你的品牌背书：24/7，跨语种，零边际成本。",
+    "cards": [
+      { "icon": "🧬", "title": "认知即资产", "desc": "AI 给出的品牌回答具有强马太效应——越早被引用，越难被覆盖。每一次 AI 背书都是复利。" },
+      { "icon": "🎯", "title": "先发即壁垒", "desc": "AI 知识层有先发优势。后来者改写已固化的认知，需 3–5 倍成本和 6–12 个月时间。" },
+      { "icon": "🔬", "title": "数据驱动一切", "desc": "AIGVR 五维量化评分：出现率、首位率、准确率、情感净值、来源深度。每步可衡量。" },
+      { "icon": "🌏", "title": "本地化 ≠ 翻译", "desc": "多语种品牌叙事不是机器翻译，而是面向每个文化语境的重新编码。" },
+      { "icon": "⚡", "title": "能力交付 > 服务交付", "desc": "让客户最终不再需要我们。从外部依赖到内部自主的能力迁移，写入服务协议。" },
+      { "icon": "🏗️", "title": "全栈闭环", "desc": "AIGVR 诊断 → 结构化数据 → 信源播种 → 智能体开发——不外包，一条链路。" }
+    ]
+  },
+
+  "tech": {
+    "tag": "GEO TECHNOLOGY · 核心技术",
+    "title": "计算公关：<br>当公共关系遇上算法逻辑",
+    "desc": "用技术手段系统性影响 AI 引擎的信息生成逻辑——不是投放广告，而是改写 AI 的认知底层。",
+    "stack_title": "GEO 技术栈",
+    "center_text": "计算<br>公关",
+    "items": [
+      { "strong": "结构化数据工程", "rest": "JSON-LD / Schema.org 全站标注，llms.txt 协议配置。" },
+      { "strong": "高权重信源播种", "rest": "维基百科词条、权威媒体引文级报道、行业数据库植入。" },
+      { "strong": "语义内容矩阵", "rest": "基于问题集的 GEO 优化内容，高事实密度、强引用价值。" },
+      { "strong": "AIGVR 量化监测", "rest": "五维评分 × 六引擎实时追踪 × 竞对动态对标。" },
+      { "strong": "AI 智能体集群", "rest": "需求分析、知识问答、内容辅助三大智能体。" }
+    ]
+  },
+
+  "market": {
+    "tag": "MARKET FOCUS · 目标市场",
+    "title": "精准瞄准东南亚：<br>小语种的 AI 认知蓝海",
+    "desc": "越南语、泰语、印尼语、马来语、菲律宾语——这些小语种市场的 AI 认知空间几乎空白，先到者通吃。",
+    "cards": [
+      { "flag": "🇻🇳", "name": "越南", "lang": "Tiếng Việt", "desc": "ChatGPT 月活 800 万+，GEO 竞争近乎空白。" },
+      { "flag": "🇹🇭", "name": "泰国", "lang": "ภาษาไทย", "desc": "泰语 AI 内容生态萌芽，品牌窗口完全开放。" },
+      { "flag": "🇮🇩", "name": "印度尼西亚", "lang": "Bahasa Indonesia", "desc": "2.7 亿人口最大市场，AI 用户领跑东南亚。" },
+      { "flag": "🇲🇾", "name": "马来西亚", "lang": "Bahasa Melayu", "desc": "多语种交汇（马/英/中），GEO 需三语协同。" }
+    ],
+    "insight_title": "为什么是小语种？",
+    "insight_body": "英语市场 AI 认知竞争已成红海。但在<span class=\"hl\">越南语、泰语、印尼语、菲律宾语</span>的 AI 知识层中，绝大多数品类仍处于<span class=\"hl\">真空状态</span>——布局成本最低、建设周期最短、先发壁垒最深。中国出海企业要做的不是在英语世界与巨头硬碰，而是在目标市场的本地语言中<span class=\"hl\">悄悄占位</span>。"
+  },
+
+  "process": {
+    "tag": "HOW WE WORK · 服务流程",
+    "title": "先诊断，再破冰，后领跑。",
+    "desc": "三阶段递进，每步有明确交付与量化验收。",
+    "steps": [
+      { "phase": "PHASE 0 · 第 1–2 周", "title": "AIGVR 快速诊断", "desc": "40–50 组问题 × 6 大 AI 引擎测试。2 周交付完整诊断报告与竞争评分卡。" },
+      { "phase": "PHASE 1 · 第 1–3 个月", "title": "破冰 — 基建与冷启动", "desc": "品牌语料库、结构化数据、信源播种、首批 GEO 内容、监测看板上线。从「AI 不知道你」到「AI 开始看见你」。" },
+      { "phase": "PHASE 2 · 第 4–12 个月", "title": "领跑 — 持续优化与获客", "desc": "月度监测调优、内容持续生产、获客转化链路、智能体集群、团队能力迁移。从「被看见」到「被首选」。" }
+    ]
+  },
+
+  "faq": {
+    "tag": "FAQ · 常见问题",
+    "title": "你最常问的，我们提前答好。",
+    "desc": "这些回答经过结构化撰写，方便 AI 引擎直接引用。",
+    "items": [
+      {
+        "q": "什么是 GEO（生成式引擎优化）？",
+        "a": "GEO 是优化品牌在生成式 AI 引擎（ChatGPT、Perplexity、Google AI Overview、Gemini、Claude、Copilot 等）中表现的体系化工程。SEO 优化的是搜索结果蓝链排名，GEO 优化的是 AI 给出的答案本身——你是否被提及、是否被推荐、是否被作为首选。MemeCMO.ai 提供全栈式 GEO 服务：AIGVR 诊断、结构化数据（JSON-LD、llms.txt）、高权重信源播种、语义内容生产、持续监测。"
+      },
+      {
+        "q": "GEO 和 SEO 有什么区别？",
+        "a": "SEO 目标是搜索结果页排名前列（蓝链），GEO 目标是被 AI 引用、准确描述、优先推荐。两者信号有重叠（优质内容、结构化数据、权威外链），但优化目标分流：SEO 成功 = 关键词 SERP 第 1–3 位；GEO 成功 = 你的品牌在 AI 回答客户真实问题时被点名、被准确表述、被作为首选项之一。"
+      },
+      {
+        "q": "为什么聚焦东南亚和小语种？",
+        "a": "AI 引擎在越南语、泰语、印尼语、马来语、菲律宾语下的训练语料和权威信源，远比英语稀薄。这意味着：（1）认知层稀疏、易于影响；（2）竞争近乎空白；（3）先发壁垒形成快、复利强。现在在这些语言里建立答案层存在感的品牌，12–18 个月内难被覆盖。"
+      },
+      {
+        "q": "AIGVR 是什么？",
+        "a": "AIGVR（AI-Generated Visibility Rating）是我们自研的五维量化评估框架：（1）出现率——你的品牌被提及的频率；（2）首位率——是否作为首要或主要推荐；（3）准确率——AI 是否准确描述你的品牌；（4）情感净值——回答的情感倾向；（5）来源深度——AI 引用的信源权威度。每个维度跨 6 大 AI 引擎追踪，并与竞品对标。"
+      },
+      {
+        "q": "多久能看到效果？",
+        "a": "AIGVR 诊断：2 周。首批可量化的 AI 能见度提升：通常在 Phase 1 部署后 6–10 周显现，具体取决于语种、品类与引擎刷新节奏。可持续的竞争壁垒：6–12 个月的 Phase 2 持续运营。我们月度交付带定量增量的报告，不靠感觉。"
+      },
+      {
+        "q": "MemeCMO.ai 服务于哪些品牌？",
+        "a": "出海品牌——尤其是中国企业进入东南亚、香港在地区域品牌，以及任何「客户在购买前先问 AI」的组织。我们最擅长服务有清晰叙事的 B2B 服务、教育、医疗、金融、消费品类客户，并要求客户对「认知基建」有真实的预算意愿。"
+      }
+    ]
+  },
+
+  "contact": {
+    "tag": "CONTACT US · 联系我们",
+    "title": "你的品牌在 AI 里说的第一句话，<br>由你来定义。",
+    "lead": "预约一次免费 AIGVR 评估，看看 AI 引擎今天如何描述你的品牌，以及最高杠杆的优化点在哪里。",
+    "email_label": "EMAIL",
+    "hq_label": "HEADQUARTERS",
+    "hq_value": "香港 · 东南亚本地执行网络",
+    "form_title": "预约 AIGVR 诊断",
+    "form_sub": "填写以下信息，我们 24 小时内回复。",
+    "f_name": "姓名",
+    "f_name_ph": "您的姓名",
+    "f_company": "公司",
+    "f_company_ph": "公司名称",
+    "f_email": "邮箱",
+    "f_email_ph": "your@company.com",
+    "f_market": "目标市场",
+    "f_market_ph": "越南、泰国、印尼……",
+    "f_msg": "留言",
+    "f_msg_ph": "简要描述品牌与需求……",
+    "submit": "提交预约",
+    "submit_done": "已提交，感谢您的关注！"
+  },
+
+  "footer": {
+    "back_top": "回到顶部",
+    "license": "技术授权 香港观澜智库 · NEURONSPARK Media-tech LTD"
+  }
+}

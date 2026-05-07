@@ -1,68 +1,79 @@
-# MemeCMO.ai — 官网
+# MemeCMO.ai — Site
 
-让品牌成为 AI 的答案。GEO 出海服务官网。
+Multi-language landing page for MemeCMO.ai, a Generative Engine Optimization (GEO) consultancy.
 
-## 技术栈
-- 静态 HTML/CSS/JS（单文件部署）
-- 托管：Vercel
-- 域名：`memecmo.ai`（主域名），`www.memecmo.ai` → 301 重定向到 apex
+- **Live**: https://memecmo.ai
+- **Hosting**: Vercel (static)
+- **Languages**: English (default), 中文, Tiếng Việt, Filipino, ภาษาไทย, Bahasa Melayu
 
-## 本地预览
-```bash
-# 任意一种方式启动本地服务即可
-python3 -m http.server 3000
-# 或
-npx serve .
+## Architecture
+
+This is a static site built from a single template + 6 translation JSON files. No frontend framework, no build step on Vercel — everything is generated locally and committed.
+
 ```
-打开 http://localhost:3000
-
-## 部署流程
-
-### 1. 推送到 GitHub
-```bash
-cd memecmo-site
-git init
-git add .
-git commit -m "Initial site"
-git branch -M main
-git remote add origin git@github.com:<你的用户名>/memecmo-site.git
-git push -u origin main
+memecmo-site/
+├── _src/
+│   ├── template.html        ← single source of truth for HTML/CSS/JS
+│   ├── i18n/
+│   │   ├── en.json          ← English (default, master)
+│   │   ├── zh.json          ← 中文
+│   │   ├── vi.json          ← Tiếng Việt
+│   │   ├── fil.json         ← Filipino
+│   │   ├── th.json          ← ภาษาไทย
+│   │   └── ms.json          ← Bahasa Melayu
+│   ├── build.js             ← generator (vanilla Node, no deps)
+│   └── make_og.py           ← regenerate og.png (Python + PIL)
+│
+├── index.html               ← built EN page (default, root)
+├── zh/index.html            ← built per-locale pages
+├── vi/index.html
+├── fil/index.html
+├── th/index.html
+├── ms/index.html
+│
+├── llms.txt                 ← LLM-readable site summary (AEO)
+├── robots.txt               ← allow major AI crawlers
+├── sitemap.xml              ← auto-generated, with hreflang per URL
+├── og.png                   ← 1200×630 social card
+├── favicon.svg
+└── vercel.json              ← redirects, headers
 ```
 
-### 2. Vercel 接入
-1. 进入 https://vercel.com → New Project → Import 这个 GitHub 仓库
-2. Framework Preset 选 **Other**（静态站点，无需构建命令）
-3. 部署后会拿到一个 `xxx.vercel.app` 域名
+## Editing content
 
-### 3. 绑定自定义域名
-在 Vercel 项目 → Settings → Domains 添加：
-- `memecmo.ai`（设为 Primary）
-- `www.memecmo.ai`（Vercel 默认会让它 301 到 apex；本仓库 `vercel.json` 也兜底了一层）
+1. Edit the relevant `_src/i18n/<lang>.json`. Keys mirror across languages.
+2. Run `node _src/build.js` from the repo root.
+3. The 6 `index.html` files and `sitemap.xml` are regenerated.
+4. `git add -A && git commit -m "..." && git push` — Vercel auto-deploys.
 
-### 4. DNS 切换（在原域名注册商处操作）
-当前你的 DNS 指向 Netlify，需要改为指向 Vercel。
+To regenerate `og.png`: `python3 _src/make_og.py` (requires Pillow: `pip install Pillow`).
 
-**删除旧记录：**
-| Name | Type | Value |
-|---|---|---|
-| memecmo.ai | NETLIFY | luxury-speculoos-685753.netlify.app |
-| www.memecmo.ai | NETLIFY | luxury-speculoos-685753.netlify.app |
+## SEO / AEO included
 
-**新增 Vercel 记录：**
-| Name | Type | Value | TTL |
-|---|---|---|---|
-| @ (memecmo.ai) | A | `76.76.21.21` | 3600 |
-| www | CNAME | `cname.vercel-dns.com.` | 3600 |
+- **Per-page**: localized `<title>`, `description`, `keywords`, canonical URL, Open Graph, Twitter Card.
+- **hreflang**: full mesh between all 6 locales + `x-default` → English.
+- **JSON-LD**: 5 schema blocks per page — `Organization`, `WebSite`, `WebPage`, `Service`, `FAQPage`.
+- **llms.txt**: machine-readable site summary specifically for AI assistants (the meta-eat-its-own-dogfood part — we run a GEO firm).
+- **robots.txt**: explicitly allows GPTBot, ChatGPT-User, OAI-SearchBot, PerplexityBot, Google-Extended, ClaudeBot, anthropic-ai, Applebot-Extended, Bytespider, CCBot, MistralAI-User, etc.
+- **sitemap.xml**: every URL declares its hreflang siblings.
+- **HSTS / X-Frame-Options / Referrer-Policy / Permissions-Policy**: set in `vercel.json`.
 
-> 如果你的 DNS 服务商支持 ALIAS/ANAME（不是所有都支持），apex 也可以用 `ALIAS @ → cname.vercel-dns.com`，效果更好。
-> 不支持就用 A 记录 `76.76.21.21`（Vercel 官方静态 IP）。
+## Deployment
 
-### 5. 验证
-- DNS 生效后（通常几分钟到几小时）Vercel 会自动签发 Let's Encrypt SSL
-- 访问 https://memecmo.ai 应返回主页
-- 访问 https://www.memecmo.ai 应 301 跳转到 https://memecmo.ai
+Vercel deploys automatically on `main` push. No build command, no install command — the repo is the deployment.
 
-## 文件说明
-- `index.html` — 主页
-- `vercel.json` — Vercel 路由 / 重定向 / 安全头配置
-- `robots.txt` / `sitemap.xml` — SEO 基础
+DNS:
+- `memecmo.ai` (apex) → A `216.198.79.1` (Vercel)
+- `www.memecmo.ai` → CNAME `cname.vercel-dns.com.`
+- www domain redirects to apex (308 Permanent), configured both in Vercel Domains and as a fallback in `vercel.json`.
+
+## Adding a new language
+
+1. Copy `_src/i18n/en.json` to `_src/i18n/<code>.json` and translate.
+2. Add the locale code to the `LOCALES` array in `_src/build.js`.
+3. Run `node _src/build.js`. A new `<code>/index.html` appears.
+4. Commit + push.
+
+## Contact
+
+liujunshuo1987@gmail.com

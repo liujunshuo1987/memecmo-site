@@ -1,0 +1,194 @@
+{
+  "lang_native": "Tiếng Việt",
+  "hreflang": "vi",
+  "og_locale": "vi_VN",
+  "dir": "ltr",
+
+  "meta": {
+    "title": "MemeCMO.ai — Đưa thương hiệu của bạn vào câu trả lời của AI",
+    "description": "Dịch vụ Tối ưu hóa Công cụ Sinh tạo (GEO) cho thương hiệu toàn cầu. Giúp thương hiệu của bạn xuất hiện trong câu trả lời của ChatGPT, Perplexity, Google AI và Gemini — bằng tiếng Anh, Trung, Việt, Filipino, Thái và Mã Lai.",
+    "keywords": "GEO, tối ưu hóa công cụ sinh tạo, AEO, AI brand visibility, ChatGPT thương hiệu, Perplexity SEO, Google AI Overview, GEO Việt Nam, GEO Đông Nam Á, schema.org, llms.txt, MemeCMO, AIGVR"
+  },
+  "og": {
+    "title": "MemeCMO.ai — Đưa thương hiệu của bạn vào câu trả lời của AI",
+    "description": "Chúng tôi giúp các thương hiệu trở thành câu trả lời bên trong ChatGPT, Perplexity, Google AI và Gemini — qua 6 ngôn ngữ, với điểm AIGVR đo lường được và đội ngũ GEO toàn diện."
+  },
+
+  "service": {
+    "name": "Tối ưu hóa Công cụ Sinh tạo (GEO)",
+    "description": "Dịch vụ GEO toàn diện: chẩn đoán AIGVR, kỹ thuật dữ liệu có cấu trúc, gieo nguồn tin uy tín, ma trận nội dung ngữ nghĩa, và phát triển tác tử AI.",
+    "offer_name": "Chẩn đoán nhanh AIGVR",
+    "offer_desc": "40–50 bộ câu hỏi trên 6 công cụ AI. Bàn giao trong 2 tuần: báo cáo chẩn đoán đầy đủ và bảng điểm cạnh tranh."
+  },
+
+  "nav": {
+    "philosophy": "Triết lý",
+    "tech": "Công nghệ GEO",
+    "market": "Thị trường",
+    "process": "Quy trình",
+    "contact": "Liên hệ",
+    "cta": "Đặt chẩn đoán"
+  },
+
+  "hero": {
+    "scroll_label": "CUỘN",
+    "pause_label_playing": "Đang phát tự động",
+    "pause_label_paused": "Đã tạm dừng · di chuột để xem",
+    "slides": [
+      {
+        "tag": "KỶ NGUYÊN AI TRẢ LỜI · ẤN BẢN TOÀN CẦU",
+        "title": "<span class=\"hl\">MemeCMO.ai</span><br>Đưa thương hiệu thành câu trả lời của AI.",
+        "desc": "Khi 300 triệu người mỗi ngày hỏi ChatGPT, Perplexity và Google AI trước cả Google — thương hiệu của bạn có nằm trong câu trả lời? Chúng tôi giúp các thương hiệu xây dựng tài sản nhận thức bền vững bên trong các công cụ AI đang định hình khám phá toàn cầu.",
+        "btn": "Nhận chẩn đoán AIGVR miễn phí",
+        "btn_href": "#contact"
+      },
+      {
+        "tag": "ĐỘI ĐẶC NHIỆM GEO · TRIỂN KHAI TẠI CHỖ",
+        "title": "Không phải tư vấn từ xa —<br>là <span class=\"hl\">kỹ sư nhận thức AI</span> của bạn.",
+        "desc": "Từ chẩn đoán AIGVR đến triển khai schema, từ gieo nguồn tin uy tín đến phát triển tác tử AI — chiến lược đến thực thi, một đội, một mạch, không thuê ngoài.",
+        "btn": "Khám phá GEO Stack",
+        "btn_href": "#geo-tech"
+      },
+      {
+        "tag": "PR TÍNH TOÁN · COMPUTATIONAL PR",
+        "title": "Viết lại câu chuyện thương hiệu<br>bằng <span class=\"hl\">logic thuật toán.</span>",
+        "desc": "PR Tính toán — phương pháp luận của chúng tôi: dùng đòn bẩy kỹ thuật để định hình một cách hệ thống cách AI sinh thông tin, đưa thương hiệu vào đúng câu trả lời thay vì chờ được phát hiện.",
+        "btn": "Tìm hiểu thêm",
+        "btn_href": "#geo-tech"
+      },
+      {
+        "tag": "TRỤ SỞ TẠI HONG KONG · MẠNG LƯỚI TẠI ĐỊA",
+        "title": "Trụ sở tại Hong Kong,<br>cánh tay nối dài đến <span class=\"hl\">mọi ô tìm kiếm bản địa.</span>",
+        "desc": "Hiểu nỗi lo \"đi ra nước ngoài\" của doanh nghiệp Trung Quốc, đồng thời nắm mạch thông tin thực địa tại Việt Nam, Thái Lan, Indonesia, Malaysia và Philippines. Không phải cố vấn từ xa — là đội đặc nhiệm GEO bám trụ tại chỗ.",
+        "btn": "Tiếp tục",
+        "btn_href": "#philosophy"
+      },
+      {
+        "tag": "ĐẠI DƯƠNG XANH NGÔN NGỮ MỚI NỔI · KẺ ĐẾN TRƯỚC ĂN TRỌN",
+        "title": "5 ngôn ngữ Đông Nam Á,<br><span class=\"hl\">gần như trống rỗng</span> trong nhận thức AI.",
+        "desc": "Tiếng Việt, Thái, Indonesia, Mã Lai, Filipino — lớp tri thức AI ở các ngôn ngữ này gần như trống. Chi phí gia nhập thấp nhất, hào người đến trước sâu nhất. Bỏ qua bây giờ, sau này phải trả gấp 5 lần để đuổi kịp.",
+        "btn": "Xem các thị trường mục tiêu",
+        "btn_href": "#market"
+      }
+    ]
+  },
+
+  "tagline": {
+    "main": "<span class=\"brand\">MemeCMO.ai</span> — Đưa thương hiệu thành câu trả lời của AI.",
+    "sub": "Chúng tôi không mua quảng cáo. Chúng tôi viết lại trí nhớ của AI."
+  },
+
+  "philosophy": {
+    "tag": "TRIẾT LÝ CỦA CHÚNG TÔI",
+    "title": "Nhận thức là tài sản. Người đến trước là hào nước.",
+    "desc": "Sự hiện diện thương hiệu bên trong các công cụ AI không phải là traffic — một khi đã xây dựng, nó hoạt động cho bạn 24/7, qua mọi ngôn ngữ, với chi phí biên bằng không.",
+    "cards": [
+      { "icon": "🧬", "title": "Nhận thức là tài sản", "desc": "Câu trả lời thương hiệu của AI có hiệu ứng Matthew rất mạnh — được trích dẫn càng sớm, càng khó bị thay thế. Mỗi lần AI \"chứng thực\" đều cộng dồn." },
+      { "icon": "🎯", "title": "Người đến trước là hào nước", "desc": "Lớp tri thức AI thưởng cho người đi trước. Người đến sau phải bỏ ra 3–5 lần chi phí và 6–12 tháng để viết đè câu chuyện đã định hình." },
+      { "icon": "🔬", "title": "Dữ liệu dẫn dắt mọi quyết định", "desc": "Định lượng năm trục AIGVR: tỷ lệ xuất hiện, tỷ lệ vị trí đầu, độ chính xác sự kiện, cảm xúc thuần, độ sâu nguồn. Mỗi bước đo được." },
+      { "icon": "🌏", "title": "Bản địa hóa ≠ dịch", "desc": "Câu chuyện thương hiệu đa ngôn ngữ không phải dịch máy — là mã hóa lại cho từng ngữ cảnh văn hóa." },
+      { "icon": "⚡", "title": "Chuyển giao năng lực > giao dịch dịch vụ", "desc": "Chúng tôi xây để khách hàng cuối cùng không cần đến chúng tôi nữa. Chuyển từ phụ thuộc bên ngoài sang làm chủ nội bộ, ghi vào hợp đồng." },
+      { "icon": "🏗️", "title": "Toàn chuỗi, không bàn giao", "desc": "Chẩn đoán AIGVR → dữ liệu cấu trúc → gieo nguồn → tác tử AI. Một đội, một mạch, không bao giờ thuê ngoài." }
+    ]
+  },
+
+  "tech": {
+    "tag": "CÔNG NGHỆ GEO",
+    "title": "PR Tính toán:<br>khi quan hệ công chúng gặp logic thuật toán",
+    "desc": "Chúng tôi dùng các đòn bẩy kỹ thuật để định hình có hệ thống cách AI sinh thông tin — không phải mua quảng cáo, mà viết lại nền nhận thức.",
+    "stack_title": "GEO Tech Stack",
+    "center_text": "PR<br>Tính toán",
+    "items": [
+      { "strong": "Kỹ thuật dữ liệu cấu trúc", "rest": "JSON-LD / Schema.org toàn site, cấu hình giao thức llms.txt." },
+      { "strong": "Gieo nguồn tin uy tín", "rest": "Mục Wikipedia, bài báo cấp trích dẫn, đặt vào cơ sở dữ liệu ngành." },
+      { "strong": "Ma trận nội dung ngữ nghĩa", "rest": "Nội dung GEO dựa trên bộ câu hỏi, mật độ sự kiện cao, giá trị trích dẫn mạnh." },
+      { "strong": "Theo dõi liên tục AIGVR", "rest": "5 trục điểm × 6 công cụ thời gian thực × so sánh đối thủ." },
+      { "strong": "Cụm tác tử AI", "rest": "Tác tử phân tích nhu cầu, hỏi-đáp tri thức, hỗ trợ nội dung." }
+    ]
+  },
+
+  "market": {
+    "tag": "TRỌNG TÂM THỊ TRƯỜNG",
+    "title": "Nhắm chính xác Đông Nam Á:<br>đại dương xanh AI ngôn ngữ nhỏ",
+    "desc": "Tiếng Việt, Thái, Indonesia, Mã Lai, Filipino — không gian nhận thức AI ở các ngôn ngữ này gần như trống. Người đến trước ăn trọn.",
+    "cards": [
+      { "flag": "🇻🇳", "name": "Việt Nam", "lang": "Tiếng Việt", "desc": "ChatGPT 8 triệu+ MAU. Cạnh tranh GEO gần bằng không." },
+      { "flag": "🇹🇭", "name": "Thái Lan", "lang": "ภาษาไทย", "desc": "Hệ sinh thái AI tiếng Thái mới chớm — cửa sổ thương hiệu mở rộng." },
+      { "flag": "🇮🇩", "name": "Indonesia", "lang": "Bahasa Indonesia", "desc": "270 triệu dân, thị trường lớn nhất — người dùng AI dẫn đầu Đông Nam Á." },
+      { "flag": "🇲🇾", "name": "Malaysia", "lang": "Bahasa Melayu", "desc": "Ngã ba đa ngôn ngữ (Mã/Anh/Hoa) — GEO cần phối hợp ba ngôn ngữ." }
+    ],
+    "insight_title": "Tại sao là ngôn ngữ mới nổi?",
+    "insight_body": "Cạnh tranh nhận thức AI ở ngôn ngữ Anh đã thành đại dương đỏ. Nhưng trong lớp tri thức AI <span class=\"hl\">tiếng Việt, Thái, Indonesia và Filipino</span>, phần lớn ngành hàng vẫn ở trạng thái <span class=\"hl\">chân không</span> — chi phí gia nhập thấp nhất, chu kỳ xây dựng ngắn nhất, hào người đến trước sâu nhất. Nước cờ thông minh không phải đối đầu với các ông lớn bằng tiếng Anh, mà <span class=\"hl\">âm thầm chiếm vị trí</span> ở ngôn ngữ bản địa thị trường mục tiêu."
+  },
+
+  "process": {
+    "tag": "CÁCH CHÚNG TÔI LÀM VIỆC",
+    "title": "Chẩn đoán trước. Phá băng. Rồi dẫn đầu.",
+    "desc": "Ba pha tăng dần. Mỗi pha có sản phẩm bàn giao rõ ràng và nghiệm thu định lượng.",
+    "steps": [
+      { "phase": "PHA 0 · TUẦN 1–2", "title": "Chẩn đoán nhanh AIGVR", "desc": "40–50 bộ câu hỏi × 6 công cụ AI. Bàn giao 2 tuần: báo cáo chẩn đoán đầy đủ và bảng điểm cạnh tranh." },
+      { "phase": "PHA 1 · THÁNG 1–3", "title": "Phá băng — hạ tầng & khởi động", "desc": "Kho ngữ liệu thương hiệu, dữ liệu cấu trúc, gieo nguồn, đợt nội dung GEO đầu tiên, dashboard giám sát đi vào hoạt động. Từ \"AI không biết bạn\" sang \"AI bắt đầu nhìn thấy bạn\"." },
+      { "phase": "PHA 2 · THÁNG 4–12", "title": "Dẫn đầu — tối ưu & chuyển đổi", "desc": "Giám sát và tinh chỉnh hàng tháng, sản xuất nội dung liên tục, phễu thu hút khách hàng, cụm tác tử AI, chuyển giao năng lực cho đội nội bộ. Từ \"được nhìn thấy\" sang \"được ưu tiên chọn\"." }
+    ]
+  },
+
+  "faq": {
+    "tag": "FAQ · CÂU HỎI THƯỜNG GẶP",
+    "title": "Những câu hỏi, đã có câu trả lời.",
+    "desc": "Đây là những câu trả lời chúng tôi đưa ra thường xuyên nhất — viết để AI có thể trích dẫn nguyên văn.",
+    "items": [
+      {
+        "q": "GEO (Tối ưu hóa Công cụ Sinh tạo) là gì?",
+        "a": "GEO là việc tối ưu hóa cách thương hiệu được thể hiện bên trong các công cụ AI sinh tạo như ChatGPT, Perplexity, Google AI Overview, Gemini, Claude và Copilot. Trong khi SEO nhắm vào danh sách liên kết xếp hạng, GEO nhắm vào chính câu trả lời — phần trích dẫn, phần khuyến nghị, phần so sánh, phần kết luận. MemeCMO.ai cung cấp GEO như một dịch vụ toàn chuỗi gồm chẩn đoán (AIGVR), dữ liệu cấu trúc (JSON-LD, llms.txt), gieo nguồn uy tín, sản xuất nội dung ngữ nghĩa và giám sát liên tục."
+      },
+      {
+        "q": "GEO khác SEO ở điểm nào?",
+        "a": "SEO tối ưu để xếp hạng trong danh sách liên kết xanh; GEO tối ưu để được đưa vào, mô tả chính xác và nổi bật trong câu trả lời do AI sinh ra. Tín hiệu có chồng lấp (nội dung tốt, dữ liệu cấu trúc, backlink uy tín) nhưng mục tiêu khác nhau. Thành công SEO = vị trí 1–3 trên trang kết quả. Thành công GEO = thương hiệu của bạn được nhắc đến, mô tả đúng, và lý tưởng là được trích dẫn như lựa chọn hàng đầu khi AI trả lời câu hỏi mà khách hàng thực sự đang hỏi."
+      },
+      {
+        "q": "Tại sao tập trung vào Đông Nam Á và ngôn ngữ mới nổi?",
+        "a": "Các công cụ AI có ít dữ liệu huấn luyện và ít nguồn uy tín hơn nhiều ở tiếng Việt, Thái, Indonesia, Mã Lai và Filipino so với tiếng Anh. Điều đó nghĩa là: (1) lớp nhận thức thưa và dễ tác động, (2) cạnh tranh gần bằng không, (3) hào người đến trước hình thành nhanh. Thương hiệu xác lập sự hiện diện trong lớp trả lời ở các ngôn ngữ này ngay bây giờ sẽ khó bị thay thế trong 12–18 tháng tới."
+      },
+      {
+        "q": "AIGVR là gì?",
+        "a": "AIGVR (AI-Generated Visibility Rating) là khung điểm năm trục độc quyền của chúng tôi: (1) tỷ lệ xuất hiện — tần suất thương hiệu hiện diện, (2) tỷ lệ vị trí đầu — tần suất là khuyến nghị đầu hoặc chính, (3) độ chính xác sự kiện — AI mô tả thương hiệu có đúng không, (4) cảm xúc thuần — sắc thái cảm xúc của câu trả lời, (5) độ sâu nguồn — chất lượng và uy tín của nguồn AI trích dẫn. Mỗi trục được theo dõi qua 6 công cụ AI lớn và đối chuẩn với đối thủ."
+      },
+      {
+        "q": "Bao lâu thấy kết quả?",
+        "a": "Chẩn đoán AIGVR: 2 tuần. Cải thiện hiển thị có thể đo lường đầu tiên trên các công cụ AI mục tiêu: thường 6–10 tuần sau triển khai Pha 1, tuỳ ngôn ngữ, ngành và nhịp làm mới của công cụ. Hào cạnh tranh bền vững: 6–12 tháng vận hành Pha 2 liên tục. Chúng tôi báo cáo hàng tháng với chỉ số định lượng, không phải cảm tính."
+      },
+      {
+        "q": "MemeCMO.ai dành cho ai?",
+        "a": "Các thương hiệu vươn ra toàn cầu — đặc biệt là doanh nghiệp Trung Quốc mở rộng sang Đông Nam Á, các thương hiệu khu vực có trụ sở Hong Kong, và mọi tổ chức mà khách hàng hỏi AI trước khi mua. Chúng tôi làm tốt nhất với dịch vụ B2B, giáo dục, y tế, tài chính và thương hiệu tiêu dùng có câu chuyện rõ ràng và ngân sách thực cho hạ tầng nhận thức."
+      }
+    ]
+  },
+
+  "contact": {
+    "tag": "LIÊN HỆ",
+    "title": "Câu nói đầu tiên của thương hiệu trong cuộc đối thoại với AI —<br>do bạn quyết định.",
+    "lead": "Đặt một buổi đánh giá AIGVR miễn phí. Xem chính xác các công cụ AI đang mô tả thương hiệu của bạn ra sao hôm nay, và đâu là đòn bẩy lớn nhất.",
+    "email_label": "EMAIL",
+    "hq_label": "TRỤ SỞ",
+    "hq_value": "Hong Kong · mạng lưới triển khai tại chỗ khắp Đông Nam Á",
+    "form_title": "Đặt chẩn đoán AIGVR",
+    "form_sub": "Chúng tôi phản hồi trong vòng 24 giờ.",
+    "f_name": "Họ tên",
+    "f_name_ph": "Họ tên của bạn",
+    "f_company": "Công ty",
+    "f_company_ph": "Tên công ty",
+    "f_email": "Email",
+    "f_email_ph": "your@company.com",
+    "f_market": "Thị trường mục tiêu",
+    "f_market_ph": "Việt Nam, Thái Lan, Indonesia…",
+    "f_msg": "Tin nhắn",
+    "f_msg_ph": "Mô tả ngắn gọn thương hiệu và nhu cầu…",
+    "submit": "Gửi yêu cầu",
+    "submit_done": "Đã gửi — cảm ơn bạn!"
+  },
+
+  "footer": {
+    "back_top": "Lên đầu trang",
+    "license": "Cung cấp bởi Hong Kong Guanlan Think Tank · NEURONSPARK Media-tech LTD"
+  }
+}
