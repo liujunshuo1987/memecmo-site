@@ -27,7 +27,8 @@
     "market": "目标市场",
     "process": "流程",
     "contact": "联系我们",
-    "cta": "预约诊断"
+    "signin": "登录",
+    "cta": "免费 AIGVR 扫描"
   },
 
   "hero": {
@@ -39,8 +40,8 @@
         "tag": "AI 答案经济 · 出海新范式",
         "title": "<span class=\"hl\">MemeCMO.ai</span><br>让品牌成为 AI 的答案",
         "desc": "当全球每天 3 亿用户开始向 ChatGPT、Perplexity、Google AI 提问，你的品牌出现在答案里了吗？我们帮中国出海品牌在 AI 引擎中建立持久的认知资产。",
-        "btn": "免费获取 AIGVR 诊断",
-        "btn_href": "#contact"
+        "btn": "免费试用 AIGVR Scan",
+        "btn_href": "https://app.memecmo.ai/sea-command-center?ref=hero"
       },
       {
         "tag": "GEO 特战队 · 嵌入式服务",

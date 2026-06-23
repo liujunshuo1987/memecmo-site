@@ -27,7 +27,8 @@
     "market": "Markets",
     "process": "Process",
     "contact": "Contact",
-    "cta": "Book a diagnosis"
+    "signin": "Sign in",
+    "cta": "Try AIGVR Scan"
   },
 
   "hero": {
@@ -39,8 +40,8 @@
         "tag": "AI ANSWER ECONOMY · GLOBAL EDITION",
         "title": "<span class=\"hl\">MemeCMO.ai</span><br>Make your brand the answer in AI.",
         "desc": "When 300M+ users every day now ask ChatGPT, Perplexity and Google AI before they open a search box — does your brand appear in the answer? We help ambitious brands build durable cognitive equity inside the AI engines that increasingly mediate global discovery.",
-        "btn": "Get your free AIGVR diagnosis",
-        "btn_href": "#contact"
+        "btn": "Try AIGVR Scan free",
+        "btn_href": "https://app.memecmo.ai/sea-command-center?ref=hero"
       },
       {
         "tag": "GEO STRIKE TEAM · EMBEDDED EXECUTION",

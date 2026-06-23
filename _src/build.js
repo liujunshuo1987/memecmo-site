@@ -202,6 +202,7 @@ function buildLocale(locale) {
     NAV_PROCESS: d.nav.process,
     NAV_CONTACT: d.nav.contact,
     NAV_CTA: d.nav.cta,
+    NAV_SIGNIN: d.nav.signin,
     LANG_CURRENT_LABEL: d.lang_native,
     LANG_MENU: langMenu(locale),
 

@@ -27,7 +27,8 @@
     "market": "Mga Pamilihan",
     "process": "Proseso",
     "contact": "Kontak",
-    "cta": "Mag-book ng diagnosis"
+    "signin": "Mag-sign in",
+    "cta": "Subukan ang AIGVR Scan"
   },
 
   "hero": {
@@ -39,8 +40,8 @@
         "tag": "AI ANSWER ECONOMY · GLOBAL EDITION",
         "title": "<span class=\"hl\">MemeCMO.ai</span><br>Gawing sagot ng AI ang inyong brand.",
         "desc": "Kapag 300M+ na user araw-araw ang nagtatanong sa ChatGPT, Perplexity at Google AI bago pa magbukas ng search box — nasa sagot ba ang inyong brand? Tinutulungan namin ang ambisyosong brand na bumuo ng matatag na cognitive equity sa loob ng AI engines na nagdidikta ng global discovery.",
-        "btn": "Kunin ang libreng AIGVR diagnosis",
-        "btn_href": "#contact"
+        "btn": "Subukan ang AIGVR Scan, libre",
+        "btn_href": "https://app.memecmo.ai/sea-command-center?ref=hero"
       },
       {
         "tag": "GEO STRIKE TEAM · EMBEDDED EXECUTION",

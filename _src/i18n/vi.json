@@ -27,7 +27,8 @@
     "market": "Thị trường",
     "process": "Quy trình",
     "contact": "Liên hệ",
-    "cta": "Đặt chẩn đoán"
+    "signin": "Đăng nhập",
+    "cta": "Thử AIGVR Scan miễn phí"
   },
 
   "hero": {
@@ -39,8 +40,8 @@
         "tag": "KỶ NGUYÊN AI TRẢ LỜI · ẤN BẢN TOÀN CẦU",
         "title": "<span class=\"hl\">MemeCMO.ai</span><br>Đưa thương hiệu thành câu trả lời của AI.",
         "desc": "Khi 300 triệu người mỗi ngày hỏi ChatGPT, Perplexity và Google AI trước cả Google — thương hiệu của bạn có nằm trong câu trả lời? Chúng tôi giúp các thương hiệu xây dựng tài sản nhận thức bền vững bên trong các công cụ AI đang định hình khám phá toàn cầu.",
-        "btn": "Nhận chẩn đoán AIGVR miễn phí",
-        "btn_href": "#contact"
+        "btn": "Thử AIGVR Scan miễn phí",
+        "btn_href": "https://app.memecmo.ai/sea-command-center?ref=hero"
       },
       {
         "tag": "ĐỘI ĐẶC NHIỆM GEO · TRIỂN KHAI TẠI CHỖ",
