@@ -54,16 +54,47 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
+  "@type": [
+    "Organization",
+    "SoftwareApplication"
+  ],
   "@id": "https://memecmo.ai/#org",
   "name": "MemeCMO.ai",
+  "legalName": "MemeCMO Tech Limited",
   "alternateName": [
     "MemeCMO",
-    "Meme CMO"
+    "Meme CMO",
+    "MemeCMO Tech Limited"
   ],
   "url": "https://memecmo.ai/",
   "logo": "https://memecmo.ai/og.png",
-  "description": "Dịch vụ Tối ưu hóa Công cụ Sinh tạo (GEO) cho thương hiệu toàn cầu. Giúp thương hiệu của bạn xuất hiện trong câu trả lời của ChatGPT, Perplexity, Google AI và Gemini — bằng tiếng Anh, Trung, Việt, Filipino, Thái và Mã Lai.",
+  "description": "MemeCMO là nền tảng SaaS Tối ưu hóa Công cụ Tạo phản hồi bằng AI (GEO) chuyên biệt cho thị trường Đông Nam Á, với 10 AI agents tối ưu hóa hiển thị thương hiệu trên ChatGPT, Gemini, Claude, Perplexity và các LLM khu vực.",
+  "slogan": "Get Your Brand Recognized by AI · 讓 AI 記住你的品牌",
+  "foundingDate": "2026-04-17",
+  "foundingLocation": {
+    "@type": "Place",
+    "name": "Hong Kong Special Administrative Region"
+  },
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "name": "Hong Kong CR No.",
+      "value": "80218619"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Hong Kong BR No.",
+      "value": "80218619-000-04-26-7"
+    }
+  ],
+  "taxID": "80218619-000-04-26-7",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Room C03, 9/F, Kato Factory Building, 2 Cheung Yue Street",
+    "addressLocality": "Lai Chi Kok",
+    "addressRegion": "Kowloon, Hong Kong",
+    "addressCountry": "HK"
+  },
   "areaServed": [
     "HK",
     "VN",
@@ -82,11 +113,42 @@
     "th",
     "ms"
   ],
-  "address": {
-    "@type": "PostalAddress",
-    "addressRegion": "Hong Kong",
-    "addressCountry": "HK"
+  "knowsAbout": [
+    "Generative Engine Optimization",
+    "AI Mindset Positioning Theory",
+    "Trout-Ries Positioning Theory",
+    "Multi-tenant SaaS Architecture",
+    "Southeast Asia AI Market Analysis",
+    "Vietnamese Content Generation",
+    "AI-Ready Schema Optimization"
+  ],
+  "sameAs": [
+    "https://www.icris.cr.gov.hk/csci/cps_criteria.do?corpNo=80218619"
+  ],
+  "founder": {
+    "@id": "https://memecmo.ai/#chen-songyin"
   },
+  "employee": [
+    {
+      "@id": "https://memecmo.ai/#chen-songyin"
+    },
+    {
+      "@id": "https://memecmo.ai/#liu-junshuo"
+    }
+  ],
+  "parentOrganization": [
+    {
+      "@type": "Organization",
+      "name": "HK Infinity Realm Technology Co. Limited",
+      "description": "70% shareholder"
+    },
+    {
+      "@type": "Organization",
+      "name": "NeuronSpark Media-tech Limited",
+      "url": "https://www.neurosparkmedia.com",
+      "description": "30% shareholder & technology partner"
+    }
+  ],
   "contactPoint": [
     {
       "@type": "ContactPoint",
@@ -100,6 +162,42 @@
         "th",
         "ms"
       ]
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://memecmo.ai/#chen-songyin",
+      "name": "Chen Songyin",
+      "alternateName": "陳松吟",
+      "jobTitle": "Founding Director",
+      "worksFor": {
+        "@id": "https://memecmo.ai/#org"
+      },
+      "nationality": {
+        "@type": "Country",
+        "name": "China"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://memecmo.ai/#liu-junshuo",
+      "name": "Liu Junshuo",
+      "alternateName": "劉峻鑠",
+      "jobTitle": "Chief Technology Advisor",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "NeuronSpark Media-tech Limited",
+        "url": "https://www.neurosparkmedia.com"
+      },
+      "memberOf": {
+        "@id": "https://memecmo.ai/#org"
+      }
     }
   ]
 }
@@ -173,6 +271,14 @@
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "MemeCMO là gì?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MemeCMO là nền tảng SaaS Tối ưu hóa Công cụ Tạo phản hồi bằng AI (GEO) chuyên biệt cho thị trường Đông Nam Á, với 10 AI agents tối ưu hóa hiển thị thương hiệu trên ChatGPT, Gemini, Claude, Perplexity và các LLM khu vực."
+      }
+    },
     {
       "@type": "Question",
       "name": "GEO (Tối ưu hóa Công cụ Sinh tạo) là gì?",
