@@ -50,6 +50,8 @@ function orgBlock(lang) {
     logo: 'https://memecmo.ai/og.png',
     description: DESC[lang] || DESC.en,
     slogan: 'Get Your Brand Recognized by AI · 讓 AI 記住你的品牌',
+    applicationCategory: 'BusinessApplication',
+    operatingSystem: 'Web',
     foundingDate: '2026-04-17',
     foundingLocation: { '@type': 'Place', name: 'Hong Kong Special Administrative Region' },
     identifier: [
@@ -150,7 +152,7 @@ for (const page of PAGES) {
     let data;
     try { data = JSON.parse(b.json); } catch { continue; }
 
-    if (!orgDone && data['@type'] === 'Organization') {
+    if (!orgDone && (data['@type'] === 'Organization' || (Array.isArray(data['@type']) && data['@type'].includes('Organization')))) {
       const next = JSON.stringify(orgBlock(page.lang), null, 2);
       html = html.slice(0, b.start) + `<script type="application/ld+json">\n${next}\n</script>` + html.slice(b.end);
       orgDone = true;
