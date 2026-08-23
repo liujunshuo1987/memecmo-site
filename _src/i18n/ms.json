@@ -3,177 +3,247 @@
   "hreflang": "ms",
   "og_locale": "ms_MY",
   "dir": "ltr",
-
   "meta": {
-    "title": "MemeCMO.ai — Jadikan jenama anda sebagai jawapan AI",
-    "description": "Perkhidmatan Generative Engine Optimization (GEO) untuk jenama global. Kami membantu jenama anda muncul dalam jawapan ChatGPT, Perplexity, Google AI dan Gemini — merentasi Bahasa Inggeris, Cina, Vietnam, Filipino, Thai dan Melayu.",
-    "keywords": "GEO, generative engine optimization, AEO, AI brand visibility, ChatGPT jenama, Perplexity SEO, Google AI Overview, GEO Asia Tenggara, GEO Malaysia, schema.org, llms.txt, MemeCMO, AIGVR"
+    "title": "MemeCMO — Platform GEO yang menjadikan jenama anda jawapan AI",
+    "description": "MemeCMO ialah platform Generative Engine Optimization (GEO): sepuluh ejen AI mengukur bagaimana ChatGPT, Gemini, Perplexity, Claude dan Google AI Overview menggambarkan jenama anda, membina apa yang kurang (jawapan standard, skema, kandungan, petikan), dan melaporkan setiap minggu. Asia Tenggara enam pasaran; Amerika Syarikat mengikut negeri.",
+    "keywords": "platform GEO, generative engine optimization, AEO, keterlihatan jenama AI, ketepatan jawapan, share of voice AI, kadar petikan, sebutan jenama ChatGPT, pemantauan Google AI Overview, GEO Malaysia, GEO Asia Tenggara"
   },
   "og": {
-    "title": "MemeCMO.ai — Jadikan jenama anda sebagai jawapan AI",
-    "description": "Kami membantu jenama global menjadi jawapan di dalam ChatGPT, Perplexity, Google AI dan Gemini — merentasi 6 bahasa, dengan skor AIGVR yang boleh diukur dan pasukan GEO penuh."
+    "title": "MemeCMO — Platform GEO yang menjadikan jenama anda jawapan AI",
+    "description": "Sepuluh ejen AI mengukur, membina dan melaporkan keterlihatan anda dalam ChatGPT, Gemini, Perplexity, Claude dan Google AI Overview — Asia Tenggara dan Amerika Syarikat mengikut negeri."
   },
-
   "service": {
-    "name": "Perkhidmatan Generative Engine Optimization (GEO)",
-    "description": "Perkhidmatan GEO menyeluruh: diagnosis AIGVR, kejuruteraan data berstruktur, penanaman sumber berwibawa, matriks kandungan semantik, dan pembangunan ejen AI.",
-    "offer_name": "Diagnosis Pantas AIGVR",
-    "offer_desc": "40–50 set soalan merentasi 6 enjin AI. Penghantaran 2 minggu: laporan diagnosis penuh dan kad skor pesaing."
+    "name": "Platform GEO MemeCMO",
+    "description": "Platform Generative Engine Optimization: suite sepuluh ejen yang mengukur keterlihatan AI dalam metrik standard (kehadiran, share of voice, kadar petikan, sentimen AI, ketepatan jawapan), membina aset yang kurang (perpustakaan jawapan standard, skema JSON-LD, kandungan jurang, penempatan pihak ketiga, entri ensiklopedia) dan menghantar ringkasan mingguan serta laporan bulanan. Dua barisan produk: Asia Tenggara (Vietnam, Thailand, Indonesia, Malaysia, Singapura, Filipina) dan Amerika Syarikat mengikut negeri.",
+    "offer_name": "Pelan platform dan pek kredit",
+    "offer_desc": "Pelan bulanan setiap jenama × pasaran (imbasan berjadual, perpustakaan prompt, enjin, laporan) serta pek kredit untuk imbasan atas permintaan. Rakan agensi mendapat ruang kerja setiap pelanggan, laporan gabungan dan harga borong."
   },
-
   "nav": {
-    "philosophy": "Falsafah",
-    "tech": "Teknologi GEO",
+    "philosophy": "Mengapa GEO",
+    "tech": "Platform",
     "market": "Pasaran",
-    "process": "Proses",
+    "process": "Cara ia berjalan",
     "contact": "Hubungi",
     "signin": "Log masuk",
-    "cta": "Cuba AIGVR Scan percuma"
+    "cta": "Mohon akses"
   },
-
   "hero": {
     "scroll_label": "TATAL",
     "pause_label_playing": "Auto-main",
     "pause_label_paused": "Dijeda · hover untuk lihat",
     "slides": [
       {
-        "tag": "EKONOMI JAWAPAN AI · EDISI GLOBAL",
-        "title": "<span class=\"hl\">MemeCMO.ai</span><br>Jadikan jenama anda sebagai jawapan AI.",
-        "desc": "Apabila 300+ juta pengguna setiap hari bertanya kepada ChatGPT, Perplexity dan Google AI sebelum membuka kotak carian — adakah jenama anda muncul dalam jawapan? Kami membantu jenama berdaya saing membina ekuiti kognitif yang tahan lama di dalam enjin AI yang kini menjadi pengantara penemuan global.",
-        "btn": "Cuba AIGVR Scan percuma",
-        "btn_href": "https://app.memecmo.ai/sea-command-center?ref=hero"
+        "tag": "PLATFORM GEO · UKUR · BINA · LAPOR",
+        "title": "<span class=\"hl\">MemeCMO</span><br>Jadikan jenama anda jawapan AI.",
+        "desc": "Ratusan juta pembeli kini bertanya kepada ChatGPT, Gemini, Perplexity dan Google AI sebelum membuka kotak carian. MemeCMO mengukur dengan tepat bagaimana enjin-enjin itu menggambarkan jenama anda, membina apa yang kurang, dan melapor setiap minggu — satu platform, sepuluh ejen.",
+        "btn": "Masuk ke platform",
+        "btn_href": "https://app.memecmo.ai/login"
       },
       {
-        "tag": "PASUKAN STRIKE GEO · PELAKSANAAN TERBENAM",
-        "title": "Bukan perunding jarak jauh —<br>tetapi <span class=\"hl\">jurutera kognisi AI</span> anda.",
-        "desc": "Daripada diagnosis AIGVR ke penggunaan skema, daripada penanaman sumber berwibawa ke pembangunan ejen AI — strategi hingga pelaksanaan, satu pasukan, satu rangkaian. Tiada pemberian luar.",
-        "btn": "Terokai GEO Stack",
+        "tag": "SEPULUH EJEN · HASIL, BUKAN NASIHAT",
+        "title": "Bukan papan pemuka —<br>tetapi <span class=\"hl\">pasukan ejen yang menghasilkan.</span>",
+        "desc": "Penemuan prompt, perpustakaan jawapan standard, skema JSON-LD, kandungan jurang, penempatan pihak ketiga, entri ensiklopedia — setiap ejen menghasilkan kerja sedia terbit, berasaskan fakta jenama yang anda sahkan.",
+        "btn": "Lihat sepuluh ejen",
         "btn_href": "#geo-tech"
       },
       {
-        "tag": "PR BERKOMPUTASI · COMPUTATIONAL PR",
-        "title": "Menulis semula naratif jenama<br>dengan <span class=\"hl\">logik algoritma.</span>",
-        "desc": "PR Berkomputasi — metodologi kami yang menggunakan tuas teknikal untuk membentuk secara sistematik bagaimana enjin AI menjana maklumat, supaya jenama anda terbenam tepat dalam jawapan dan bukan menunggu untuk ditemui.",
-        "btn": "Ketahui lebih lanjut",
+        "tag": "METRIK STANDARD · KETEPATAN JAWAPAN",
+        "title": "Diukur dengan metrik<br>yang CMO anda <span class=\"hl\">sudah percayai.</span>",
+        "desc": "Kehadiran, share of voice, kadar petikan, sentimen AI — dan ketepatan jawapan: adakah AI memberi pelanggan anda fakta produk dan pautan yang betul? Jawapan salah ialah tiket sokongan yang menunggu berlaku. Kami tangkap setiap satu, mengikut enjin.",
+        "btn": "Cara kami mengukur",
         "btn_href": "#geo-tech"
       },
       {
-        "tag": "IBU PEJABAT DI HONG KONG · KAKI DI LAPANGAN",
-        "title": "Ibu pejabat di Hong Kong,<br>tentakel di setiap <span class=\"hl\">kotak carian tempatan.</span>",
-        "desc": "Kami memahami kebimbangan syarikat China yang \"keluar negara\", dan kami mempunyai nadi sebenar di Vietnam, Thailand, Indonesia, Malaysia dan Filipina. Bukan penasihat jarak jauh — pasukan strike GEO terbenam.",
-        "btn": "Teruskan",
-        "btn_href": "#philosophy"
+        "tag": "DUA BARISAN PRODUK · ASIA TENGGARA · AMERIKA SYARIKAT",
+        "title": "Enam pasaran Asia Tenggara.<br><span class=\"hl\">Lima puluh negeri Amerika.</span>",
+        "desc": "Dalam bahasa Vietnam, Thai, Indonesia, Melayu dan Filipina, lapisan pengetahuan AI masih hampir kosong — pendahulu memilikinya. Di Amerika Syarikat, undang-undang negeri mengubah jawapan yang betul, jadi kami mengukur dan membina mengikut negeri.",
+        "btn": "Terokai barisan AS",
+        "btn_href": "https://us.memecmo.ai/"
       },
       {
-        "tag": "LAUTAN BIRU BAHASA BARU MUNCUL · PEMENANG MENGAMBIL SEMUA",
-        "title": "Lima bahasa Asia Tenggara,<br><span class=\"hl\">hampir kosong</span> dalam kognisi AI.",
-        "desc": "Vietnam, Thai, Indonesia, Melayu, Filipino — lapisan pengetahuan AI dalam bahasa-bahasa ini sebahagian besarnya kosong. Kos kemasukan terendah, parit pemula terdalam. Lewatkan sekarang dan anda akan bayar 5× untuk mengejar kemudian.",
-        "btn": "Lihat pasaran sasaran",
-        "btn_href": "#market"
+        "tag": "UNTUK AGENSI · RAKAN SALURAN",
+        "title": "Jalankan GEO untuk <span class=\"hl\">setiap pelanggan</span><br>dari satu ruang kerja.",
+        "desc": "Ruang kerja setiap pelanggan, tempat duduk tanpa had, ringkasan mingguan ke peti masuk mereka, laporan gabungan satu muka untuk pimpinan, kredit untuk imbasan atas permintaan — dan harga borong untuk rakan yang menjual semula.",
+        "btn": "Jadi rakan kongsi",
+        "btn_href": "#contact"
       }
     ]
   },
-
   "tagline": {
-    "main": "<span class=\"brand\">MemeCMO.ai</span> — Jadikan jenama anda sebagai jawapan AI.",
-    "sub": "Kami tidak membeli iklan. Kami menulis semula ingatan AI."
+    "main": "<span class=\"brand\">MemeCMO</span> — Jadikan jenama anda jawapan AI.",
+    "sub": "Ukur. Bina. Lapor. Setiap minggu."
   },
-
   "philosophy": {
-    "tag": "FALSAFAH KAMI",
-    "title": "Kognisi adalah aset. Pemula adalah parit.",
-    "desc": "Kehadiran jenama di dalam enjin AI bukanlah trafik — sekali ditubuhkan, ia bekerja untuk anda 24/7, merentasi bahasa, dengan kos sut sifar.",
+    "tag": "MENGAPA GEO, MENGAPA SEKARANG",
+    "title": "Kognisi ialah aset. Pendahulu ialah parit pertahanan.",
+    "desc": "Trafik organik sedang berhijrah ke dalam jawapan AI. Kehadiran jenama dalam jawapan itu bukan trafik yang disewa — setelah terbina, ia berfungsi 24/7, merentas bahasa, pada kos marginal sifar, dan berkompaun.",
     "cards": [
-      { "icon": "🧬", "title": "Kognisi adalah aset", "desc": "Jawapan jenama AI mempamerkan kesan Matthew yang kuat — semakin awal anda dipetik, semakin sukar untuk diganti. Setiap pengesahan AI berlipat kali ganda." },
-      { "icon": "🎯", "title": "Pemula adalah parit", "desc": "Lapisan pengetahuan AI memberi ganjaran kepada pemula. Pendatang lewat menghadapi kos 3–5 kali ganda dan 6–12 bulan untuk menulis semula naratif yang telah mengeras." },
-      { "icon": "🔬", "title": "Data memandu segalanya", "desc": "Kuantifikasi lima paksi AIGVR: kadar kemunculan, kadar kedudukan teratas, ketepatan fakta, sentimen bersih, kedalaman sumber. Setiap langkah boleh diukur." },
-      { "icon": "🌏", "title": "Pengantarabangsaan ≠ terjemahan", "desc": "Naratif jenama berbilang bahasa bukan terjemahan mesin — ia adalah pengekodan semula untuk setiap konteks budaya." },
-      { "icon": "⚡", "title": "Pemindahan keupayaan > penghantaran perkhidmatan", "desc": "Kami membina untuk menjadikan diri kami berlebihan. Penyerahan dari kebergantungan luar kepada penguasaan dalaman, ditulis dalam SOW." },
-      { "icon": "🏗️", "title": "Penuh-stack, tiada penyerahan", "desc": "Diagnosis AIGVR → data berstruktur → penanaman sumber → ejen AI. Satu pasukan, satu rantai, tidak pernah diberikan kepada luar." }
+      {
+        "icon": "🧬",
+        "title": "Kognisi ialah aset",
+        "desc": "Jawapan AI tentang jenama menunjukkan kesan Matthew yang kuat — semakin awal anda dipetik, semakin sukar anda digantikan. Kehadiran berkompaun; ketiadaan juga berkompaun."
+      },
+      {
+        "icon": "🎯",
+        "title": "Pendahulu ialah parit pertahanan",
+        "desc": "Yang terkemudian berdepan kos 3–5× dan 6–12 bulan untuk menulis semula naratif yang sudah keras. Tingkap di pasaran bahasa baharu terbuka sekarang."
+      },
+      {
+        "icon": "🔬",
+        "title": "Metrik standard, bukan kotak hitam",
+        "desc": "Kehadiran, share of voice, kadar petikan, sentimen AI, ketepatan jawapan — diukur mengikut enjin pada panel prompt beku supaya pergerakan antara imbasan adalah benar, bukan hingar."
+      },
+      {
+        "icon": "🌏",
+        "title": "Penyetempatan ≠ terjemahan",
+        "desc": "Naratif jenama berbilang bahasa bukan terjemahan mesin — setiap pasaran ada perpustakaan prompt, jawapan dan petikan sendiri, dikod semula untuk konteks budayanya."
+      },
+      {
+        "icon": "⚡",
+        "title": "Ejen menghasilkan kerja",
+        "desc": "Kami tidak menyerahkan senarai tugasan. Setiap ejen menghasilkan aset itu sendiri — jawapan, skema, halaman, penempatan — sedia terbit dan berasaskan fakta yang disahkan."
+      },
+      {
+        "icon": "🏗️",
+        "title": "Akaun anda, pasukan anda",
+        "desc": "Penggunaan dikawal pada peringkat akaun, bukan setiap tempat duduk: jemput seluruh pasukan sebagai pemerhati dan ahli tanpa kos tambahan."
+      }
     ]
   },
-
   "tech": {
-    "tag": "TEKNOLOGI GEO",
-    "title": "PR Berkomputasi:<br>apabila perhubungan awam bertemu logik algoritma",
-    "desc": "Kami menggunakan kaedah teknikal untuk membentuk secara sistematik bagaimana enjin AI menjana maklumat — bukan membeli iklan, tetapi menulis semula substrat kognitif.",
-    "stack_title": "GEO Tech Stack",
-    "center_text": "PR<br>Berkomputasi",
+    "tag": "PLATFORM",
+    "title": "Sepuluh ejen,<br>satu gelung tertutup",
+    "desc": "Temui apa yang pembeli tanya → ukur apa yang AI jawab → bina apa yang kurang → edarkan → ukur semula. Setiap langkah ialah ejen; setiap ejen meninggalkan hasil kerja dalam ruang kerja anda.",
+    "stack_title": "Suite ejen",
+    "center_text": "10<br>ejen",
     "items": [
-      { "strong": "Kejuruteraan data berstruktur", "rest": "Penanda JSON-LD / Schema.org seluruh laman, konfigurasi protokol llms.txt." },
-      { "strong": "Penanaman sumber berwibawa", "rest": "Entri Wikipedia, liputan media bertaraf petikan, penempatan pangkalan data industri." },
-      { "strong": "Matriks kandungan semantik", "rest": "Kandungan GEO dipacu set soalan dengan ketumpatan fakta tinggi dan nilai petikan kuat." },
-      { "strong": "Pemantauan AIGVR berterusan", "rest": "Pemarkahan 5 paksi × penjejakan masa nyata 6 enjin × penanda aras pesaing." },
-      { "strong": "Kluster ejen AI", "rest": "Ejen analisis permintaan, soal-jawab pengetahuan, dan bantuan kandungan." }
+      {
+        "strong": "Penemuan + Jawapan Standard",
+        "rest": "100+ soalan pembeli setiap pasaran, ditanda niat tinggi vs pendidikan; perpustakaan jawapan kanonik dwibahasa berasaskan fakta jenama yang disahkan."
+      },
+      {
+        "strong": "Pemantau — lima enjin, permukaan sebenar",
+        "rest": "ChatGPT, Gemini, Perplexity, Claude dan halaman Google AI Overview sebenar. Kehadiran, share of voice, kadar petikan, sentimen, ketepatan jawapan — mengikut enjin, mengikut niat."
+      },
+      {
+        "strong": "Laman + Skema",
+        "rest": "Membaca laman utama anda, memulangkan JSON-LD sedia tampal (Organization, Service, FAQPage, LocalBusiness) dan suntingan halaman konkrit — dengan panduan langkah demi langkah."
+      },
+      {
+        "strong": "Kandungan + Edaran + Ensiklopedia",
+        "rest": "Halaman dan FAQ jurang, penempatan sedia hantar untuk sumber yang benar-benar dipetik AI di pasaran anda, dan entri ensiklopedia dengan petikan."
+      },
+      {
+        "strong": "Laporan + ringkasan mingguan",
+        "rest": "Ringkasan pelanggan mengikut peringkat setiap minggu, laporan mendalam bulanan, amaran penurunan ketara, dan gabungan satu muka merentas semua jenama anda."
+      }
     ]
   },
-
   "market": {
-    "tag": "FOKUS PASARAN",
-    "title": "Sasaran tepat Asia Tenggara:<br>lautan biru AI bahasa kecil",
-    "desc": "Vietnam, Thai, Indonesia, Melayu, Filipino — ruang kognitif AI dalam bahasa-bahasa ini hampir kosong. Pemula mengambil semua.",
+    "tag": "PASARAN",
+    "title": "Asia Tenggara, enam pasaran.<br>Amerika Syarikat, mengikut negeri.",
+    "desc": "Satu projek ialah satu jenama × satu pasaran. Di Asia Tenggara, lapisan pengetahuan AI dalam bahasa tempatan hampir kosong; di AS, undang-undang negeri mengubah jawapan yang betul — jadi setiap negeri ialah pasaran tersendiri.",
     "cards": [
-      { "flag": "🇻🇳", "name": "Vietnam", "lang": "Tiếng Việt", "desc": "ChatGPT MAU 8 juta+. Persaingan GEO hampir sifar." },
-      { "flag": "🇹🇭", "name": "Thailand", "lang": "ภาษาไทย", "desc": "Ekosistem AI bahasa Thai baru muncul — tingkap jenama terbuka luas." },
-      { "flag": "🇮🇩", "name": "Indonesia", "lang": "Bahasa Indonesia", "desc": "270 juta orang, pasaran terbesar — pengguna AI mendahului Asia Tenggara." },
-      { "flag": "🇲🇾", "name": "Malaysia", "lang": "Bahasa Melayu", "desc": "Persimpangan berbilang bahasa (Melayu/Inggeris/Cina) — GEO memerlukan koordinasi tiga bahasa." }
+      {
+        "flag": "🇻🇳",
+        "name": "Vietnam",
+        "lang": "Tiếng Việt",
+        "desc": "ChatGPT 8J+ MAU. Persaingan GEO hampir sifar. Pasaran utama kami."
+      },
+      {
+        "flag": "🇹🇭",
+        "name": "Thailand",
+        "lang": "ภาษาไทย",
+        "desc": "Ekosistem AI bahasa Thai baru muncul — tingkap jenama terbuka luas."
+      },
+      {
+        "flag": "🇮🇩",
+        "name": "Indonesia",
+        "lang": "Bahasa Indonesia",
+        "desc": "270 juta penduduk, pasaran terbesar rantau — penerimaan AI mendahului Asia Tenggara."
+      },
+      {
+        "flag": "🇲🇾",
+        "name": "Malaysia",
+        "lang": "Bahasa Melayu",
+        "desc": "Persimpangan Melayu / Inggeris / Cina — GEO perlukan penyelarasan tiga bahasa."
+      },
+      {
+        "flag": "🇺🇸",
+        "name": "Amerika Syarikat",
+        "lang": "Mengikut negeri · us.memecmo.ai",
+        "desc": "50 negeri, Peringkat 1 CA · TX · FL · NY. Sektor terkawal di mana undang-undang negeri mengubah jawapan: perundangan, insurans, penjagaan kesihatan, perkhidmatan rumah, solar."
+      }
     ],
-    "insight_title": "Mengapa bahasa baru muncul?",
-    "insight_body": "Persaingan kognitif AI dalam bahasa Inggeris sudah menjadi lautan merah. Tetapi dalam lapisan pengetahuan AI <span class=\"hl\">Vietnam, Thai, Indonesia dan Filipino</span>, kebanyakan kategori masih dalam <span class=\"hl\">kekosongan</span> — kos kemasukan terendah, kitaran pembinaan terpendek, parit pemula terdalam. Permainan bijak bukan bertelagah dengan gergasi global dalam bahasa Inggeris. Ia adalah <span class=\"hl\">mengambil kedudukan secara senyap</span> dalam bahasa tempatan pasaran sasaran."
+    "insight_title": "Mengapa pasaran ini?",
+    "insight_body": "Kognisi AI berbahasa Inggeris untuk jenama global sudah menjadi lautan merah. Dalam <span class=\"hl\">bahasa Vietnam, Thai, Indonesia, Melayu dan Filipina</span>, lapisan pengetahuan AI masih sebahagian besarnya kosong — pendahulu menulis jawapan lalai. Dan di <span class=\"hl\">Amerika Syarikat</span>, pembeli bertanya kepada AI dengan nama negeri (\"peguam kecederaan terbaik di Texas\"), dan jawapan yang betul serta patuh berbeza di sempadan negeri — skor kebangsaan menyembunyikan di mana anda sebenarnya menang atau kalah."
   },
-
   "process": {
-    "tag": "CARA KAMI BEKERJA",
-    "title": "Diagnos dahulu. Kemudian pecahkan ais. Kemudian memimpin.",
-    "desc": "Tiga fasa progresif. Setiap satu dengan penghantaran yang jelas dan penerimaan kuantitatif.",
+    "tag": "CARA IA BERJALAN",
+    "title": "Garis dasar. Bina. Ukur semula — setiap minggu.",
+    "desc": "Imbasan berjalan mengikut jadual sebagai sebahagian perkhidmatan; ejen membina di antaranya; ringkasan tiba di peti masuk anda setiap Selasa.",
     "steps": [
-      { "phase": "FASA 0 · MINGGU 1–2", "title": "Diagnosis pantas AIGVR", "desc": "40–50 set soalan × 6 enjin AI. Penghantaran 2 minggu: laporan diagnosis penuh dan kad skor pesaing." },
-      { "phase": "FASA 1 · BULAN 1–3", "title": "Pecahkan ais — infrastruktur & permulaan sejuk", "desc": "Korpus jenama, data berstruktur, penanaman sumber, kandungan GEO pertama, papan pemuka pemantauan aktif. Daripada \"AI tidak mengenali anda\" kepada \"AI mula melihat anda\"." },
-      { "phase": "FASA 2 · BULAN 4–12", "title": "Memimpin — pengoptimuman & perolehan", "desc": "Pemantauan dan penalaan bulanan, pengeluaran kandungan berterusan, corong perolehan pelanggan, kluster ejen AI, pemindahan keupayaan pasukan. Daripada \"dilihat\" kepada \"dipilih utama\"." }
+      {
+        "phase": "HARI 0 · GARIS DASAR",
+        "title": "Imbasan penuh",
+        "desc": "Penemuan membina perpustakaan prompt anda; Pemantau mengukur lima enjin; Laporan mengutamakan jurang. Garis dasar anda dalam kira-kira empat minit."
+      },
+      {
+        "phase": "MINGGU 1–4 · BINA",
+        "title": "Hantar aset",
+        "desc": "Jawapan standard, skema JSON-LD, kandungan jurang, penempatan pihak ketiga, entri ensiklopedia — setiap satu hasil sedia terbit, setiap satu disahkan anda sebelum dikeluarkan."
+      },
+      {
+        "phase": "SETIAP MINGGU · UKUR SEMULA",
+        "title": "Ringkasan, laporan, laras",
+        "desc": "Imbasan berjadual pada panel prompt beku mengekalkan skor boleh dibandingkan. Ringkasan mingguan, laporan bulanan, amaran penurunan. Perlu imbasan sekarang? Kredit menampung larian atas permintaan."
+      }
     ]
   },
-
   "faq": {
-    "tag": "FAQ · JAWAPAN",
-    "title": "Soalan, sudah dijawab.",
-    "desc": "Inilah jawapan yang paling kerap kami berikan — ditulis supaya enjin AI dapat memetik secara bersih.",
+    "tag": "SOALAN LAZIM",
+    "title": "Soalan, dijawab.",
+    "desc": "Jawapan yang paling kerap kami berikan — ditulis supaya enjin AI juga boleh memetiknya dengan bersih.",
     "items": [
       {
         "q": "Apakah GEO (Generative Engine Optimization)?",
-        "a": "GEO ialah amalan mengoptimumkan bagaimana sebuah jenama diwakili di dalam enjin AI generatif seperti ChatGPT, Perplexity, Google AI Overview, Gemini, Claude dan Copilot. Manakala SEO menyasarkan senarai pautan yang berperingkat, GEO menyasarkan jawapan itu sendiri — petikan, cadangan, perbandingan, keputusan. MemeCMO.ai menyampaikan GEO sebagai perkhidmatan menyeluruh yang menggabungkan diagnosis (AIGVR), data berstruktur (JSON-LD, llms.txt), penanaman sumber berwibawa, pengeluaran kandungan semantik, dan pemantauan berterusan."
+        "a": "GEO ialah amalan mengoptimumkan bagaimana jenama diwakili dalam enjin AI generatif seperti ChatGPT, Gemini, Perplexity, Claude dan Google AI Overview. Jika SEO menyasarkan senarai pautan berperingkat, GEO menyasarkan jawapan itu sendiri — sama ada jenama anda disebut, sejauh mana menonjol, sejauh mana tepat, dan sumber mana yang dipetik enjin."
       },
       {
         "q": "Bagaimana GEO berbeza daripada SEO?",
-        "a": "SEO mengoptimumkan untuk kedudukan dalam senarai pautan biru; GEO mengoptimumkan untuk kemasukan, ketepatan dan keutamaan dalam jawapan yang dijana AI. Isyaratnya bertindih (kandungan baik, data berstruktur, pautan masuk berwibawa) tetapi sasaran pengoptimuman berbeza. Kejayaan SEO = kedudukan 1–3 di SERP. Kejayaan GEO = jenama anda disebut, dicirikan dengan tepat, dan idealnya dipetik sebagai pilihan utama apabila AI menjawab soalan yang sebenarnya ditanya pelanggan anda."
+        "a": "SEO mengoptimumkan kedudukan dalam senarai pautan biru; GEO mengoptimumkan kemasukan, ketepatan dan penonjolan dalam jawapan yang dijana. Tuasnya berbeza: data berstruktur, petikan pihak ketiga berwibawa, jawapan kanonik kepada soalan pembeli, dan kandungan yang ditulis untuk dipetik — bukan pautan balik dan ketumpatan kata kunci."
       },
       {
-        "q": "Mengapa fokus pada Asia Tenggara dan bahasa baru muncul?",
-        "a": "Enjin AI mempunyai data latihan dan sumber berwibawa yang jauh lebih sedikit dalam bahasa Vietnam, Thai, Indonesia, Melayu dan Filipino berbanding bahasa Inggeris. Ini bermakna: (1) lapisan kognitif jarang dan mudah dipengaruhi, (2) persaingan hampir sifar, (3) parit pemula berlipat ganda dengan cepat. Jenama yang mewujudkan kehadiran lapisan jawapan dalam bahasa-bahasa ini sekarang akan sukar diganti dalam tempoh 12–18 bulan."
+        "q": "Apa yang diukur MemeCMO?",
+        "a": "Metrik standard mengikut enjin: kehadiran (seberapa kerap anda disebut), share of voice (bahagian anda daripada semua sebutan jenama), kadar petikan (seberapa kerap sumber yang memihak anda dipetik), sentimen AI, kadar top-of-mind (seberapa kerap anda dinamakan dahulu), dan ketepatan jawapan (sama ada fakta produk dan pautan AI sepadan dengan jawapan standard anda yang disahkan). Indeks AI Mindset berwajaran meringkaskannya; metrik ialah kebenaran asas."
       },
       {
-        "q": "Apakah AIGVR?",
-        "a": "AIGVR (AI-Generated Visibility Rating) ialah rangka kerja pemarkahan lima paksi proprietari kami: (1) kadar kemunculan — seberapa kerap jenama anda muncul, (2) kadar kedudukan teratas — seberapa kerap ia adalah cadangan pertama atau utama, (3) ketepatan fakta — adakah AI menerangkan jenama anda dengan betul, (4) sentimen bersih — valens emosi jawapan, (5) kedalaman sumber — kualiti dan kuasa sumber yang dipetik AI. Setiap paksi dijejaki merentasi 6 enjin AI utama dan ditanda aras dengan pesaing."
+        "q": "Apakah Ketepatan Jawapan dan mengapa ia penting?",
+        "a": "Ketepatan Jawapan membandingkan apa yang sebenarnya AI beritahu pelanggan anda dengan jawapan standard yang disahkan. Apabila AI memberi fakta produk yang salah, pautan lapuk atau butiran hubungan yang salah, pelanggan bertindak mengikutnya dan pasukan sokongan anda yang menanggung. MemeCMO menanda setiap jawapan tidak tepat mengikut enjin supaya anda boleh membetulkan sumbernya."
       },
       {
-        "q": "Berapa lama untuk melihat hasil?",
-        "a": "Diagnosis AIGVR: 2 minggu. Peningkatan visibiliti pertama yang boleh diukur dalam enjin AI sasaran: biasanya 6–10 minggu selepas penggunaan Fasa 1, bergantung kepada bahasa, kategori dan kadens segar semula enjin. Parit persaingan tahan lama: 6–12 bulan kerja Fasa 2 berterusan. Kami melapor bulanan dengan delta kuantitatif, bukan rasa."
+        "q": "Enjin AI dan pasaran mana yang diliputi?",
+        "a": "ChatGPT, Gemini, Perplexity, Claude dan halaman Google AI Overview sebenar, disasarkan mengikut lokasi. Pasaran: Vietnam, Thailand, Indonesia, Malaysia, Singapura dan Filipina dalam bahasa tempatan, serta Amerika Syarikat mengikut negeri (Peringkat 1: California, Texas, Florida, New York) dengan kerangka peraturan negeri untuk sektor terkawal."
       },
       {
-        "q": "MemeCMO.ai untuk siapa?",
-        "a": "Jenama yang keluar global — terutamanya syarikat China yang berkembang ke Asia Tenggara, jenama serantau berpangkalan di Hong Kong, dan mana-mana organisasi yang pelanggannya bertanya AI sebelum membeli. Kami berfungsi terbaik dengan perkhidmatan B2B, pendidikan, penjagaan kesihatan, kewangan, dan jenama pengguna yang mempunyai naratif jelas dan bajet sebenar untuk infrastruktur kognitif."
+        "q": "Bagaimana harga berfungsi?",
+        "a": "Pelan bulanan setiap jenama × pasaran menetapkan kekerapan imbasan, saiz perpustakaan prompt, enjin dan laporan; imbasan berjadual dan laporan sudah termasuk. Kredit menampung imbasan atas permintaan dan larian kandungan tambahan. Rakan agensi mendapat ruang kerja setiap pelanggan, laporan gabungan, tempat duduk tanpa had dan harga borong."
+      },
+      {
+        "q": "Untuk siapa MemeCMO?",
+        "a": "Jenama yang memasuki Asia Tenggara — terutamanya syarikat China yang pergi global — jenama serantau yang mempertahankan pasaran sendiri, jenama AS dalam sektor terkawal di mana jawapan berbeza mengikut negeri, dan agensi serta kumpulan media yang melayani mereka sebagai rakan saluran."
       }
     ]
   },
-
   "contact": {
-    "tag": "HUBUNGI KAMI",
-    "title": "Baris pertama jenama anda dalam perbualan AI —<br>anda yang menentukan apa yang ia katakan.",
-    "lead": "Tempah penilaian AIGVR percuma. Lihat dengan tepat bagaimana enjin AI menerangkan jenama anda hari ini, dan di mana langkah dengan tuas tertinggi.",
+    "tag": "HUBUNGI",
+    "title": "Baris pertama jenama anda dalam perbualan AI —<br>anda yang tentukan apa ia katakan.",
+    "lead": "Mohon akses platform atau perbualan rakan kongsi. Beritahu kami jenama dan pasaran; kami akan jalankan imbasan garis dasar dan membimbing anda melalui keputusannya.",
     "email_label": "EMAIL",
     "hq_label": "IBU PEJABAT",
-    "hq_value": "Hong Kong · dengan rangkaian di lapangan merentasi Asia Tenggara",
-    "form_title": "Tempah diagnosis AIGVR anda",
-    "form_sub": "Kami balas dalam 24 jam.",
+    "hq_value": "Hong Kong · beroperasi di seluruh Asia Tenggara dan Amerika Syarikat",
+    "form_title": "Mohon akses",
+    "form_sub": "Kami membalas dalam 24 jam.",
     "f_name": "Nama",
     "f_name_ph": "Nama anda",
     "f_company": "Syarikat",
@@ -181,7 +251,7 @@
     "f_email": "Emel",
     "f_email_ph": "your@company.com",
     "f_market": "Pasaran sasaran",
-    "f_market_ph": "Vietnam, Thailand, Indonesia…",
+    "f_market_ph": "Vietnam, Thailand, Indonesia, Texas, California…",
     "f_msg": "Mesej",
     "f_msg_ph": "Terangkan jenama dan keperluan anda secara ringkas…",
     "submit": "Hantar permintaan",
@@ -189,9 +259,8 @@
     "submit_done": "Dihantar — terima kasih!",
     "submit_error": "Gagal dihantar. Sila e-mel terus ke liujunshuo1987@gmail.com"
   },
-
   "footer": {
     "back_top": "Kembali ke atas",
-    "license": "Dikuasakan oleh Hong Kong Guanlan Think Tank · NEURONSPARK Media-tech LTD"
+    "license": "MemeCMO Tech Limited · Hong Kong CR No. 80218619"
   }
 }

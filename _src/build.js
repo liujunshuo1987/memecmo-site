@@ -69,7 +69,7 @@ function jsonLd(locale) {
       "url": SITE_URL + '/',
       "logo": SITE_URL + '/og.png',
       "description": d.meta.description,
-      "areaServed": ["HK", "VN", "TH", "ID", "MY", "PH", "SG", "CN"],
+      "areaServed": ["HK", "VN", "TH", "ID", "MY", "PH", "SG", "CN", "US"],
       "knowsLanguage": ["en", "zh", "vi", "fil", "th", "ms"],
       "address": {
         "@type": "PostalAddress",
@@ -109,7 +109,7 @@ function jsonLd(locale) {
       "name": d.service.name,
       "serviceType": "Generative Engine Optimization",
       "provider": { "@id": SITE_URL + '/#org' },
-      "areaServed": ["VN", "TH", "ID", "MY", "PH", "HK", "SG", "CN"],
+      "areaServed": ["VN", "TH", "ID", "MY", "PH", "HK", "SG", "CN", "US"],
       "description": d.service.description,
       "offers": {
         "@type": "Offer",

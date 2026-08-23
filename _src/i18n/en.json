@@ -3,176 +3,246 @@
   "hreflang": "en",
   "og_locale": "en_US",
   "dir": "ltr",
-
   "meta": {
-    "title": "MemeCMO.ai — Make your brand the answer in AI",
-    "description": "Generative Engine Optimization (GEO) for global brands. We help your brand show up in ChatGPT, Perplexity, Google AI and Gemini answers — across English, Chinese, Vietnamese, Filipino, Thai and Malay.",
-    "keywords": "GEO, generative engine optimization, AEO, answer engine optimization, AI brand visibility, ChatGPT brand mention, Perplexity SEO, Google AI Overview, Southeast Asia GEO, Vietnam GEO, Thai GEO, Bahasa Indonesia AI, schema.org, llms.txt, MemeCMO"
+    "title": "MemeCMO — The GEO platform that makes your brand the answer in AI",
+    "description": "MemeCMO is a Generative Engine Optimization (GEO) platform: ten AI agents measure how ChatGPT, Gemini, Perplexity, Claude and Google AI Overview describe your brand, build what's missing (answers, schema, content, citations), and report weekly. Southeast Asia in six markets; United States state by state.",
+    "keywords": "GEO platform, generative engine optimization, AEO, AI brand visibility, answer accuracy, share of voice in AI, citation rate, ChatGPT brand mentions, Google AI Overview monitoring, Southeast Asia GEO, Vietnam GEO, US state GEO, agency GEO platform"
   },
   "og": {
-    "title": "MemeCMO.ai — Make your brand the answer in AI",
-    "description": "We help global brands become the answer inside ChatGPT, Perplexity, Google AI and Gemini — across 6 languages, with measurable AIGVR scores and a full-stack GEO strike team."
+    "title": "MemeCMO — The GEO platform that makes your brand the answer in AI",
+    "description": "Ten AI agents measure, build and report your visibility inside ChatGPT, Gemini, Perplexity, Claude and Google AI Overview — Southeast Asia and the United States, state by state."
   },
-
   "service": {
-    "name": "Generative Engine Optimization (GEO)",
-    "description": "Full-stack Generative Engine Optimization service: AIGVR diagnosis, structured data engineering, authoritative source seeding, semantic content matrix, and AI agent development.",
-    "offer_name": "AIGVR Rapid Diagnosis",
-    "offer_desc": "40–50 question sets across 6 AI engines. Two-week delivery: full diagnostic report and competitive scorecard."
+    "name": "MemeCMO GEO Platform",
+    "description": "Generative Engine Optimization platform: a ten-agent suite that measures AI visibility in standard metrics (presence, share of voice, citation rate, AI sentiment, answer accuracy), builds the missing assets (standard answers, JSON-LD schema, gap content, third-party placements, encyclopedia entries) and delivers weekly digests and monthly reports. Two product lines: Southeast Asia (Vietnam, Thailand, Indonesia, Malaysia, Singapore, Philippines) and the United States, state by state.",
+    "offer_name": "Platform plans and credit packs",
+    "offer_desc": "Monthly plans per brand × market (scheduled scans, prompt library, engines, reports) plus credit packs for on-demand scans. Agency partners get workspaces per client, rollup reports and wholesale pricing."
   },
-
   "nav": {
-    "philosophy": "Philosophy",
-    "tech": "GEO Tech",
+    "philosophy": "Why GEO",
+    "tech": "Platform",
     "market": "Markets",
-    "process": "Process",
+    "process": "How it runs",
     "contact": "Contact",
     "signin": "Sign in",
-    "cta": "Try AIGVR Scan"
+    "cta": "Request access"
   },
-
   "hero": {
     "scroll_label": "SCROLL",
     "pause_label_playing": "Auto-playing",
     "pause_label_paused": "Paused · hover to browse",
     "slides": [
       {
-        "tag": "AI ANSWER ECONOMY · GLOBAL EDITION",
-        "title": "<span class=\"hl\">MemeCMO.ai</span><br>Make your brand the answer in AI.",
-        "desc": "When 300M+ users every day now ask ChatGPT, Perplexity and Google AI before they open a search box — does your brand appear in the answer? We help ambitious brands build durable cognitive equity inside the AI engines that increasingly mediate global discovery.",
-        "btn": "Try AIGVR Scan free",
-        "btn_href": "https://app.memecmo.ai/sea-command-center?ref=hero"
+        "tag": "GEO PLATFORM · MEASURE · BUILD · REPORT",
+        "title": "<span class=\"hl\">MemeCMO</span><br>Make your brand the answer in AI.",
+        "desc": "Hundreds of millions of buyers now ask ChatGPT, Gemini, Perplexity and Google AI before they open a search box. MemeCMO measures exactly how those engines describe your brand, builds what's missing, and reports every week — one platform, ten agents.",
+        "btn": "Enter the platform",
+        "btn_href": "https://app.memecmo.ai/login"
       },
       {
-        "tag": "GEO STRIKE TEAM · EMBEDDED EXECUTION",
-        "title": "Not a remote consultant —<br>your <span class=\"hl\">AI cognition engineer.</span>",
-        "desc": "From AIGVR diagnosis to schema deployment, from authoritative source seeding to AI agent development — strategy through execution, one team, one pipeline. No outsourcing.",
-        "btn": "Explore the GEO stack",
+        "tag": "TEN AGENTS · DELIVERABLES, NOT ADVICE",
+        "title": "Not a dashboard —<br>an <span class=\"hl\">agent team that ships.</span>",
+        "desc": "Prompt discovery, a standard-answers library, JSON-LD schema, gap content, third-party placements, encyclopedia entries — every agent produces a publish-ready deliverable, grounded in your verified brand facts.",
+        "btn": "See the ten agents",
         "btn_href": "#geo-tech"
       },
       {
-        "tag": "COMPUTATIONAL PR",
-        "title": "Rewriting brand narrative<br>with <span class=\"hl\">algorithmic logic.</span>",
-        "desc": "Computational PR is our methodology — using technical levers to systematically shape how AI engines generate information, so your brand is precisely embedded in the answer rather than waiting to be discovered.",
-        "btn": "Learn more",
+        "tag": "STANDARD METRICS · ANSWER ACCURACY",
+        "title": "Measured in metrics<br>your CMO <span class=\"hl\">already trusts.</span>",
+        "desc": "Presence, share of voice, citation rate, AI sentiment — and answer accuracy: does AI give your customers the correct product facts and links? Wrong answers are support tickets waiting to happen. We catch them per engine.",
+        "btn": "How we measure",
         "btn_href": "#geo-tech"
       },
       {
-        "tag": "HQ IN HONG KONG · BOOTS ON THE GROUND",
-        "title": "Headquarters in Hong Kong,<br>tentacles in <span class=\"hl\">every local search box.</span>",
-        "desc": "We understand the going-global anxiety of Chinese companies, and we have a real pulse on Vietnam, Thailand, Indonesia, Malaysia and the Philippines. Not a remote advisor — an embedded GEO strike team.",
-        "btn": "Continue",
-        "btn_href": "#philosophy"
+        "tag": "TWO PRODUCT LINES · SOUTHEAST ASIA · UNITED STATES",
+        "title": "Six Southeast Asian markets.<br><span class=\"hl\">Fifty American states.</span>",
+        "desc": "In Vietnamese, Thai, Indonesian, Malay and Filipino the AI knowledge layer is still nearly empty — first movers own it. In the United States, state law changes the correct answer, so we measure and build state by state.",
+        "btn": "Explore the US line",
+        "btn_href": "https://us.memecmo.ai/"
       },
       {
-        "tag": "EMERGING-LANGUAGE BLUE OCEAN · WINNER TAKES ALL",
-        "title": "Five Southeast Asian languages,<br><span class=\"hl\">nearly empty</span> in AI cognition.",
-        "desc": "Vietnamese, Thai, Indonesian, Malay, Filipino — the AI knowledge layer in these languages is largely vacant. Lowest entry cost, deepest first-mover moat. Skip it now and you'll pay 5× to catch up later.",
-        "btn": "See target markets",
-        "btn_href": "#market"
+        "tag": "FOR AGENCIES · CHANNEL PARTNERS",
+        "title": "Run GEO for <span class=\"hl\">every client</span><br>from one workspace.",
+        "desc": "A workspace per client, unlimited seats, weekly digests to their inbox, one-page rollup reports for leadership, credits for on-demand scans — and wholesale pricing for partners who resell.",
+        "btn": "Become a partner",
+        "btn_href": "#contact"
       }
     ]
   },
-
   "tagline": {
-    "main": "<span class=\"brand\">MemeCMO.ai</span> — Make your brand the answer in AI.",
-    "sub": "We don't buy ads. We rewrite AI's memory."
+    "main": "<span class=\"brand\">MemeCMO</span> — Make your brand the answer in AI.",
+    "sub": "Measure. Build. Report. Every week."
   },
-
   "philosophy": {
-    "tag": "OUR PHILOSOPHY",
+    "tag": "WHY GEO, WHY NOW",
     "title": "Cognition is the asset. First-mover is the moat.",
-    "desc": "Brand presence inside AI engines isn't traffic — once established, it works for you 24/7, across languages, at zero marginal cost.",
+    "desc": "Organic traffic is migrating into AI answers. A brand's presence inside those answers isn't traffic you rent — once established, it works 24/7, across languages, at zero marginal cost, and compounds.",
     "cards": [
-      { "icon": "🧬", "title": "Cognition is the asset", "desc": "AI brand answers exhibit a strong Matthew effect — the earlier you're cited, the harder you are to displace. Every AI endorsement compounds." },
-      { "icon": "🎯", "title": "First-mover is the moat", "desc": "The AI knowledge layer rewards first-movers. Latecomers face 3–5× the cost and 6–12 months to overwrite a hardened narrative." },
-      { "icon": "🔬", "title": "Data drives everything", "desc": "AIGVR's five-axis quantification: appearance rate, top-position rate, factual accuracy, sentiment net, source depth. Every step measurable." },
-      { "icon": "🌏", "title": "Localization ≠ translation", "desc": "Multi-language brand narrative is not machine translation — it's recoding for each cultural context." },
-      { "icon": "⚡", "title": "Capability transfer > service delivery", "desc": "We build to make ourselves redundant. Hand-off from external dependence to internal mastery, written into the SOW." },
-      { "icon": "🏗️", "title": "Full-stack, no hand-offs", "desc": "AIGVR diagnosis → structured data → source seeding → AI agents. One team, one chain, never outsourced." }
+      {
+        "icon": "🧬",
+        "title": "Cognition is the asset",
+        "desc": "AI brand answers show a strong Matthew effect — the earlier you're cited, the harder you are to displace. Presence compounds; absence compounds too."
+      },
+      {
+        "icon": "🎯",
+        "title": "First-mover is the moat",
+        "desc": "Latecomers face 3–5× the cost and 6–12 months to overwrite a hardened narrative. The window in emerging-language markets is open now."
+      },
+      {
+        "icon": "🔬",
+        "title": "Standard metrics, not a black box",
+        "desc": "Presence, share of voice, citation rate, AI sentiment, answer accuracy — measured per engine on a frozen prompt panel so scan-to-scan movement is real, not noise."
+      },
+      {
+        "icon": "🌏",
+        "title": "Localization ≠ translation",
+        "desc": "Multi-language brand narrative isn't machine translation — every market gets its own prompt library, answers and citations, recoded for its cultural context."
+      },
+      {
+        "icon": "⚡",
+        "title": "Agents ship deliverables",
+        "desc": "We don't hand you a to-do list. Each agent produces the asset itself — answers, schema, pages, placements — ready to publish and grounded in your verified facts."
+      },
+      {
+        "icon": "🏗️",
+        "title": "Your account, your team",
+        "desc": "Usage is controlled at the account level, never per seat: invite your whole team as viewers and members at no extra cost."
+      }
     ]
   },
-
   "tech": {
-    "tag": "GEO TECHNOLOGY",
-    "title": "Computational PR:<br>when public relations meets algorithmic logic",
-    "desc": "We use technical means to systematically shape how AI engines generate information — not buying ads, but rewriting the cognitive substrate.",
-    "stack_title": "The GEO Tech Stack",
-    "center_text": "Computational<br>PR",
+    "tag": "THE PLATFORM",
+    "title": "Ten agents,<br>one closed loop",
+    "desc": "Discover what buyers ask → measure what AI answers → build what's missing → distribute → re-measure. Every step is an agent; every agent leaves a deliverable in your workspace.",
+    "stack_title": "The agent suite",
+    "center_text": "10<br>agents",
     "items": [
-      { "strong": "Structured data engineering", "rest": "Site-wide JSON-LD / Schema.org markup, llms.txt protocol configuration." },
-      { "strong": "Authoritative source seeding", "rest": "Wikipedia entries, citation-grade media coverage, industry-database placement." },
-      { "strong": "Semantic content matrix", "rest": "Question-set-driven GEO content with high factual density and strong citation value." },
-      { "strong": "AIGVR continuous monitoring", "rest": "5-axis scoring × 6-engine real-time tracking × competitor benchmarking." },
-      { "strong": "AI agent cluster", "rest": "Demand-analysis, knowledge-Q&A and content-assist agents." }
+      {
+        "strong": "Discovery + Standard Answers",
+        "rest": "100+ buyer questions per market, tagged high-intent vs educational; a bilingual canonical-answer library grounded in your verified brand facts."
+      },
+      {
+        "strong": "Monitor — five engines, real surfaces",
+        "rest": "ChatGPT, Gemini, Perplexity, Claude and the real Google AI Overview page. Presence, share of voice, citation rate, sentiment, answer accuracy — per engine, per intent."
+      },
+      {
+        "strong": "Site + Schema",
+        "rest": "Reads your homepage, returns paste-in JSON-LD (Organization, Service, FAQPage, LocalBusiness) and concrete page edits — with step-by-step guidance."
+      },
+      {
+        "strong": "Content + Distribute + Encyclopedia",
+        "rest": "Gap pages and FAQs, ready-to-send placements for the sources AI actually cites in your market, and encyclopedia entries with citations."
+      },
+      {
+        "strong": "Report + weekly digest",
+        "rest": "Stage-aware client digests every week, monthly deep reports, alerts on significant drops, and one-page rollups across all your brands."
+      }
     ]
   },
-
   "market": {
-    "tag": "MARKET FOCUS",
-    "title": "Precision targeting Southeast Asia:<br>the small-language AI blue ocean",
-    "desc": "Vietnamese, Thai, Indonesian, Malay, Filipino — AI cognitive space in these languages is nearly empty. First-mover takes all.",
+    "tag": "MARKETS",
+    "title": "Southeast Asia, six markets.<br>The United States, state by state.",
+    "desc": "One project is one brand × one market. In Southeast Asia the AI knowledge layer is nearly empty in local languages; in the US, state law changes the right answer — so each state is its own market.",
     "cards": [
-      { "flag": "🇻🇳", "name": "Vietnam", "lang": "Tiếng Việt", "desc": "ChatGPT 8M+ MAU. GEO competition near zero." },
-      { "flag": "🇹🇭", "name": "Thailand", "lang": "ภาษาไทย", "desc": "Thai-language AI ecosystem just emerging — brand window wide open." },
-      { "flag": "🇮🇩", "name": "Indonesia", "lang": "Bahasa Indonesia", "desc": "270M people, the largest market — AI users lead Southeast Asia." },
-      { "flag": "🇲🇾", "name": "Malaysia", "lang": "Bahasa Melayu", "desc": "Multilingual crossroads (Malay/English/Chinese) — GEO needs tri-lingual coordination." }
+      {
+        "flag": "🇻🇳",
+        "name": "Vietnam",
+        "lang": "Tiếng Việt",
+        "desc": "ChatGPT 8M+ MAU. GEO competition near zero. Our flagship market."
+      },
+      {
+        "flag": "🇹🇭",
+        "name": "Thailand",
+        "lang": "ภาษาไทย",
+        "desc": "Thai-language AI ecosystem just emerging — the brand window is wide open."
+      },
+      {
+        "flag": "🇮🇩",
+        "name": "Indonesia",
+        "lang": "Bahasa Indonesia",
+        "desc": "270M people, the region's largest market — AI adoption leads Southeast Asia."
+      },
+      {
+        "flag": "🇲🇾",
+        "name": "Malaysia",
+        "lang": "Bahasa Melayu",
+        "desc": "Malay / English / Chinese crossroads — GEO needs tri-lingual coordination."
+      },
+      {
+        "flag": "🇺🇸",
+        "name": "United States",
+        "lang": "State-aware · us.memecmo.ai",
+        "desc": "50 states, Tier-1 CA · TX · FL · NY. Regulated verticals where state law changes the answer: legal, insurance, healthcare, home services, solar."
+      }
     ],
-    "insight_title": "Why emerging languages?",
-    "insight_body": "English-language AI cognitive competition is already a red ocean. But in <span class=\"hl\">Vietnamese, Thai, Indonesian and Filipino</span> AI knowledge layers, most categories are still in a <span class=\"hl\">vacuum</span> — lowest cost to enter, shortest build cycle, deepest first-mover moat. The smart play isn't to slug it out with global giants in English. It's to <span class=\"hl\">quietly take position</span> in target-market local languages."
+    "insight_title": "Why these markets?",
+    "insight_body": "English-language AI cognition for global brands is already a red ocean. In <span class=\"hl\">Vietnamese, Thai, Indonesian, Malay and Filipino</span>, the AI knowledge layer is still largely vacant — first movers write the default answer. And in the <span class=\"hl\">United States</span>, buyers ask AI with a state attached (\"best injury lawyer in Texas\"), and the correct, compliant answer differs at the state line — a national score hides where you actually win or lose."
   },
-
   "process": {
-    "tag": "HOW WE WORK",
-    "title": "Diagnose first. Then break the ice. Then take the lead.",
-    "desc": "Three progressive phases. Each with clear deliverables and quantitative acceptance.",
+    "tag": "HOW IT RUNS",
+    "title": "Baseline. Build. Re-measure — every week.",
+    "desc": "Scans run on schedule as part of the service; the agents build in between; the digest lands in your inbox every Tuesday.",
     "steps": [
-      { "phase": "PHASE 0 · WEEK 1–2", "title": "AIGVR rapid diagnosis", "desc": "40–50 question sets × 6 AI engines. Two-week delivery: full diagnostic report and competitive scorecard." },
-      { "phase": "PHASE 1 · MONTH 1–3", "title": "Break the ice — infrastructure & cold start", "desc": "Brand corpus, structured data, source seeding, first GEO content drops, monitoring dashboard live. From “AI doesn't know you” to “AI starts seeing you.”" },
-      { "phase": "PHASE 2 · MONTH 4–12", "title": "Take the lead — optimization & acquisition", "desc": "Monthly monitoring & tuning, ongoing content production, customer-acquisition funnels, AI agent cluster, team capability transfer. From “seen” to “preferred.”" }
+      {
+        "phase": "DAY 0 · BASELINE",
+        "title": "Full scan",
+        "desc": "Discovery builds your prompt library; Monitor measures five engines; Report prioritizes the gaps. Your baseline in about four minutes."
+      },
+      {
+        "phase": "WEEKS 1–4 · BUILD",
+        "title": "Ship the assets",
+        "desc": "Standard answers, JSON-LD schema, gap content, third-party placements, encyclopedia entries — each a publish-ready deliverable, each verified by you before it ships."
+      },
+      {
+        "phase": "EVERY WEEK · RE-MEASURE",
+        "title": "Digest, report, adjust",
+        "desc": "Scheduled scans on a frozen prompt panel keep scores comparable. Weekly digest, monthly report, alerts on drops. Need a scan now? Credits cover on-demand runs."
+      }
     ]
   },
-
   "faq": {
     "tag": "FAQ · ANSWERS",
     "title": "Questions, answered.",
-    "desc": "These are the answers we give most often — written so AI engines can quote them cleanly too.",
+    "desc": "The answers we give most often — written so AI engines can quote them cleanly too.",
     "items": [
       {
         "q": "What is GEO (Generative Engine Optimization)?",
-        "a": "GEO is the practice of optimizing how a brand is represented inside generative AI engines like ChatGPT, Perplexity, Google AI Overview, Gemini, Claude and Copilot. Where SEO targets the ranked link list, GEO targets the answer itself — the citation, the recommendation, the comparison, the verdict. MemeCMO.ai delivers GEO as a full-stack service combining diagnosis (AIGVR), structured data (JSON-LD, llms.txt), authoritative source seeding, semantic content production, and continuous monitoring."
+        "a": "GEO is the practice of optimizing how a brand is represented inside generative AI engines such as ChatGPT, Gemini, Perplexity, Claude and Google AI Overview. Where SEO targets a ranked list of links, GEO targets the answer itself — whether your brand is mentioned, how prominently, how accurately, and which sources the engine cites."
       },
       {
         "q": "How is GEO different from SEO?",
-        "a": "SEO optimizes for ranking in a list of blue links; GEO optimizes for inclusion, accuracy and prominence inside an AI-generated answer. The signals overlap (good content, structured data, authoritative backlinks) but the optimization targets diverge. SEO success = position 1–3 on a SERP. GEO success = your brand is mentioned, correctly characterized, and ideally cited as a top option when an AI answers the question your customers are actually asking."
+        "a": "SEO optimizes for ranking in a list of blue links; GEO optimizes for inclusion, accuracy and prominence inside a generated answer. The levers differ: structured data, authoritative third-party citations, canonical answers to buyer questions, and content written to be quoted — not backlinks and keyword density."
       },
       {
-        "q": "Why focus on Southeast Asia and emerging languages?",
-        "a": "AI engines have far less training data and far fewer authoritative sources in Vietnamese, Thai, Indonesian, Malay and Filipino than in English. That means: (1) the cognitive layer is sparse and easy to influence, (2) competition is near zero, (3) first-mover moats compound fast. Brands that establish an answer-layer presence in these languages now will be hard to displace within 12–18 months."
+        "q": "What does MemeCMO measure?",
+        "a": "Standard metrics per engine: presence (how often you're mentioned), share of voice (your share of all brand mentions), citation rate (how often sources favoring you are cited), AI sentiment, top-of-mind rate (how often you're named first), and answer accuracy (whether AI's product facts and links match your verified standard answers). A weighted AI Mindset Index summarizes them; the metrics are the ground truth."
       },
       {
-        "q": "What is AIGVR?",
-        "a": "AIGVR (AI-Generated Visibility Rating) is our proprietary five-axis scoring framework: (1) appearance rate — how often your brand surfaces, (2) top-position rate — how often it's the first or primary recommendation, (3) factual accuracy — whether the AI describes your brand correctly, (4) sentiment net — emotional valence of the answer, (5) source depth — quality and authority of the sources the AI cites. Each axis is tracked across 6 major AI engines and benchmarked against competitors."
+        "q": "What is Answer Accuracy and why does it matter?",
+        "a": "Answer Accuracy compares what AI actually tells your customers against your verified standard answers. When AI gives the wrong product facts, an outdated link or the wrong contact details, the customer acts on it and your support team pays. MemeCMO flags each inaccurate answer per engine so you can fix the source."
       },
       {
-        "q": "How long until I see results?",
-        "a": "AIGVR diagnosis: 2 weeks. First measurable visibility lifts in target AI engines: typically 6–10 weeks after Phase 1 deployment, depending on language, category, and engine refresh cadence. Durable competitive moat: 6–12 months of continuous Phase 2 work. We report monthly with quantitative deltas, not vibes."
+        "q": "Which AI engines and markets are covered?",
+        "a": "ChatGPT, Gemini, Perplexity, Claude and the real Google AI Overview page, location-targeted. Markets: Vietnam, Thailand, Indonesia, Malaysia, Singapore and the Philippines in their local languages, and the United States state by state (Tier-1: California, Texas, Florida, New York) with state regulatory frames for regulated verticals."
       },
       {
-        "q": "Who is MemeCMO.ai for?",
-        "a": "Brands going global — especially Chinese companies expanding into Southeast Asia, Hong Kong-based regional brands, and any organization whose customers ask AI before they buy. We work best with B2B services, education, healthcare, finance, and consumer brands that have a clear narrative and a real budget for cognitive infrastructure."
+        "q": "How does pricing work?",
+        "a": "Monthly plans per brand × market set the scan cadence, prompt library size, engines and reports; scheduled scans and reports are included. Credits cover on-demand scans and extra content runs. Agency partners get a workspace per client, rollup reports, unlimited seats and wholesale pricing."
+      },
+      {
+        "q": "Who is MemeCMO for?",
+        "a": "Brands entering Southeast Asia — especially Chinese companies going global — regional brands defending their home market, US brands in regulated verticals where answers differ by state, and the agencies and media groups that serve them as channel partners."
       }
     ]
   },
-
   "contact": {
-    "tag": "CONTACT US",
+    "tag": "CONTACT",
     "title": "Your brand's first line in the AI conversation —<br>you decide what it says.",
-    "lead": "Book a free AIGVR assessment. See exactly how the AI engines describe your brand today, and where the highest-leverage moves are.",
+    "lead": "Request platform access or a partner conversation. Tell us the brand and the market; we'll run the baseline scan and walk you through the results.",
     "email_label": "EMAIL",
     "hq_label": "HEADQUARTERS",
-    "hq_value": "Hong Kong · with on-the-ground network across Southeast Asia",
-    "form_title": "Book your AIGVR diagnosis",
+    "hq_value": "Hong Kong · operating across Southeast Asia and the United States",
+    "form_title": "Request access",
     "form_sub": "We respond within 24 hours.",
     "f_name": "Name",
     "f_name_ph": "Your name",
@@ -181,7 +251,7 @@
     "f_email": "Email",
     "f_email_ph": "your@company.com",
     "f_market": "Target market",
-    "f_market_ph": "Vietnam, Thailand, Indonesia…",
+    "f_market_ph": "Vietnam, Thailand, Indonesia, Texas, California…",
     "f_msg": "Message",
     "f_msg_ph": "Briefly describe your brand and needs…",
     "submit": "Submit request",
@@ -189,9 +259,8 @@
     "submit_done": "Submitted — thank you!",
     "submit_error": "Send failed. Please email liujunshuo1987@gmail.com directly."
   },
-
   "footer": {
     "back_top": "Back to top",
-    "license": "Powered by Hong Kong Guanlan Think Tank · NEURONSPARK Media-tech LTD"
+    "license": "MemeCMO Tech Limited · Hong Kong CR No. 80218619"
   }
 }

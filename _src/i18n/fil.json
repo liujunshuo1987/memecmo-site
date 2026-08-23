@@ -3,177 +3,247 @@
   "hreflang": "fil",
   "og_locale": "tl_PH",
   "dir": "ltr",
-
   "meta": {
-    "title": "MemeCMO.ai — Gawing sagot ng AI ang inyong brand",
-    "description": "Generative Engine Optimization (GEO) para sa mga global brand. Tinutulungan naming lumabas ang inyong brand sa mga sagot ng ChatGPT, Perplexity, Google AI at Gemini — sa Ingles, Tsino, Vietnamese, Filipino, Thai at Malay.",
-    "keywords": "GEO, generative engine optimization, AEO, AI brand visibility, ChatGPT brand mention, Perplexity SEO, Google AI Overview, Southeast Asia GEO, Philippines GEO, schema.org, llms.txt, MemeCMO, AIGVR"
+    "title": "MemeCMO — Ang GEO platform na ginagawang sagot ng AI ang iyong brand",
+    "description": "Ang MemeCMO ay isang Generative Engine Optimization (GEO) platform: sampung AI agent ang sumusukat kung paano inilalarawan ng ChatGPT, Gemini, Perplexity, Claude at Google AI Overview ang iyong brand, bumubuo ng kulang (standard answers, schema, content, citations), at nagre-report linggo-linggo. Anim na merkado sa Timog-Silangang Asya; Estados Unidos bawat estado.",
+    "keywords": "GEO platform, generative engine optimization, AEO, AI brand visibility, answer accuracy, share of voice sa AI, citation rate, ChatGPT brand mentions, Google AI Overview monitoring, GEO Pilipinas, GEO Timog-Silangang Asya"
   },
   "og": {
-    "title": "MemeCMO.ai — Gawing sagot ng AI ang inyong brand",
-    "description": "Tinutulungan namin ang mga global brand na maging sagot sa loob ng ChatGPT, Perplexity, Google AI at Gemini — sa 6 na wika, kasama ang sukatang AIGVR at full-stack na GEO strike team."
+    "title": "MemeCMO — Ang GEO platform na ginagawang sagot ng AI ang iyong brand",
+    "description": "Sampung AI agent ang sumusukat, bumubuo at nagre-report ng iyong visibility sa ChatGPT, Gemini, Perplexity, Claude at Google AI Overview — Timog-Silangang Asya at Estados Unidos bawat estado."
   },
-
   "service": {
-    "name": "Generative Engine Optimization (GEO) Service",
-    "description": "Buong-stack na GEO service: AIGVR diagnosis, structured data engineering, authoritative source seeding, semantic content matrix, at AI agent development.",
-    "offer_name": "AIGVR Rapid Diagnosis",
-    "offer_desc": "40–50 question sets sa 6 AI engines. Dalawang linggong delivery: kompletong diagnostic report at competitive scorecard."
+    "name": "MemeCMO GEO Platform",
+    "description": "Generative Engine Optimization platform: sampung-agent na suite na sumusukat ng AI visibility sa mga standard metric (presence, share of voice, citation rate, AI sentiment, answer accuracy), bumubuo ng kulang na asset (standard answers library, JSON-LD schema, gap content, third-party placements, encyclopedia entries) at naghahatid ng lingguhang digest at buwanang report. Dalawang product line: Timog-Silangang Asya (Vietnam, Thailand, Indonesia, Malaysia, Singapore, Pilipinas) at Estados Unidos bawat estado.",
+    "offer_name": "Mga platform plan at credit pack",
+    "offer_desc": "Buwanang plan bawat brand × merkado (scheduled scans, prompt library, engines, reports) at credit pack para sa on-demand scans. Ang mga agency partner ay may workspace bawat kliyente, rollup reports at wholesale pricing."
   },
-
   "nav": {
-    "philosophy": "Pilosopiya",
-    "tech": "GEO Tech",
-    "market": "Mga Pamilihan",
-    "process": "Proseso",
+    "philosophy": "Bakit GEO",
+    "tech": "Platform",
+    "market": "Mga Merkado",
+    "process": "Paano tumatakbo",
     "contact": "Kontak",
     "signin": "Mag-sign in",
-    "cta": "Subukan ang AIGVR Scan"
+    "cta": "Humiling ng access"
   },
-
   "hero": {
     "scroll_label": "MAG-SCROLL",
     "pause_label_playing": "Nag-aautoplay",
     "pause_label_paused": "Naka-pause · i-hover para tingnan",
     "slides": [
       {
-        "tag": "AI ANSWER ECONOMY · GLOBAL EDITION",
-        "title": "<span class=\"hl\">MemeCMO.ai</span><br>Gawing sagot ng AI ang inyong brand.",
-        "desc": "Kapag 300M+ na user araw-araw ang nagtatanong sa ChatGPT, Perplexity at Google AI bago pa magbukas ng search box — nasa sagot ba ang inyong brand? Tinutulungan namin ang ambisyosong brand na bumuo ng matatag na cognitive equity sa loob ng AI engines na nagdidikta ng global discovery.",
-        "btn": "Subukan ang AIGVR Scan, libre",
-        "btn_href": "https://app.memecmo.ai/sea-command-center?ref=hero"
+        "tag": "GEO PLATFORM · SUKATIN · BUMUO · MAG-REPORT",
+        "title": "<span class=\"hl\">MemeCMO</span><br>Gawing sagot ng AI ang iyong brand.",
+        "desc": "Daan-daang milyong mamimili ang nagtatanong na sa ChatGPT, Gemini, Perplexity at Google AI bago magbukas ng search box. Sinusukat ng MemeCMO kung paano eksaktong inilalarawan ng mga engine na iyon ang iyong brand, binubuo ang kulang, at nagre-report bawat linggo — isang platform, sampung agent.",
+        "btn": "Pumasok sa platform",
+        "btn_href": "https://app.memecmo.ai/login"
       },
       {
-        "tag": "GEO STRIKE TEAM · EMBEDDED EXECUTION",
-        "title": "Hindi remote consultant —<br>kundi inyong <span class=\"hl\">AI cognition engineer.</span>",
-        "desc": "Mula AIGVR diagnosis hanggang schema deployment, mula authoritative source seeding hanggang AI agent development — strategy hanggang execution, isang team, isang pipeline. Walang outsourcing.",
-        "btn": "Tingnan ang GEO stack",
+        "tag": "SAMPUNG AGENT · DELIVERABLES, HINDI PAYO",
+        "title": "Hindi dashboard —<br>isang <span class=\"hl\">agent team na nagde-deliver.</span>",
+        "desc": "Prompt discovery, standard-answers library, JSON-LD schema, gap content, third-party placements, encyclopedia entries — bawat agent ay gumagawa ng publish-ready deliverable, nakabatay sa iyong verified na brand facts.",
+        "btn": "Tingnan ang sampung agent",
         "btn_href": "#geo-tech"
       },
       {
-        "tag": "COMPUTATIONAL PR",
-        "title": "Sinusulat muli ang brand narrative<br>gamit ang <span class=\"hl\">algorithmic logic.</span>",
-        "desc": "Computational PR — ang aming methodology na gumagamit ng technical levers para sistemang hubugin kung paano gumagawa ng impormasyon ang AI engines, para tuwirang nakapasok ang inyong brand sa sagot, hindi naghihintay na matuklasan.",
-        "btn": "Higit pang kaalaman",
+        "tag": "STANDARD METRICS · ANSWER ACCURACY",
+        "title": "Sinusukat sa mga metric<br>na <span class=\"hl\">pinagkakatiwalaan na</span> ng iyong CMO.",
+        "desc": "Presence, share of voice, citation rate, AI sentiment — at answer accuracy: tama ba ang product facts at links na ibinibigay ng AI sa iyong mga customer? Ang maling sagot ay support ticket na naghihintay mangyari. Nahuhuli namin ito bawat engine.",
+        "btn": "Paano kami sumusukat",
         "btn_href": "#geo-tech"
       },
       {
-        "tag": "HQ SA HONG KONG · BOOTS ON THE GROUND",
-        "title": "Punong-tanggapan sa Hong Kong,<br>mga galamay sa <span class=\"hl\">bawat lokal na search box.</span>",
-        "desc": "Naiintindihan namin ang \"going-global\" na pag-aalala ng mga Tsinong kumpanya, at may totoong pulso kami sa Vietnam, Thailand, Indonesia, Malaysia at Pilipinas. Hindi remote advisor — embedded GEO strike team.",
-        "btn": "Magpatuloy",
-        "btn_href": "#philosophy"
+        "tag": "DALAWANG PRODUCT LINE · TIMOG-SILANGANG ASYA · ESTADOS UNIDOS",
+        "title": "Anim na merkado sa Timog-Silangang Asya.<br><span class=\"hl\">Limampung estado ng Amerika.</span>",
+        "desc": "Sa Vietnamese, Thai, Indonesian, Malay at Filipino, halos walang laman pa ang AI knowledge layer — pag-aari ito ng mga nauuna. Sa Estados Unidos, binabago ng batas ng estado ang tamang sagot, kaya sinusukat at binubuo namin bawat estado.",
+        "btn": "Tuklasin ang US line",
+        "btn_href": "https://us.memecmo.ai/"
       },
       {
-        "tag": "EMERGING-LANGUAGE BLUE OCEAN · WINNER TAKES ALL",
-        "title": "Limang wika ng Timog-Silangang Asya,<br><span class=\"hl\">halos walang laman</span> sa AI cognition.",
-        "desc": "Vietnamese, Thai, Indonesian, Malay, Filipino — halos walang laman ang AI knowledge layer sa mga wikang ito. Pinakamababang halaga ng pagpasok, pinakamalalim na first-mover moat. Kapag nilampasan mo ngayon, magbabayad ka ng 5× para makahabol mamaya.",
-        "btn": "Tingnan ang target markets",
-        "btn_href": "#market"
+        "tag": "PARA SA MGA AGENCY · CHANNEL PARTNERS",
+        "title": "Patakbuhin ang GEO para sa <span class=\"hl\">bawat kliyente</span><br>mula sa isang workspace.",
+        "desc": "Workspace bawat kliyente, walang limitasyong seats, lingguhang digest sa kanilang inbox, isang-pahinang rollup report para sa leadership, credits para sa on-demand scans — at wholesale pricing para sa mga partner na nagre-resell.",
+        "btn": "Maging partner",
+        "btn_href": "#contact"
       }
     ]
   },
-
   "tagline": {
-    "main": "<span class=\"brand\">MemeCMO.ai</span> — Gawing sagot ng AI ang inyong brand.",
-    "sub": "Hindi kami bumibili ng ad. Sinusulat naming muli ang memorya ng AI."
+    "main": "<span class=\"brand\">MemeCMO</span> — Gawing sagot ng AI ang iyong brand.",
+    "sub": "Sukatin. Bumuo. Mag-report. Bawat linggo."
   },
-
   "philosophy": {
-    "tag": "AMING PILOSOPIYA",
-    "title": "Cognition ang asset. First-mover ang moat.",
-    "desc": "Hindi traffic ang brand presence sa loob ng AI engines — kapag naitatag, gumagana ito 24/7, sa lahat ng wika, sa zero marginal cost.",
+    "tag": "BAKIT GEO, BAKIT NGAYON",
+    "title": "Ang kamalayan ang asset. Ang pagiging nauna ang moat.",
+    "desc": "Lumilipat ang organic traffic sa mga sagot ng AI. Ang presensya ng brand sa mga sagot na iyon ay hindi traffic na inuupahan — kapag naitatag na, gumagana ito 24/7, sa iba't ibang wika, sa zero marginal cost, at lumalago.",
     "cards": [
-      { "icon": "🧬", "title": "Cognition ang asset", "desc": "Ang sagot ng AI tungkol sa brand ay may matinding Matthew effect — habang mas maaga kang nasi-cite, mas mahirap kang palitan. Bawat AI endorsement ay nag-iipon." },
-      { "icon": "🎯", "title": "First-mover ang moat", "desc": "Pinapaboran ng AI knowledge layer ang first-movers. Ang mga sumusunod ay haharap sa 3–5× na halaga at 6–12 buwan para isulat muli ang naipirming narrative." },
-      { "icon": "🔬", "title": "Data ang nagdadala ng lahat", "desc": "Limang-axis na quantification ng AIGVR: appearance rate, top-position rate, factual accuracy, sentiment net, source depth. Bawat hakbang sukatable." },
-      { "icon": "🌏", "title": "Localization ≠ pagsasalin", "desc": "Ang multi-language brand narrative ay hindi machine translation — ito ay re-coding para sa bawat cultural context." },
-      { "icon": "⚡", "title": "Capability transfer > service delivery", "desc": "Itinatayo namin para hindi na kami kailanganin. Hand-off mula external dependence patungo sa internal mastery, nakasulat sa SOW." },
-      { "icon": "🏗️", "title": "Buong-chain, walang hand-off", "desc": "AIGVR diagnosis → structured data → source seeding → AI agents. Isang team, isang chain, hindi kailanman ino-outsource." }
+      {
+        "icon": "🧬",
+        "title": "Ang kamalayan ang asset",
+        "desc": "May malakas na Matthew effect ang mga sagot ng AI tungkol sa brand — kung mas maaga kang na-cite, mas mahirap kang mapalitan. Lumalago ang presensya; lumalago rin ang kawalan."
+      },
+      {
+        "icon": "🎯",
+        "title": "Ang pagiging nauna ang moat",
+        "desc": "Ang mga huli ay nahaharap sa 3–5× na gastos at 6–12 buwan para ma-overwrite ang tumigas na naratibo. Bukas ngayon ang window sa mga emerging-language market."
+      },
+      {
+        "icon": "🔬",
+        "title": "Standard metrics, hindi black box",
+        "desc": "Presence, share of voice, citation rate, AI sentiment, answer accuracy — sinusukat bawat engine sa frozen prompt panel para totoo ang galaw scan-to-scan, hindi ingay."
+      },
+      {
+        "icon": "🌏",
+        "title": "Localization ≠ translation",
+        "desc": "Ang multi-language brand narrative ay hindi machine translation — bawat merkado ay may sariling prompt library, mga sagot at citations, muling na-code para sa kultural na konteksto nito."
+      },
+      {
+        "icon": "⚡",
+        "title": "Nagde-deliver ang mga agent",
+        "desc": "Hindi namin ibinibigay sa iyo ang to-do list. Bawat agent ay gumagawa ng asset mismo — mga sagot, schema, pahina, placements — handang i-publish at nakabatay sa verified na facts."
+      },
+      {
+        "icon": "🏗️",
+        "title": "Iyong account, iyong team",
+        "desc": "Kinokontrol ang usage sa antas ng account, hindi kailanman bawat seat: imbitahan ang buong team bilang viewers at members nang walang dagdag na bayad."
+      }
     ]
   },
-
   "tech": {
-    "tag": "GEO TECHNOLOGY",
-    "title": "Computational PR:<br>kapag nagsalubong ang public relations at algorithmic logic",
-    "desc": "Gumagamit kami ng teknikal na paraan para sistemang hubugin kung paano gumagawa ng impormasyon ang AI engines — hindi pagbili ng ad, kundi pagsulat muli ng cognitive substrate.",
-    "stack_title": "Ang GEO Tech Stack",
-    "center_text": "Computational<br>PR",
+    "tag": "ANG PLATFORM",
+    "title": "Sampung agent,<br>isang closed loop",
+    "desc": "Tuklasin kung ano ang tinatanong ng mga mamimili → sukatin ang sagot ng AI → buuin ang kulang → ipamahagi → sukatin muli. Bawat hakbang ay isang agent; bawat agent ay nag-iiwan ng deliverable sa iyong workspace.",
+    "stack_title": "Ang agent suite",
+    "center_text": "10<br>agent",
     "items": [
-      { "strong": "Structured data engineering", "rest": "Buong-site na JSON-LD / Schema.org markup, llms.txt protocol configuration." },
-      { "strong": "Authoritative source seeding", "rest": "Mga Wikipedia entries, citation-grade media coverage, industry-database placement." },
-      { "strong": "Semantic content matrix", "rest": "Question-set-driven na GEO content na may matinding factual density at malakas na citation value." },
-      { "strong": "Tuloy-tuloy na AIGVR monitoring", "rest": "5-axis scoring × 6-engine real-time tracking × competitor benchmarking." },
-      { "strong": "AI agent cluster", "rest": "Demand-analysis, knowledge-Q&A, at content-assist agents." }
+      {
+        "strong": "Discovery + Standard Answers",
+        "rest": "100+ tanong ng mamimili bawat merkado, naka-tag na high-intent vs educational; bilingual na canonical-answer library na nakabatay sa iyong verified na brand facts."
+      },
+      {
+        "strong": "Monitor — limang engine, tunay na surfaces",
+        "rest": "ChatGPT, Gemini, Perplexity, Claude at ang tunay na Google AI Overview page. Presence, share of voice, citation rate, sentiment, answer accuracy — bawat engine, bawat intent."
+      },
+      {
+        "strong": "Site + Schema",
+        "rest": "Binabasa ang iyong homepage, nagbabalik ng paste-in JSON-LD (Organization, Service, FAQPage, LocalBusiness) at konkretong page edits — may step-by-step na gabay."
+      },
+      {
+        "strong": "Content + Distribute + Encyclopedia",
+        "rest": "Gap pages at FAQs, ready-to-send placements para sa mga source na talagang sini-cite ng AI sa iyong merkado, at encyclopedia entries na may citations."
+      },
+      {
+        "strong": "Report + lingguhang digest",
+        "rest": "Stage-aware client digests bawat linggo, buwanang deep reports, alerts sa malalaking pagbaba, at one-page rollups sa lahat ng iyong brand."
+      }
     ]
   },
-
   "market": {
-    "tag": "MARKET FOCUS",
-    "title": "Pinipuntirya ang Timog-Silangang Asya:<br>ang small-language AI blue ocean",
-    "desc": "Vietnamese, Thai, Indonesian, Malay, Filipino — halos walang laman ang AI cognitive space sa mga wikang ito. First-mover takes all.",
+    "tag": "MGA MERKADO",
+    "title": "Timog-Silangang Asya, anim na merkado.<br>Estados Unidos, bawat estado.",
+    "desc": "Ang isang project ay isang brand × isang merkado. Sa Timog-Silangang Asya, halos walang laman ang AI knowledge layer sa mga lokal na wika; sa US, binabago ng batas ng estado ang tamang sagot — kaya bawat estado ay sariling merkado.",
     "cards": [
-      { "flag": "🇻🇳", "name": "Vietnam", "lang": "Tiếng Việt", "desc": "ChatGPT 8M+ MAU. Halos walang GEO competition." },
-      { "flag": "🇹🇭", "name": "Thailand", "lang": "ภาษาไทย", "desc": "Bagong umuusbong ang Thai-language AI ecosystem — bukas na bukas ang brand window." },
-      { "flag": "🇮🇩", "name": "Indonesia", "lang": "Bahasa Indonesia", "desc": "270M tao, ang pinakamalaking pamilihan — pinangungunahan ng AI users ang Timog-Silangang Asya." },
-      { "flag": "🇲🇾", "name": "Malaysia", "lang": "Bahasa Melayu", "desc": "Pagsasalubong ng wika (Malay/Ingles/Tsino) — kailangan ng tatlong-wikang GEO coordination." }
+      {
+        "flag": "🇻🇳",
+        "name": "Vietnam",
+        "lang": "Tiếng Việt",
+        "desc": "ChatGPT 8M+ MAU. Halos zero ang GEO competition. Ang aming flagship market."
+      },
+      {
+        "flag": "🇹🇭",
+        "name": "Thailand",
+        "lang": "ภาษาไทย",
+        "desc": "Kasisimula pa lang ng Thai-language AI ecosystem — bukas na bukas ang brand window."
+      },
+      {
+        "flag": "🇮🇩",
+        "name": "Indonesia",
+        "lang": "Bahasa Indonesia",
+        "desc": "270M tao, pinakamalaking merkado ng rehiyon — nangunguna sa AI adoption sa Timog-Silangang Asya."
+      },
+      {
+        "flag": "🇲🇾",
+        "name": "Malaysia",
+        "lang": "Bahasa Melayu",
+        "desc": "Malay / English / Chinese crossroads — kailangan ng GEO ng tri-lingual na koordinasyon."
+      },
+      {
+        "flag": "🇺🇸",
+        "name": "Estados Unidos",
+        "lang": "Bawat estado · us.memecmo.ai",
+        "desc": "50 estado, Tier-1 CA · TX · FL · NY. Mga regulated vertical kung saan binabago ng batas ng estado ang sagot: legal, insurance, healthcare, home services, solar."
+      }
     ],
-    "insight_title": "Bakit emerging languages?",
-    "insight_body": "Red ocean na ang AI cognitive competition sa Ingles. Pero sa AI knowledge layers ng <span class=\"hl\">Vietnamese, Thai, Indonesian at Filipino</span>, karamihan sa mga kategorya ay <span class=\"hl\">vacuum</span> pa rin — pinakamababang halaga ng pagpasok, pinakamaikling build cycle, pinakamalalim na first-mover moat. Hindi kailangan makipagsabayan sa mga global giants sa Ingles. Ang tamang galaw ay <span class=\"hl\">tahimik na pagkuha ng posisyon</span> sa mga lokal na wika ng target market."
+    "insight_title": "Bakit ang mga merkadong ito?",
+    "insight_body": "Red ocean na ang English-language AI cognition para sa global brands. Sa <span class=\"hl\">Vietnamese, Thai, Indonesian, Malay at Filipino</span>, halos bakante pa ang AI knowledge layer — ang mga nauuna ang sumusulat ng default na sagot. At sa <span class=\"hl\">Estados Unidos</span>, nagtatanong ang mga mamimili sa AI na may kasamang estado (\"best injury lawyer in Texas\"), at magkaiba ang tama at compliant na sagot sa hangganan ng estado — itinatago ng national score kung saan ka talaga nananalo o natatalo."
   },
-
   "process": {
-    "tag": "PAANO KAMI GUMAGAWA",
-    "title": "Mag-diagnose muna. Pagkatapos basagin ang yelo. Pagkatapos manguna.",
-    "desc": "Tatlong magkakasunod na phase. Bawat isa ay may malinaw na deliverables at quantitative acceptance.",
+    "tag": "PAANO TUMATAKBO",
+    "title": "Baseline. Bumuo. Sukatin muli — bawat linggo.",
+    "desc": "Tumatakbo ang scans ayon sa iskedyul bilang bahagi ng serbisyo; bumubuo ang mga agent sa pagitan; dumarating ang digest sa iyong inbox tuwing Martes.",
     "steps": [
-      { "phase": "PHASE 0 · LINGGO 1–2", "title": "AIGVR rapid diagnosis", "desc": "40–50 question sets × 6 AI engines. Dalawang linggong delivery: kompletong diagnostic report at competitive scorecard." },
-      { "phase": "PHASE 1 · BUWAN 1–3", "title": "Pagbasag sa yelo — infrastructure & cold start", "desc": "Brand corpus, structured data, source seeding, unang batch ng GEO content, monitoring dashboard. Mula sa “hindi ka kilala ng AI” patungo sa “nakikita ka na ng AI”." },
-      { "phase": "PHASE 2 · BUWAN 4–12", "title": "Pamumuno — optimization & acquisition", "desc": "Buwanang monitoring at tuning, tuloy-tuloy na content production, customer-acquisition funnels, AI agent cluster, team capability transfer. Mula sa “nakita” patungo sa “unang pinipili”." }
+      {
+        "phase": "ARAW 0 · BASELINE",
+        "title": "Full scan",
+        "desc": "Binubuo ng Discovery ang iyong prompt library; sinusukat ng Monitor ang limang engine; inuuna ng Report ang mga gap. Ang iyong baseline sa halos apat na minuto."
+      },
+      {
+        "phase": "LINGGO 1–4 · BUMUO",
+        "title": "I-deliver ang mga asset",
+        "desc": "Standard answers, JSON-LD schema, gap content, third-party placements, encyclopedia entries — bawat isa ay publish-ready deliverable, bawat isa ay bine-verify mo bago ilabas."
+      },
+      {
+        "phase": "BAWAT LINGGO · SUKATIN MULI",
+        "title": "Digest, report, ayusin",
+        "desc": "Pinapanatiling maikukumpara ang scores ng scheduled scans sa frozen prompt panel. Lingguhang digest, buwanang report, alerts sa pagbaba. Kailangan ng scan ngayon? Sagot ng credits ang on-demand runs."
+      }
     ]
   },
-
   "faq": {
     "tag": "FAQ · MGA SAGOT",
-    "title": "Mga tanong, sinagot na.",
-    "desc": "Ito ang mga sagot na pinakamadalas naming ibigay — isinulat para malinis na ma-quote din ng AI engines.",
+    "title": "Mga tanong, nasagot.",
+    "desc": "Ang mga sagot na pinakamadalas naming ibigay — isinulat para malinis ding ma-quote ng mga AI engine.",
     "items": [
       {
         "q": "Ano ang GEO (Generative Engine Optimization)?",
-        "a": "Ang GEO ay ang pag-optimize kung paano kinakatawan ang isang brand sa loob ng generative AI engines tulad ng ChatGPT, Perplexity, Google AI Overview, Gemini, Claude at Copilot. Habang ang SEO ay nakatutok sa ranked link list, ang GEO ay nakatutok sa sagot mismo — ang citation, ang rekomendasyon, ang paghahambing, ang verdict. Naghahatid ang MemeCMO.ai ng GEO bilang full-stack service na pinagsasama ang diagnosis (AIGVR), structured data (JSON-LD, llms.txt), authoritative source seeding, semantic content production, at tuloy-tuloy na monitoring."
+        "a": "Ang GEO ay ang praktika ng pag-optimize kung paano kinakatawan ang isang brand sa loob ng mga generative AI engine tulad ng ChatGPT, Gemini, Perplexity, Claude at Google AI Overview. Kung ang SEO ay nakatuon sa ranked list ng mga link, ang GEO ay nakatuon sa sagot mismo — nababanggit ba ang iyong brand, gaano kalinaw, gaano katumpak, at aling mga source ang sini-cite ng engine."
       },
       {
-        "q": "Paano nagkakaiba ang GEO sa SEO?",
-        "a": "Ang SEO ay nag-o-optimize para sa ranking sa listahan ng asul na link; ang GEO ay nag-o-optimize para sa pagsama, katumpakan at prominence sa loob ng AI-generated answer. Magkakatugma ang mga signal (magandang content, structured data, authoritative backlinks) ngunit magkaiba ang optimization targets. Tagumpay sa SEO = posisyon 1–3 sa SERP. Tagumpay sa GEO = nababanggit ang inyong brand, tama ang pagkakalarawan, at ideally ay ni-cite bilang top option kapag sumasagot ang AI sa tanong na talagang ginagawa ng customers."
+        "q": "Paano naiiba ang GEO sa SEO?",
+        "a": "Ino-optimize ng SEO ang ranking sa listahan ng blue links; ino-optimize ng GEO ang pagsama, katumpakan at prominence sa loob ng generated na sagot. Magkaiba ang mga lever: structured data, authoritative third-party citations, canonical answers sa mga tanong ng mamimili, at content na isinulat para ma-quote — hindi backlinks at keyword density."
       },
       {
-        "q": "Bakit nakatutok sa Timog-Silangang Asya at emerging languages?",
-        "a": "Mas kaunti ang training data at authoritative sources ng AI engines sa Vietnamese, Thai, Indonesian, Malay at Filipino kaysa sa Ingles. Ibig sabihin: (1) manipis at madaling impluwensiyahan ang cognitive layer, (2) halos walang competition, (3) mabilis na nabubuo ang first-mover moats. Mahihirap palitan sa loob ng 12–18 buwan ang mga brand na magtatatag ng answer-layer presence sa mga wikang ito ngayon."
+        "q": "Ano ang sinusukat ng MemeCMO?",
+        "a": "Standard metrics bawat engine: presence (gaano kadalas kang nababanggit), share of voice (iyong bahagi sa lahat ng brand mentions), citation rate (gaano kadalas na-cite ang mga source na pabor sa iyo), AI sentiment, top-of-mind rate (gaano kadalas kang unang napapangalanan), at answer accuracy (tugma ba ang product facts at links ng AI sa iyong verified standard answers). Ang weighted AI Mindset Index ang nagbubuod sa kanila; ang metrics ang ground truth."
       },
       {
-        "q": "Ano ang AIGVR?",
-        "a": "Ang AIGVR (AI-Generated Visibility Rating) ay aming proprietary na limang-axis scoring framework: (1) appearance rate — gaano kadalas lumalabas ang inyong brand, (2) top-position rate — gaano kadalas itong unang rekomendasyon, (3) factual accuracy — tama ba ang paglarawan ng AI sa inyong brand, (4) sentiment net — emotional valence ng sagot, (5) source depth — kalidad at awtoridad ng mga sources na ni-cite ng AI. Sinusubaybayan ang bawat axis sa 6 na pangunahing AI engines at ikinukumpara sa kakumpitensya."
+        "q": "Ano ang Answer Accuracy at bakit mahalaga?",
+        "a": "Ikinukumpara ng Answer Accuracy ang aktwal na sinasabi ng AI sa iyong mga customer sa iyong verified standard answers. Kapag maling product facts, lumang link o maling contact details ang ibinigay ng AI, kikilos ang customer ayon dito at ang support team mo ang magbabayad. Minamarkahan ng MemeCMO ang bawat maling sagot bawat engine para maayos mo ang source."
       },
       {
-        "q": "Gaano katagal bago makita ang resulta?",
-        "a": "AIGVR diagnosis: 2 linggo. Unang nasusukat na pag-akyat ng visibility sa target AI engines: kadalasan 6–10 linggo pagkatapos ng Phase 1 deployment, depende sa wika, kategorya at engine refresh cadence. Matatag na competitive moat: 6–12 buwan ng tuloy-tuloy na Phase 2 work. Buwanan kaming nagre-report na may quantitative deltas, hindi vibes."
+        "q": "Aling mga AI engine at merkado ang sakop?",
+        "a": "ChatGPT, Gemini, Perplexity, Claude at ang tunay na Google AI Overview page, location-targeted. Mga merkado: Vietnam, Thailand, Indonesia, Malaysia, Singapore at Pilipinas sa kanilang lokal na wika, at Estados Unidos bawat estado (Tier-1: California, Texas, Florida, New York) na may state regulatory frames para sa regulated verticals."
       },
       {
-        "q": "Para kanino ang MemeCMO.ai?",
-        "a": "Para sa mga brand na pumupunta sa global — lalo na ang mga Tsinong kumpanya na nag-e-expand sa Timog-Silangang Asya, regional brands na nakabase sa Hong Kong, at anumang organisasyon na ang customers ay nagtatanong sa AI bago bumili. Pinakamagaling kami sa B2B services, edukasyon, healthcare, finance, at consumer brands na may malinaw na narrative at totoong budget para sa cognitive infrastructure."
+        "q": "Paano ang pricing?",
+        "a": "Itinatakda ng buwanang plan bawat brand × merkado ang scan cadence, laki ng prompt library, engines at reports; kasama na ang scheduled scans at reports. Sagot ng credits ang on-demand scans at dagdag na content runs. May workspace bawat kliyente, rollup reports, walang limitasyong seats at wholesale pricing ang mga agency partner."
+      },
+      {
+        "q": "Para kanino ang MemeCMO?",
+        "a": "Mga brand na papasok sa Timog-Silangang Asya — lalo na ang mga kumpanyang Tsino na nagpapalawak — mga regional brand na nagtatanggol ng home market, mga US brand sa regulated verticals kung saan nag-iiba ang sagot bawat estado, at ang mga agency at media group na naglilingkod sa kanila bilang channel partners."
       }
     ]
   },
-
   "contact": {
-    "tag": "MAKIPAG-UGNAYAN SA AMIN",
-    "title": "Ang unang linya ng inyong brand sa AI conversation —<br>kayo ang magdedesisyon kung ano ang sasabihin.",
-    "lead": "Mag-book ng libreng AIGVR assessment. Tingnan kung paano talaga inilalarawan ng AI engines ang inyong brand ngayon, at saan ang highest-leverage na hakbang.",
+    "tag": "KONTAK",
+    "title": "Ang unang linya ng iyong brand sa usapan ng AI —<br>ikaw ang magpapasya kung ano ang sasabihin nito.",
+    "lead": "Humiling ng platform access o ng usapang partner. Sabihin sa amin ang brand at merkado; patatakbuhin namin ang baseline scan at gagabayan ka sa mga resulta.",
     "email_label": "EMAIL",
     "hq_label": "PUNONG-TANGGAPAN",
-    "hq_value": "Hong Kong · may on-the-ground na network sa buong Timog-Silangang Asya",
-    "form_title": "Mag-book ng AIGVR diagnosis",
-    "form_sub": "Sasagutin namin sa loob ng 24 oras.",
+    "hq_value": "Hong Kong · nag-o-operate sa buong Timog-Silangang Asya at Estados Unidos",
+    "form_title": "Humiling ng access",
+    "form_sub": "Sumasagot kami sa loob ng 24 oras.",
     "f_name": "Pangalan",
     "f_name_ph": "Inyong pangalan",
     "f_company": "Kumpanya",
@@ -181,7 +251,7 @@
     "f_email": "Email",
     "f_email_ph": "your@company.com",
     "f_market": "Target market",
-    "f_market_ph": "Vietnam, Thailand, Indonesia…",
+    "f_market_ph": "Vietnam, Thailand, Indonesia, Texas, California…",
     "f_msg": "Mensahe",
     "f_msg_ph": "Maikli ngang ilarawan ang inyong brand at mga pangangailangan…",
     "submit": "Ipadala ang request",
@@ -189,9 +259,8 @@
     "submit_done": "Naipadala — salamat!",
     "submit_error": "Hindi naipadala. Mag-email po sa liujunshuo1987@gmail.com nang direkta."
   },
-
   "footer": {
     "back_top": "Bumalik sa itaas",
-    "license": "Pinapagana ng Hong Kong Guanlan Think Tank · NEURONSPARK Media-tech LTD"
+    "license": "MemeCMO Tech Limited · Hong Kong CR No. 80218619"
   }
 }
