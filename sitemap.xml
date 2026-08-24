@@ -79,4 +79,5 @@
     <xhtml:link rel="alternate" hreflang="ms" href="https://memecmo.ai/ms/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://memecmo.ai/"/>
   </url>
+  <url><loc>https://memecmo.ai/about/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
