@@ -297,6 +297,8 @@
     "b1": "Workspace ba vùng: phái · sân khấu · hoạt động trực tiếp",
     "b2": "Chủ đề đêm/ngày, giao diện EN / 中文 / VN",
     "b3": "Mọi kết quả xuất thành PDF có thương hiệu",
-    "mock_note": "Đo theo từng engine trên bộ câu hỏi cố định — biến động là tín hiệu thật, không phải nhiễu."
+    "mock_note": "Đo theo từng engine trên bộ câu hỏi cố định — biến động là tín hiệu thật, không phải nhiễu.",
+    "demo": "Mở bản demo trực tiếp",
+    "demo_sub": "Thương hiệu thật, đo lường thật — cập nhật hàng tuần, không cần đăng ký."
   }
 }

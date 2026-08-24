@@ -297,6 +297,8 @@
     "b1": "Three-zone workspace: dispatch · stage · live activity",
     "b2": "Night at day theme, EN / 中文 / VN interface",
     "b3": "Bawat resulta ay nae-export bilang branded PDF",
-    "mock_note": "Sinusukat bawat engine sa frozen prompt panel — totoo ang galaw, hindi ingay."
+    "mock_note": "Sinusukat bawat engine sa frozen prompt panel — totoo ang galaw, hindi ingay.",
+    "demo": "Buksan ang live demo",
+    "demo_sub": "Totoong brand, totoong sinukat — lingguhang refresh, walang sign-up."
   }
 }

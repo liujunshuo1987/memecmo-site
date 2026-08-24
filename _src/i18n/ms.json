@@ -297,6 +297,8 @@
     "b1": "Ruang kerja tiga zon: hantaran · pentas · aktiviti langsung",
     "b2": "Tema malam/siang, antara muka EN / 中文 / VN",
     "b3": "Setiap keputusan dieksport sebagai PDF berjenama",
-    "mock_note": "Diukur mengikut enjin pada panel prompt beku — pergerakan adalah isyarat benar, bukan hingar."
+    "mock_note": "Diukur mengikut enjin pada panel prompt beku — pergerakan adalah isyarat benar, bukan hingar.",
+    "demo": "Buka demo langsung",
+    "demo_sub": "Jenama sebenar, diukur sebenar — dikemas kini mingguan, tanpa daftar."
   }
 }

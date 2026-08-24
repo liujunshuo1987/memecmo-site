@@ -236,6 +236,8 @@ function buildLocale(locale) {
     WS_B1: (d.ws && d.ws.b1) || '',
     WS_B2: (d.ws && d.ws.b2) || '',
     WS_B3: (d.ws && d.ws.b3) || '',
+    WS_DEMO: (d.ws && d.ws.demo) || 'Open the live demo',
+    WS_DEMO_SUB: (d.ws && d.ws.demo_sub) || '',
     QUOTE_TITLE: d.hero.slides[1].title,
     QUOTE_DESC: d.philosophy.cards[4].desc,
     TAGLINE_MAIN: d.tagline.main,

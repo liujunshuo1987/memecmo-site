@@ -297,6 +297,8 @@
     "b1": "Three-zone workspace: dispatch · stage · live activity",
     "b2": "Night & day themes, EN / 中文 / VN interface",
     "b3": "Every result exports as a branded PDF",
-    "mock_note": "Measured per engine on a frozen prompt panel — movement is real, not noise."
+    "mock_note": "Measured per engine on a frozen prompt panel — movement is real, not noise.",
+    "demo": "Open the live demo",
+    "demo_sub": "A real brand, really measured — refreshed weekly, no sign-up needed."
   }
 }
