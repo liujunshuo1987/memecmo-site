@@ -3,20 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="x-poe-datastore-behavior" content="local_only">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://fonts.googleapis.com https://fonts.gstatic.com; frame-src 'self' https://www.youtube.com; child-src 'self'; manifest-src 'self'; worker-src 'self'; upgrade-insecure-requests; block-all-mixed-content;">
 <title>MemeCMO — Ang GEO platform na ginagawang sagot ng AI ang iyong brand</title>
 <meta name="description" content="Ang MemeCMO ay isang Generative Engine Optimization (GEO) platform: sampung AI agent ang sumusukat kung paano inilalarawan ng ChatGPT, Gemini, Perplexity, Claude at Google AI Overview ang iyong brand, bumubuo ng kulang (standard answers, schema, content, citations), at nagre-report linggo-linggo. Anim na merkado sa Timog-Silangang Asya; Estados Unidos bawat estado.">
 <meta name="keywords" content="GEO platform, generative engine optimization, AEO, AI brand visibility, answer accuracy, share of voice sa AI, citation rate, ChatGPT brand mentions, Google AI Overview monitoring, GEO Pilipinas, GEO Timog-Silangang Asya">
-<meta name="author" content="MemeCMO.ai">
-<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
-<meta name="theme-color" content="#07060c">
 <link rel="canonical" href="https://memecmo.ai/fil/">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
-<link rel="alternate icon" href="/favicon.ico">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-
-<!-- hreflang -->
   <link rel="alternate" hreflang="en" href="https://memecmo.ai/">
   <link rel="alternate" hreflang="zh" href="https://memecmo.ai/zh/">
   <link rel="alternate" hreflang="vi" href="https://memecmo.ai/vi/">
@@ -24,33 +14,20 @@
   <link rel="alternate" hreflang="th" href="https://memecmo.ai/th/">
   <link rel="alternate" hreflang="ms" href="https://memecmo.ai/ms/">
   <link rel="alternate" hreflang="x-default" href="https://memecmo.ai/">
-
-<!-- Open Graph -->
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="MemeCMO.ai">
+<meta property="og:url" content="https://memecmo.ai/fil/">
 <meta property="og:title" content="MemeCMO — Ang GEO platform na ginagawang sagot ng AI ang iyong brand">
 <meta property="og:description" content="Sampung AI agent ang sumusukat, bumubuo at nagre-report ng iyong visibility sa ChatGPT, Gemini, Perplexity, Claude at Google AI Overview — Timog-Silangang Asya at Estados Unidos bawat estado.">
-<meta property="og:url" content="https://memecmo.ai/fil/">
 <meta property="og:image" content="https://memecmo.ai/og.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
 <meta property="og:locale" content="tl_PH">
   <meta property="og:locale:alternate" content="en_US">
   <meta property="og:locale:alternate" content="zh_CN">
   <meta property="og:locale:alternate" content="vi_VN">
   <meta property="og:locale:alternate" content="th_TH">
   <meta property="og:locale:alternate" content="ms_MY">
-
-<!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="MemeCMO — Ang GEO platform na ginagawang sagot ng AI ang iyong brand">
-<meta name="twitter:description" content="Sampung AI agent ang sumusukat, bumubuo at nagre-report ng iyong visibility sa ChatGPT, Gemini, Perplexity, Claude at Google AI Overview — Timog-Silangang Asya at Estados Unidos bawat estado.">
-<meta name="twitter:image" content="https://memecmo.ai/og.png">
-
-<!-- AEO / LLM hints -->
-<link rel="alternate" type="text/plain" title="LLM-readable summary" href="/llms.txt">
-
-<!-- Structured Data (JSON-LD) -->
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate" type="text/plain" href="/llms.txt" title="LLM-friendly site summary">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -341,459 +318,207 @@
   ]
 }
 </script>
-
 <style>
-*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
 :root{
-  --accent:#8b5cf6;
-  --accent2:#6366f1;
-  --accent-light:#a78bfa;
-  --accent-dim:rgba(139,92,246,.26);
-  --accent-glow:rgba(139,92,246,.10);
-  --accent-subtle:rgba(139,92,246,.06);
-  --grad:linear-gradient(135deg,#c850c0,#4158d0);
-  --grad-btn:linear-gradient(135deg,#a78bfa,#6366f1);
-  --grad-btn-hover:linear-gradient(135deg,#c084fc,#818cf8);
-  --dark:#07060c;--dark2:#0c0b14;--dark3:#100f1a;
-  --card:#13121e;--card-border:#1f1d30;
-  --text1:#f0eef5;--text2:#908da0;--text3:#5e5b72;
+  --canvas:#FBF7F4;--surface:#FFFFFF;--soft:#F4ECE6;
+  --ink:#2A2024;--dim:#6E625F;--faint:#9C8E8A;
+  --brand:#C76B7A;--brand-press:#B25A69;--brand-soft:#F7E7EA;
+  --gold:#B6863A;--gold-soft:#F3E8D5;--sage:#5E9E76;--sage-soft:#E7F0EA;
+  --edge:rgba(58,30,34,.12);--edge-strong:rgba(58,30,34,.22);
+  --shadow-sm:0 2px 10px rgba(58,30,34,.06);--shadow-md:0 10px 34px rgba(58,30,34,.09);
+  --r:14px;--r-sm:9px;
+  --sans:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI","PingFang SC","Noto Sans",sans-serif;
 }
-html{scroll-behavior:smooth;font-size:16px}
-body{
-  font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI","PingFang SC","Hiragino Sans GB","Noto Sans","Noto Sans SC","Noto Sans TC","Noto Sans Thai","Noto Sans Devanagari",sans-serif;
-  background:var(--dark);color:var(--text1);overflow-x:hidden;line-height:1.7;
-}
-a{color:var(--accent-light);text-decoration:none;transition:.3s}
-a:hover{opacity:.85}
-::-webkit-scrollbar{width:5px}
-::-webkit-scrollbar-track{background:var(--dark)}
-::-webkit-scrollbar-thumb{background:var(--accent-dim);border-radius:3px}
-
-/* ===================== NAV ===================== */
-.nav{
-  position:fixed;top:0;left:0;right:0;z-index:1000;
-  display:flex;align-items:center;justify-content:space-between;
-  padding:18px 48px;gap:24px;
-  background:rgba(7,6,12,.55);backdrop-filter:blur(28px);
-  border-bottom:1px solid transparent;transition:.4s;
-}
-.nav.scrolled{border-bottom-color:var(--card-border);background:rgba(7,6,12,.92)}
-.nav-logo{display:flex;align-items:center;gap:14px;flex-shrink:0}
-.nav-logo-icon{
-  width:38px;height:38px;border-radius:11px;
-  background:var(--grad);
-  display:flex;align-items:center;justify-content:center;
-  font-weight:800;font-size:17px;color:#fff;
-}
-.nav-logo-text{font-size:14px;font-weight:600;letter-spacing:4px;color:var(--text2)}
-.nav-links{display:flex;gap:32px}
-.nav-links a{font-size:13.5px;color:var(--text2);letter-spacing:.5px;transition:.3s}
-.nav-links a:hover{color:var(--accent-light);opacity:1}
-.nav-right{display:flex;align-items:center;gap:14px;flex-shrink:0}
-.nav-signin{
-  font-size:13.5px;font-weight:500;color:var(--text2);letter-spacing:.3px;
-  padding:8px 4px;transition:.3s;
-}
-.nav-signin:hover{color:var(--text1);opacity:1}
-.nav-cta{
-  display:inline-block;
-  padding:9px 22px;border-radius:8px;font-size:13.5px;font-weight:600;
-  background:var(--grad-btn);color:#fff;
-  border:none;cursor:pointer;transition:.3s;
-  text-decoration:none;
-}
-.nav-cta:hover{transform:translateY(-1px);box-shadow:0 8px 28px var(--accent-dim);opacity:1;color:#fff}
-.nav-hamburger{display:none;background:none;border:none;cursor:pointer;z-index:1001}
-.nav-hamburger span{display:block;width:22px;height:2px;background:var(--text2);margin:5px auto;transition:.3s}
-
-/* lang switcher */
-.lang-switch{position:relative}
-.lang-btn{
-  display:flex;align-items:center;gap:6px;padding:8px 14px;border-radius:8px;
-  background:rgba(255,255,255,.04);border:1px solid var(--card-border);
-  color:var(--text2);font-size:12.5px;font-weight:600;letter-spacing:.5px;cursor:pointer;
-  transition:.3s;font-family:inherit;
-}
-.lang-btn:hover{border-color:rgba(139,92,246,.4);color:var(--text1)}
-.lang-btn .arrow{font-size:9px;opacity:.6}
-.lang-menu{
-  position:absolute;top:calc(100% + 8px);right:0;min-width:170px;
-  list-style:none;padding:6px;border-radius:10px;
-  background:rgba(15,14,24,.96);backdrop-filter:blur(24px);
-  border:1px solid var(--card-border);
-  box-shadow:0 18px 46px rgba(0,0,0,.45);
-  opacity:0;visibility:hidden;transform:translateY(-6px);transition:.25s;
-}
-.lang-switch.open .lang-menu{opacity:1;visibility:visible;transform:translateY(0)}
-.lang-menu li{list-style:none}
-.lang-menu li a{
-  display:block;padding:9px 14px;border-radius:7px;
-  font-size:13.5px;color:var(--text2);transition:.2s;
-}
-.lang-menu li a:hover{background:var(--accent-subtle);color:var(--text1)}
-.lang-menu li.current a{color:var(--accent-light);background:var(--accent-subtle)}
-
-/* ===================== HERO SLIDER ===================== */
-.hero-slider{
-  position:relative;width:100%;height:100vh;overflow:hidden;
-  background:var(--dark);
-}
-#heroCanvas{position:absolute;inset:0;z-index:0;pointer-events:none}
-
-.slides-wrapper{position:relative;width:100%;height:100%;z-index:1}
-.slide{
-  position:absolute;inset:0;display:flex;align-items:center;
-  padding:0 clamp(36px,6vw,100px);
-  opacity:0;transform:translateY(30px);
-  transition:opacity .7s ease,transform .7s ease;
-  pointer-events:none;
-}
-.slide.active{opacity:1;transform:translateY(0);pointer-events:auto}
-.slide-inner{max-width:780px}
-
-.slide-tag{
-  display:inline-block;padding:7px 22px;border-radius:100px;
-  background:var(--accent-subtle);border:1px solid rgba(139,92,246,.2);
-  font-size:13.5px;color:var(--accent-light);letter-spacing:2px;
-  margin-bottom:36px;
-}
-.slide-title{
-  font-size:clamp(30px,5vw,58px);font-weight:800;line-height:1.2;margin-bottom:28px;
-}
-.slide-title .hl{
-  background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;
-}
-.slide-desc{
-  font-size:clamp(15px,1.6vw,17px);color:var(--text2);line-height:1.9;
-  max-width:620px;margin-bottom:40px;
-}
-.slide-btn{
-  display:inline-flex;align-items:center;gap:8px;
-  padding:14px 32px;border-radius:10px;font-size:15px;font-weight:600;
-  background:transparent;color:var(--text1);
-  border:1px solid var(--card-border);cursor:pointer;transition:.3s;
-}
-.slide-btn:hover{border-color:var(--accent);background:var(--accent-subtle);color:var(--text1)}
-
-.slide-glow{
-  position:absolute;width:700px;height:700px;border-radius:50%;
-  background:radial-gradient(circle,rgba(139,92,246,.08) 0%,transparent 70%);
-  right:-100px;top:50%;transform:translateY(-50%);
-  opacity:.7;pointer-events:none;
-}
-
-/* ---- Slider Controls ---- */
-.slider-controls{
-  position:absolute;bottom:48px;left:clamp(36px,6vw,100px);
-  z-index:10;display:flex;align-items:center;gap:16px;
-}
-.slider-dots{display:flex;align-items:center;gap:10px}
-.slider-dot{
-  width:10px;height:10px;border-radius:50%;
-  background:var(--text3);cursor:pointer;transition:.4s;
-  border:none;outline:none;padding:0;
-}
-.slider-dot.active{
-  width:40px;border-radius:5px;height:10px;
-  background:var(--grad-btn);
-  box-shadow:0 0 14px var(--accent-dim);
-}
-.slider-counter{
-  font-size:14px;color:var(--text3);letter-spacing:4px;
-  font-variant-numeric:tabular-nums;margin-left:8px;
-}
-.slider-counter .cur{color:var(--text1);font-weight:600}
-
-.slider-pause{
-  position:absolute;top:100px;right:48px;z-index:10;
-  display:flex;align-items:center;gap:8px;
-  padding:8px 18px;border-radius:8px;
-  background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);
-  font-size:13px;color:var(--text3);cursor:pointer;transition:.3s;
-  user-select:none;
-}
-.slider-pause:hover{border-color:rgba(255,255,255,.15);color:var(--text2)}
-.slider-pause .icon{font-size:11px}
-
-.scroll-hint{
-  position:absolute;bottom:48px;right:48px;z-index:10;
-  display:flex;flex-direction:column;align-items:center;gap:8px;
-}
-.scroll-hint span{font-size:11px;color:var(--text3);letter-spacing:2px}
-.scroll-line{
-  width:1px;height:36px;background:var(--card-border);position:relative;overflow:hidden;
-}
-.scroll-line::after{
-  content:'';position:absolute;top:-50%;left:0;width:100%;height:50%;
-  background:var(--accent);animation:scrollDown 2s ease-in-out infinite;
-}
-@keyframes scrollDown{0%{top:-50%}100%{top:100%}}
-
-/* ===================== SECTIONS COMMON ===================== */
-.section{padding:120px 48px;position:relative}
-.section-inner{max-width:1200px;margin:0 auto}
-.section-tag{
-  display:inline-block;padding:6px 18px;border-radius:100px;
-  background:var(--accent-subtle);border:1px solid rgba(139,92,246,.16);
-  font-size:13px;color:var(--accent-light);letter-spacing:2px;margin-bottom:24px;
-}
-.section-title{font-size:clamp(26px,4vw,46px);font-weight:800;line-height:1.25;margin-bottom:20px}
-.section-desc{font-size:16.5px;color:var(--text2);max-width:680px;margin-bottom:56px;line-height:1.85}
-.divider{height:1px;background:linear-gradient(90deg,transparent,var(--card-border),transparent);max-width:1200px;margin:0 auto}
-
-/* ===================== TAGLINE BANNER ===================== */
-.tagline-banner{
-  padding:100px 48px;text-align:center;position:relative;overflow:hidden;
-  background:linear-gradient(180deg,var(--dark) 0%,var(--dark3) 50%,var(--dark) 100%);
-}
-.tagline-banner::before{
-  content:'';position:absolute;width:800px;height:400px;
-  background:radial-gradient(ellipse,rgba(139,92,246,.09),transparent 70%);
-  top:50%;left:50%;transform:translate(-50%,-50%);
-}
-.tagline-text{
-  position:relative;z-index:1;font-size:clamp(22px,4vw,50px);font-weight:800;letter-spacing:1px;line-height:1.3;
-}
-.tagline-text .brand{
-  background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
-}
-.tagline-sub{position:relative;z-index:1;font-size:17px;color:var(--text2);margin-top:22px;letter-spacing:.5px}
-
-/* ===================== PHILOSOPHY ===================== */
-.phi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
-.phi-card{
-  padding:38px 30px;border-radius:16px;background:var(--card);border:1px solid var(--card-border);
-  transition:.4s;position:relative;overflow:hidden;
-}
-.phi-card::before{
-  content:'';position:absolute;top:0;left:0;right:0;height:2px;
-  background:var(--grad);opacity:0;transition:.4s;
-}
-.phi-card:hover{transform:translateY(-4px);border-color:rgba(139,92,246,.3);box-shadow:0 16px 48px rgba(139,92,246,.06)}
-.phi-card:hover::before{opacity:1}
-.phi-icon{
-  width:52px;height:52px;border-radius:13px;background:var(--accent-subtle);
-  display:flex;align-items:center;justify-content:center;font-size:24px;margin-bottom:22px;
-}
-.phi-card h3{font-size:19px;font-weight:700;margin-bottom:10px}
-.phi-card p{font-size:14.5px;color:var(--text2);line-height:1.8}
-
-/* ===================== GEO TECH ===================== */
-.geo-section{background:linear-gradient(180deg,var(--dark),var(--dark2),var(--dark))}
-.geo-layout{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
-.geo-visual{position:relative;width:100%;aspect-ratio:1;display:flex;align-items:center;justify-content:center}
-.geo-ring{
-  position:absolute;border-radius:50%;border:1px solid var(--card-border);
-  animation:spin 30s linear infinite;
-}
-.geo-ring:nth-child(1){width:100%;height:100%}
-.geo-ring:nth-child(2){width:72%;height:72%;animation-direction:reverse;animation-duration:22s;border-color:rgba(139,92,246,.15)}
-.geo-ring:nth-child(3){width:46%;height:46%;animation-duration:16s}
-.geo-dot{
-  position:absolute;width:9px;height:9px;border-radius:50%;
-  background:var(--accent);box-shadow:0 0 10px var(--accent-dim);
-}
-.geo-center{
-  position:relative;z-index:1;width:108px;height:108px;border-radius:50%;
-  background:var(--accent-subtle);border:2px solid var(--accent);
-  display:flex;align-items:center;justify-content:center;
-  font-size:13.5px;font-weight:700;color:var(--accent-light);text-align:center;
-  letter-spacing:.5px;line-height:1.3;box-shadow:0 0 50px var(--accent-dim);
-  padding:0 10px;
-}
-@keyframes spin{from{transform:rotate(0)}to{transform:rotate(360deg)}}
-
-.geo-text h3{font-size:21px;font-weight:700;margin-bottom:14px;color:var(--accent-light)}
-.geo-list{list-style:none;display:flex;flex-direction:column;gap:18px;margin-top:32px}
-.geo-list li{display:flex;gap:14px;align-items:flex-start;font-size:14.5px;color:var(--text2);line-height:1.75}
-.geo-list-dot{margin-top:8px;min-width:7px;height:7px;border-radius:50%;background:var(--accent)}
-
-/* ===================== MARKET ===================== */
-.market-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-bottom:44px}
-.market-card{
-  padding:34px 24px;border-radius:16px;text-align:center;
-  background:var(--card);border:1px solid var(--card-border);transition:.4s;
-}
-.market-card:hover{transform:translateY(-4px);border-color:rgba(139,92,246,.3)}
-.market-flag{font-size:40px;margin-bottom:14px}
-.market-name{font-size:17px;font-weight:700;margin-bottom:3px}
-.market-lang{font-size:12.5px;color:var(--text3);margin-bottom:10px}
-.market-desc{font-size:13.5px;color:var(--text2);line-height:1.7}
-
-.market-insight{
-  padding:36px;border-radius:16px;
-  background:linear-gradient(135deg,rgba(139,92,246,.05),rgba(99,102,241,.02));
-  border:1px solid rgba(139,92,246,.12);
-}
-.market-insight h3{font-size:19px;font-weight:700;margin-bottom:14px}
-.market-insight p{font-size:14.5px;color:var(--text2);line-height:1.9}
-.market-insight .hl{color:var(--accent-light);font-weight:600}
-
-/* ===================== PROCESS ===================== */
-.process-tl{position:relative;padding-left:40px}
-.process-tl::before{
-  content:'';position:absolute;left:15px;top:0;bottom:0;width:2px;
-  background:linear-gradient(180deg,var(--accent),var(--card-border));
-}
-.process-step{position:relative;padding:0 0 56px 40px}
-.process-step:last-child{padding-bottom:0}
-.process-dot{
-  position:absolute;left:-33px;top:4px;width:14px;height:14px;border-radius:50%;
-  background:var(--dark);border:3px solid var(--accent);box-shadow:0 0 14px var(--accent-dim);
-}
-.process-phase{font-size:12.5px;color:var(--accent-light);font-weight:600;letter-spacing:2px;margin-bottom:6px}
-.process-step h3{font-size:21px;font-weight:700;margin-bottom:8px}
-.process-step p{font-size:14.5px;color:var(--text2);max-width:580px;line-height:1.8}
-
-/* ===================== FAQ ===================== */
-.faq-section{background:linear-gradient(180deg,var(--dark),var(--dark2))}
-.faq-list{display:flex;flex-direction:column;gap:14px;max-width:920px}
-.faq-item{
-  background:var(--card);border:1px solid var(--card-border);border-radius:14px;
-  overflow:hidden;transition:.3s;
-}
-.faq-item:hover{border-color:rgba(139,92,246,.28)}
-.faq-item[open]{border-color:rgba(139,92,246,.34);box-shadow:0 12px 36px rgba(139,92,246,.05)}
-.faq-item summary{
-  list-style:none;padding:22px 28px;font-size:16px;font-weight:600;cursor:pointer;
-  display:flex;justify-content:space-between;align-items:center;gap:18px;
-  position:relative;
-}
-.faq-item summary::-webkit-details-marker{display:none}
-.faq-item summary::after{
-  content:'+';font-size:22px;font-weight:400;color:var(--accent-light);
-  transition:.3s;line-height:1;
-}
-.faq-item[open] summary::after{transform:rotate(45deg)}
-.faq-a{padding:0 28px 22px;font-size:14.5px;color:var(--text2);line-height:1.85}
-
-/* ===================== CONTACT ===================== */
-.contact-section{background:linear-gradient(180deg,var(--dark),var(--dark3))}
-.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:start}
-.contact-info h2{font-size:clamp(26px,4vw,42px);font-weight:800;line-height:1.25;margin-bottom:22px}
-.contact-info>p{font-size:16px;color:var(--text2);line-height:1.8;margin-bottom:36px}
-.contact-items{display:flex;flex-direction:column;gap:20px}
-.contact-item{
-  display:flex;gap:18px;align-items:flex-start;padding:22px;border-radius:12px;
-  background:var(--card);border:1px solid var(--card-border);transition:.3s;
-}
-.contact-item:hover{border-color:rgba(139,92,246,.28)}
-.ci-icon{
-  width:46px;height:46px;border-radius:11px;background:var(--accent-subtle);
-  display:flex;align-items:center;justify-content:center;font-size:21px;flex-shrink:0;
-}
-.ci-label{font-size:12.5px;color:var(--text3);margin-bottom:3px;letter-spacing:1px}
-.ci-value{font-size:15px;font-weight:600}
-.ci-value a{color:var(--text1);transition:.3s}
-.ci-value a:hover{color:var(--accent-light)}
-
-.contact-form-box{
-  padding:44px;border-radius:20px;background:var(--card);border:1px solid var(--card-border);
-}
-.contact-form-box h3{font-size:21px;font-weight:700;margin-bottom:6px}
-.contact-form-box .fsub{font-size:13.5px;color:var(--text3);margin-bottom:28px}
-.fg{margin-bottom:18px}
-.fg label{display:block;font-size:12.5px;color:var(--text2);margin-bottom:7px;letter-spacing:.5px}
-.fg input,.fg textarea{
-  width:100%;padding:13px 16px;border-radius:9px;
-  background:rgba(139,92,246,.025);border:1px solid var(--card-border);
-  color:var(--text1);font-size:14.5px;font-family:inherit;outline:none;transition:.3s;
-}
-.fg input:focus,.fg textarea:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(139,92,246,.1)}
-.fg textarea{resize:vertical;min-height:90px}
-.form-submit{
-  width:100%;padding:15px;border-radius:11px;font-size:15.5px;font-weight:700;
-  background:var(--grad-btn);color:#fff;
-  border:none;cursor:pointer;transition:.3s;letter-spacing:1px;
-}
-.form-submit:hover{transform:translateY(-2px);box-shadow:0 10px 36px var(--accent-dim);background:var(--grad-btn-hover)}
-
-/* ===================== FOOTER ===================== */
-.footer{padding:52px 48px 36px;border-top:1px solid var(--card-border)}
-.footer-inner{max-width:1200px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px}
-.footer-left{display:flex;align-items:center;gap:12px}
-.footer-logo-icon{
-  width:30px;height:30px;border-radius:8px;
-  background:var(--grad);
-  display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;color:#fff;
-}
-.footer-copy{font-size:12.5px;color:var(--text3)}
-.footer-right{display:flex;flex-direction:column;align-items:flex-end;gap:8px}
-.footer-links{display:flex;gap:22px;flex-wrap:wrap;justify-content:flex-end}
-.footer-links a{font-size:12.5px;color:var(--text3);transition:.3s}
-.footer-links a:hover{color:var(--accent-light)}
-.footer-license{font-size:11px;color:var(--text3);opacity:.55;letter-spacing:.5px}
-
-/* ===================== ANIMATIONS ===================== */
-@keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
-.reveal{opacity:0;transform:translateY(36px);transition:opacity .65s ease-out,transform .65s ease-out}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);background:var(--canvas);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+img{max-width:100%}
+::selection{background:var(--brand-soft)}
+:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
+.wrap{max-width:1160px;margin:0 auto;padding:0 24px}
+.kicker{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--brand);font-weight:600}
+.sec{padding:96px 0}
+.sec-title{font-size:clamp(26px,3.6vw,38px);font-weight:700;letter-spacing:-.02em;line-height:1.18;margin:14px 0 12px}
+.sec-desc{font-size:15.5px;color:var(--dim);max-width:660px}
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .6s ease-out,transform .6s ease-out}
 .reveal.visible{opacity:1;transform:translateY(0)}
-
-/* ===================== RESPONSIVE ===================== */
-@media(max-width:1100px){
-  .nav-links{gap:22px}
-  .nav-links a{font-size:12.5px}
-}
-@media(max-width:1024px){
-  .phi-grid{grid-template-columns:repeat(2,1fr)}
-  .market-grid{grid-template-columns:repeat(2,1fr)}
-  .geo-layout{grid-template-columns:1fr;gap:44px}
-  .geo-visual{max-width:340px;margin:0 auto}
-  .contact-grid{grid-template-columns:1fr;gap:44px}
-}
-@media(max-width:768px){
-  .nav{padding:14px 22px}
-  .nav-links{display:none}
-  .nav-cta{display:none}
-  .nav-signin{display:none}
+/* ── nav ── */
+.nav{position:fixed;inset:0 0 auto 0;z-index:50;background:rgba(251,247,244,.86);backdrop-filter:blur(14px);border-bottom:1px solid var(--edge)}
+.nav-in{max-width:1160px;margin:0 auto;padding:0 24px;height:64px;display:flex;align-items:center;gap:26px}
+.nav-brand{display:flex;align-items:center;gap:10px;margin-right:auto}
+.nav-brand img{width:30px;height:30px}
+.nav-brand b{font-size:15px;letter-spacing:.06em}
+.nav-brand span{font-size:11px;color:var(--faint);border-left:1px solid var(--edge);padding-left:10px}
+.nav-links{display:flex;gap:22px;font-size:13.5px;color:var(--dim)}
+.nav-links a:hover{color:var(--ink)}
+.lang-switch{position:relative}
+.lang-btn{background:none;border:1px solid var(--edge);border-radius:8px;padding:6px 10px;font-size:12.5px;color:var(--dim);cursor:pointer;display:flex;gap:6px;align-items:center;font-family:inherit}
+.lang-btn:hover{color:var(--ink);border-color:var(--edge-strong)}
+.lang-btn .arrow{font-size:8px}
+.lang-menu{display:none;position:absolute;right:0;top:calc(100% + 8px);background:var(--surface);border:1px solid var(--edge);border-radius:10px;box-shadow:var(--shadow-md);list-style:none;min-width:150px;padding:6px;z-index:60}
+.lang-switch.open .lang-menu{display:block}
+.lang-menu a{display:flex;justify-content:space-between;gap:12px;padding:8px 10px;border-radius:7px;font-size:13px;color:var(--dim)}
+.lang-menu a:hover{background:var(--soft);color:var(--ink)}
+.lang-menu .code{color:var(--faint);font-size:11px}
+.nav-signin{font-size:13.5px;color:var(--dim)}
+.nav-signin:hover{color:var(--ink)}
+.nav-cta{background:var(--brand);color:#fff;font-size:13.5px;font-weight:600;padding:9px 16px;border-radius:10px;transition:.15s}
+.nav-cta:hover{background:var(--brand-press)}
+.nav-hamburger{display:none;background:none;border:0;cursor:pointer;padding:6px}
+.nav-hamburger span{display:block;width:20px;height:2px;background:var(--ink);margin:4px 0;border-radius:2px}
+/* ── hero ── */
+.hero{padding:150px 0 72px}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center}
+.hero h1{font-size:clamp(34px,5vw,56px);font-weight:800;letter-spacing:-.025em;line-height:1.08;margin:18px 0 18px}
+.hero h1 .hl{color:var(--brand)}
+.hero p{font-size:16.5px;color:var(--dim);max-width:540px}
+.hero-ctas{display:flex;gap:14px;margin-top:30px;flex-wrap:wrap}
+.btn-primary{background:var(--brand);color:#fff;font-weight:600;font-size:14.5px;padding:13px 22px;border-radius:11px;transition:.15s}
+.btn-primary:hover{background:var(--brand-press)}
+.btn-ghost{border:1px solid var(--edge-strong);color:var(--ink);font-size:14.5px;padding:13px 22px;border-radius:11px;transition:.15s}
+.btn-ghost:hover{border-color:var(--brand);color:var(--brand)}
+.hero-stats{display:flex;gap:0;margin-top:52px;border:1px solid var(--edge);border-radius:var(--r);background:var(--surface);overflow:hidden}
+.stat{flex:1;padding:16px 18px;border-left:1px solid var(--edge)}
+.stat:first-child{border-left:0}
+.stat b{display:block;font-size:22px;font-weight:700;color:var(--gold);font-variant-numeric:tabular-nums;letter-spacing:-.01em}
+.stat span{font-size:11px;color:var(--faint);letter-spacing:.06em;text-transform:uppercase}
+/* hero mock card */
+.mock{background:var(--surface);border:1px solid var(--edge);border-radius:var(--r);box-shadow:var(--shadow-md);padding:22px}
+.mock-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:6px}
+.mock-head .t{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint)}
+.mock-head .live{font-size:10px;font-weight:700;color:var(--sage);background:var(--sage-soft);padding:3px 8px;border-radius:99px;letter-spacing:.08em}
+.mock-score{display:flex;align-items:baseline;gap:10px}
+.mock-score b{font-size:46px;font-weight:800;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.mock-score i{font-style:normal;font-size:13px;font-weight:700;color:var(--sage)}
+.mock-rows{margin:14px 0 10px;display:grid;gap:9px}
+.mrow{display:grid;grid-template-columns:118px 1fr 34px;align-items:center;gap:10px;font-size:12px;color:var(--dim)}
+.mbar{height:6px;border-radius:99px;background:var(--soft);overflow:hidden}
+.mbar i{display:block;height:100%;border-radius:99px;background:var(--brand)}
+.mrow b{text-align:right;font-variant-numeric:tabular-nums;color:var(--ink);font-size:12px}
+.mock-note{font-size:11.5px;color:var(--faint);border-top:1px solid var(--edge);padding-top:12px;margin-top:4px}
+/* ── tagline band ── */
+.band{background:var(--soft);border-top:1px solid var(--edge);border-bottom:1px solid var(--edge);padding:38px 0;text-align:center}
+.band .main{font-size:clamp(18px,2.4vw,24px);font-weight:700}
+.band .main .brand{color:var(--brand)}
+.band .sub{font-size:13.5px;color:var(--faint);margin-top:6px;letter-spacing:.04em}
+/* ── workspace showcase ── */
+.ws-shell{margin-top:44px;background:var(--surface);border:1px solid var(--edge);border-radius:var(--r);box-shadow:var(--shadow-md);overflow:hidden}
+.ws-bar{display:flex;align-items:center;gap:8px;background:var(--soft);border-bottom:1px solid var(--edge);padding:10px 16px;font-size:12px;color:var(--faint)}
+.ws-bar .dots i{display:inline-block;width:9px;height:9px;border-radius:99px;background:var(--edge-strong);margin-right:5px}
+.ws-grid{display:grid;grid-template-columns:210px 1fr 220px;min-height:340px}
+.ws-left{border-right:1px solid var(--edge);padding:16px;display:flex;flex-direction:column;gap:6px}
+.ws-run{background:var(--brand-soft);color:var(--brand);font-weight:700;font-size:12.5px;text-align:center;border:1px solid rgba(199,107,122,.35);border-radius:9px;padding:10px}
+.ws-item{display:flex;justify-content:space-between;align-items:center;font-size:12.5px;color:var(--dim);padding:7px 8px;border-radius:7px}
+.ws-item:hover{background:var(--soft)}
+.ws-item i{width:7px;height:7px;border-radius:99px;background:var(--sage);display:inline-block}
+.ws-cat{font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--faint);margin-top:8px}
+.ws-mid{padding:20px;display:flex;flex-direction:column;gap:12px}
+.ws-proj{display:flex;justify-content:space-between;align-items:center}
+.ws-proj b{font-size:14px}
+.ws-proj span{font-size:11px;color:var(--faint)}
+.ws-panel{border:1px solid var(--edge);border-radius:10px;padding:14px;flex:1}
+.ws-panel .ph{display:flex;justify-content:space-between;font-size:11px;color:var(--faint);letter-spacing:.1em;text-transform:uppercase;margin-bottom:10px}
+.ws-trend{font-size:12px;color:var(--dim);display:flex;justify-content:space-between;margin-top:10px;border-top:1px solid var(--edge);padding-top:10px}
+.ws-trend b{color:var(--sage)}
+.ws-right{border-left:1px solid var(--edge);padding:16px;font-size:11.5px;color:var(--dim)}
+.ws-right .lt{font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--faint);margin-bottom:10px}
+.ws-right p{margin-bottom:9px;line-height:1.5}
+.ws-right p b{color:var(--sage);font-weight:600}
+.ws-feats{display:flex;gap:22px;margin-top:22px;flex-wrap:wrap}
+.ws-feat{font-size:13px;color:var(--dim);display:flex;gap:8px;align-items:center}
+.ws-feat i{color:var(--brand);font-style:normal}
+/* ── cards ── */
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:40px}
+.card{background:var(--surface);border:1px solid var(--edge);border-radius:var(--r);padding:24px;transition:.15s}
+.card:hover{border-color:var(--edge-strong);box-shadow:var(--shadow-sm)}
+.card .n{font-size:11px;font-weight:700;color:var(--gold);font-variant-numeric:tabular-nums;letter-spacing:.1em}
+.card h3{font-size:15.5px;margin:8px 0 8px;letter-spacing:-.01em}
+.card p{font-size:13px;color:var(--dim)}
+/* agents steps */
+.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:40px}
+.step{background:var(--surface);border:1px solid var(--edge);border-radius:var(--r);padding:20px 18px}
+.step .n{font-size:11px;font-weight:700;color:var(--brand);font-variant-numeric:tabular-nums}
+.step h3{font-size:13.5px;margin:8px 0 7px;line-height:1.35}
+.step p{font-size:12px;color:var(--dim)}
+.quote{margin-top:44px;background:var(--soft);border:1px solid var(--edge);border-radius:var(--r);padding:34px;text-align:center}
+.quote h3{font-size:clamp(19px,2.6vw,26px);font-weight:700;letter-spacing:-.015em}
+.quote h3 .hl{color:var(--brand)}
+.quote p{font-size:13.5px;color:var(--dim);margin-top:8px}
+/* markets */
+.market-cards{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:40px}
+.market-card{background:var(--surface);border:1px solid var(--edge);border-radius:var(--r);padding:20px 18px}
+.market-card:last-child{border-color:rgba(182,134,58,.45);background:linear-gradient(180deg,var(--surface),var(--gold-soft))}
+.market-flag{font-size:24px}
+.market-name{font-weight:700;font-size:14.5px;margin-top:8px}
+.market-lang{font-size:11px;color:var(--gold);margin:2px 0 8px}
+.market-desc{font-size:12px;color:var(--dim)}
+.market-insight{margin-top:26px;background:var(--surface);border:1px solid var(--edge);border-left:3px solid var(--brand);border-radius:var(--r-sm);padding:22px 26px}
+.market-insight h3{font-size:14.5px;margin-bottom:6px}
+.market-insight p{font-size:13.5px;color:var(--dim)}
+.market-insight .hl{color:var(--brand);font-weight:600}
+/* process */
+.process-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:40px}
+.pstep{background:var(--surface);border:1px solid var(--edge);border-radius:var(--r);padding:24px}
+.pstep .phase{font-size:10.5px;letter-spacing:.16em;color:var(--gold);font-weight:700;text-transform:uppercase}
+.pstep h3{font-size:16px;margin:10px 0 8px}
+.pstep p{font-size:13px;color:var(--dim)}
+/* faq */
+.faq-list{margin-top:40px;display:grid;gap:12px;max-width:840px}
+.faq-item{background:var(--surface);border:1px solid var(--edge);border-radius:var(--r-sm);padding:0 20px}
+.faq-item:hover{border-color:var(--edge-strong)}
+.faq-item[open]{border-color:rgba(199,107,122,.4);box-shadow:var(--shadow-sm)}
+.faq-item summary{cursor:pointer;font-size:14.5px;font-weight:600;padding:16px 0;list-style:none;display:flex;justify-content:space-between;gap:14px}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary::after{content:"+";color:var(--brand);font-weight:400;font-size:18px}
+.faq-item[open] summary::after{content:"–"}
+.faq-a{font-size:13.5px;color:var(--dim);padding:0 0 18px}
+/* contact */
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:44px;margin-top:40px}
+.c-label{font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--faint);margin-bottom:4px}
+.c-value{font-size:14.5px;margin-bottom:18px}
+.form-card{background:var(--surface);border:1px solid var(--edge);border-radius:var(--r);padding:28px;box-shadow:var(--shadow-sm)}
+.form-card h3{font-size:16px;margin-bottom:2px}
+.form-card .sub{font-size:12.5px;color:var(--faint);margin-bottom:18px}
+.f-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.field{margin-bottom:12px}
+.field label{display:block;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--faint);margin-bottom:5px}
+.field input,.field textarea{width:100%;background:var(--canvas);border:1px solid var(--edge);border-radius:9px;padding:10px 12px;font-size:13.5px;font-family:inherit;color:var(--ink)}
+.field input:focus,.field textarea:focus{outline:none;border-color:var(--brand)}
+.form-submit{width:100%;background:var(--brand);color:#fff;font-weight:700;font-size:14px;border:0;border-radius:10px;padding:13px;cursor:pointer;font-family:inherit;transition:.15s}
+.form-submit:hover{background:var(--brand-press)}
+/* footer */
+footer{border-top:1px solid var(--edge);padding:30px 0 36px;margin-top:40px}
+.foot{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;font-size:12.5px;color:var(--faint)}
+.foot a:hover{color:var(--ink)}
+.foot .legal{width:100%;text-align:center;font-size:11px;opacity:.75;margin-top:14px}
+@media(max-width:960px){
+  .hero-grid{grid-template-columns:1fr}
+  .steps,.market-cards{grid-template-columns:repeat(2,1fr)}
+  .grid3,.process-steps,.contact-grid{grid-template-columns:1fr}
+  .ws-grid{grid-template-columns:1fr}
+  .ws-left,.ws-right{border:0;border-bottom:1px solid var(--edge)}
+  .nav-links,.nav-signin{display:none}
   .nav-hamburger{display:block}
-  .lang-btn{padding:7px 12px}
-  .section{padding:72px 22px}
-  .phi-grid,.market-grid{grid-template-columns:1fr}
-  .tagline-banner{padding:64px 22px}
-  .contact-form-box{padding:28px 22px}
-  .footer{padding:36px 22px}
-  .footer-inner{flex-direction:column;text-align:center}
-  .footer-right{align-items:center}
-  .slide{padding:0 28px}
-  .slider-controls{left:28px}
-  .slider-pause{right:22px;top:88px}
-  .scroll-hint{display:none}
-  .faq-item summary{font-size:15px;padding:18px 22px}
-  .faq-a{padding:0 22px 18px}
+  .nav.menu-open .nav-links{display:flex;position:absolute;top:64px;left:0;right:0;background:var(--canvas);border-bottom:1px solid var(--edge);flex-direction:column;padding:18px 24px;gap:14px}
+  .hero-stats{flex-wrap:wrap}
+  .stat{min-width:45%}
 }
-
-/* ===================== CURSOR GLOW ===================== */
-.cursor-glow{
-  position:fixed;width:280px;height:280px;border-radius:50%;
-  background:radial-gradient(circle,rgba(139,92,246,.06),transparent 70%);
-  pointer-events:none;z-index:9999;transform:translate(-50%,-50%);
-  transition:opacity .35s;opacity:0;
-}
-.cursor-glow.on{opacity:1}
-@media(hover:none){.cursor-glow{display:none}}
 </style>
 </head>
 <body>
 
-<div class="cursor-glow" id="cursorGlow"></div>
-
-<!-- ===== NAV ===== -->
 <nav class="nav" id="nav">
-  <div class="nav-logo">
-    <div class="nav-logo-icon">M</div>
-    <div class="nav-logo-text">MEMECMO.AI</div>
-  </div>
-  <div class="nav-links" id="navLinks">
-    <a href="#philosophy">Bakit GEO</a>
-    <a href="#geo-tech">Platform</a>
-    <a href="#market">Mga Merkado</a>
-    <a href="#process">Paano tumatakbo</a>
-    <a href="#faq">FAQ</a>
-    <a href="#contact">Kontak</a>
-  </div>
-  <div class="nav-right">
+  <div class="nav-in">
+    <a class="nav-brand" href="https://memecmo.ai/fil/"><img src="/favicon.svg" alt="MemeCMO"><b>MEMECMO.AI</b><span>The answer in AI</span></a>
+    <div class="nav-links" id="navLinks">
+      <a href="#philosophy">Bakit GEO</a>
+      <a href="#geo-tech">Platform</a>
+      <a href="#market">Mga Merkado</a>
+      <a href="#process">Paano tumatakbo</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Kontak</a>
+    </div>
     <div class="lang-switch" id="langSwitch">
       <button class="lang-btn" id="langBtn" aria-haspopup="true" aria-expanded="false">
         <span>Filipino</span><span class="arrow">▼</span>
@@ -813,138 +538,135 @@ a:hover{opacity:.85}
   </div>
 </nav>
 
-<!-- ===== HERO SLIDER ===== -->
-<section class="hero-slider" id="hero">
-  <canvas id="heroCanvas"></canvas>
-
-  <div class="slider-pause" id="pauseBtn">
-    <span class="icon">▶</span> <span id="pauseLabel">Nag-aautoplay</span>
-  </div>
-
-  <div class="slides-wrapper" id="slidesWrapper">
-
-    <div class="slide active" data-index="0">
-      <div class="slide-glow"></div>
-      <div class="slide-inner">
-        <div class="slide-tag">GEO PLATFORM · SUKATIN · BUMUO · MAG-REPORT</div>
-        <h1 class="slide-title"><span class="hl">MemeCMO</span><br>Gawing sagot ng AI ang iyong brand.</h1>
-        <p class="slide-desc">Daan-daang milyong mamimili ang nagtatanong na sa ChatGPT, Gemini, Perplexity at Google AI bago magbukas ng search box. Sinusukat ng MemeCMO kung paano eksaktong inilalarawan ng mga engine na iyon ang iyong brand, binubuo ang kulang, at nagre-report bawat linggo — isang platform, sampung agent.</p>
-        <a href="https://app.memecmo.ai/login" class="slide-btn">Pumasok sa platform →</a>
+<header class="hero" id="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="kicker">GEO PLATFORM · SUKATIN · BUMUO · MAG-REPORT</span>
+      <h1><span class="hl">MemeCMO</span><br>Gawing sagot ng AI ang iyong brand.</h1>
+      <p>Daan-daang milyong mamimili ang nagtatanong na sa ChatGPT, Gemini, Perplexity at Google AI bago magbukas ng search box. Sinusukat ng MemeCMO kung paano eksaktong inilalarawan ng mga engine na iyon ang iyong brand, binubuo ang kulang, at nagre-report bawat linggo — isang platform, sampung agent.</p>
+      <div class="hero-ctas">
+        <a class="btn-primary" href="https://app.memecmo.ai/login">Pumasok sa platform →</a>
+        <a class="btn-ghost" href="#geo-tech">Tingnan ang sampung agent</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><b>10</b><span>Agent</span></div>
+        <div class="stat"><b>5</b><span>AI engine</span></div>
+        <div class="stat"><b>6+50</b><span>SEA market + US state</span></div>
+        <div class="stat"><b>Lingguhan</b><span>Digest cadence</span></div>
       </div>
     </div>
-
-    <div class="slide" data-index="1">
-      <div class="slide-glow"></div>
-      <div class="slide-inner">
-        <div class="slide-tag">SAMPUNG AGENT · DELIVERABLES, HINDI PAYO</div>
-        <h1 class="slide-title">Hindi dashboard —<br>isang <span class="hl">agent team na nagde-deliver.</span></h1>
-        <p class="slide-desc">Prompt discovery, standard-answers library, JSON-LD schema, gap content, third-party placements, encyclopedia entries — bawat agent ay gumagawa ng publish-ready deliverable, nakabatay sa iyong verified na brand facts.</p>
-        <a href="#geo-tech" class="slide-btn">Tingnan ang sampung agent →</a>
+    <div class="mock reveal">
+      <div class="mock-head"><span class="t">AI Mindset Index</span><span class="live">ACTIVE</span></div>
+      <div class="mock-score"><b>67</b><span style="font-size:13px;color:var(--faint)">/100</span><i>▲ +9</i></div>
+      <div class="mock-rows">
+        <div class="mrow"><span>Presence</span><div class="mbar"><i style="width:65%"></i></div><b>65%</b></div>
+        <div class="mrow"><span>Share of Voice</span><div class="mbar"><i style="width:54%"></i></div><b>54%</b></div>
+        <div class="mrow"><span>Citation rate</span><div class="mbar"><i style="width:41%"></i></div><b>41%</b></div>
+        <div class="mrow"><span>AI sentiment</span><div class="mbar"><i style="width:70%"></i></div><b>70</b></div>
+        <div class="mrow"><span>Answer accuracy</span><div class="mbar"><i style="width:88%;background:var(--sage)"></i></div><b>88%</b></div>
       </div>
-    </div>
-
-    <div class="slide" data-index="2">
-      <div class="slide-glow"></div>
-      <div class="slide-inner">
-        <div class="slide-tag">STANDARD METRICS · ANSWER ACCURACY</div>
-        <h1 class="slide-title">Sinusukat sa mga metric<br>na <span class="hl">pinagkakatiwalaan na</span> ng iyong CMO.</h1>
-        <p class="slide-desc">Presence, share of voice, citation rate, AI sentiment — at answer accuracy: tama ba ang product facts at links na ibinibigay ng AI sa iyong mga customer? Ang maling sagot ay support ticket na naghihintay mangyari. Nahuhuli namin ito bawat engine.</p>
-        <a href="#geo-tech" class="slide-btn">Paano kami sumusukat →</a>
-      </div>
-    </div>
-
-    <div class="slide" data-index="3">
-      <div class="slide-glow"></div>
-      <div class="slide-inner">
-        <div class="slide-tag">DALAWANG PRODUCT LINE · TIMOG-SILANGANG ASYA · ESTADOS UNIDOS</div>
-        <h1 class="slide-title">Anim na merkado sa Timog-Silangang Asya.<br><span class="hl">Limampung estado ng Amerika.</span></h1>
-        <p class="slide-desc">Sa Vietnamese, Thai, Indonesian, Malay at Filipino, halos walang laman pa ang AI knowledge layer — pag-aari ito ng mga nauuna. Sa Estados Unidos, binabago ng batas ng estado ang tamang sagot, kaya sinusukat at binubuo namin bawat estado.</p>
-        <a href="https://us.memecmo.ai/" class="slide-btn">Tuklasin ang US line →</a>
-      </div>
-    </div>
-
-    <div class="slide" data-index="4">
-      <div class="slide-glow"></div>
-      <div class="slide-inner">
-        <div class="slide-tag">PARA SA MGA AGENCY · CHANNEL PARTNERS</div>
-        <h1 class="slide-title">Patakbuhin ang GEO para sa <span class="hl">bawat kliyente</span><br>mula sa isang workspace.</h1>
-        <p class="slide-desc">Workspace bawat kliyente, walang limitasyong seats, lingguhang digest sa kanilang inbox, isang-pahinang rollup report para sa leadership, credits para sa on-demand scans — at wholesale pricing para sa mga partner na nagre-resell.</p>
-        <a href="#contact" class="slide-btn">Maging partner →</a>
-      </div>
+      <div class="mock-note">Sinusukat bawat engine sa frozen prompt panel — totoo ang galaw, hindi ingay.</div>
     </div>
   </div>
+</header>
 
-  <div class="slider-controls">
-    <div class="slider-dots" id="sliderDots"></div>
-    <div class="slider-counter"><span class="cur" id="counterCur">01</span> / <span id="counterTotal">05</span></div>
-  </div>
+<div class="band">
+  <div class="main"><span class="brand">MemeCMO</span> — Gawing sagot ng AI ang iyong brand.</div>
+  <div class="sub">Sukatin. Bumuo. Mag-report. Bawat linggo.</div>
+</div>
 
-  <div class="scroll-hint">
-    <span>MAG-SCROLL</span>
-    <div class="scroll-line"></div>
-  </div>
-</section>
-
-<!-- ===== TAGLINE ===== -->
-<section class="tagline-banner">
-  <div class="tagline-text reveal"><span class="brand">MemeCMO</span> — Gawing sagot ng AI ang iyong brand.</div>
-  <div class="tagline-sub reveal">Sukatin. Bumuo. Mag-report. Bawat linggo.</div>
-</section>
-<div class="divider"></div>
-
-<!-- ===== PHILOSOPHY ===== -->
-<section class="section" id="philosophy">
-  <div class="section-inner">
-    <div class="section-tag reveal">BAKIT GEO, BAKIT NGAYON</div>
-    <h2 class="section-title reveal">Ang kamalayan ang asset. Ang pagiging nauna ang moat.</h2>
-    <p class="section-desc reveal">Lumilipat ang organic traffic sa mga sagot ng AI. Ang presensya ng brand sa mga sagot na iyon ay hindi traffic na inuupahan — kapag naitatag na, gumagana ito 24/7, sa iba't ibang wika, sa zero marginal cost, at lumalago.</p>
-    <div class="phi-grid">
-      <div class="phi-card reveal"><div class="phi-icon">🧬</div><h3>Ang kamalayan ang asset</h3><p>May malakas na Matthew effect ang mga sagot ng AI tungkol sa brand — kung mas maaga kang na-cite, mas mahirap kang mapalitan. Lumalago ang presensya; lumalago rin ang kawalan.</p></div>
-      <div class="phi-card reveal"><div class="phi-icon">🎯</div><h3>Ang pagiging nauna ang moat</h3><p>Ang mga huli ay nahaharap sa 3–5× na gastos at 6–12 buwan para ma-overwrite ang tumigas na naratibo. Bukas ngayon ang window sa mga emerging-language market.</p></div>
-      <div class="phi-card reveal"><div class="phi-icon">🔬</div><h3>Standard metrics, hindi black box</h3><p>Presence, share of voice, citation rate, AI sentiment, answer accuracy — sinusukat bawat engine sa frozen prompt panel para totoo ang galaw scan-to-scan, hindi ingay.</p></div>
-      <div class="phi-card reveal"><div class="phi-icon">🌏</div><h3>Localization ≠ translation</h3><p>Ang multi-language brand narrative ay hindi machine translation — bawat merkado ay may sariling prompt library, mga sagot at citations, muling na-code para sa kultural na konteksto nito.</p></div>
-      <div class="phi-card reveal"><div class="phi-icon">⚡</div><h3>Nagde-deliver ang mga agent</h3><p>Hindi namin ibinibigay sa iyo ang to-do list. Bawat agent ay gumagawa ng asset mismo — mga sagot, schema, pahina, placements — handang i-publish at nakabatay sa verified na facts.</p></div>
-      <div class="phi-card reveal"><div class="phi-icon">🏗️</div><h3>Iyong account, iyong team</h3><p>Kinokontrol ang usage sa antas ng account, hindi kailanman bawat seat: imbitahan ang buong team bilang viewers at members nang walang dagdag na bayad.</p></div>
+<section class="sec" id="workspace">
+  <div class="wrap">
+    <span class="kicker">SA LOOB NG PLATFORM</span>
+    <h2 class="sec-title">Isang workspace. Bawat deliverable.</h2>
+    <p class="sec-desc">Ang mismong interface na ginagamit ng team mo linggo-linggo: mag-dispatch ng agent sa kaliwa, panoorin itong tumakbo sa stage, at bawat resulta ay nananatili sa workspace — naka-score, nae-export, bine-verify mo.</p>
+    <div class="ws-shell reveal">
+      <div class="ws-bar"><span class="dots"><i></i><i></i><i></i></span><span>app.memecmo.ai · workspace</span></div>
+      <div class="ws-grid">
+        <div class="ws-left">
+          <div class="ws-run">▶ Run full GEO scan</div>
+          <div class="ws-cat">Setup</div>
+          <div class="ws-item"><span>Profile</span><i></i></div>
+          <div class="ws-item"><span>Discovery</span><i></i></div>
+          <div class="ws-item"><span>Answers</span><i></i></div>
+          <div class="ws-cat">Measure</div>
+          <div class="ws-item"><span>Monitor</span><i></i></div>
+          <div class="ws-item"><span>Report</span><i></i></div>
+          <div class="ws-cat">Act</div>
+          <div class="ws-item"><span>Site · Optimize</span><i></i></div>
+          <div class="ws-item"><span>Distribute</span><i></i></div>
+        </div>
+        <div class="ws-mid">
+          <div class="ws-proj"><b>🌱 Aurora Coffee · Vietnam</b><span>EN · 中文 · VN</span></div>
+          <div class="ws-panel">
+            <div class="ph"><span>Monitor — five engines</span><span>⤓ Export PDF</span></div>
+            <div class="mock-rows">
+              <div class="mrow"><span>Gemini</span><div class="mbar"><i style="width:71%"></i></div><b>71</b></div>
+              <div class="mrow"><span>ChatGPT</span><div class="mbar"><i style="width:66%"></i></div><b>66</b></div>
+              <div class="mrow"><span>Perplexity</span><div class="mbar"><i style="width:63%"></i></div><b>63</b></div>
+              <div class="mrow"><span>Google AI Overview</span><div class="mbar"><i style="width:58%;background:var(--gold)"></i></div><b>58</b></div>
+            </div>
+            <div class="ws-trend"><span>AI Mindset Index · 8 weeks</span><span>W1 · 41 → <b>W8 · 67</b></span></div>
+          </div>
+        </div>
+        <div class="ws-right">
+          <div class="lt">Live activity</div>
+          <p><b>✓</b> Prompt library reused — scores stay comparable</p>
+          <p><b>✓</b> 120 answers sampled across five engines</p>
+          <p><b>✓</b> Answer accuracy checked vs standard library</p>
+          <p><b>✓</b> Weekly digest sent to client inbox</p>
+        </div>
+      </div>
+    </div>
+    <div class="ws-feats">
+      <span class="ws-feat"><i>◈</i>Three-zone workspace: dispatch · stage · live activity</span>
+      <span class="ws-feat"><i>◈</i>Night at day theme, EN / 中文 / VN interface</span>
+      <span class="ws-feat"><i>◈</i>Bawat resulta ay nae-export bilang branded PDF</span>
     </div>
   </div>
 </section>
-<div class="divider"></div>
 
-<!-- ===== GEO TECH ===== -->
-<section class="section geo-section" id="geo-tech">
-  <div class="section-inner">
-    <div class="section-tag reveal">ANG PLATFORM</div>
-    <h2 class="section-title reveal">Sampung agent,<br>isang closed loop</h2>
-    <p class="section-desc reveal">Tuklasin kung ano ang tinatanong ng mga mamimili → sukatin ang sagot ng AI → buuin ang kulang → ipamahagi → sukatin muli. Bawat hakbang ay isang agent; bawat agent ay nag-iiwan ng deliverable sa iyong workspace.</p>
-    <div class="geo-layout">
-      <div class="geo-visual reveal">
-        <div class="geo-ring"><div class="geo-dot" style="top:0;left:50%;transform:translate(-50%,-50%)"></div></div>
-        <div class="geo-ring"><div class="geo-dot" style="bottom:0;right:10%;transform:translate(50%,50%)"></div></div>
-        <div class="geo-ring"><div class="geo-dot" style="top:50%;left:0;transform:translate(-50%,-50%)"></div></div>
-        <div class="geo-center">10<br>agent</div>
-      </div>
-      <div class="geo-text">
-        <h3 class="reveal">Ang agent suite</h3>
-        <ul class="geo-list">
-          <li class="reveal"><div class="geo-list-dot"></div><div><strong>Discovery + Standard Answers</strong> — 100+ tanong ng mamimili bawat merkado, naka-tag na high-intent vs educational; bilingual na canonical-answer library na nakabatay sa iyong verified na brand facts.</div></li>
-          <li class="reveal"><div class="geo-list-dot"></div><div><strong>Monitor — limang engine, tunay na surfaces</strong> — ChatGPT, Gemini, Perplexity, Claude at ang tunay na Google AI Overview page. Presence, share of voice, citation rate, sentiment, answer accuracy — bawat engine, bawat intent.</div></li>
-          <li class="reveal"><div class="geo-list-dot"></div><div><strong>Site + Schema</strong> — Binabasa ang iyong homepage, nagbabalik ng paste-in JSON-LD (Organization, Service, FAQPage, LocalBusiness) at konkretong page edits — may step-by-step na gabay.</div></li>
-          <li class="reveal"><div class="geo-list-dot"></div><div><strong>Content + Distribute + Encyclopedia</strong> — Gap pages at FAQs, ready-to-send placements para sa mga source na talagang sini-cite ng AI sa iyong merkado, at encyclopedia entries na may citations.</div></li>
-          <li class="reveal"><div class="geo-list-dot"></div><div><strong>Report + lingguhang digest</strong> — Stage-aware client digests bawat linggo, buwanang deep reports, alerts sa malalaking pagbaba, at one-page rollups sa lahat ng iyong brand.</div></li>
-        </ul>
-      </div>
+<section class="sec" id="philosophy" style="background:var(--surface);border-top:1px solid var(--edge);border-bottom:1px solid var(--edge)">
+  <div class="wrap">
+    <span class="kicker">BAKIT GEO, BAKIT NGAYON</span>
+    <h2 class="sec-title">Ang kamalayan ang asset. Ang pagiging nauna ang moat.</h2>
+    <p class="sec-desc">Lumilipat ang organic traffic sa mga sagot ng AI. Ang presensya ng brand sa mga sagot na iyon ay hindi traffic na inuupahan — kapag naitatag na, gumagana ito 24/7, sa iba't ibang wika, sa zero marginal cost, at lumalago.</p>
+    <div class="grid3">
+      <div class="card reveal"><div class="n">01</div><h3>Ang kamalayan ang asset</h3><p>May malakas na Matthew effect ang mga sagot ng AI tungkol sa brand — kung mas maaga kang na-cite, mas mahirap kang mapalitan. Lumalago ang presensya; lumalago rin ang kawalan.</p></div>
+      <div class="card reveal"><div class="n">02</div><h3>Ang pagiging nauna ang moat</h3><p>Ang mga huli ay nahaharap sa 3–5× na gastos at 6–12 buwan para ma-overwrite ang tumigas na naratibo. Bukas ngayon ang window sa mga emerging-language market.</p></div>
+      <div class="card reveal"><div class="n">03</div><h3>Standard metrics, hindi black box</h3><p>Presence, share of voice, citation rate, AI sentiment, answer accuracy — sinusukat bawat engine sa frozen prompt panel para totoo ang galaw scan-to-scan, hindi ingay.</p></div>
+      <div class="card reveal"><div class="n">04</div><h3>Localization ≠ translation</h3><p>Ang multi-language brand narrative ay hindi machine translation — bawat merkado ay may sariling prompt library, mga sagot at citations, muling na-code para sa kultural na konteksto nito.</p></div>
+      <div class="card reveal"><div class="n">05</div><h3>Nagde-deliver ang mga agent</h3><p>Hindi namin ibinibigay sa iyo ang to-do list. Bawat agent ay gumagawa ng asset mismo — mga sagot, schema, pahina, placements — handang i-publish at nakabatay sa verified na facts.</p></div>
+      <div class="card reveal"><div class="n">06</div><h3>Iyong account, iyong team</h3><p>Kinokontrol ang usage sa antas ng account, hindi kailanman bawat seat: imbitahan ang buong team bilang viewers at members nang walang dagdag na bayad.</p></div>
     </div>
   </div>
 </section>
-<div class="divider"></div>
 
-<!-- ===== MARKET ===== -->
-<section class="section" id="market">
-  <div class="section-inner">
-    <div class="section-tag reveal">MGA MERKADO</div>
-    <h2 class="section-title reveal">Timog-Silangang Asya, anim na merkado.<br>Estados Unidos, bawat estado.</h2>
-    <p class="section-desc reveal">Ang isang project ay isang brand × isang merkado. Sa Timog-Silangang Asya, halos walang laman ang AI knowledge layer sa mga lokal na wika; sa US, binabago ng batas ng estado ang tamang sagot — kaya bawat estado ay sariling merkado.</p>
-    <div class="market-grid">
+<section class="sec" id="geo-tech">
+  <div class="wrap">
+    <span class="kicker">ANG PLATFORM</span>
+    <h2 class="sec-title">Sampung agent,<br>isang closed loop</h2>
+    <p class="sec-desc">Tuklasin kung ano ang tinatanong ng mga mamimili → sukatin ang sagot ng AI → buuin ang kulang → ipamahagi → sukatin muli. Bawat hakbang ay isang agent; bawat agent ay nag-iiwan ng deliverable sa iyong workspace.</p>
+    <div class="steps">
+      <div class="step reveal"><div class="n">01</div><h3>Discovery + Standard Answers</h3><p>100+ tanong ng mamimili bawat merkado, naka-tag na high-intent vs educational; bilingual na canonical-answer library na nakabatay sa iyong verified na brand facts.</p></div>
+      <div class="step reveal"><div class="n">02</div><h3>Monitor — limang engine, tunay na surfaces</h3><p>ChatGPT, Gemini, Perplexity, Claude at ang tunay na Google AI Overview page. Presence, share of voice, citation rate, sentiment, answer accuracy — bawat engine, bawat intent.</p></div>
+      <div class="step reveal"><div class="n">03</div><h3>Site + Schema</h3><p>Binabasa ang iyong homepage, nagbabalik ng paste-in JSON-LD (Organization, Service, FAQPage, LocalBusiness) at konkretong page edits — may step-by-step na gabay.</p></div>
+      <div class="step reveal"><div class="n">04</div><h3>Content + Distribute + Encyclopedia</h3><p>Gap pages at FAQs, ready-to-send placements para sa mga source na talagang sini-cite ng AI sa iyong merkado, at encyclopedia entries na may citations.</p></div>
+      <div class="step reveal"><div class="n">05</div><h3>Report + lingguhang digest</h3><p>Stage-aware client digests bawat linggo, buwanang deep reports, alerts sa malalaking pagbaba, at one-page rollups sa lahat ng iyong brand.</p></div>
+    </div>
+    <div class="quote reveal">
+      <h3>Hindi dashboard —<br>isang <span class="hl">agent team na nagde-deliver.</span></h3>
+      <p>Hindi namin ibinibigay sa iyo ang to-do list. Bawat agent ay gumagawa ng asset mismo — mga sagot, schema, pahina, placements — handang i-publish at nakabatay sa verified na facts.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="market" style="background:var(--surface);border-top:1px solid var(--edge);border-bottom:1px solid var(--edge)">
+  <div class="wrap">
+    <span class="kicker">MGA MERKADO</span>
+    <h2 class="sec-title">Timog-Silangang Asya, anim na merkado.<br>Estados Unidos, bawat estado.</h2>
+    <p class="sec-desc">Ang isang project ay isang brand × isang merkado. Sa Timog-Silangang Asya, halos walang laman ang AI knowledge layer sa mga lokal na wika; sa US, binabago ng batas ng estado ang tamang sagot — kaya bawat estado ay sariling merkado.</p>
+    <div class="market-cards">
       <div class="market-card reveal"><div class="market-flag">🇻🇳</div><div class="market-name">Vietnam</div><div class="market-lang">Tiếng Việt</div><div class="market-desc">ChatGPT 8M+ MAU. Halos zero ang GEO competition. Ang aming flagship market.</div></div>
       <div class="market-card reveal"><div class="market-flag">🇹🇭</div><div class="market-name">Thailand</div><div class="market-lang">ภาษาไทย</div><div class="market-desc">Kasisimula pa lang ng Thai-language AI ecosystem — bukas na bukas ang brand window.</div></div>
       <div class="market-card reveal"><div class="market-flag">🇮🇩</div><div class="market-name">Indonesia</div><div class="market-lang">Bahasa Indonesia</div><div class="market-desc">270M tao, pinakamalaking merkado ng rehiyon — nangunguna sa AI adoption sa Timog-Silangang Asya.</div></div>
@@ -957,29 +679,25 @@ a:hover{opacity:.85}
     </div>
   </div>
 </section>
-<div class="divider"></div>
 
-<!-- ===== PROCESS ===== -->
-<section class="section" id="process">
-  <div class="section-inner">
-    <div class="section-tag reveal">PAANO TUMATAKBO</div>
-    <h2 class="section-title reveal">Baseline. Bumuo. Sukatin muli — bawat linggo.</h2>
-    <p class="section-desc reveal">Tumatakbo ang scans ayon sa iskedyul bilang bahagi ng serbisyo; bumubuo ang mga agent sa pagitan; dumarating ang digest sa iyong inbox tuwing Martes.</p>
-    <div class="process-tl">
-      <div class="process-step reveal"><div class="process-dot"></div><div class="process-phase">ARAW 0 · BASELINE</div><h3>Full scan</h3><p>Binubuo ng Discovery ang iyong prompt library; sinusukat ng Monitor ang limang engine; inuuna ng Report ang mga gap. Ang iyong baseline sa halos apat na minuto.</p></div>
-      <div class="process-step reveal"><div class="process-dot"></div><div class="process-phase">LINGGO 1–4 · BUMUO</div><h3>I-deliver ang mga asset</h3><p>Standard answers, JSON-LD schema, gap content, third-party placements, encyclopedia entries — bawat isa ay publish-ready deliverable, bawat isa ay bine-verify mo bago ilabas.</p></div>
-      <div class="process-step reveal"><div class="process-dot"></div><div class="process-phase">BAWAT LINGGO · SUKATIN MULI</div><h3>Digest, report, ayusin</h3><p>Pinapanatiling maikukumpara ang scores ng scheduled scans sa frozen prompt panel. Lingguhang digest, buwanang report, alerts sa pagbaba. Kailangan ng scan ngayon? Sagot ng credits ang on-demand runs.</p></div>
+<section class="sec" id="process">
+  <div class="wrap">
+    <span class="kicker">PAANO TUMATAKBO</span>
+    <h2 class="sec-title">Baseline. Bumuo. Sukatin muli — bawat linggo.</h2>
+    <p class="sec-desc">Tumatakbo ang scans ayon sa iskedyul bilang bahagi ng serbisyo; bumubuo ang mga agent sa pagitan; dumarating ang digest sa iyong inbox tuwing Martes.</p>
+    <div class="process-steps">
+      <div class="pstep reveal"><div class="phase">ARAW 0 · BASELINE</div><h3>Full scan</h3><p>Binubuo ng Discovery ang iyong prompt library; sinusukat ng Monitor ang limang engine; inuuna ng Report ang mga gap. Ang iyong baseline sa halos apat na minuto.</p></div>
+      <div class="pstep reveal"><div class="phase">LINGGO 1–4 · BUMUO</div><h3>I-deliver ang mga asset</h3><p>Standard answers, JSON-LD schema, gap content, third-party placements, encyclopedia entries — bawat isa ay publish-ready deliverable, bawat isa ay bine-verify mo bago ilabas.</p></div>
+      <div class="pstep reveal"><div class="phase">BAWAT LINGGO · SUKATIN MULI</div><h3>Digest, report, ayusin</h3><p>Pinapanatiling maikukumpara ang scores ng scheduled scans sa frozen prompt panel. Lingguhang digest, buwanang report, alerts sa pagbaba. Kailangan ng scan ngayon? Sagot ng credits ang on-demand runs.</p></div>
     </div>
   </div>
 </section>
-<div class="divider"></div>
 
-<!-- ===== FAQ ===== -->
-<section class="section faq-section" id="faq">
-  <div class="section-inner">
-    <div class="section-tag reveal">FAQ · MGA SAGOT</div>
-    <h2 class="section-title reveal">Mga tanong, nasagot.</h2>
-    <p class="section-desc reveal">Ang mga sagot na pinakamadalas naming ibigay — isinulat para malinis ding ma-quote ng mga AI engine.</p>
+<section class="sec" id="faq" style="background:var(--surface);border-top:1px solid var(--edge);border-bottom:1px solid var(--edge)">
+  <div class="wrap">
+    <span class="kicker">FAQ · MGA SAGOT</span>
+    <h2 class="sec-title">Mga tanong, nasagot.</h2>
+    <p class="sec-desc">Ang mga sagot na pinakamadalas naming ibigay — isinulat para malinis ding ma-quote ng mga AI engine.</p>
     <div class="faq-list">
       <details class="faq-item reveal"><summary>Ano ang GEO (Generative Engine Optimization)?</summary><div class="faq-a">Ang GEO ay ang praktika ng pag-optimize kung paano kinakatawan ang isang brand sa loob ng mga generative AI engine tulad ng ChatGPT, Gemini, Perplexity, Claude at Google AI Overview. Kung ang SEO ay nakatuon sa ranked list ng mga link, ang GEO ay nakatuon sa sagot mismo — nababanggit ba ang iyong brand, gaano kalinaw, gaano katumpak, at aling mga source ang sini-cite ng engine.</div></details>
       <details class="faq-item reveal"><summary>Paano naiiba ang GEO sa SEO?</summary><div class="faq-a">Ino-optimize ng SEO ang ranking sa listahan ng blue links; ino-optimize ng GEO ang pagsama, katumpakan at prominence sa loob ng generated na sagot. Magkaiba ang mga lever: structured data, authoritative third-party citations, canonical answers sa mga tanong ng mamimili, at content na isinulat para ma-quote — hindi backlinks at keyword density.</div></details>
@@ -992,188 +710,61 @@ a:hover{opacity:.85}
     </div>
   </div>
 </section>
-<div class="divider"></div>
 
-<!-- ===== CONTACT ===== -->
-<section class="section contact-section" id="contact">
-  <div class="section-inner">
+<section class="sec" id="contact">
+  <div class="wrap">
+    <span class="kicker">KONTAK</span>
+    <h2 class="sec-title">Ang unang linya ng iyong brand sa usapan ng AI —<br>ikaw ang magpapasya kung ano ang sasabihin nito.</h2>
+    <p class="sec-desc">Humiling ng platform access o ng usapang partner. Sabihin sa amin ang brand at merkado; patatakbuhin namin ang baseline scan at gagabayan ka sa mga resulta.</p>
     <div class="contact-grid">
-      <div class="contact-info">
-        <div class="section-tag reveal">KONTAK</div>
-        <h2 class="reveal">Ang unang linya ng iyong brand sa usapan ng AI —<br>ikaw ang magpapasya kung ano ang sasabihin nito.</h2>
-        <p class="reveal">Humiling ng platform access o ng usapang partner. Sabihin sa amin ang brand at merkado; patatakbuhin namin ang baseline scan at gagabayan ka sa mga resulta.</p>
-        <div class="contact-items">
-          <div class="contact-item reveal"><div class="ci-icon">📧</div><div><div class="ci-label">EMAIL</div><div class="ci-value"><a href="mailto:liujunshuo1987@gmail.com">liujunshuo1987@gmail.com</a></div></div></div>
-          <div class="contact-item reveal"><div class="ci-icon">📍</div><div><div class="ci-label">PUNONG-TANGGAPAN</div><div class="ci-value">Hong Kong · nag-o-operate sa buong Timog-Silangang Asya at Estados Unidos</div></div></div>
-        </div>
+      <div>
+        <div class="c-label">EMAIL</div>
+        <div class="c-value"><a href="mailto:liujunshuo1987@gmail.com" style="color:var(--brand)">liujunshuo1987@gmail.com</a></div>
+        <div class="c-label">PUNONG-TANGGAPAN</div>
+        <div class="c-value">Hong Kong · nag-o-operate sa buong Timog-Silangang Asya at Estados Unidos</div>
       </div>
-      <div class="contact-form-box reveal">
+      <div class="form-card">
         <h3>Humiling ng access</h3>
-        <p class="fsub">Sumasagot kami sa loob ng 24 oras.</p>
+        <div class="sub">Sumasagot kami sa loob ng 24 oras.</div>
         <form id="contactForm" data-locale="fil" novalidate>
-          <div class="fg"><label>Pangalan</label><input type="text" name="name" placeholder="Inyong pangalan" required=""></div>
-          <div class="fg"><label>Kumpanya</label><input type="text" name="company" placeholder="Pangalan ng kumpanya" required=""></div>
-          <div class="fg"><label>Email</label><input type="email" name="email" placeholder="your@company.com" required=""></div>
-          <div class="fg"><label>Target market</label><input type="text" name="market" placeholder="Vietnam, Thailand, Indonesia, Texas, California…"></div>
-          <div class="fg"><label>Mensahe</label><textarea name="message" placeholder="Maikli ngang ilarawan ang inyong brand at mga pangangailangan…"></textarea></div>
-          <input type="text" name="hp" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden">
-          <button type="submit" class="form-submit"
-            data-default="Ipadala ang request →"
-            data-loading="Ipinapadala…"
-            data-done="Naipadala — salamat!"
-            data-error="Hindi naipadala. Mag-email po sa liujunshuo1987@gmail.com nang direkta.">Ipadala ang request →</button>
+          <div class="f-row">
+            <div class="field"><label>Pangalan</label><input name="name" placeholder="Inyong pangalan" required></div>
+            <div class="field"><label>Kumpanya</label><input name="company" placeholder="Pangalan ng kumpanya" required></div>
+          </div>
+          <div class="f-row">
+            <div class="field"><label>Email</label><input name="email" type="email" placeholder="your@company.com" required></div>
+            <div class="field"><label>Target market</label><input name="market" placeholder="Vietnam, Thailand, Indonesia, Texas, California…"></div>
+          </div>
+          <div class="field"><label>Mensahe</label><textarea name="message" rows="4" placeholder="Maikli ngang ilarawan ang inyong brand at mga pangangailangan…"></textarea></div>
+          <button class="form-submit" type="submit" data-default="Ipadala ang request" data-loading="Ipinapadala…" data-done="Naipadala — salamat!" data-error="Hindi naipadala. Mag-email po sa liujunshuo1987@gmail.com nang direkta.">Ipadala ang request →</button>
         </form>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===== FOOTER ===== -->
-<footer class="footer">
-  <div class="footer-inner">
-    <div class="footer-left"><div class="footer-logo-icon">M</div><div class="footer-copy">© 2026 MemeCMO.ai</div></div>
-    <div class="footer-right">
-      <div class="footer-links">
-        <a href="mailto:liujunshuo1987@gmail.com">Email</a>
-        <a href="/sitemap.xml">Sitemap</a>
-        <a href="/llms.txt">llms.txt</a>
-        <a href="#hero">Bumalik sa itaas ↑</a>
-      </div>
-      <div class="footer-license">MemeCMO Tech Limited · Hong Kong CR No. 80218619</div>
-    </div>
+<footer>
+  <div class="wrap foot">
+    <span>© 2026 MemeCMO.ai</span>
+    <span><a href="/sitemap.xml">Sitemap</a> · <a href="/llms.txt">llms.txt</a> · <a href="#hero">Bumalik sa itaas ↑</a></span>
+    <span class="legal">MemeCMO Tech Limited · Hong Kong CR No. 80218619</span>
   </div>
 </footer>
 
 <script>
-/* ========== PARTICLE CANVAS ========== */
-const canvas=document.getElementById('heroCanvas'),ctx=canvas.getContext('2d');
-let particles=[],mouseX=-9999,mouseY=-9999;
-function resizeCanvas(){canvas.width=window.innerWidth;canvas.height=window.innerHeight}
-resizeCanvas();window.addEventListener('resize',resizeCanvas);
-
-class Particle{
-  constructor(){this.reset()}
-  reset(){
-    this.x=Math.random()*canvas.width;this.y=Math.random()*canvas.height;
-    this.r=Math.random()*1.8+.4;
-    this.vx=(Math.random()-.5)*.25;this.vy=(Math.random()-.5)*.25;
-    this.o=Math.random()*.4+.08;
-    const t=Math.random();
-    this.color=t<.5?`rgba(139,92,246,${this.o})`:`rgba(99,102,241,${this.o})`;
-    this.lineColor=t<.5?'139,92,246':'99,102,241';
-  }
-  update(){
-    this.x+=this.vx;this.y+=this.vy;
-    const dx=mouseX-this.x,dy=mouseY-this.y,d=Math.sqrt(dx*dx+dy*dy);
-    if(d<140){const f=(140-d)/140;this.x-=dx*f*.018;this.y-=dy*f*.018}
-    if(this.x<0||this.x>canvas.width||this.y<0||this.y>canvas.height)this.reset();
-  }
-  draw(){ctx.beginPath();ctx.arc(this.x,this.y,this.r,0,Math.PI*2);ctx.fillStyle=this.color;ctx.fill()}
-}
-
-function initP(){
-  const n=Math.min(100,Math.floor(canvas.width*canvas.height/9000));
-  particles=[];for(let i=0;i<n;i++)particles.push(new Particle());
-}
-initP();
-
-function connectP(){
-  for(let i=0;i<particles.length;i++){
-    for(let j=i+1;j<particles.length;j++){
-      const dx=particles[i].x-particles[j].x,dy=particles[i].y-particles[j].y,d=Math.sqrt(dx*dx+dy*dy);
-      if(d<110){
-        ctx.beginPath();ctx.moveTo(particles[i].x,particles[i].y);ctx.lineTo(particles[j].x,particles[j].y);
-        ctx.strokeStyle=`rgba(${particles[i].lineColor},${.06*(1-d/110)})`;
-        ctx.lineWidth=.5;ctx.stroke();
-      }
-    }
-  }
-}
-
-function animateCanvas(){ctx.clearRect(0,0,canvas.width,canvas.height);particles.forEach(p=>{p.update();p.draw()});connectP();requestAnimationFrame(animateCanvas)}
-animateCanvas();
-document.addEventListener('mousemove',e=>{mouseX=e.clientX;mouseY=e.clientY});
-
-/* ========== CURSOR GLOW ========== */
-const cg=document.getElementById('cursorGlow');let cgOn=false;
-document.addEventListener('mousemove',e=>{cg.style.left=e.clientX+'px';cg.style.top=e.clientY+'px';if(!cgOn){cg.classList.add('on');cgOn=true}});
-document.addEventListener('mouseleave',()=>{cg.classList.remove('on');cgOn=false});
-
-/* ========== NAV SCROLL ========== */
-const nav=document.getElementById('nav');
-window.addEventListener('scroll',()=>nav.classList.toggle('scrolled',scrollY>50));
-
-/* ========== HAMBURGER ========== */
-const hamburger=document.getElementById('hamburger'),navLinks=document.getElementById('navLinks');
-let menuOpen=false;
-hamburger.addEventListener('click',()=>{
-  menuOpen=!menuOpen;
-  if(menuOpen){Object.assign(navLinks.style,{display:'flex',flexDirection:'column',position:'fixed',top:'62px',left:'0',right:'0',background:'rgba(7,6,12,.97)',padding:'22px',gap:'22px',zIndex:'999',borderBottom:'1px solid #1f1d30'})}
-  else{['display','flexDirection','position','top','left','right','background','padding','gap','zIndex','borderBottom'].forEach(k=>navLinks.style[k]='')}
-});
-navLinks.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{if(menuOpen)hamburger.click()}));
-
-/* ========== LANGUAGE SWITCH ========== */
 const langSwitch=document.getElementById('langSwitch'),langBtn=document.getElementById('langBtn');
 langBtn.addEventListener('click',e=>{e.stopPropagation();const open=langSwitch.classList.toggle('open');langBtn.setAttribute('aria-expanded',open)});
 document.addEventListener('click',()=>{langSwitch.classList.remove('open');langBtn.setAttribute('aria-expanded','false')});
-
-/* ========== HERO SLIDER ========== */
-const slides=document.querySelectorAll('.slide'),totalSlides=slides.length;
-let currentSlide=0,autoplay=true,autoTimer=null;
-const dotsContainer=document.getElementById('sliderDots'),counterCur=document.getElementById('counterCur');
-const pauseBtn=document.getElementById('pauseBtn'),pauseLabel=document.getElementById('pauseLabel');
-const PAUSE_PLAYING="Nag-aautoplay",PAUSE_PAUSED="Naka-pause · i-hover para tingnan";
-
-for(let i=0;i<totalSlides;i++){
-  const dot=document.createElement('button');dot.className='slider-dot'+(i===0?' active':'');
-  dot.addEventListener('click',()=>goTo(i));dotsContainer.appendChild(dot);
-}
-const dots=dotsContainer.querySelectorAll('.slider-dot');
-
-function goTo(index){
-  slides[currentSlide].classList.remove('active');dots[currentSlide].classList.remove('active');
-  currentSlide=index;
-  slides[currentSlide].classList.add('active');dots[currentSlide].classList.add('active');
-  counterCur.textContent=String(currentSlide+1).padStart(2,'0');resetTimer();
-}
-function next(){goTo((currentSlide+1)%totalSlides)}
-function resetTimer(){clearInterval(autoTimer);if(autoplay)autoTimer=setInterval(next,5000)}
-
-pauseBtn.addEventListener('click',()=>{
-  autoplay=!autoplay;
-  if(autoplay){pauseLabel.textContent=PAUSE_PLAYING;pauseBtn.querySelector('.icon').textContent='▶';resetTimer()}
-  else{pauseLabel.textContent=PAUSE_PAUSED;pauseBtn.querySelector('.icon').textContent='⏸';clearInterval(autoTimer)}
-});
-
-const heroSection=document.querySelector('.hero-slider');
-heroSection.addEventListener('mouseenter',()=>{if(autoplay)clearInterval(autoTimer)});
-heroSection.addEventListener('mouseleave',()=>{if(autoplay)resetTimer()});
-
-document.addEventListener('keydown',e=>{
-  if(e.key==='ArrowRight')goTo((currentSlide+1)%totalSlides);
-  if(e.key==='ArrowLeft')goTo((currentSlide-1+totalSlides)%totalSlides);
-});
-
-let touchStartX=0;
-heroSection.addEventListener('touchstart',e=>{touchStartX=e.touches[0].clientX},{passive:true});
-heroSection.addEventListener('touchend',e=>{const diff=e.changedTouches[0].clientX-touchStartX;if(Math.abs(diff)>50){if(diff<0)goTo((currentSlide+1)%totalSlides);else goTo((currentSlide-1+totalSlides)%totalSlides)}},{passive:true});
-
-resetTimer();
-
-/* ========== SCROLL REVEAL ========== */
-const revealEls=document.querySelectorAll('.reveal');
-const revObserver=new IntersectionObserver(entries=>{entries.forEach(en=>{if(en.isIntersecting)en.target.classList.add('visible')})},{threshold:.1,rootMargin:'0px 0px -30px 0px'});
-revealEls.forEach(el=>revObserver.observe(el));
-
-/* ========== FORM ========== */
+const nav=document.getElementById('nav');
+document.getElementById('hamburger').addEventListener('click',()=>nav.classList.toggle('menu-open'));
+const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('visible');io.unobserve(x.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 const contactForm=document.getElementById('contactForm');
 if(contactForm){
   contactForm.addEventListener('submit',async function(e){
     e.preventDefault();
     const form=e.target,btn=form.querySelector('.form-submit');
     const txtDefault=btn.dataset.default,txtLoading=btn.dataset.loading,txtDone=btn.dataset.done,txtError=btn.dataset.error;
-    // Basic client-side check
     const required=['name','company','email'];
     for(const n of required){
       const v=(form.elements[n]&&form.elements[n].value||'').trim();
@@ -1186,32 +777,27 @@ if(contactForm){
       email:(fd.get('email')||'').toString(),
       market:(fd.get('market')||'').toString(),
       message:(fd.get('message')||'').toString(),
-      hp:(fd.get('hp')||'').toString(),
       locale:form.dataset.locale||'en'
     };
     btn.disabled=true;btn.textContent=txtLoading;btn.style.opacity='.75';
     try{
-      const res=await fetch('/api/contact',{
-        method:'POST',
-        headers:{'Content-Type':'application/json'},
-        body:JSON.stringify(payload)
-      });
+      const res=await fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});
       const data=await res.json().catch(()=>({}));
       if(res.ok&&data.ok){
         btn.textContent='✓ '+txtDone;
-        btn.style.background='rgba(139,92,246,.18)';btn.style.color='#a78bfa';btn.style.opacity='';
+        btn.style.background='var(--sage)';btn.style.opacity='';
         form.reset();
       }else{
         btn.textContent='✗ '+txtError;
-        btn.style.background='rgba(239,68,68,.18)';btn.style.color='#fca5a5';btn.style.opacity='';
+        btn.style.background='var(--brand-press)';btn.style.opacity='';
         btn.disabled=false;
-        setTimeout(()=>{btn.textContent=txtDefault;btn.style.background='';btn.style.color=''},6000);
+        setTimeout(()=>{btn.textContent=txtDefault;btn.style.background=''},6000);
       }
     }catch(err){
       btn.textContent='✗ '+txtError;
-      btn.style.background='rgba(239,68,68,.18)';btn.style.color='#fca5a5';btn.style.opacity='';
+      btn.style.background='var(--brand-press)';btn.style.opacity='';
       btn.disabled=false;
-      setTimeout(()=>{btn.textContent=txtDefault;btn.style.background='';btn.style.color=''},6000);
+      setTimeout(()=>{btn.textContent=txtDefault;btn.style.background=''},6000);
     }
   });
 }

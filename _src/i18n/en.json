@@ -266,5 +266,34 @@
   "footer": {
     "back_top": "Back to top",
     "license": "MemeCMO Tech Limited · Hong Kong CR No. 80218619"
+  },
+  "stats": {
+    "items": [
+      {
+        "val": "10",
+        "label": "Agents"
+      },
+      {
+        "val": "5",
+        "label": "AI engines"
+      },
+      {
+        "val": "6+50",
+        "label": "SEA markets + US states"
+      },
+      {
+        "val": "Weekly",
+        "label": "Digest cadence"
+      }
+    ]
+  },
+  "ws": {
+    "tag": "INSIDE THE PLATFORM",
+    "title": "One workspace. Every deliverable.",
+    "desc": "The same interface your team works in every week: dispatch an agent on the left, watch it run on the stage, and every result stays in the workspace — scored, exportable, verified by you.",
+    "b1": "Three-zone workspace: dispatch · stage · live activity",
+    "b2": "Night & day themes, EN / 中文 / VN interface",
+    "b3": "Every result exports as a branded PDF",
+    "mock_note": "Measured per engine on a frozen prompt panel — movement is real, not noise."
   }
 }

@@ -266,5 +266,34 @@
   "footer": {
     "back_top": "Kembali ke atas",
     "license": "MemeCMO Tech Limited · Hong Kong CR No. 80218619"
+  },
+  "stats": {
+    "items": [
+      {
+        "val": "10",
+        "label": "Ejen"
+      },
+      {
+        "val": "5",
+        "label": "Enjin AI"
+      },
+      {
+        "val": "6+50",
+        "label": "Pasaran SEA + negeri AS"
+      },
+      {
+        "val": "Mingguan",
+        "label": "Irama ringkasan"
+      }
+    ]
+  },
+  "ws": {
+    "tag": "DALAM PLATFORM",
+    "title": "Satu ruang kerja. Setiap hasil.",
+    "desc": "Antara muka yang sama digunakan pasukan anda setiap minggu: hantar ejen di kiri, lihat ia berjalan di pentas, dan setiap keputusan kekal dalam ruang kerja — diskor, boleh dieksport, disahkan oleh anda.",
+    "b1": "Ruang kerja tiga zon: hantaran · pentas · aktiviti langsung",
+    "b2": "Tema malam/siang, antara muka EN / 中文 / VN",
+    "b3": "Setiap keputusan dieksport sebagai PDF berjenama",
+    "mock_note": "Diukur mengikut enjin pada panel prompt beku — pergerakan adalah isyarat benar, bukan hingar."
   }
 }

@@ -266,5 +266,34 @@
   "footer": {
     "back_top": "Bumalik sa itaas",
     "license": "MemeCMO Tech Limited · Hong Kong CR No. 80218619"
+  },
+  "stats": {
+    "items": [
+      {
+        "val": "10",
+        "label": "Agent"
+      },
+      {
+        "val": "5",
+        "label": "AI engine"
+      },
+      {
+        "val": "6+50",
+        "label": "SEA market + US state"
+      },
+      {
+        "val": "Lingguhan",
+        "label": "Digest cadence"
+      }
+    ]
+  },
+  "ws": {
+    "tag": "SA LOOB NG PLATFORM",
+    "title": "Isang workspace. Bawat deliverable.",
+    "desc": "Ang mismong interface na ginagamit ng team mo linggo-linggo: mag-dispatch ng agent sa kaliwa, panoorin itong tumakbo sa stage, at bawat resulta ay nananatili sa workspace — naka-score, nae-export, bine-verify mo.",
+    "b1": "Three-zone workspace: dispatch · stage · live activity",
+    "b2": "Night at day theme, EN / 中文 / VN interface",
+    "b3": "Bawat resulta ay nae-export bilang branded PDF",
+    "mock_note": "Sinusukat bawat engine sa frozen prompt panel — totoo ang galaw, hindi ingay."
   }
 }

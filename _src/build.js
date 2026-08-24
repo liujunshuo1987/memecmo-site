@@ -146,12 +146,16 @@ function slidesHtml(d) {
 
 // philosophy cards
 function phiCards(d) {
-  return d.philosophy.cards.map(c => `      <div class="phi-card reveal"><div class="phi-icon">${c.icon}</div><h3>${c.title}</h3><p>${c.desc}</p></div>`).join('\n');
+  return d.philosophy.cards.map((c, i) => `      <div class="card reveal"><div class="n">0${i + 1}</div><h3>${c.title}</h3><p>${c.desc}</p></div>`).join('\n');
+}
+
+function heroStats(d) {
+  return (d.stats && d.stats.items ? d.stats.items : []).map(it => `        <div class="stat"><b>${it.val}</b><span>${it.label}</span></div>`).join('\n');
 }
 
 // tech list
 function techList(d) {
-  return d.tech.items.map(it => `          <li class="reveal"><div class="geo-list-dot"></div><div><strong>${it.strong}</strong> — ${it.rest}</div></li>`).join('\n');
+  return d.tech.items.map((it, i) => `      <div class="step reveal"><div class="n">0${i + 1}</div><h3>${it.strong}</h3><p>${it.rest}</p></div>`).join('\n');
 }
 
 // market cards
@@ -161,7 +165,7 @@ function marketCards(d) {
 
 // process steps
 function processSteps(d) {
-  return d.process.steps.map(s => `      <div class="process-step reveal"><div class="process-dot"></div><div class="process-phase">${s.phase}</div><h3>${s.title}</h3><p>${s.desc}</p></div>`).join('\n');
+  return d.process.steps.map(s => `      <div class="pstep reveal"><div class="phase">${s.phase}</div><h3>${s.title}</h3><p>${s.desc}</p></div>`).join('\n');
 }
 
 // faq HTML
@@ -215,6 +219,22 @@ function buildLocale(locale) {
     PAUSE_LABEL_PLAYING_JSON: JSON.stringify(d.hero.pause_label_playing),
     PAUSE_LABEL_PAUSED_JSON: JSON.stringify(d.hero.pause_label_paused),
 
+    HERO_TAG: d.hero.slides[0].tag,
+    HERO_TITLE: d.hero.slides[0].title,
+    HERO_DESC: d.hero.slides[0].desc,
+    HERO_BTN: d.hero.slides[0].btn,
+    HERO_BTN_HREF: d.hero.slides[0].btn_href,
+    HERO_BTN2: d.hero.slides[1].btn,
+    HERO_STATS: heroStats(d),
+    HERO_MOCK_NOTE: (d.ws && d.ws.mock_note) || '',
+    WS_TAG: (d.ws && d.ws.tag) || '',
+    WS_TITLE: (d.ws && d.ws.title) || '',
+    WS_DESC: (d.ws && d.ws.desc) || '',
+    WS_B1: (d.ws && d.ws.b1) || '',
+    WS_B2: (d.ws && d.ws.b2) || '',
+    WS_B3: (d.ws && d.ws.b3) || '',
+    QUOTE_TITLE: d.hero.slides[1].title,
+    QUOTE_DESC: d.philosophy.cards[4].desc,
     TAGLINE_MAIN: d.tagline.main,
     TAGLINE_SUB: d.tagline.sub,
 

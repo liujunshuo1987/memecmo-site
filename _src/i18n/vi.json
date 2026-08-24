@@ -266,5 +266,34 @@
   "footer": {
     "back_top": "Lên đầu trang",
     "license": "MemeCMO Tech Limited · Hong Kong CR No. 80218619"
+  },
+  "stats": {
+    "items": [
+      {
+        "val": "10",
+        "label": "Agent"
+      },
+      {
+        "val": "5",
+        "label": "AI engine"
+      },
+      {
+        "val": "6+50",
+        "label": "Thị trường ĐNÁ + bang Hoa Kỳ"
+      },
+      {
+        "val": "Hàng tuần",
+        "label": "Nhịp bản tin"
+      }
+    ]
+  },
+  "ws": {
+    "tag": "BÊN TRONG NỀN TẢNG",
+    "title": "Một workspace. Mọi sản phẩm bàn giao.",
+    "desc": "Chính giao diện đội của bạn dùng mỗi tuần: phái agent ở bên trái, xem nó chạy trên sân khấu, và mọi kết quả ở lại trong workspace — đã chấm điểm, xuất được, do bạn xác minh.",
+    "b1": "Workspace ba vùng: phái · sân khấu · hoạt động trực tiếp",
+    "b2": "Chủ đề đêm/ngày, giao diện EN / 中文 / VN",
+    "b3": "Mọi kết quả xuất thành PDF có thương hiệu",
+    "mock_note": "Đo theo từng engine trên bộ câu hỏi cố định — biến động là tín hiệu thật, không phải nhiễu."
   }
 }
