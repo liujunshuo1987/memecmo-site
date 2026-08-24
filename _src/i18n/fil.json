@@ -25,7 +25,10 @@
     "process": "Paano tumatakbo",
     "contact": "Kontak",
     "signin": "Mag-sign in",
-    "cta": "Humiling ng access"
+    "cta": "Humiling ng access",
+    "about": "Tungkol",
+    "guide": "Gabay",
+    "us": "US line"
   },
   "hero": {
     "scroll_label": "MAG-SCROLL",

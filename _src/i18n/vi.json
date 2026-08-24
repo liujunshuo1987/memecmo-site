@@ -25,7 +25,10 @@
     "process": "Cách vận hành",
     "contact": "Liên hệ",
     "signin": "Đăng nhập",
-    "cta": "Yêu cầu truy cập"
+    "cta": "Yêu cầu truy cập",
+    "about": "Về chúng tôi",
+    "guide": "Hướng dẫn",
+    "us": "Dòng Hoa Kỳ"
   },
   "hero": {
     "scroll_label": "CUỘN",

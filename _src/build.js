@@ -219,6 +219,9 @@ function buildLocale(locale) {
     PAUSE_LABEL_PLAYING_JSON: JSON.stringify(d.hero.pause_label_playing),
     PAUSE_LABEL_PAUSED_JSON: JSON.stringify(d.hero.pause_label_paused),
 
+    NAV_ABOUT: (d.nav && d.nav.about) || 'About',
+    NAV_GUIDE: (d.nav && d.nav.guide) || 'Guide',
+    NAV_US: (d.nav && d.nav.us) || 'US',
     HERO_TAG: d.hero.slides[0].tag,
     HERO_TITLE: d.hero.slides[0].title,
     HERO_DESC: d.hero.slides[0].desc,

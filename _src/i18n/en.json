@@ -25,7 +25,10 @@
     "process": "How it runs",
     "contact": "Contact",
     "signin": "Sign in",
-    "cta": "Request access"
+    "cta": "Request access",
+    "about": "About",
+    "guide": "Guide",
+    "us": "US line"
   },
   "hero": {
     "scroll_label": "SCROLL",

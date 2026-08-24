@@ -25,7 +25,10 @@
     "process": "运行方式",
     "contact": "联系",
     "signin": "登录",
-    "cta": "申请开通"
+    "cta": "申请开通",
+    "about": "关于我们",
+    "guide": "使用说明",
+    "us": "美国线"
   },
   "hero": {
     "scroll_label": "SCROLL",

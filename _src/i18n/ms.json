@@ -25,7 +25,10 @@
     "process": "Cara ia berjalan",
     "contact": "Hubungi",
     "signin": "Log masuk",
-    "cta": "Mohon akses"
+    "cta": "Mohon akses",
+    "about": "Tentang kami",
+    "guide": "Panduan",
+    "us": "Barisan AS"
   },
   "hero": {
     "scroll_label": "TATAL",
