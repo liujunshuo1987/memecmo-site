@@ -91,7 +91,7 @@ function orgBlock(lang) {
       {
         '@type': 'ContactPoint',
         contactType: 'sales',
-        email: 'liujunshuo1987@gmail.com',
+        email: 'samchan@memecmo.ai',
         availableLanguage: ['en', 'zh', 'vi', 'fil', 'th', 'ms'],
       },
     ],
