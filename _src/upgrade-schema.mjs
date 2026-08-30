@@ -66,7 +66,7 @@ function orgBlock(lang) {
       addressRegion: 'Kowloon, Hong Kong',
       addressCountry: 'HK',
     },
-    areaServed: ['HK', 'VN', 'TH', 'ID', 'MY', 'PH', 'SG', 'CN'],
+    areaServed: ['HK', 'VN', 'TH', 'ID', 'MY', 'PH', 'SG', 'CN', 'US'],
     knowsLanguage: ['en', 'zh', 'vi', 'fil', 'th', 'ms'],
     knowsAbout: [
       'Generative Engine Optimization',
