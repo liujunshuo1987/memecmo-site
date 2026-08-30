@@ -77,7 +77,10 @@ function orgBlock(lang) {
       'Vietnamese Content Generation',
       'AI-Ready Schema Optimization',
     ],
-    sameAs: ['https://www.icris.cr.gov.hk/csci/cps_criteria.do?corpNo=80218619'],
+    sameAs: [
+      'https://www.icris.cr.gov.hk/csci/cps_criteria.do?corpNo=80218619',
+      'https://www.linkedin.com/company/memecmo',
+    ],
     founder: { '@id': 'https://memecmo.ai/#chen-songyin' },
     employee: [
       { '@id': 'https://memecmo.ai/#chen-songyin' },
