@@ -306,6 +306,15 @@ function buildLocale(locale) {
     out = out.split('{{' + k + '}}').join(String(v));
   }
 
+  // Cross-domain language handoff: localStorage doesn't cross memecmo.ai →
+  // app.memecmo.ai, so auth links carry the locale explicitly. App-side
+  // languages are en / zh-CN / zh-TW (site zh is Traditional); vi/th/fil/ms
+  // fall back to en until the app grows those dictionaries.
+  const APP_LANG = { zh: 'zh-TW' }[locale] || 'en';
+  out = out
+    .split('https://app.memecmo.ai/login').join(`https://app.memecmo.ai/login?lang=${APP_LANG}`)
+    .split('https://app.memecmo.ai/signup').join(`https://app.memecmo.ai/signup?lang=${APP_LANG}`);
+
   const outDir = isDefault ? ROOT : path.join(ROOT, locale);
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
   const outPath = path.join(outDir, 'index.html');
