@@ -298,6 +298,12 @@ function buildLocale(locale) {
     FOOTER_BACK_TOP: d.footer.back_top,
     FOOTER_LICENSE: d.footer.license,
 
+    HERO_SCAN_PH: d.hero_scan_ph,
+    HERO_SCAN_BTN: d.hero_scan_btn,
+    HERO_SCAN_NOTE: d.hero_scan_note,
+    APP_LANG: ({ zh: 'zh-TW' })[locale] || 'en',
+    APP_MARKET: ({ vi: 'Vietnam', th: 'Thailand', ms: 'Malaysia', fil: 'Philippines' })[locale] || '',
+
     YEAR: '2026'
   };
 

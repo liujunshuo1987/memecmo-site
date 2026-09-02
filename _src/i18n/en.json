@@ -300,5 +300,8 @@
     "mock_note": "Measured per engine on a frozen prompt panel — movement is real, not noise.",
     "demo": "Open the live demo",
     "demo_sub": "A real brand, really measured — refreshed weekly, no sign-up needed."
-  }
+  },
+  "hero_scan_ph": "yourbrand.com",
+  "hero_scan_btn": "See how AI sees you",
+  "hero_scan_note": "Free preview scan · real ChatGPT & Google AI Overview answers · no credit card"
 }

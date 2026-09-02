@@ -300,5 +300,8 @@
     "mock_note": "Sinusukat bawat engine sa frozen prompt panel — totoo ang galaw, hindi ingay.",
     "demo": "Buksan ang live demo",
     "demo_sub": "Totoong brand, totoong sinukat — lingguhang refresh, walang sign-up."
-  }
+  },
+  "hero_scan_ph": "yourbrand.ph",
+  "hero_scan_btn": "Alamin kung ano ang sabi ng AI",
+  "hero_scan_note": "Libreng preview scan · totoong sagot mula sa ChatGPT at Google AI Overview · walang credit card"
 }

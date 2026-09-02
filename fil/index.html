@@ -380,7 +380,14 @@ img{max-width:100%}
 .hero h1{font-size:clamp(34px,5vw,56px);font-weight:800;letter-spacing:-.025em;line-height:1.08;margin:18px 0 18px}
 .hero h1 .hl{color:var(--brand)}
 .hero p{font-size:16.5px;color:var(--dim);max-width:540px}
-.hero-ctas{display:flex;gap:14px;margin-top:30px;flex-wrap:wrap}
+.hero-scan{display:flex;gap:10px;margin-top:30px;max-width:520px}
+.hero-scan input{flex:1;height:52px;padding:0 18px;font-size:15px;border:1.5px solid var(--edge-strong,rgba(58,30,34,.22));border-radius:14px;background:var(--surface);color:var(--ink);outline:none;transition:border .15s}
+.hero-scan input:focus{border-color:var(--brand)}
+.hero-scan button{height:52px;padding:0 22px;font-size:15px;font-weight:700;border:0;border-radius:14px;background:var(--brand);color:#fff;cursor:pointer;white-space:nowrap;transition:filter .15s}
+.hero-scan button:hover{filter:brightness(1.08)}
+.hero-scan-note{margin-top:10px;font-size:12.5px;color:var(--faint)}
+.hero-ctas{display:flex;gap:14px;margin-top:22px;flex-wrap:wrap}
+@media(max-width:640px){.hero-scan{flex-direction:column}.hero-scan button{width:100%}}
 .btn-primary{background:var(--brand);color:#fff;font-weight:600;font-size:14.5px;padding:13px 22px;border-radius:11px;transition:.15s}
 .btn-primary:hover{background:var(--brand-press)}
 .btn-ghost{border:1px solid var(--edge-strong);color:var(--ink);font-size:14.5px;padding:13px 22px;border-radius:11px;transition:.15s}
@@ -552,8 +559,15 @@ footer{border-top:1px solid var(--edge);padding:30px 0 36px;margin-top:40px}
       <span class="kicker">GEO PLATFORM · SUKATIN · BUMUO · MAG-REPORT</span>
       <h1><span class="hl">MemeCMO</span><br>Gawing sagot ng AI ang iyong brand.</h1>
       <p>Daan-daang milyong mamimili ang nagtatanong na sa ChatGPT, Gemini, Perplexity at Google AI bago magbukas ng search box. Sinusukat ng MemeCMO kung paano eksaktong inilalarawan ng mga engine na iyon ang iyong brand, binubuo ang kulang, at nagre-report bawat linggo — isang platform, sampung agent.</p>
+      <form class="hero-scan" action="https://app.memecmo.ai/onboarding" method="get">
+        <input type="text" name="url" required placeholder="yourbrand.ph" aria-label="yourbrand.ph"/>
+        <input type="hidden" name="lang" value="en"/>
+        <input type="hidden" name="market" value="Philippines"/>
+        <button type="submit">Alamin kung ano ang sabi ng AI →</button>
+      </form>
+      <div class="hero-scan-note">Libreng preview scan · totoong sagot mula sa ChatGPT at Google AI Overview · walang credit card</div>
       <div class="hero-ctas">
-        <a class="btn-primary" href="https://app.memecmo.ai/login?lang=en">Pumasok sa platform →</a>
+        <a class="btn-ghost" href="https://app.memecmo.ai/login?lang=en">Pumasok sa platform</a>
         <a class="btn-ghost" href="#geo-tech">Tingnan ang sampung agent</a>
       </div>
       <div class="hero-stats">

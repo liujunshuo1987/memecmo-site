@@ -388,7 +388,14 @@ img{max-width:100%}
 .hero h1{font-size:clamp(34px,5vw,56px);font-weight:800;letter-spacing:-.025em;line-height:1.08;margin:18px 0 18px}
 .hero h1 .hl{color:var(--brand)}
 .hero p{font-size:16.5px;color:var(--dim);max-width:540px}
-.hero-ctas{display:flex;gap:14px;margin-top:30px;flex-wrap:wrap}
+.hero-scan{display:flex;gap:10px;margin-top:30px;max-width:520px}
+.hero-scan input{flex:1;height:52px;padding:0 18px;font-size:15px;border:1.5px solid var(--edge-strong,rgba(58,30,34,.22));border-radius:14px;background:var(--surface);color:var(--ink);outline:none;transition:border .15s}
+.hero-scan input:focus{border-color:var(--brand)}
+.hero-scan button{height:52px;padding:0 22px;font-size:15px;font-weight:700;border:0;border-radius:14px;background:var(--brand);color:#fff;cursor:pointer;white-space:nowrap;transition:filter .15s}
+.hero-scan button:hover{filter:brightness(1.08)}
+.hero-scan-note{margin-top:10px;font-size:12.5px;color:var(--faint)}
+.hero-ctas{display:flex;gap:14px;margin-top:22px;flex-wrap:wrap}
+@media(max-width:640px){.hero-scan{flex-direction:column}.hero-scan button{width:100%}}
 .btn-primary{background:var(--brand);color:#fff;font-weight:600;font-size:14.5px;padding:13px 22px;border-radius:11px;transition:.15s}
 .btn-primary:hover{background:var(--brand-press)}
 .btn-ghost{border:1px solid var(--edge-strong);color:var(--ink);font-size:14.5px;padding:13px 22px;border-radius:11px;transition:.15s}
@@ -560,8 +567,15 @@ footer{border-top:1px solid var(--edge);padding:30px 0 36px;margin-top:40px}
       <span class="kicker">NỀN TẢNG GEO · ĐO LƯỜNG · XÂY DỰNG · BÁO CÁO</span>
       <h1><span class="hl">MemeCMO</span><br>Biến thương hiệu thành câu trả lời của AI.</h1>
       <p>Hàng trăm triệu người mua giờ hỏi ChatGPT, Gemini, Perplexity và Google AI trước khi mở ô tìm kiếm. MemeCMO đo chính xác cách các engine đó mô tả thương hiệu của bạn, xây dựng phần còn thiếu và báo cáo mỗi tuần — một nền tảng, mười agent.</p>
+      <form class="hero-scan" action="https://app.memecmo.ai/onboarding" method="get">
+        <input type="text" name="url" required placeholder="thuonghieu.vn" aria-label="thuonghieu.vn"/>
+        <input type="hidden" name="lang" value="en"/>
+        <input type="hidden" name="market" value="Vietnam"/>
+        <button type="submit">Xem AI nói gì về bạn →</button>
+      </form>
+      <div class="hero-scan-note">Quét xem trước miễn phí · câu trả lời thật từ ChatGPT & Google AI Overview · không cần thẻ</div>
       <div class="hero-ctas">
-        <a class="btn-primary" href="https://app.memecmo.ai/login?lang=en">Vào nền tảng →</a>
+        <a class="btn-ghost" href="https://app.memecmo.ai/login?lang=en">Vào nền tảng</a>
         <a class="btn-ghost" href="#geo-tech">Xem mười agent</a>
       </div>
       <div class="hero-stats">

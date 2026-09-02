@@ -300,5 +300,8 @@
     "mock_note": "在冻结的提示词面板上逐引擎测量——变化是真实信号,不是噪音。",
     "demo": "打开在线演示",
     "demo_sub": "真实品牌、真实测量——每周更新,无需注册。"
-  }
+  },
+  "hero_scan_ph": "yourbrand.com",
+  "hero_scan_btn": "看看 AI 眼中的你",
+  "hero_scan_note": "免費預覽掃描 · ChatGPT 與 Google AI Overview 真實回答 · 無需信用卡"
 }

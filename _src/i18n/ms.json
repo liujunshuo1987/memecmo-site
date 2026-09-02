@@ -300,5 +300,8 @@
     "mock_note": "Diukur mengikut enjin pada panel prompt beku — pergerakan adalah isyarat benar, bukan hingar.",
     "demo": "Buka demo langsung",
     "demo_sub": "Jenama sebenar, diukur sebenar — dikemas kini mingguan, tanpa daftar."
-  }
+  },
+  "hero_scan_ph": "jenamaanda.my",
+  "hero_scan_btn": "Lihat apa kata AI tentang anda",
+  "hero_scan_note": "Imbasan pratonton percuma · jawapan sebenar ChatGPT & Google AI Overview · tanpa kad kredit"
 }

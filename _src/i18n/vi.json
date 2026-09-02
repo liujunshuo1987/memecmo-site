@@ -300,5 +300,8 @@
     "mock_note": "Đo theo từng engine trên bộ câu hỏi cố định — biến động là tín hiệu thật, không phải nhiễu.",
     "demo": "Mở bản demo trực tiếp",
     "demo_sub": "Thương hiệu thật, đo lường thật — cập nhật hàng tuần, không cần đăng ký."
-  }
+  },
+  "hero_scan_ph": "thuonghieu.vn",
+  "hero_scan_btn": "Xem AI nói gì về bạn",
+  "hero_scan_note": "Quét xem trước miễn phí · câu trả lời thật từ ChatGPT & Google AI Overview · không cần thẻ"
 }
