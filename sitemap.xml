@@ -85,4 +85,5 @@
   <url><loc>https://memecmo.ai/fil/about/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://memecmo.ai/th/about/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://memecmo.ai/ms/about/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://memecmo.ai/compare/</loc><lastmod>2026-09-02</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
