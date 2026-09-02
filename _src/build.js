@@ -351,6 +351,7 @@ ${alts}
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 ${urls}
   <url><loc>${SITE_URL}/about/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>${SITE_URL}/compare/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 ${LOCALES.filter(l => l !== 'en').map(l => `  <url><loc>${SITE_URL}/${l}/about/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>`).join('\n')}
 </urlset>
 `;
