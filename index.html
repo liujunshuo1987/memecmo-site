@@ -34,49 +34,16 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": [
-    "Organization",
-    "SoftwareApplication"
-  ],
+  "@type": "Organization",
   "@id": "https://memecmo.ai/#org",
   "name": "MemeCMO.ai",
-  "legalName": "MemeCMO Tech Limited",
   "alternateName": [
     "MemeCMO",
-    "Meme CMO",
-    "MemeCMO Tech Limited"
+    "Meme CMO"
   ],
   "url": "https://memecmo.ai/",
   "logo": "https://memecmo.ai/og.png",
-  "description": "MemeCMO is a Generative Engine Optimization (GEO) SaaS platform purpose-built for Southeast Asian markets, with 10 AI agents optimizing brand visibility across ChatGPT, Gemini, Claude, Perplexity and regional LLMs.",
-  "slogan": "Get Your Brand Recognized by AI · 讓 AI 記住你的品牌",
-  "applicationCategory": "BusinessApplication",
-  "operatingSystem": "Web",
-  "foundingDate": "2026-04-17",
-  "foundingLocation": {
-    "@type": "Place",
-    "name": "Hong Kong Special Administrative Region"
-  },
-  "identifier": [
-    {
-      "@type": "PropertyValue",
-      "name": "Hong Kong CR No.",
-      "value": "80218619"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Hong Kong BR No.",
-      "value": "80218619-000-04-26-7"
-    }
-  ],
-  "taxID": "80218619-000-04-26-7",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Room C03, 9/F, Kato Factory Building, 2 Cheung Yue Street",
-    "addressLocality": "Lai Chi Kok",
-    "addressRegion": "Kowloon, Hong Kong",
-    "addressCountry": "HK"
-  },
+  "description": "MemeCMO is a Generative Engine Optimization (GEO) platform: ten AI agents measure how ChatGPT, Gemini, Perplexity, Claude and Google AI Overview describe your brand, build what's missing (answers, schema, content, citations), and report weekly. Southeast Asia in six markets; United States state by state.",
   "areaServed": [
     "HK",
     "VN",
@@ -96,45 +63,11 @@
     "th",
     "ms"
   ],
-  "knowsAbout": [
-    "Generative Engine Optimization",
-    "AI Mindset Positioning Theory",
-    "Trout-Ries Positioning Theory",
-    "Multi-tenant SaaS Architecture",
-    "Southeast Asia AI Market Analysis",
-    "Vietnamese Content Generation",
-    "AI-Ready Schema Optimization"
-  ],
-  "sameAs": [
-    "https://www.icris.cr.gov.hk/csci/cps_criteria.do?corpNo=80218619",
-    "https://www.linkedin.com/company/memecmo",
-    "https://www.crunchbase.com/organization/memecmo",
-    "https://www.wikidata.org/wiki/Q141180716"
-  ],
-  "founder": {
-    "@id": "https://memecmo.ai/#chen-songyin"
+  "address": {
+    "@type": "PostalAddress",
+    "addressRegion": "Hong Kong",
+    "addressCountry": "HK"
   },
-  "employee": [
-    {
-      "@id": "https://memecmo.ai/#chen-songyin"
-    },
-    {
-      "@id": "https://memecmo.ai/#liu-junshuo"
-    }
-  ],
-  "parentOrganization": [
-    {
-      "@type": "Organization",
-      "name": "HK Infinity Realm Technology Co. Limited",
-      "description": "70% shareholder"
-    },
-    {
-      "@type": "Organization",
-      "name": "NeuronSpark Media-tech Limited",
-      "url": "https://www.neurosparkmedia.com",
-      "description": "30% shareholder & technology partner"
-    }
-  ],
   "contactPoint": [
     {
       "@type": "ContactPoint",
@@ -148,42 +81,6 @@
         "th",
         "ms"
       ]
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Person",
-      "@id": "https://memecmo.ai/#chen-songyin",
-      "name": "Chen Songyin",
-      "alternateName": "陳松吟",
-      "jobTitle": "Founding Director",
-      "worksFor": {
-        "@id": "https://memecmo.ai/#org"
-      },
-      "nationality": {
-        "@type": "Country",
-        "name": "China"
-      }
-    },
-    {
-      "@type": "Person",
-      "@id": "https://memecmo.ai/#liu-junshuo",
-      "name": "Liu Junshuo",
-      "alternateName": "劉峻鑠",
-      "jobTitle": "Chief Technology Advisor",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "NeuronSpark Media-tech Limited",
-        "url": "https://www.neurosparkmedia.com"
-      },
-      "memberOf": {
-        "@id": "https://memecmo.ai/#org"
-      }
     }
   ]
 }
@@ -260,14 +157,6 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is MemeCMO?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MemeCMO is a Generative Engine Optimization (GEO) SaaS platform purpose-built for Southeast Asian markets, with 10 AI agents optimizing brand visibility across ChatGPT, Gemini, Claude, Perplexity and regional LLMs."
-      }
-    },
-    {
-      "@type": "Question",
       "name": "What is GEO (Generative Engine Optimization)?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -334,197 +223,217 @@
 }
 </script>
 <style>
+/* ── MemeCMO "Atelier" — semantic tokens (2026-09-23). Components use these,
+   never raw numbers: colour, space, type, radius, elevation, motion. ── */
 :root{
   --canvas:#FBF7F4;--surface:#FFFFFF;--soft:#F4ECE6;
   --ink:#2A2024;--dim:#6E625F;--faint:#9C8E8A;
   --brand:#C76B7A;--brand-press:#B25A69;--brand-soft:#F7E7EA;
   --gold:#B6863A;--gold-soft:#F3E8D5;--sage:#5E9E76;--sage-soft:#E7F0EA;
   --edge:rgba(58,30,34,.12);--edge-strong:rgba(58,30,34,.22);
-  --shadow-sm:0 2px 10px rgba(58,30,34,.06);--shadow-md:0 10px 34px rgba(58,30,34,.09);
-  --r:14px;--r-sm:9px;
+  --bezel:#2A2024;--bezel-hi:#4A3A3E;
+  /* space — 4px base */
+  --s-1:4px;--s-2:8px;--s-3:12px;--s-4:16px;--s-5:20px;--s-6:24px;--s-8:32px;--s-10:40px;--s-12:48px;--s-16:64px;--s-24:96px;
+  --gutter:var(--s-6);--gutter-sm:var(--s-4);--wrap:1160px;--measure:66ch;
+  /* type */
+  --t-2xs:10px;--t-xs:11.5px;--t-sm:12.5px;--t-base:14px;--t-md:15.5px;--t-lg:18px;--t-xl:22px;
+  --t-h2:clamp(26px,3.6vw,38px);--t-h1:clamp(34px,5vw,56px);--t-stat:22px;
+  --lh-tight:1.08;--lh-snug:1.3;--lh-normal:1.6;--track-label:.22em;--track-brand:.06em;
+  /* radius */
+  --r-xs:7px;--r-sm:9px;--r:14px;--r-lg:18px;--r-pill:99px;
+  /* elevation — warm neumorphism, light from top-left */
+  --shadow-sm:0 2px 10px rgba(58,30,34,.06);--shadow-md:0 10px 34px rgba(58,30,34,.09);--shadow-float:0 22px 60px rgba(58,30,34,.14);
+  --shadow-raise:6px 6px 16px rgba(58,30,34,.09),-6px -6px 16px rgba(255,255,255,.85);
+  --shadow-raise-sm:3px 3px 8px rgba(58,30,34,.07),-3px -3px 8px rgba(255,255,255,.8);
+  --shadow-inset:inset 3px 3px 8px rgba(58,30,34,.08),inset -3px -3px 8px rgba(255,255,255,.75);
+  --shadow-press:inset 2px 2px 6px rgba(58,30,34,.18),inset -1px -1px 4px rgba(255,255,255,.45);
+  /* motion signature */
+  --dur-fast:120ms;--dur-base:220ms;--dur-slow:420ms;--dur-breath:1100ms;--stagger:80ms;
+  --ease-signature:cubic-bezier(.2,.8,.2,1);--ease-press:cubic-bezier(.4,0,.2,1);
   --sans:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI","PingFang SC","Noto Sans",sans-serif;
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{font-family:var(--sans);background:var(--canvas);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+body{font-family:var(--sans);background:var(--canvas);color:var(--ink);line-height:var(--lh-normal);-webkit-font-smoothing:antialiased;overflow-x:hidden}
 a{color:inherit;text-decoration:none}
-img{max-width:100%}
+img{max-width:100%;display:block}
 ::selection{background:var(--brand-soft)}
-:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
-.wrap{max-width:1160px;margin:0 auto;padding:0 24px}
-.kicker{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--brand);font-weight:600}
-.sec{padding:96px 0}
-.sec-title{font-size:clamp(26px,3.6vw,38px);font-weight:700;letter-spacing:-.02em;line-height:1.18;margin:14px 0 12px}
-.sec-desc{font-size:15.5px;color:var(--dim);max-width:660px}
-.reveal{opacity:0;transform:translateY(26px);transition:opacity .6s ease-out,transform .6s ease-out}
-.reveal.visible{opacity:1;transform:translateY(0)}
+:focus-visible{outline:2px solid var(--brand);outline-offset:2px;border-radius:var(--r-xs)}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 var(--gutter)}
+.kicker{font-size:var(--t-xs);letter-spacing:var(--track-label);text-transform:uppercase;color:var(--brand);font-weight:600}
+.sec{padding:var(--s-24) 0}
+.sec-title{font-size:var(--t-h2);font-weight:700;letter-spacing:-.02em;line-height:1.18;margin:var(--s-4) 0 var(--s-3)}
+.sec-desc{font-size:var(--t-md);color:var(--dim);max-width:var(--measure)}
+/* ── the breathing entrance: content inhales into place, staggered with --i ── */
+@keyframes mc-breathe{0%{opacity:0;transform:translateY(12px) scale(.985)}55%{opacity:1}100%{opacity:1;transform:none}}
+.reveal{opacity:0}
+.reveal.visible{animation:mc-breathe var(--dur-breath) var(--ease-signature) both;animation-delay:calc(var(--i,0) * var(--stagger))}
+.mc-enter{animation:mc-breathe var(--dur-breath) var(--ease-signature) both;animation-delay:calc(var(--i,0) * var(--stagger))}
+/* ── the press signature: every button settles in, shows an inner shade and a light bloom ── */
+button,.btn-primary,.btn-ghost,.nav-cta,.hero-scan button,.form-submit{transition:transform var(--dur-fast) var(--ease-press),box-shadow var(--dur-fast) var(--ease-press),background-color var(--dur-fast) var(--ease-press),color var(--dur-fast) var(--ease-press),border-color var(--dur-fast) var(--ease-press),filter var(--dur-fast) var(--ease-press)}
+button:not(:disabled):active,.btn-primary:active,.btn-ghost:active,.nav-cta:active,.form-submit:active{transform:scale(.97);box-shadow:var(--shadow-press)}
+.mc-bloom{position:relative;isolation:isolate}
+.mc-bloom::after{content:"";position:absolute;inset:0;border-radius:inherit;background:radial-gradient(circle at 50% 50%,rgba(255,255,255,.35),transparent 62%);opacity:0;transition:opacity var(--dur-base) var(--ease-signature);pointer-events:none}
+.mc-bloom:active::after{opacity:1;transition-duration:0ms}
+@media(prefers-reduced-motion:reduce){.reveal,.reveal.visible,.mc-enter{animation:none;opacity:1}button,.btn-primary,.btn-ghost{transition:none}button:not(:disabled):active{transform:none}}
 /* ── nav ── */
 .nav{position:fixed;inset:0 0 auto 0;z-index:50;background:rgba(251,247,244,.86);backdrop-filter:blur(14px);border-bottom:1px solid var(--edge)}
-.nav-in{max-width:1160px;margin:0 auto;padding:0 24px;height:64px;display:flex;align-items:center;gap:26px}
-.nav-brand{display:flex;align-items:center;gap:10px;margin-right:auto}
+.nav-in{max-width:var(--wrap);margin:0 auto;padding:0 var(--gutter);height:64px;display:flex;align-items:center;gap:var(--s-6)}
+.nav-brand{display:flex;align-items:center;gap:var(--s-3);margin-right:auto}
 .nav-brand img{width:30px;height:30px}
-.nav-brand b{font-size:15px;letter-spacing:.06em}
-.nav-brand span{font-size:11px;color:var(--faint);border-left:1px solid var(--edge);padding-left:10px}
-.nav-links{display:flex;gap:22px;font-size:13.5px;color:var(--dim)}
+.nav-brand b{font-size:var(--t-md);letter-spacing:var(--track-brand)}
+.nav-brand span{font-size:var(--t-xs);color:var(--faint);border-left:1px solid var(--edge);padding-left:var(--s-3)}
+.nav-links{display:flex;gap:var(--s-5);font-size:13.5px;color:var(--dim)}
 .nav-links a:hover{color:var(--ink)}
 .lang-switch{position:relative}
-.lang-btn{background:none;border:1px solid var(--edge);border-radius:8px;padding:6px 10px;font-size:12.5px;color:var(--dim);cursor:pointer;display:flex;gap:6px;align-items:center;font-family:inherit}
+.lang-btn{background:none;border:1px solid var(--edge);border-radius:var(--r-sm);padding:6px 10px;font-size:var(--t-sm);color:var(--dim);cursor:pointer;display:flex;gap:6px;align-items:center;font-family:inherit}
 .lang-btn:hover{color:var(--ink);border-color:var(--edge-strong)}
 .lang-btn .arrow{font-size:8px}
-.lang-menu{display:none;position:absolute;right:0;top:calc(100% + 8px);background:var(--surface);border:1px solid var(--edge);border-radius:10px;box-shadow:var(--shadow-md);list-style:none;min-width:150px;padding:6px;z-index:60}
+.lang-menu{display:none;position:absolute;right:0;top:calc(100% + 8px);background:var(--surface);border:1px solid var(--edge);border-radius:var(--r-sm);box-shadow:var(--shadow-md);list-style:none;min-width:170px;padding:6px}
 .lang-switch.open .lang-menu{display:block}
-.lang-menu a{display:flex;justify-content:space-between;gap:12px;padding:8px 10px;border-radius:7px;font-size:13px;color:var(--dim)}
+.lang-menu a{display:flex;justify-content:space-between;gap:12px;padding:8px 10px;border-radius:var(--r-xs);font-size:13px;color:var(--dim)}
 .lang-menu a:hover{background:var(--soft);color:var(--ink)}
-.lang-menu .code{color:var(--faint);font-size:11px}
+.lang-menu .code{color:var(--faint);font-size:var(--t-xs)}
 .nav-signin{font-size:13.5px;color:var(--dim)}
 .nav-signin:hover{color:var(--ink)}
-.nav-cta{background:var(--brand);color:#fff;font-size:13.5px;font-weight:600;padding:9px 16px;border-radius:10px;transition:.15s}
+.nav-cta{background:var(--brand);color:#fff;font-size:13.5px;font-weight:600;padding:9px 16px;border-radius:var(--r-sm)}
 .nav-cta:hover{background:var(--brand-press)}
 .nav-hamburger{display:none;background:none;border:0;cursor:pointer;padding:6px}
 .nav-hamburger span{display:block;width:20px;height:2px;background:var(--ink);margin:4px 0;border-radius:2px}
 /* ── hero ── */
-.hero{padding:150px 0 72px}
-.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center}
-.hero h1{font-size:clamp(34px,5vw,56px);font-weight:800;letter-spacing:-.025em;line-height:1.08;margin:18px 0 18px}
+.hero{padding:calc(64px + var(--s-16)) 0 var(--s-16)}
+.hero-grid{display:grid;grid-template-columns:1fr 1.05fr;gap:var(--s-12);align-items:center}
+.hero h1{font-size:var(--t-h1);font-weight:800;letter-spacing:-.025em;line-height:var(--lh-tight);margin:var(--s-4) 0}
 .hero h1 .hl{color:var(--brand)}
 .hero p{font-size:16.5px;color:var(--dim);max-width:540px}
-.hero-scan{display:flex;gap:10px;margin-top:30px;max-width:520px}
-.hero-scan input{flex:1;height:52px;padding:0 18px;font-size:15px;border:1.5px solid var(--edge-strong,rgba(58,30,34,.22));border-radius:14px;background:var(--surface);color:var(--ink);outline:none;transition:border .15s}
-.hero-scan input:focus{border-color:var(--brand)}
-.hero-scan button{height:52px;padding:0 22px;font-size:15px;font-weight:700;border:0;border-radius:14px;background:var(--brand);color:#fff;cursor:pointer;white-space:nowrap;transition:filter .15s}
+.hero-scan{display:flex;gap:var(--s-2);margin-top:var(--s-8);max-width:520px}
+.hero-scan input{flex:1;height:52px;padding:0 18px;font-size:var(--t-md);border:1.5px solid var(--edge-strong);border-radius:var(--r);background:var(--surface);color:var(--ink);outline:none;transition:border var(--dur-fast),box-shadow var(--dur-fast)}
+.hero-scan input:focus{border-color:var(--brand);box-shadow:var(--shadow-inset)}
+.hero-scan button{height:52px;padding:0 22px;font-size:var(--t-md);font-weight:700;border:0;border-radius:var(--r);background:var(--brand);color:#fff;cursor:pointer;white-space:nowrap}
 .hero-scan button:hover{filter:brightness(1.08)}
-.hero-scan-note{margin-top:10px;font-size:12.5px;color:var(--faint)}
-.hero-ctas{display:flex;gap:14px;margin-top:22px;flex-wrap:wrap}
-@media(max-width:640px){.hero-scan{flex-direction:column}.hero-scan button{width:100%}}
-.btn-primary{background:var(--brand);color:#fff;font-weight:600;font-size:14.5px;padding:13px 22px;border-radius:11px;transition:.15s}
+.hero-scan-note{margin-top:var(--s-3);font-size:var(--t-sm);color:var(--faint)}
+.hero-ctas{display:flex;gap:var(--s-3);margin-top:var(--s-5);flex-wrap:wrap}
+.btn-primary{background:var(--brand);color:#fff;font-weight:600;font-size:14.5px;padding:13px 22px;border-radius:var(--r-sm);display:inline-block}
 .btn-primary:hover{background:var(--brand-press)}
-.btn-ghost{border:1px solid var(--edge-strong);color:var(--ink);font-size:14.5px;padding:13px 22px;border-radius:11px;transition:.15s}
+.btn-ghost{border:1px solid var(--edge-strong);color:var(--ink);font-size:14.5px;padding:13px 22px;border-radius:var(--r-sm);display:inline-block;background:var(--surface)}
 .btn-ghost:hover{border-color:var(--brand);color:var(--brand)}
-.hero-stats{display:flex;gap:0;margin-top:52px;border:1px solid var(--edge);border-radius:var(--r);background:var(--surface);overflow:hidden}
-.stat{flex:1;padding:16px 18px;border-left:1px solid var(--edge)}
+.hero-stats{display:flex;margin-top:var(--s-12);border:1px solid var(--edge);border-radius:var(--r);background:var(--surface);overflow:hidden;box-shadow:var(--shadow-raise-sm)}
+.stat{flex:1;padding:var(--s-4) var(--s-5);border-left:1px solid var(--edge)}
 .stat:first-child{border-left:0}
-.stat b{display:block;font-size:22px;font-weight:700;color:var(--gold);font-variant-numeric:tabular-nums;letter-spacing:-.01em}
-.stat span{font-size:11px;color:var(--faint);letter-spacing:.06em;text-transform:uppercase}
-/* hero mock card */
-.mock{background:var(--surface);border:1px solid var(--edge);border-radius:var(--r);box-shadow:var(--shadow-md);padding:22px}
-.mock-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:6px}
-.mock-head .t{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint)}
-.mock-head .live{font-size:10px;font-weight:700;color:var(--sage);background:var(--sage-soft);padding:3px 8px;border-radius:99px;letter-spacing:.08em}
-.mock-score{display:flex;align-items:baseline;gap:10px}
-.mock-score b{font-size:46px;font-weight:800;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
-.mock-score i{font-style:normal;font-size:13px;font-weight:700;color:var(--sage)}
-.mock-rows{margin:14px 0 10px;display:grid;gap:9px}
-.mrow{display:grid;grid-template-columns:118px 1fr 34px;align-items:center;gap:10px;font-size:12px;color:var(--dim)}
-.mbar{height:6px;border-radius:99px;background:var(--soft);overflow:hidden}
-.mbar i{display:block;height:100%;border-radius:99px;background:var(--brand)}
-.mrow b{text-align:right;font-variant-numeric:tabular-nums;color:var(--ink);font-size:12px}
-.mock-note{font-size:11.5px;color:var(--faint);border-top:1px solid var(--edge);padding-top:12px;margin-top:4px}
+.stat b{display:block;font-size:var(--t-stat);font-weight:700;color:var(--gold);font-variant-numeric:tabular-nums;letter-spacing:-.01em}
+.stat span{font-size:var(--t-xs);color:var(--faint);letter-spacing:.06em;text-transform:uppercase}
+/* ── Mac frame: the product shown on a screen, never a fake mock ── */
+.mac{background:var(--bezel);border-radius:var(--r-lg);padding:10px 10px 14px;box-shadow:var(--shadow-float),0 0 0 1px rgba(0,0,0,.35) inset;position:relative}
+.mac::after{content:"";position:absolute;left:50%;bottom:-14px;width:38%;height:14px;transform:translateX(-50%);background:linear-gradient(180deg,var(--bezel-hi),var(--bezel));border-radius:0 0 12px 12px;opacity:.9}
+.mac-bar{display:flex;align-items:center;gap:var(--s-2);padding:2px 6px 8px;font-size:var(--t-xs);color:rgba(243,231,225,.55)}
+.mac-bar .dots i{display:inline-block;width:9px;height:9px;border-radius:99px;margin-right:5px;background:rgba(243,231,225,.28)}
+.mac-bar .dots i:nth-child(1){background:#E08594}.mac-bar .dots i:nth-child(2){background:#E3BC7E}.mac-bar .dots i:nth-child(3){background:#9DC3A6}
+.mac-title{margin-left:auto;margin-right:auto;letter-spacing:.06em}
+.mac-screen{background:var(--canvas);border-radius:var(--r-sm);overflow:hidden;aspect-ratio:16/10;box-shadow:inset 0 0 0 1px rgba(0,0,0,.25)}
+.mac-screen img{width:100%;height:100%;object-fit:cover;object-position:top left}
+.hero-mac{margin-top:var(--s-4)}
 /* ── tagline band ── */
-.band{background:var(--soft);border-top:1px solid var(--edge);border-bottom:1px solid var(--edge);padding:38px 0;text-align:center}
+.band{background:var(--soft);border-top:1px solid var(--edge);border-bottom:1px solid var(--edge);padding:var(--s-10) 0;text-align:center}
 .band .main{font-size:clamp(18px,2.4vw,24px);font-weight:700}
 .band .main .brand{color:var(--brand)}
 .band .sub{font-size:13.5px;color:var(--faint);margin-top:6px;letter-spacing:.04em}
-/* ── workspace showcase ── */
-.ws-shell{margin-top:44px;background:var(--surface);border:1px solid var(--edge);border-radius:var(--r);box-shadow:var(--shadow-md);overflow:hidden}
-.ws-bar{display:flex;align-items:center;gap:8px;background:var(--soft);border-bottom:1px solid var(--edge);padding:10px 16px;font-size:12px;color:var(--faint)}
-.ws-bar .dots i{display:inline-block;width:9px;height:9px;border-radius:99px;background:var(--edge-strong);margin-right:5px}
-.ws-grid{display:grid;grid-template-columns:210px 1fr 220px;min-height:340px}
-.ws-left{border-right:1px solid var(--edge);padding:16px;display:flex;flex-direction:column;gap:6px}
-.ws-run{background:var(--brand-soft);color:var(--brand);font-weight:700;font-size:12.5px;text-align:center;border:1px solid rgba(199,107,122,.35);border-radius:9px;padding:10px}
-.ws-item{display:flex;justify-content:space-between;align-items:center;font-size:12.5px;color:var(--dim);padding:7px 8px;border-radius:7px}
-.ws-item:hover{background:var(--soft)}
-.ws-item i{width:7px;height:7px;border-radius:99px;background:var(--sage);display:inline-block}
-.ws-cat{font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--faint);margin-top:8px}
-.ws-mid{padding:20px;display:flex;flex-direction:column;gap:12px}
-.ws-proj{display:flex;justify-content:space-between;align-items:center}
-.ws-proj b{font-size:14px}
-.ws-proj span{font-size:11px;color:var(--faint)}
-.ws-panel{border:1px solid var(--edge);border-radius:10px;padding:14px;flex:1}
-.ws-panel .ph{display:flex;justify-content:space-between;font-size:11px;color:var(--faint);letter-spacing:.1em;text-transform:uppercase;margin-bottom:10px}
-.ws-trend{font-size:12px;color:var(--dim);display:flex;justify-content:space-between;margin-top:10px;border-top:1px solid var(--edge);padding-top:10px}
-.ws-trend b{color:var(--sage)}
-.ws-right{border-left:1px solid var(--edge);padding:16px;font-size:11.5px;color:var(--dim)}
-.ws-right .lt{font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--faint);margin-bottom:10px}
-.ws-right p{margin-bottom:9px;line-height:1.5}
-.ws-right p b{color:var(--sage);font-weight:600}
-.ws-feats{display:flex;gap:22px;margin-top:22px;flex-wrap:wrap}
-.ws-feat{font-size:13px;color:var(--dim);display:flex;gap:8px;align-items:center}
-.ws-feat i{color:var(--brand);font-style:normal}
+/* ── scroll narrative ── */
+.story{padding:var(--s-16) 0}
+.story + .story{padding-top:0}
+.story-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:var(--s-12);align-items:center}
+.story-flip .story-grid{grid-template-columns:1.1fr .9fr}
+.story-flip .story-copy{order:2}
+.story-points{list-style:none;margin-top:var(--s-6);display:grid;gap:var(--s-3)}
+.story-points li{position:relative;padding-left:var(--s-6);font-size:var(--t-base);color:var(--dim);line-height:var(--lh-snug)}
+.story-points li::before{content:"";position:absolute;left:0;top:.5em;width:10px;height:10px;border-radius:99px;background:var(--brand);box-shadow:0 0 0 4px var(--brand-soft)}
+.story-cta{margin-top:var(--s-6)}
 /* ── cards ── */
-.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:40px}
-.card{background:var(--surface);border:1px solid var(--edge);border-radius:var(--r);padding:24px;transition:.15s}
-.card:hover{border-color:var(--edge-strong);box-shadow:var(--shadow-sm)}
-.card .n{font-size:11px;font-weight:700;color:var(--gold);font-variant-numeric:tabular-nums;letter-spacing:.1em}
-.card h3{font-size:15.5px;margin:8px 0 8px;letter-spacing:-.01em}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s-5);margin-top:var(--s-10)}
+.card{background:var(--surface);border:1px solid var(--edge);border-radius:var(--r);padding:var(--s-6);box-shadow:var(--shadow-raise-sm);transition:box-shadow var(--dur-base) var(--ease-signature),transform var(--dur-base) var(--ease-signature)}
+.card:hover{box-shadow:var(--shadow-raise);transform:translateY(-2px)}
+.card .n{font-size:var(--t-xs);font-weight:700;color:var(--gold);font-variant-numeric:tabular-nums;letter-spacing:.1em}
+.card h3{font-size:15.5px;margin:var(--s-2) 0;letter-spacing:-.01em}
 .card p{font-size:13px;color:var(--dim)}
 /* agents steps */
-.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:40px}
-.step{background:var(--surface);border:1px solid var(--edge);border-radius:var(--r);padding:20px 18px}
-.step .n{font-size:11px;font-weight:700;color:var(--brand);font-variant-numeric:tabular-nums}
-.step h3{font-size:13.5px;margin:8px 0 7px;line-height:1.35}
+.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:var(--s-4);margin-top:var(--s-10)}
+.step{background:var(--surface);border:1px solid var(--edge);border-radius:var(--r);padding:var(--s-5);box-shadow:var(--shadow-raise-sm)}
+.step .n{font-size:var(--t-xs);font-weight:700;color:var(--brand);font-variant-numeric:tabular-nums}
+.step h3{font-size:13.5px;margin:var(--s-2) 0;line-height:1.35}
 .step p{font-size:12px;color:var(--dim)}
-.quote{margin-top:44px;background:var(--soft);border:1px solid var(--edge);border-radius:var(--r);padding:34px;text-align:center}
+.quote{margin-top:var(--s-12);background:var(--soft);border:1px solid var(--edge);border-radius:var(--r);padding:var(--s-8);text-align:center;box-shadow:var(--shadow-inset)}
 .quote h3{font-size:clamp(19px,2.6vw,26px);font-weight:700;letter-spacing:-.015em}
 .quote h3 .hl{color:var(--brand)}
-.quote p{font-size:13.5px;color:var(--dim);margin-top:8px}
+.quote p{font-size:13.5px;color:var(--dim);margin-top:var(--s-2)}
 /* markets */
-.market-cards{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:40px}
-.market-card{background:var(--surface);border:1px solid var(--edge);border-radius:var(--r);padding:20px 18px}
+.market-cards{display:grid;grid-template-columns:repeat(5,1fr);gap:var(--s-4);margin-top:var(--s-10)}
+.market-card{background:var(--surface);border:1px solid var(--edge);border-radius:var(--r);padding:var(--s-5);box-shadow:var(--shadow-raise-sm)}
 .market-card:last-child{border-color:rgba(182,134,58,.45);background:linear-gradient(180deg,var(--surface),var(--gold-soft))}
 .market-flag{font-size:24px}
-.market-name{font-weight:700;font-size:14.5px;margin-top:8px}
-.market-lang{font-size:11px;color:var(--gold);margin:2px 0 8px}
+.market-name{font-weight:700;font-size:14.5px;margin-top:var(--s-2)}
+.market-lang{font-size:var(--t-xs);color:var(--gold);margin:2px 0 var(--s-2)}
 .market-desc{font-size:12px;color:var(--dim)}
-.market-insight{margin-top:26px;background:var(--surface);border:1px solid var(--edge);border-left:3px solid var(--brand);border-radius:var(--r-sm);padding:22px 26px}
+.market-insight{margin-top:var(--s-6);background:var(--surface);border:1px solid var(--edge);border-left:3px solid var(--brand);border-radius:var(--r-sm);padding:var(--s-5) var(--s-6)}
 .market-insight h3{font-size:14.5px;margin-bottom:6px}
 .market-insight p{font-size:13.5px;color:var(--dim)}
 .market-insight .hl{color:var(--brand);font-weight:600}
 /* process */
-.process-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:40px}
-.pstep{background:var(--surface);border:1px solid var(--edge);border-radius:var(--r);padding:24px}
+.process-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s-5);margin-top:var(--s-10)}
+.pstep{background:var(--surface);border:1px solid var(--edge);border-radius:var(--r);padding:var(--s-6);box-shadow:var(--shadow-raise-sm)}
 .pstep .phase{font-size:10.5px;letter-spacing:.16em;color:var(--gold);font-weight:700;text-transform:uppercase}
-.pstep h3{font-size:16px;margin:10px 0 8px}
+.pstep h3{font-size:16px;margin:var(--s-3) 0 var(--s-2)}
 .pstep p{font-size:13px;color:var(--dim)}
 /* faq */
-.faq-list{margin-top:40px;display:grid;gap:12px;max-width:840px}
-.faq-item{background:var(--surface);border:1px solid var(--edge);border-radius:var(--r-sm);padding:0 20px}
+.faq-list{margin-top:var(--s-10);display:grid;gap:var(--s-3);max-width:840px}
+.faq-item{background:var(--surface);border:1px solid var(--edge);border-radius:var(--r-sm);padding:0 var(--s-5)}
 .faq-item:hover{border-color:var(--edge-strong)}
 .faq-item[open]{border-color:rgba(199,107,122,.4);box-shadow:var(--shadow-sm)}
-.faq-item summary{cursor:pointer;font-size:14.5px;font-weight:600;padding:16px 0;list-style:none;display:flex;justify-content:space-between;gap:14px}
+.faq-item summary{cursor:pointer;font-size:14.5px;font-weight:600;padding:var(--s-4) 0;list-style:none;display:flex;justify-content:space-between;gap:var(--s-4)}
 .faq-item summary::-webkit-details-marker{display:none}
 .faq-item summary::after{content:"+";color:var(--brand);font-weight:400;font-size:18px}
 .faq-item[open] summary::after{content:"–"}
-.faq-a{font-size:13.5px;color:var(--dim);padding:0 0 18px}
+.faq-a{font-size:13.5px;color:var(--dim);padding:0 0 var(--s-5)}
 /* contact */
-.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:44px;margin-top:40px}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--s-12);margin-top:var(--s-10)}
 .c-label{font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--faint);margin-bottom:4px}
-.c-value{font-size:14.5px;margin-bottom:18px}
-.form-card{background:var(--surface);border:1px solid var(--edge);border-radius:var(--r);padding:28px;box-shadow:var(--shadow-sm)}
+.c-value{font-size:14.5px;margin-bottom:var(--s-5)}
+.form-card{background:var(--surface);border:1px solid var(--edge);border-radius:var(--r);padding:var(--s-8);box-shadow:var(--shadow-raise-sm)}
 .form-card h3{font-size:16px;margin-bottom:2px}
-.form-card .sub{font-size:12.5px;color:var(--faint);margin-bottom:18px}
-.f-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.field{margin-bottom:12px}
-.field label{display:block;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--faint);margin-bottom:5px}
-.field input,.field textarea{width:100%;background:var(--canvas);border:1px solid var(--edge);border-radius:9px;padding:10px 12px;font-size:13.5px;font-family:inherit;color:var(--ink)}
+.form-card .sub{font-size:var(--t-sm);color:var(--faint);margin-bottom:var(--s-5)}
+.f-row{display:grid;grid-template-columns:1fr 1fr;gap:var(--s-3)}
+.field{margin-bottom:var(--s-3)}
+.field label{display:block;font-size:var(--t-xs);letter-spacing:.08em;text-transform:uppercase;color:var(--faint);margin-bottom:5px}
+.field input,.field textarea{width:100%;background:var(--canvas);border:1px solid var(--edge);border-radius:var(--r-sm);padding:10px 12px;font-size:13.5px;font-family:inherit;color:var(--ink);box-shadow:var(--shadow-inset)}
 .field input:focus,.field textarea:focus{outline:none;border-color:var(--brand)}
-.form-submit{width:100%;background:var(--brand);color:#fff;font-weight:700;font-size:14px;border:0;border-radius:10px;padding:13px;cursor:pointer;font-family:inherit;transition:.15s}
+.form-submit{width:100%;background:var(--brand);color:#fff;font-weight:700;font-size:var(--t-base);border:0;border-radius:var(--r-sm);padding:13px;cursor:pointer;font-family:inherit}
 .form-submit:hover{background:var(--brand-press)}
 /* footer */
-footer{border-top:1px solid var(--edge);padding:30px 0 36px;margin-top:40px}
-.foot{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;font-size:12.5px;color:var(--faint)}
+footer{border-top:1px solid var(--edge);padding:var(--s-8) 0 var(--s-10);margin-top:var(--s-10)}
+.foot{display:flex;justify-content:space-between;align-items:center;gap:var(--s-4);flex-wrap:wrap;font-size:var(--t-sm);color:var(--faint)}
 .foot a:hover{color:var(--ink)}
-.foot .legal{width:100%;text-align:center;font-size:11px;opacity:.75;margin-top:14px}
+.foot .legal{width:100%;text-align:center;font-size:var(--t-xs);opacity:.75;margin-top:var(--s-4)}
+/* ── adaptive layout: one column under 960, tighter gutters on phones ── */
+@media(max-width:1200px){.nav-brand span{display:none}.nav-links{gap:var(--s-4)}}
 @media(max-width:960px){
-  .hero-grid{grid-template-columns:1fr}
+  .hero-grid,.story-grid,.story-flip .story-grid{grid-template-columns:1fr}
+  .story-flip .story-copy{order:0}
   .steps,.market-cards{grid-template-columns:repeat(2,1fr)}
-  .grid3,.process-steps,.contact-grid{grid-template-columns:1fr}
-  .ws-grid{grid-template-columns:1fr}
-  .ws-left,.ws-right{border:0;border-bottom:1px solid var(--edge)}
+  .grid3,.process-steps,.contact-grid,.f-row{grid-template-columns:1fr}
   .nav-links,.nav-signin{display:none}
   .nav-hamburger{display:block}
-  .nav.menu-open .nav-links{display:flex;position:absolute;top:64px;left:0;right:0;background:var(--canvas);border-bottom:1px solid var(--edge);flex-direction:column;padding:18px 24px;gap:14px}
+  .nav.menu-open .nav-links{display:flex;position:absolute;top:64px;left:0;right:0;background:var(--canvas);border-bottom:1px solid var(--edge);flex-direction:column;padding:var(--s-5) var(--gutter);gap:var(--s-4)}
   .hero-stats{flex-wrap:wrap}
   .stat{min-width:45%}
+  .sec{padding:var(--s-16) 0}
+}
+@media(max-width:640px){
+  :root{--gutter:var(--gutter-sm)}
+  .nav-in{gap:var(--s-3)}.nav-brand span{display:none}.nav-cta{display:none}.lang-btn{padding:6px 8px}
+  .hero{padding-top:calc(64px + var(--s-10))}
+  .hero-scan{flex-direction:column}.hero-scan button{width:100%}
+  .steps,.market-cards{grid-template-columns:1fr}
+  .stat{min-width:100%;border-left:0;border-top:1px solid var(--edge)}
+  .stat:first-child{border-top:0}
+  .mac{padding:6px 6px 10px}.mac::after{display:none}
 }
 </style>
 </head>
@@ -556,7 +465,7 @@ footer{border-top:1px solid var(--edge);padding:30px 0 36px;margin-top:40px}
       </ul>
     </div>
     <a class="nav-signin" href="https://app.memecmo.ai/login?lang=en">Sign in</a>
-    <a class="nav-cta" href="#contact">Request access →</a>
+    <a class="nav-cta mc-bloom" href="#contact">Request access →</a>
     <button class="nav-hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
   </div>
 </nav>
@@ -564,14 +473,14 @@ footer{border-top:1px solid var(--edge);padding:30px 0 36px;margin-top:40px}
 <header class="hero" id="hero">
   <div class="wrap hero-grid">
     <div>
-      <span class="kicker">GEO PLATFORM · MEASURE · BUILD · REPORT</span>
-      <h1><span class="hl">MemeCMO</span><br>Make your brand the answer in AI.</h1>
-      <p>Hundreds of millions of buyers now ask ChatGPT, Gemini, Perplexity and Google AI before they open a search box. MemeCMO measures exactly how those engines describe your brand, builds what's missing, and reports every week — one platform, ten agents.</p>
+      <span class="kicker mc-enter" style="--i:0">GEO PLATFORM · MEASURE · BUILD · REPORT</span>
+      <h1 class="mc-enter" style="--i:1"><span class="hl">MemeCMO</span><br>Make your brand the answer in AI.</h1>
+      <p class="mc-enter" style="--i:2">Hundreds of millions of buyers now ask ChatGPT, Gemini, Perplexity and Google AI before they open a search box. MemeCMO measures exactly how those engines describe your brand, builds what's missing, and reports every week — one platform, ten agents.</p>
       <form class="hero-scan" action="https://app.memecmo.ai/onboarding" method="get">
         <input type="text" name="url" required placeholder="yourbrand.com" aria-label="yourbrand.com"/>
         <input type="hidden" name="lang" value="en"/>
         <input type="hidden" name="market" value=""/>
-        <button type="submit">See how AI sees you →</button>
+        <button type="submit" class="mc-bloom">See how AI sees you →</button>
       </form>
       <div class="hero-scan-note">Free preview scan · real ChatGPT & Google AI Overview answers · no credit card</div>
       <div class="hero-ctas">
@@ -585,18 +494,10 @@ footer{border-top:1px solid var(--edge);padding:30px 0 36px;margin-top:40px}
         <div class="stat"><b>Weekly</b><span>Digest cadence</span></div>
       </div>
     </div>
-    <div class="mock reveal">
-      <div class="mock-head"><span class="t">AI Mindset Index</span><span class="live">ACTIVE</span></div>
-      <div class="mock-score"><b>67</b><span style="font-size:13px;color:var(--faint)">/100</span><i>▲ +9</i></div>
-      <div class="mock-rows">
-        <div class="mrow"><span>Presence</span><div class="mbar"><i style="width:65%"></i></div><b>65%</b></div>
-        <div class="mrow"><span>Share of Voice</span><div class="mbar"><i style="width:54%"></i></div><b>54%</b></div>
-        <div class="mrow"><span>Citation rate</span><div class="mbar"><i style="width:41%"></i></div><b>41%</b></div>
-        <div class="mrow"><span>AI sentiment</span><div class="mbar"><i style="width:70%"></i></div><b>70</b></div>
-        <div class="mrow"><span>Answer accuracy</span><div class="mbar"><i style="width:88%;background:var(--sage)"></i></div><b>88%</b></div>
-      </div>
-      <div class="mock-note">Measured per engine on a frozen prompt panel — movement is real, not noise.</div>
-    </div>
+    <figure class="mac hero-mac mc-enter" style="--i:3">
+      <div class="mac-bar"><span class="dots"><i></i><i></i><i></i></span><span class="mac-title">app.memecmo.ai · monitor</span></div>
+      <div class="mac-screen"><img src="/shots/monitor.webp" alt="MemeCMO monitor: five AI engines, five metrics, presence over time" width="1440" height="900" fetchpriority="high"></div>
+    </figure>
   </div>
 </header>
 
@@ -605,58 +506,91 @@ footer{border-top:1px solid var(--edge);padding:30px 0 36px;margin-top:40px}
   <div class="sub">Measure. Build. Report. Every week.</div>
 </div>
 
-<section class="sec" id="workspace">
-  <div class="wrap">
-    <span class="kicker">INSIDE THE PLATFORM</span>
-    <h2 class="sec-title">One workspace. Every deliverable.</h2>
-    <p class="sec-desc">The same interface your team works in every week: dispatch an agent on the left, watch it run on the stage, and every result stays in the workspace — scored, exportable, verified by you.</p>
-    <div class="ws-shell reveal">
-      <div class="ws-bar"><span class="dots"><i></i><i></i><i></i></span><span>app.memecmo.ai · workspace</span></div>
-      <div class="ws-grid">
-        <div class="ws-left">
-          <div class="ws-run">▶ Run full GEO scan</div>
-          <div class="ws-cat">Setup</div>
-          <div class="ws-item"><span>Profile</span><i></i></div>
-          <div class="ws-item"><span>Discovery</span><i></i></div>
-          <div class="ws-item"><span>Answers</span><i></i></div>
-          <div class="ws-cat">Measure</div>
-          <div class="ws-item"><span>Monitor</span><i></i></div>
-          <div class="ws-item"><span>Report</span><i></i></div>
-          <div class="ws-cat">Act</div>
-          <div class="ws-item"><span>Site · Optimize</span><i></i></div>
-          <div class="ws-item"><span>Distribute</span><i></i></div>
-        </div>
-        <div class="ws-mid">
-          <div class="ws-proj"><b>🌱 Aurora Coffee · Vietnam</b><span>EN · 中文 · VN</span></div>
-          <div class="ws-panel">
-            <div class="ph"><span>Monitor — five engines</span><span>⤓ Export PDF</span></div>
-            <div class="mock-rows">
-              <div class="mrow"><span>Gemini</span><div class="mbar"><i style="width:71%"></i></div><b>71</b></div>
-              <div class="mrow"><span>ChatGPT</span><div class="mbar"><i style="width:66%"></i></div><b>66</b></div>
-              <div class="mrow"><span>Perplexity</span><div class="mbar"><i style="width:63%"></i></div><b>63</b></div>
-              <div class="mrow"><span>Google AI Overview</span><div class="mbar"><i style="width:58%;background:var(--gold)"></i></div><b>58</b></div>
-            </div>
-            <div class="ws-trend"><span>AI Mindset Index · 8 weeks</span><span>W1 · 41 → <b>W8 · 67</b></span></div>
-          </div>
-        </div>
-        <div class="ws-right">
-          <div class="lt">Live activity</div>
-          <p><b>✓</b> Prompt library reused — scores stay comparable</p>
-          <p><b>✓</b> 120 answers sampled across five engines</p>
-          <p><b>✓</b> Answer accuracy checked vs standard library</p>
-          <p><b>✓</b> Weekly digest sent to client inbox</p>
-        </div>
-      </div>
+
+<section class="sec story" id="measure">
+  <div class="wrap story-grid">
+    <div class="story-copy reveal">
+      <span class="kicker">MEASURE · FIVE ENGINES · FIVE METRICS</span>
+      <h2 class="sec-title">See exactly how AI sees you.</h2>
+      <p class="sec-desc">Every scan asks ChatGPT, Gemini, Claude, Perplexity and Google AI Overview the questions your buyers really ask, in their language, on a frozen panel — so week-to-week movement is real, not noise.</p>
+      <ul class="story-points">
+        <li>Presence, share of voice, prominence, sentiment and citation — each shown with its denominator</li>
+        <li>One engine at a time: the same tables re-sliced per engine, because the same brand differs sharply between them</li>
+        <li>Every cell opens the answer behind it, with the sources the engine cited</li>
+      </ul>
+
     </div>
-    <div class="ws-feats">
-      <span class="ws-feat"><i>◈</i>Three-zone workspace: dispatch · stage · live activity</span>
-      <span class="ws-feat"><i>◈</i>Night & day themes, EN / 中文 / VN interface</span>
-      <span class="ws-feat"><i>◈</i>Every result exports as a branded PDF</span>
+    <figure class="mac reveal" style="--i:1">
+      <div class="mac-bar"><span class="dots"><i></i><i></i><i></i></span><span class="mac-title">app.memecmo.ai</span></div>
+      <div class="mac-screen"><img src="/shots/monitor.webp" alt="MemeCMO monitor dashboard: presence over time, brand visibility table, presence by engine" loading="lazy" width="1440" height="900"></div>
+    </figure>
+  </div>
+</section>
+
+<section class="sec story story-flip" id="sources">
+  <div class="wrap story-grid">
+    <div class="story-copy reveal">
+      <span class="kicker">SOURCES · WHERE AI LOOKS</span>
+      <h2 class="sec-title">Know where AI looks for answers — and be there.</h2>
+      <p class="sec-desc">We read the pages the engines cite: structure, freshness, length, schema. What gets cited becomes a measured bar for your content, not a guess.</p>
+      <ul class="story-points">
+        <li>The domains each engine leans on in your market, with citations across every scan</li>
+        <li>Page features of the cited pages — schema, FAQ, update date — per engine and by citation intensity</li>
+        <li>A public monthly list of the sources AI cites in Vietnam, released under CC BY 4.0</li>
+      </ul>
+      <a class="btn-ghost story-cta" href="https://app.memecmo.ai/sources/vietnam">Sources AI cites in Vietnam →</a>
     </div>
-    <div style="margin-top:26px">
-      <a class="btn-primary" href="https://app.memecmo.ai/demo">Open the live demo →</a>
-      <span style="font-size:12px;color:var(--faint);margin-left:14px">A real brand, really measured — refreshed weekly, no sign-up needed.</span>
+    <figure class="mac reveal" style="--i:1">
+      <div class="mac-bar"><span class="dots"><i></i><i></i><i></i></span><span class="mac-title">app.memecmo.ai</span></div>
+      <div class="mac-screen"><img src="/shots/sources.webp" alt="Sources the AI engines cite, with page features per domain" loading="lazy" width="1440" height="900"></div>
+    </figure>
+  </div>
+</section>
+
+<section class="sec story" id="act">
+  <div class="wrap story-grid">
+    <div class="story-copy reveal">
+      <span class="kicker">ACT · BUILD WHAT'S MISSING</span>
+      <h2 class="sec-title">Build the missing answers, in the buyer's language.</h2>
+      <p class="sec-desc">Content, site upgrades, distribution kits and encyclopedia drafts come out of the same workspace, briefed by what the engines actually cite in your market. What your team edits, a re-run never overwrites.</p>
+      <ul class="story-points">
+        <li>Ten agents, one workspace: dispatch on the left, review on the stage, live activity on the right</li>
+        <li>Every draft is written to the measured citation profile of your market — structure, depth, freshness</li>
+        <li>Human edits are kept on top of every regeneration</li>
+      </ul>
+
     </div>
+    <figure class="mac reveal" style="--i:1">
+      <div class="mac-bar"><span class="dots"><i></i><i></i><i></i></span><span class="mac-title">app.memecmo.ai</span></div>
+      <div class="mac-screen"><img src="/shots/workspace.webp" alt="MemeCMO workspace with card-style deliverables and the live activity panel" loading="lazy" width="1440" height="900"></div>
+    </figure>
+  </div>
+</section>
+
+<section class="sec story story-flip" id="prove">
+  <div class="wrap story-grid">
+    <div class="story-copy reveal">
+      <span class="kicker">PROVE · CLOSE THE LOOP</span>
+      <h2 class="sec-title">Every action verified. Every change attributed.</h2>
+      <p class="sec-desc">Log what went live; we fetch it, hash it and watch whether the engines start citing it. The next scans show what moved — by question, by engine — on the same frozen panel.</p>
+      <ul class="story-points">
+        <li>Actions verified live, with word count and content changes over time</li>
+        <li>Before/after outcomes per question and engine, plus site coverage and contradictions in every report</li>
+        <li>One public measurement standard (v1.0) behind every number we publish</li>
+      </ul>
+      <a class="btn-ghost story-cta" href="https://app.memecmo.ai/standard/MemeCMO_AI_Visibility_Measurement_Standard_v1.0.pdf">Read the measurement standard →</a>
+    </div>
+    <figure class="mac reveal" style="--i:1">
+      <div class="mac-bar"><span class="dots"><i></i><i></i><i></i></span><span class="mac-title">app.memecmo.ai</span></div>
+      <div class="mac-screen"><img src="/shots/report.webp" alt="MemeCMO report with collapsed recommendations, site coverage and verified actions" loading="lazy" width="1440" height="900"></div>
+    </figure>
+  </div>
+</section>
+
+<section class="sec" id="workspace" style="padding-top:0">
+  <div class="wrap" style="text-align:center">
+    <a class="btn-primary mc-bloom" href="https://app.memecmo.ai/demo">Open the live demo →</a>
+    <div style="font-size:var(--t-sm);color:var(--faint);margin-top:var(--s-3)">A real brand, really measured — refreshed weekly, no sign-up needed.</div>
   </div>
 </section>
 
@@ -770,7 +704,7 @@ footer{border-top:1px solid var(--edge);padding:30px 0 36px;margin-top:40px}
             <div class="field"><label>Target market</label><input name="market" placeholder="Vietnam, Thailand, Indonesia, Texas, California…"></div>
           </div>
           <div class="field"><label>Message</label><textarea name="message" rows="4" placeholder="Briefly describe your brand and needs…"></textarea></div>
-          <button class="form-submit" type="submit" data-default="Submit request" data-loading="Sending…" data-done="Submitted — thank you!" data-error="Send failed. Please email samchan@memecmo.ai directly.">Submit request →</button>
+          <button class="form-submit mc-bloom" type="submit" data-default="Submit request" data-loading="Sending…" data-done="Submitted — thank you!" data-error="Send failed. Please email samchan@memecmo.ai directly.">Submit request →</button>
         </form>
       </div>
     </div>

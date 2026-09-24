@@ -23,6 +23,19 @@ const dicts = {};
 for (const lc of LOCALES) {
   dicts[lc] = JSON.parse(fs.readFileSync(path.join(I18N_DIR, `${lc}.json`), 'utf8'));
 }
+// English fallback: a locale missing a key (or a whole new block) renders the
+// English text instead of a blank placeholder — new sections can ship in
+// en/zh/vi first and be translated later without breaking th/fil/ms.
+function deepMerge(base, over) {
+  if (Array.isArray(over)) return over;
+  if (over && typeof over === 'object') {
+    const out = { ...(base && typeof base === 'object' && !Array.isArray(base) ? base : {}) };
+    for (const [k, v] of Object.entries(over)) out[k] = deepMerge(out[k], v);
+    return out;
+  }
+  return over === undefined ? base : over;
+}
+for (const lc of LOCALES) if (lc !== DEFAULT_LOCALE) dicts[lc] = deepMerge(dicts[DEFAULT_LOCALE], dicts[lc]);
 
 // helper: deep get with dotted path
 function get(obj, p) {
@@ -130,6 +143,30 @@ function jsonLd(locale) {
   return blocks.map(b => `<script type="application/ld+json">\n${JSON.stringify(b, null, 2)}\n</script>`).join('\n');
 }
 
+// Scroll narrative: one section per story block, screenshot in a Mac frame,
+// alternating sides. Shots live in /shots/<name>.webp (scripts in memecmo-app).
+function storyHtml(d) {
+  const secs = (d.story && d.story.sections) || [];
+  return secs.map((s, i) => `
+<section class="sec story${i % 2 ? ' story-flip' : ''}" id="${s.id}">
+  <div class="wrap story-grid">
+    <div class="story-copy reveal">
+      <span class="kicker">${s.tag}</span>
+      <h2 class="sec-title">${s.title}</h2>
+      <p class="sec-desc">${s.desc}</p>
+      <ul class="story-points">
+${(s.bullets || []).map((b) => `        <li>${b}</li>`).join('\n')}
+      </ul>
+${s.cta ? `      <a class="btn-ghost story-cta" href="${s.cta_href}">${s.cta} →</a>` : ''}
+    </div>
+    <figure class="mac reveal" style="--i:1">
+      <div class="mac-bar"><span class="dots"><i></i><i></i><i></i></span><span class="mac-title">app.memecmo.ai</span></div>
+      <div class="mac-screen"><img src="/shots/${s.shot}.webp" alt="${esc(s.alt || '')}" loading="lazy" width="1440" height="900"></div>
+    </figure>
+  </div>
+</section>`).join('\n');
+}
+
 // build the slides HTML
 function slidesHtml(d) {
   return d.hero.slides.map((s, i) => `
@@ -230,6 +267,9 @@ function buildLocale(locale) {
     HERO_BTN2: d.hero.slides[1].btn,
     HERO_STATS: heroStats(d),
     HERO_MOCK_NOTE: (d.ws && d.ws.mock_note) || '',
+    STORY_SECTIONS: storyHtml(d),
+    HERO_SHOT_ALT: esc((d.story && d.story.hero_alt) || 'MemeCMO monitor dashboard'),
+    STORY_NAV: (d.story && d.story.nav) || 'Inside',
     WS_TAG: (d.ws && d.ws.tag) || '',
     WS_TITLE: (d.ws && d.ws.title) || '',
     WS_DESC: (d.ws && d.ws.desc) || '',

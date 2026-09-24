@@ -28,7 +28,8 @@
     "cta": "申请开通",
     "about": "关于我们",
     "guide": "使用说明",
-    "us": "美国线"
+    "us": "美国线",
+    "inside": "產品內部"
   },
   "hero": {
     "scroll_label": "SCROLL",
@@ -303,5 +304,67 @@
   },
   "hero_scan_ph": "yourbrand.com",
   "hero_scan_btn": "看看 AI 眼中的你",
-  "hero_scan_note": "免費預覽掃描 · ChatGPT 與 Google AI Overview 真實回答 · 無需信用卡"
+  "hero_scan_note": "免費預覽掃描 · ChatGPT 與 Google AI Overview 真實回答 · 無需信用卡",
+  "story": {
+    "nav": "產品內部",
+    "hero_alt": "MemeCMO 監測看板:五個 AI 引擎、五項指標、出現率走勢",
+    "sections": [
+      {
+        "id": "measure",
+        "tag": "測量 · 五引擎 · 五項指標",
+        "title": "把 AI 眼中的你,看得一清二楚。",
+        "desc": "每次掃描都用買家真正會問的問題、用他們的語言,問 ChatGPT、Gemini、Claude、Perplexity 與 Google AI Overview;題庫凍結,所以每週的變化是真的,不是噪音。",
+        "bullets": [
+          "出現率、聲量份額、顯著度、情感、引用——每個數字都帶分母",
+          "單引擎視圖:同一套表格按引擎重切,因為同一品牌在不同引擎上差距往往很大",
+          "每一格都能打開背後的回答,以及引擎引用了哪些來源"
+        ],
+        "shot": "monitor",
+        "alt": "MemeCMO 監測看板:出現率走勢、品牌可見度表、各引擎出現率"
+      },
+      {
+        "id": "sources",
+        "tag": "信源 · AI 從哪裡找答案",
+        "title": "知道 AI 去哪裡找答案,然後出現在那裡。",
+        "desc": "我們讀取引擎引用的頁面:結構、時效、篇幅、schema。什麼樣的頁面會被引用,變成你內容的實測標準,而不是猜測。",
+        "bullets": [
+          "你所在市場每個引擎依賴的域名,以及跨所有掃描的引用次數",
+          "被引頁面的特徵——schema、FAQ、更新日期——按引擎、按引用強度",
+          "每月公開的越南 AI 引用信源榜,CC BY 4.0 授權"
+        ],
+        "shot": "sources",
+        "alt": "AI 引擎引用的來源與各域名的頁面特徵",
+        "cta": "越南 AI 引用信源榜",
+        "cta_href": "https://app.memecmo.ai/sources/vietnam"
+      },
+      {
+        "id": "act",
+        "tag": "行動 · 補上缺失的答案",
+        "title": "用買家的語言,補上缺失的答案。",
+        "desc": "內容、站點升級、分發套件、百科草稿都出自同一個工作區,並以你市場裡引擎真正引用的頁面畫像為標準。團隊改過的內容,重跑永不覆蓋。",
+        "bullets": [
+          "十個 agent、一個工作區:左側派發、中間審閱、右側即時活動",
+          "每份草稿都對齊你市場的實測引用畫像——結構、深度、時效",
+          "人工修改疊加在每一次重新生成之上"
+        ],
+        "shot": "workspace",
+        "alt": "MemeCMO 工作區:卡片式交付物與即時活動面板"
+      },
+      {
+        "id": "prove",
+        "tag": "驗證 · 閉環",
+        "title": "每個行動都驗證,每個變化都歸因。",
+        "desc": "記錄上線了什麼;我們抓取、哈希、盯著引擎是否開始引用。下一次掃描在同一凍結題庫上顯示什麼變了——按問題、按引擎。",
+        "bullets": [
+          "行動上線驗證,含字數與內容變化記錄",
+          "按問題與引擎的前後對比,報告內附站點覆蓋與矛盾檢查",
+          "我們公佈的每個數字背後,是同一份公開的測量標準 v1.0"
+        ],
+        "shot": "report",
+        "alt": "MemeCMO 報告:摺疊的建議、站點覆蓋與已驗證的行動",
+        "cta": "閱讀測量標準",
+        "cta_href": "https://app.memecmo.ai/standard/MemeCMO_AI_Visibility_Measurement_Standard_v1.0.pdf"
+      }
+    ]
+  }
 }

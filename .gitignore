@@ -5,3 +5,7 @@ node_modules/
 .env.local
 *.log
 __pycache__/
+
+# Claude desktop app session files
+_src/.claude/
+.claude/

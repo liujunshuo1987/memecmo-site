@@ -28,7 +28,8 @@
     "cta": "Yêu cầu truy cập",
     "about": "Về chúng tôi",
     "guide": "Hướng dẫn",
-    "us": "Dòng Hoa Kỳ"
+    "us": "Dòng Hoa Kỳ",
+    "inside": "Bên trong"
   },
   "hero": {
     "scroll_label": "CUỘN",
@@ -303,5 +304,67 @@
   },
   "hero_scan_ph": "thuonghieu.vn",
   "hero_scan_btn": "Xem AI nói gì về bạn",
-  "hero_scan_note": "Quét xem trước miễn phí · câu trả lời thật từ ChatGPT & Google AI Overview · không cần thẻ"
+  "hero_scan_note": "Quét xem trước miễn phí · câu trả lời thật từ ChatGPT & Google AI Overview · không cần thẻ",
+  "story": {
+    "nav": "Bên trong",
+    "hero_alt": "Bảng giám sát MemeCMO: năm AI engine, năm chỉ số, tỷ lệ xuất hiện theo thời gian",
+    "sections": [
+      {
+        "id": "measure",
+        "tag": "ĐO LƯỜNG · NĂM ENGINE · NĂM CHỈ SỐ",
+        "title": "Thấy chính xác AI nhìn bạn thế nào.",
+        "desc": "Mỗi lần quét đặt cho ChatGPT, Gemini, Claude, Perplexity và Google AI Overview những câu hỏi người mua thật sự hỏi, bằng ngôn ngữ của họ, trên một bộ câu hỏi cố định — nên biến động theo tuần là thật, không phải nhiễu.",
+        "bullets": [
+          "Tỷ lệ xuất hiện, thị phần tiếng nói, mức nổi bật, cảm xúc và trích dẫn — mỗi con số đều kèm mẫu số",
+          "Từng engine một: cùng bộ bảng được cắt lại theo engine, vì cùng một thương hiệu chênh lệch lớn giữa các engine",
+          "Mỗi ô đều mở ra câu trả lời phía sau, cùng các nguồn engine đã trích dẫn"
+        ],
+        "shot": "monitor",
+        "alt": "Bảng giám sát MemeCMO: tỷ lệ xuất hiện theo thời gian, bảng hiện diện thương hiệu, theo engine"
+      },
+      {
+        "id": "sources",
+        "tag": "NGUỒN · AI TÌM Ở ĐÂU",
+        "title": "Biết AI tìm câu trả lời ở đâu — và có mặt ở đó.",
+        "desc": "Chúng tôi đọc các trang mà engine trích dẫn: cấu trúc, độ mới, độ dài, schema. Kiểu trang được trích dẫn trở thành thước đo thực tế cho nội dung của bạn, không phải phỏng đoán.",
+        "bullets": [
+          "Các tên miền mỗi engine dựa vào tại thị trường của bạn, với số trích dẫn qua mọi lần quét",
+          "Đặc điểm của trang được trích — schema, FAQ, ngày cập nhật — theo engine và theo cường độ trích dẫn",
+          "Bảng công khai hằng tháng các nguồn AI trích dẫn tại Việt Nam, giấy phép CC BY 4.0"
+        ],
+        "shot": "sources",
+        "alt": "Các nguồn AI engine trích dẫn cùng đặc điểm trang theo tên miền",
+        "cta": "Nguồn AI trích dẫn tại Việt Nam",
+        "cta_href": "https://app.memecmo.ai/sources/vietnam/vi"
+      },
+      {
+        "id": "act",
+        "tag": "HÀNH ĐỘNG · BỔ SUNG PHẦN CÒN THIẾU",
+        "title": "Xây những câu trả lời còn thiếu, bằng ngôn ngữ người mua.",
+        "desc": "Nội dung, nâng cấp website, bộ phân phối và bản nháp bách khoa đều ra từ cùng một không gian làm việc, dựa trên kiểu trang mà engine thật sự trích dẫn ở thị trường của bạn. Những gì đội của bạn đã sửa, lần chạy lại không bao giờ ghi đè.",
+        "bullets": [
+          "Mười agent, một không gian làm việc: giao việc bên trái, duyệt ở giữa, hoạt động trực tiếp bên phải",
+          "Mỗi bản nháp bám theo hồ sơ trích dẫn đo được của thị trường — cấu trúc, chiều sâu, độ mới",
+          "Chỉnh sửa của con người được giữ nguyên trên mọi lần tạo lại"
+        ],
+        "shot": "workspace",
+        "alt": "Không gian làm việc MemeCMO với các thẻ bàn giao và bảng hoạt động trực tiếp"
+      },
+      {
+        "id": "prove",
+        "tag": "CHỨNG MINH · KHÉP VÒNG",
+        "title": "Mọi hành động được xác minh. Mọi thay đổi được quy về nguyên nhân.",
+        "desc": "Ghi lại những gì đã lên sóng; chúng tôi lấy trang, băm nội dung và theo dõi engine có bắt đầu trích dẫn không. Các lần quét sau cho thấy điều gì đã thay đổi — theo câu hỏi, theo engine — trên cùng bộ câu hỏi cố định.",
+        "bullets": [
+          "Hành động được xác minh đang hoạt động, kèm số từ và thay đổi nội dung theo thời gian",
+          "Kết quả trước/sau theo câu hỏi và engine, cùng độ phủ website và các mâu thuẫn trong mỗi báo cáo",
+          "Một tiêu chuẩn đo lường công khai (v1.0) đứng sau mọi con số chúng tôi công bố"
+        ],
+        "shot": "report",
+        "alt": "Báo cáo MemeCMO với khuyến nghị thu gọn, độ phủ website và hành động đã xác minh",
+        "cta": "Đọc tiêu chuẩn đo lường",
+        "cta_href": "https://app.memecmo.ai/standard/MemeCMO_AI_Visibility_Measurement_Standard_v1.0.pdf"
+      }
+    ]
+  }
 }

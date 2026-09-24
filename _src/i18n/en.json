@@ -28,7 +28,8 @@
     "cta": "Request access",
     "about": "About",
     "guide": "Guide",
-    "us": "US line"
+    "us": "US line",
+    "inside": "Inside"
   },
   "hero": {
     "scroll_label": "SCROLL",
@@ -303,5 +304,67 @@
   },
   "hero_scan_ph": "yourbrand.com",
   "hero_scan_btn": "See how AI sees you",
-  "hero_scan_note": "Free preview scan · real ChatGPT & Google AI Overview answers · no credit card"
+  "hero_scan_note": "Free preview scan · real ChatGPT & Google AI Overview answers · no credit card",
+  "story": {
+    "nav": "Inside",
+    "hero_alt": "MemeCMO monitor: five AI engines, five metrics, presence over time",
+    "sections": [
+      {
+        "id": "measure",
+        "tag": "MEASURE · FIVE ENGINES · FIVE METRICS",
+        "title": "See exactly how AI sees you.",
+        "desc": "Every scan asks ChatGPT, Gemini, Claude, Perplexity and Google AI Overview the questions your buyers really ask, in their language, on a frozen panel — so week-to-week movement is real, not noise.",
+        "bullets": [
+          "Presence, share of voice, prominence, sentiment and citation — each shown with its denominator",
+          "One engine at a time: the same tables re-sliced per engine, because the same brand differs sharply between them",
+          "Every cell opens the answer behind it, with the sources the engine cited"
+        ],
+        "shot": "monitor",
+        "alt": "MemeCMO monitor dashboard: presence over time, brand visibility table, presence by engine"
+      },
+      {
+        "id": "sources",
+        "tag": "SOURCES · WHERE AI LOOKS",
+        "title": "Know where AI looks for answers — and be there.",
+        "desc": "We read the pages the engines cite: structure, freshness, length, schema. What gets cited becomes a measured bar for your content, not a guess.",
+        "bullets": [
+          "The domains each engine leans on in your market, with citations across every scan",
+          "Page features of the cited pages — schema, FAQ, update date — per engine and by citation intensity",
+          "A public monthly list of the sources AI cites in Vietnam, released under CC BY 4.0"
+        ],
+        "shot": "sources",
+        "alt": "Sources the AI engines cite, with page features per domain",
+        "cta": "Sources AI cites in Vietnam",
+        "cta_href": "https://app.memecmo.ai/sources/vietnam"
+      },
+      {
+        "id": "act",
+        "tag": "ACT · BUILD WHAT'S MISSING",
+        "title": "Build the missing answers, in the buyer's language.",
+        "desc": "Content, site upgrades, distribution kits and encyclopedia drafts come out of the same workspace, briefed by what the engines actually cite in your market. What your team edits, a re-run never overwrites.",
+        "bullets": [
+          "Ten agents, one workspace: dispatch on the left, review on the stage, live activity on the right",
+          "Every draft is written to the measured citation profile of your market — structure, depth, freshness",
+          "Human edits are kept on top of every regeneration"
+        ],
+        "shot": "workspace",
+        "alt": "MemeCMO workspace with card-style deliverables and the live activity panel"
+      },
+      {
+        "id": "prove",
+        "tag": "PROVE · CLOSE THE LOOP",
+        "title": "Every action verified. Every change attributed.",
+        "desc": "Log what went live; we fetch it, hash it and watch whether the engines start citing it. The next scans show what moved — by question, by engine — on the same frozen panel.",
+        "bullets": [
+          "Actions verified live, with word count and content changes over time",
+          "Before/after outcomes per question and engine, plus site coverage and contradictions in every report",
+          "One public measurement standard (v1.0) behind every number we publish"
+        ],
+        "shot": "report",
+        "alt": "MemeCMO report with collapsed recommendations, site coverage and verified actions",
+        "cta": "Read the measurement standard",
+        "cta_href": "https://app.memecmo.ai/standard/MemeCMO_AI_Visibility_Measurement_Standard_v1.0.pdf"
+      }
+    ]
+  }
 }
