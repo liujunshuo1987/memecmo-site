@@ -16,7 +16,7 @@
     "name": "MemeCMO GEO Platform",
     "description": "Generative Engine Optimization platform: a ten-agent suite that measures AI visibility in standard metrics (presence, share of voice, citation rate, AI sentiment, answer accuracy), builds the missing assets (standard answers, JSON-LD schema, gap content, third-party placements, encyclopedia entries) and delivers weekly digests and monthly reports. Two product lines: Southeast Asia (Vietnam, Thailand, Indonesia, Malaysia, Singapore, Philippines) and the United States, state by state.",
     "offer_name": "Platform plans and credit packs",
-    "offer_desc": "Monthly plans per brand × market (scheduled scans, prompt library, engines, reports) plus credit packs for on-demand scans. Agency partners get workspaces per client, rollup reports and wholesale pricing."
+    "offer_desc": "Starter US$99, Growth US$199 and Scale US$1,999+ per brand × market per month (scheduled scans, prompt panel, engines, reports, deliverables), plus credit packs for on-demand runs. Agency partners get workspaces per client, rollup reports and wholesale pricing."
   },
   "nav": {
     "philosophy": "Why GEO",
@@ -46,16 +46,16 @@
       {
         "tag": "TEN AGENTS · DELIVERABLES, NOT ADVICE",
         "title": "Not a dashboard —<br>an <span class=\"hl\">agent team that ships.</span>",
-        "desc": "Prompt discovery, a standard-answers library, JSON-LD schema, gap content, third-party placements, encyclopedia entries — every agent produces a publish-ready deliverable, grounded in your verified brand facts.",
+        "desc": "Prompt discovery, a standard-answers library, JSON-LD schema, gap content, third-party placements, encyclopedia entries — every agent produces a publish-ready deliverable, grounded only in facts already public on your site. A number without a source becomes a placeholder, never an invention.",
         "btn": "See the ten agents",
         "btn_href": "#geo-tech"
       },
       {
-        "tag": "STANDARD METRICS · ANSWER ACCURACY",
-        "title": "Measured in metrics<br>your CMO <span class=\"hl\">already trusts.</span>",
-        "desc": "Presence, share of voice, citation rate, AI sentiment — and answer accuracy: does AI give your customers the correct product facts and links? Wrong answers are support tickets waiting to happen. We catch them per engine.",
-        "btn": "How we measure",
-        "btn_href": "#geo-tech"
+        "tag": "ONE PUBLIC STANDARD · HONEST MEASUREMENT",
+        "title": "Measured to a standard<br>you can <span class=\"hl\">read and check.</span>",
+        "desc": "Presence, share of voice, prominence, sentiment, citation — every rate with its numerator and denominator, on a frozen prompt panel, with judged answers you can open. The AI Visibility Measurement Standard v1.1 is public; plans differ in scope, never in method.",
+        "btn": "Read the standard",
+        "btn_href": "https://app.memecmo.ai/standard/MemeCMO_AI_Visibility_Measurement_Standard_v1.1.pdf"
       },
       {
         "tag": "TWO PRODUCT LINES · SOUTHEAST ASIA · UNITED STATES",
@@ -75,71 +75,71 @@
   },
   "tagline": {
     "main": "<span class=\"brand\">MemeCMO</span> — Make your brand the answer in AI.",
-    "sub": "Measure. Build. Report. Every week."
+    "sub": "Measured to a public standard. Built from your own facts. Proven on a frozen panel."
   },
   "philosophy": {
-    "tag": "WHY GEO, WHY NOW",
-    "title": "Cognition is the asset. First-mover is the moat.",
-    "desc": "Organic traffic is migrating into AI answers. A brand's presence inside those answers isn't traffic you rent — once established, it works 24/7, across languages, at zero marginal cost, and compounds.",
+    "tag": "WHAT WE BELIEVE",
+    "title": "Six principles, written into the product.",
+    "desc": "GEO is not a trick played on the engines. It is the discipline of putting true, findable facts where AI looks — and measuring honestly whether AI picks them up. Every principle below is a feature in the workspace, not a line on a slide.",
     "cards": [
       {
-        "icon": "🧬",
-        "title": "Cognition is the asset",
-        "desc": "AI brand answers show a strong Matthew effect — the earlier you're cited, the harder you are to displace. Presence compounds; absence compounds too."
+        "icon": "🏠",
+        "title": "Facts live on your site, not in our app",
+        "desc": "AI can only repeat what is public. So the platform never becomes the place where truth is kept: it reads your own pages, shows where AI contradicts them or finds nothing, and sends you back to fix the source. No hidden database of “verified facts”."
       },
       {
-        "icon": "🎯",
-        "title": "First-mover is the moat",
-        "desc": "Latecomers face 3–5× the cost and 6–12 months to overwrite a hardened narrative. The window in emerging-language markets is open now."
+        "icon": "📏",
+        "title": "Define the standard; don't compete on scale",
+        "desc": "Presence, share of voice, prominence, sentiment, citation — every rate published with its numerator and denominator, sample sizes and confidence labels, in a public Measurement Standard (v1.1) anyone can check. Plans differ in scope, never in method."
       },
       {
         "icon": "🔬",
-        "title": "Standard metrics, not a black box",
-        "desc": "Presence, share of voice, citation rate, AI sentiment, answer accuracy — measured per engine on a frozen prompt panel so scan-to-scan movement is real, not noise."
+        "title": "Honest measurement",
+        "desc": "A frozen prompt panel per market, the real Google AI Overview page, judged answers you can open and re-check. An effect is reported only when the targeted prompts beat the control prompts by more than 10 points. We never promise rankings or sales."
       },
       {
-        "icon": "🌏",
-        "title": "Localization ≠ translation",
-        "desc": "Multi-language brand narrative isn't machine translation — every market gets its own prompt library, answers and citations, recoded for its cultural context."
+        "icon": "🧠",
+        "title": "Feedback kept in the system becomes an asset",
+        "desc": "Every competitor you re-tag, every prompt you reword, every action you log is recorded with its reason and re-applied on every re-run. Your team's judgement compounds inside the platform instead of evaporating in chat threads."
       },
       {
-        "icon": "⚡",
-        "title": "Agents ship deliverables",
-        "desc": "We don't hand you a to-do list. Each agent produces the asset itself — answers, schema, pages, placements — ready to publish and grounded in your verified facts."
+        "icon": "⚙️",
+        "title": "One person + AI helpers closes a loop",
+        "desc": "The workspace is built for a minimal unit: one owner and scoped agents that sense, judge, act, measure and record on their own. Your team specifies and gives feedback; the platform side builds the agents. No engineering hires on your side."
       },
       {
-        "icon": "🏗️",
-        "title": "Your account, your team",
-        "desc": "Usage is controlled at the account level, never per seat: invite your whole team as viewers and members at no extra cost."
+        "icon": "📡",
+        "title": "Be the source",
+        "desc": "AI trusts a short list of domains in each market. We rank them across every scan, fetch and profile the pages they cite, publish the Vietnam list monthly, and verify what you put live — so your pages and the media AI already cites carry your facts."
       }
     ]
   },
   "tech": {
     "tag": "THE PLATFORM",
     "title": "Ten agents,<br>one closed loop",
-    "desc": "Discover what buyers ask → measure what AI answers → build what's missing → distribute → re-measure. Every step is an agent; every agent leaves a deliverable in your workspace.",
+    "desc": "Discover what buyers ask → measure what AI answers → build what is missing from your own facts → log what went live → re-measure on the same panel. Every step is an agent; every agent leaves a deliverable in your workspace.",
     "stack_title": "The agent suite",
     "center_text": "10<br>agents",
     "items": [
       {
-        "strong": "Discovery + Standard Answers",
-        "rest": "100+ buyer questions per market, tagged high-intent vs educational; a bilingual canonical-answer library grounded in your verified brand facts."
+        "strong": "Profile + Discovery + Standard answers",
+        "rest": "A public fact base built from your own pages and documents; 110 buyer questions per market in the buyer's language, 20 of them key; canonical answers grounded only in those facts."
       },
       {
-        "strong": "Monitor — five engines, real surfaces",
-        "rest": "ChatGPT, Gemini, Perplexity, Claude and the real Google AI Overview page. Presence, share of voice, citation rate, sentiment, answer accuracy — per engine, per intent."
+        "strong": "Monitor — five engines, real surfaces, one frozen panel",
+        "rest": "ChatGPT, Gemini, Perplexity, Claude and the real Google AI Overview page. Presence over time, brand visibility, share of voice, presence by engine and by question — every cell opens the answer behind it."
       },
       {
-        "strong": "Site + Schema",
-        "rest": "Reads your homepage, returns paste-in JSON-LD (Organization, Service, FAQPage, LocalBusiness) and concrete page edits — with step-by-step guidance."
+        "strong": "Sources + cited pages",
+        "rest": "The domains AI cites in your market, ranked across scans; the cited pages fetched and profiled (structure, freshness, schema) so content is written to a measured bar. Your own pages join the corpus: site coverage and contradictions in every report."
       },
       {
-        "strong": "Content + Distribute + Encyclopedia",
-        "rest": "Gap pages and FAQs, ready-to-send placements for the sources AI actually cites in your market, and encyclopedia entries with citations."
+        "strong": "Content + Site + Distribute + Encyclopedia",
+        "rest": "Publish-ready pages and FAQ, paste-in JSON-LD, placement kits for the sources AI trusts (competitors excluded), encyclopedia drafts with a compliant path. Numbers without a source become placeholders, never inventions."
       },
       {
-        "strong": "Report + weekly digest",
-        "rest": "Stage-aware client digests every week, monthly deep reports, alerts on significant drops, and one-page rollups across all your brands."
+        "strong": "Actions + Report + digest",
+        "rest": "Log what went live; we fetch it, hash it and attribute what moved by question and engine. Stage-aware weekly digests, monthly reports, alerts on drops — and your edits survive every re-run."
       }
     ]
   },
@@ -184,23 +184,23 @@
   },
   "process": {
     "tag": "HOW IT RUNS",
-    "title": "Baseline. Build. Re-measure — every week.",
-    "desc": "Scans run on schedule as part of the service; the agents build in between; the digest lands in your inbox every Tuesday.",
+    "title": "Baseline. Build. Prove — on the same panel.",
+    "desc": "Scheduled scans run at your plan's cadence; the agents build in between; every action you log is verified and attributed in the next scan.",
     "steps": [
       {
         "phase": "DAY 0 · BASELINE",
-        "title": "Full scan",
-        "desc": "Discovery builds your prompt library; Monitor measures five engines; Report prioritizes the gaps. Your baseline in about four minutes."
+        "title": "Profile, panel, first scan",
+        "desc": "Profile builds the fact base from your site; Discovery writes the prompt panel in the buyer's language; Monitor measures five engines; Report prioritizes the gaps. Your Day-0 baseline in about five minutes, on a panel that then stays frozen."
       },
       {
         "phase": "WEEKS 1–4 · BUILD",
-        "title": "Ship the assets",
-        "desc": "Standard answers, JSON-LD schema, gap content, third-party placements, encyclopedia entries — each a publish-ready deliverable, each verified by you before it ships."
+        "title": "Ship the assets, log the actions",
+        "desc": "Standard answers, JSON-LD, gap content, placements, encyclopedia drafts — each grounded in your facts, each edited by you, each edit kept on re-runs. When something goes live, log it: the platform fetches and verifies the page."
       },
       {
-        "phase": "EVERY WEEK · RE-MEASURE",
-        "title": "Digest, report, adjust",
-        "desc": "Scheduled scans on a frozen prompt panel keep scores comparable. Weekly digest, monthly report, alerts on drops. Need a scan now? Credits cover on-demand runs."
+        "phase": "EVERY PERIOD · PROVE",
+        "title": "Re-measure, attribute, adjust",
+        "desc": "Scheduled scans on the frozen panel keep scores comparable. Effect = change on the prompts you targeted minus change on the control prompts; only changes above 10 points count. Digest to the inbox, alerts on drops, credits for “run it now”."
       }
     ]
   },
@@ -215,23 +215,31 @@
       },
       {
         "q": "How is GEO different from SEO?",
-        "a": "SEO optimizes for ranking in a list of blue links; GEO optimizes for inclusion, accuracy and prominence inside a generated answer. The levers differ: structured data, authoritative third-party citations, canonical answers to buyer questions, and content written to be quoted — not backlinks and keyword density."
+        "a": "SEO optimizes for ranking in a list of blue links; GEO optimizes for inclusion, accuracy and prominence inside a generated answer. The levers differ: structured data, authoritative third-party citations, canonical answers to buyer questions, and content written to be cited — not backlinks and keyword density."
       },
       {
-        "q": "What does MemeCMO measure?",
-        "a": "Standard metrics per engine: presence (how often you're mentioned), share of voice (your share of all brand mentions), citation rate (how often sources favoring you are cited), AI sentiment, top-of-mind rate (how often you're named first), and answer accuracy (whether AI's product facts and links match your verified standard answers). A weighted AI Mindset Index summarizes them; the metrics are the ground truth."
+        "q": "What does MemeCMO measure, and how?",
+        "a": "Five standard metrics per engine, each with its numerator and denominator: presence (answers mentioning you ÷ all answers), share of voice (your mentions ÷ all tracked-brand mentions, sums to 100%), prominence, sentiment when present, and citation (answers citing your own domain). Plus top-of-mind rate and a high-intent gap list. Everything is measured on a frozen prompt panel per market and defined in the public AI Visibility Measurement Standard v1.1."
       },
       {
-        "q": "What is Answer Accuracy and why does it matter?",
-        "a": "Answer Accuracy compares what AI actually tells your customers against your verified standard answers. When AI gives the wrong product facts, an outdated link or the wrong contact details, the customer acts on it and your support team pays. MemeCMO flags each inaccurate answer per engine so you can fix the source."
+        "q": "How do you stop the AI from inventing facts?",
+        "a": "Content agents may only use figures from your brand profile and the documents you upload; any number without a source becomes a placeholder for you to fill. Competitor and vendor domains are excluded from placement targets, calques are rewritten into market phrasing, unsourced claims are flagged, and nothing is published by us — you publish, then log the action and we verify it."
+      },
+      {
+        "q": "What is the Measurement Standard?",
+        "a": "A public document (v1.1, September 2026) that defines every metric, the sampling design, confidence labels, citation coverage (4/5 engines), comparison against the client's own public pages, verification of logged actions and the rule for publishing source lists. Every number the platform shows can be traced to it. <a href=\"https://app.memecmo.ai/standard/MemeCMO_AI_Visibility_Measurement_Standard_v1.1.pdf\">Read the standard →</a>"
       },
       {
         "q": "Which AI engines and markets are covered?",
-        "a": "ChatGPT, Gemini, Perplexity, Claude and the real Google AI Overview page, location-targeted. Markets: Vietnam, Thailand, Indonesia, Malaysia, Singapore and the Philippines in their local languages, and the United States state by state (Tier-1: California, Texas, Florida, New York) with state regulatory frames for regulated verticals."
+        "a": "ChatGPT, Gemini, Perplexity, Claude and the real Google AI Overview page, location-targeted. Markets: Vietnam, Thailand, Indonesia, Malaysia, Singapore and the Philippines in their local languages, and the United States state by state (Tier-1: California, Texas, Florida, New York), with state-law frames for regulated verticals."
       },
       {
         "q": "How does pricing work?",
-        "a": "Monthly plans per brand × market set the scan cadence, prompt library size, engines and reports; scheduled scans and reports are included. Credits cover on-demand scans and extra content runs. Agency partners get a workspace per client, rollup reports, unlimited seats and wholesale pricing."
+        "a": "Three plans per brand × market: Starter US$99, Growth US$199 and Scale US$1,999+ per month. The plan sets the scheduled scan cadence, prompt panel size, engines, projects, report frequency and included credits; scheduled scans and reports are included. Credits pay only for runs you trigger yourself. Seats are unlimited; agency partners get a workspace per client and wholesale pricing. <a href=\"https://app.memecmo.ai/pricing\">Plans, credits and service items →</a>"
+      },
+      {
+        "q": "Who owns the data — and the feedback?",
+        "a": "Your brand facts, marks and documents stay yours; the platform, prompt method and scoring rules are ours. Every correction your team makes — a re-tagged competitor, a reworded prompt, a logged action — is recorded with its reason and reused, so the feedback becomes your project's asset. You can export your full history up to 12 months after termination, and any figure we publish comes from at least 5 brands, de-identified."
       },
       {
         "q": "Who is MemeCMO for?",
@@ -239,7 +247,7 @@
       },
       {
         "q": "How is MemeCMO different from Semrush, Profound or other GEO tools?",
-        "a": "Most GEO tools stop at monitoring: they show you a dashboard and leave the work to you. MemeCMO's ten agents also produce the deliverables — standard answers, JSON-LD schema, gap content, third-party placements, encyclopedia entries — grounded in your verified brand facts. Two further differences: Answer Accuracy (we check whether AI gives your customers correct product facts, per engine — a support-cost metric monitoring-only tools don't have) and market depth where others are thin: Southeast Asian languages and US state-by-state measurement with state regulatory frames. <a href=\"/compare/\">Full side-by-side comparison with sources →</a>"
+        "a": "Most GEO tools stop at monitoring: they show you a dashboard and leave the work to you. MemeCMO's ten agents also produce the deliverables — standard answers, JSON-LD schema, gap content, placements, encyclopedia entries — grounded only in your public facts, and then verify what you publish and attribute what moved. Two more differences: a public measurement standard behind every number, and market depth others lack — Southeast Asian languages and US state-by-state measurement. <a href=\"/compare/\">Full comparison with sources →</a>"
       }
     ]
   },
@@ -286,18 +294,18 @@
         "label": "SEA markets + US states"
       },
       {
-        "val": "Weekly",
-        "label": "Digest cadence"
+        "val": "v1.1",
+        "label": "Public measurement standard"
       }
     ]
   },
   "ws": {
     "tag": "INSIDE THE PLATFORM",
     "title": "One workspace. Every deliverable.",
-    "desc": "The same interface your team works in every week: dispatch an agent on the left, watch it run on the stage, and every result stays in the workspace — scored, exportable, verified by you.",
-    "b1": "Three-zone workspace: dispatch · stage · live activity",
-    "b2": "Night & day themes, EN / 中文 / VN interface",
-    "b3": "Every result exports as a branded PDF",
+    "desc": "The same interface your team works in every week: dispatch an agent on the left, review it on the stage, log what went live on the right — and every result stays in the workspace, scored, exportable, edited by you.",
+    "b1": "Card-style workspace: dispatch · stage · live activity and action log",
+    "b2": "中文 / EN / VN interface; deliverables in the market language, translated in place",
+    "b3": "Every result exports as a branded PDF; your edits survive every re-run",
     "mock_note": "Measured per engine on a frozen prompt panel — movement is real, not noise.",
     "demo": "Open the live demo",
     "demo_sub": "A real brand, really measured — refreshed weekly, no sign-up needed."
@@ -358,7 +366,7 @@
         "bullets": [
           "Actions verified live, with word count and content changes over time",
           "Before/after outcomes per question and engine, plus site coverage and contradictions in every report",
-          "One public measurement standard (v1.0) behind every number we publish"
+          "One public measurement standard (v1.1) behind every number we publish"
         ],
         "shot": "report",
         "alt": "MemeCMO report with collapsed recommendations, site coverage and verified actions",
