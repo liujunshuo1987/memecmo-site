@@ -257,6 +257,8 @@ function buildLocale(locale) {
     PAUSE_LABEL_PAUSED_JSON: JSON.stringify(d.hero.pause_label_paused),
 
     NAV_ABOUT: (d.nav && d.nav.about) || 'About',
+    GEO_VN_URL: locale === 'vi' ? '/vi/geo-viet-nam/' : locale === 'zh' ? '/zh/geo-vietnam/' : '/geo-vietnam/',
+    GEO_VN_LABEL: locale === 'vi' ? 'GEO tại Việt Nam' : locale === 'zh' ? '越南 GEO' : 'GEO in Vietnam',
     NAV_GUIDE: (d.nav && d.nav.guide) || 'Guide',
     NAV_US: (d.nav && d.nav.us) || 'US',
     HERO_TAG: d.hero.slides[0].tag,
@@ -392,6 +394,9 @@ ${alts}
 ${urls}
   <url><loc>${SITE_URL}/about/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>${SITE_URL}/compare/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>${SITE_URL}/geo-vietnam/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>${SITE_URL}/vi/geo-viet-nam/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>${SITE_URL}/zh/geo-vietnam/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 ${LOCALES.filter(l => l !== 'en').map(l => `  <url><loc>${SITE_URL}/${l}/about/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>`).join('\n')}
 </urlset>
 `;
