@@ -397,6 +397,7 @@ ${urls}
   <url><loc>${SITE_URL}/geo-vietnam/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>${SITE_URL}/vi/geo-viet-nam/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>${SITE_URL}/zh/geo-vietnam/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>${SITE_URL}/vi/doi-tac-truyen-thong/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 ${LOCALES.filter(l => l !== 'en').map(l => `  <url><loc>${SITE_URL}/${l}/about/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>`).join('\n')}
 </urlset>
 `;

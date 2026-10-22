@@ -88,7 +88,7 @@ C = {
   'cta_h': 'Bắt đầu từ chính câu trả lời về bạn',
   'cta_p': 'Gửi cho chúng tôi ngành hàng và hai đối thủ. Chúng tôi gửi lại mức nền trên bộ câu hỏi cố định — kèm chính bộ câu hỏi đó, để bạn dùng nó đối chiếu với bất kỳ ai khác.',
   'cta': 'Yêu cầu mức nền trên cùng bộ câu hỏi',
-  'links': [('Danh sách nguồn AI trích dẫn tại Việt Nam (hằng tháng)', SOURCES + '/vi'), ('So sánh các nền tảng GEO', '/compare/'), ('Không gian làm việc mẫu', 'https://app.memecmo.ai/demo')],
+  'links': [('Danh sách nguồn AI trích dẫn tại Việt Nam (hằng tháng)', SOURCES + '/vi'), ('Đề xuất hợp tác cho báo chí: cùng xây GEO', '/vi/doi-tac-truyen-thong/'), ('So sánh các nền tảng GEO', '/compare/'), ('Không gian làm việc mẫu', 'https://app.memecmo.ai/demo')],
   'foot': 'MemeCMO Tech Limited · Số ĐKKD Hồng Kông 80218619 · Cập nhật 21/10/2026',
   'faq_extra': ('AI đọc bao nhiêu từ website của chính thương hiệu?', 'Trong phép đo của MemeCMO trên 12 thương hiệu tại Việt Nam (3.011 câu trả lời AI có trích dẫn, tháng 6–10/2026), website của chính thương hiệu chỉ chiếm 0,7% nguồn AI đọc khi người mua chưa biết thương hiệu, và 14,3% ở giai đoạn kiểm tra uy tín. AI nhắc tên thương hiệu trong 3,9% câu trả lời ở giai đoạn tìm hiểu.'),
  },
@@ -285,9 +285,10 @@ def page(k):
     }
 
 
-for k in ('en', 'vi', 'zh'):
-    d = os.path.join(ROOT, PATHS[k])
-    os.makedirs(d, exist_ok=True)
-    with open(os.path.join(d, 'index.html'), 'w', encoding='utf-8') as f:
-        f.write(page(k))
-    print('wrote', PATHS[k] + '/index.html')
+if __name__ == '__main__':
+    for k in ('en', 'vi', 'zh'):
+        d = os.path.join(ROOT, PATHS[k])
+        os.makedirs(d, exist_ok=True)
+        with open(os.path.join(d, 'index.html'), 'w', encoding='utf-8') as f:
+            f.write(page(k))
+        print('wrote', PATHS[k] + '/index.html')

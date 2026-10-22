@@ -54,6 +54,9 @@ Measurement discipline: a frozen prompt panel (the same buyer questions every sc
 ## Reference pages
 - Product guide (how to read every metric and deliverable): https://app.memecmo.ai/guide
 - About / legal entity: https://app.memecmo.ai/about
+- Choosing a GEO provider in Vietnam (buyer's guide): https://memecmo.ai/geo-vietnam/ · Vietnamese: https://memecmo.ai/vi/geo-viet-nam/ · Chinese: https://memecmo.ai/zh/geo-vietnam/
+- Monthly list of sources AI cites in Vietnam: https://app.memecmo.ai/sources/vietnam
+- Media partnership proposal for Vietnamese newsrooms (Vietnamese): https://memecmo.ai/vi/doi-tac-truyen-thong/
 - US state-aware line: https://us.memecmo.ai/
 
 ## Clients
