@@ -224,7 +224,11 @@ function heroSky(h) {
     icon('cursor', 3, 'left:19%;top:86%', '', 'wander'),
     icon('bars', 4, 'right:6%;top:4%;--d:-1.5s'),
     icon('quote', 3, 'right:20%;top:0;--d:-2.1s'),
-    icon('eye', 4, 'right:2%;top:34%;--d:-.9s', L.visibility),
+    `      <div class="float watcher" style="right:1%;top:28%;--d:-.9s"><div class="watch-eye">${px('eyebase', 6)}<i class="watch-iris">${px('iris', 6)}</i></div><span>${L.visibility}</span></div>`,
+    `      <div class="float mini-eye" style="left:27%;top:5%;--d:-1.1s">${px('eye', 2)}</div>`,
+    `      <div class="float mini-eye b2" style="right:27%;top:9%;--d:-2.4s">${px('eye', 2)}</div>`,
+    `      <div class="float mini-eye b3" style="left:14%;top:52%;--d:-3.1s">${px('eye', 2)}</div>`,
+    `      <div class="float mini-eye b4" style="right:17%;top:50%;--d:-.6s">${px('eyeclosed', 2)}</div>`,
     icon('pie', 3, 'right:10%;top:64%;--d:-1.9s', L.sov),
     icon('agent', 3, 'right:2%;top:86%;--d:-2.9s', L.agents)
   ].join('\n');
@@ -244,8 +248,11 @@ function islandSources(locale) {
     `        <div class="ip-row"><span>${domain}</span><span class="ip-bar"><i style="width:${Math.round(n / TOP_SOURCES[0][1] * 100)}%"></i></span><span class="ip-val"><b>${fmtNum(locale, n / SOURCE_BASE * 100, 1)}%</b> ${n}/${fmtNum(locale, SOURCE_BASE)}</span></div>`
   ).join('\n');
 }
+// Each proof card carries one pixel mark: answers read, the brand's own site
+// barely seen (a closed eye), the outlet AI sees most (an open eye).
+const PROOF_ICONS = ['chat', 'eyeclosed', 'eye'];
 function proofCards(h) {
-  return h.proof.map((p, i) => `        <div class="proof-card"><b${i === 1 ? ' class="warn"' : ''}>${p.num}</b><span>${p.text}</span><small>${p.src}</small></div>`).join('\n');
+  return h.proof.map((p, i) => `        <div class="proof-card"><i class="proof-px">${px(PROOF_ICONS[i], 2)}</i><b${i === 1 ? ' class="warn"' : ''}>${p.num}</b><span>${p.text}</span><small>${p.src}</small></div>`).join('\n');
 }
 // Inter for Latin and Vietnamese; Chinese and Thai get their Noto face first in line.
 const SCRIPT_FONT = {
@@ -380,7 +387,7 @@ function buildLocale(locale) {
     PX_METHODS: SCENES.methods,
     PX_AGENTS: SCENES.agents,
     PX_PROMISES: SCENES.promises,
-    PX_MARKETS: px('flag', 4, 'sec-px'),
+    PX_MARKETS: `<div class="sec-px px-scene px-bob px-watch" aria-hidden="true">${px('eye', 3, 'mini-blink')}${px('globe', 4)}</div>`,
     PX_PROCESS: SCENES.process,
     PX_FAQ: SCENES.faq,
     PX_TRAIL: TRAIL,

@@ -1,5 +1,6 @@
 // Pixel GEO icons for memecmo.ai — drawn on a 16-px grid (generator: the design
 // canvas's icon bitmaps). Our own marks, never type: px(name, scale, cls).
+// The eye family (eye, eyebase + iris, eyeclosed, eyemini) carries "AI visibility".
 const ICONS = {
  "mac": {
   "w": 16,
@@ -120,6 +121,26 @@ const ICONS = {
   "w": 9,
   "h": 8,
   "body": "<path fill=\"#2A2024\" d=\"M1 0h2v1h-2zM6 0h2v1h-2zM0 1h1v1h-1zM3 1h1v1h-1zM5 1h1v1h-1zM8 1h1v1h-1zM0 2h1v1h-1zM4 2h1v1h-1zM8 2h1v1h-1zM0 3h1v1h-1zM8 3h1v1h-1zM1 4h1v1h-1zM7 4h1v1h-1zM2 5h1v1h-1zM6 5h1v1h-1zM3 6h1v1h-1zM5 6h1v1h-1zM4 7h1v1h-1z\"/><path fill=\"#C76B7A\" d=\"M1 1h2v1h-2zM6 1h2v1h-2zM1 2h3v1h-3zM5 2h3v1h-3zM1 3h7v1h-7zM2 4h5v1h-5zM3 5h3v1h-3zM4 6h1v1h-1z\"/>"
+ },
+ "eyebase": {
+  "w": 16,
+  "h": 10,
+  "body": "<path fill=\"#2A2024\" d=\"M5 0h6v1h-6zM3 1h2v1h-2zM11 1h2v1h-2zM2 2h1v1h-1zM13 2h1v1h-1zM1 3h1v1h-1zM14 3h1v1h-1zM0 4h1v1h-1zM15 4h1v1h-1zM0 5h1v1h-1zM15 5h1v1h-1zM1 6h1v1h-1zM14 6h1v1h-1zM2 7h1v1h-1zM13 7h1v1h-1zM3 8h2v1h-2zM11 8h2v1h-2zM5 9h6v1h-6z\"/><path fill=\"#FFFFFF\" d=\"M5 1h6v1h-6zM3 2h10v1h-10zM2 3h12v1h-12zM1 4h14v1h-14zM1 5h14v1h-14zM2 6h12v1h-12zM3 7h10v1h-10zM5 8h6v1h-6z\"/>"
+ },
+ "iris": {
+  "w": 6,
+  "h": 6,
+  "body": "<path fill=\"#C76B7A\" d=\"M1 0h4v1h-4zM0 1h2v1h-2zM4 1h2v1h-2zM0 2h1v1h-1zM5 2h1v1h-1zM0 3h1v1h-1zM5 3h1v1h-1zM0 4h2v1h-2zM4 4h2v1h-2zM1 5h4v1h-4z\"/><path fill=\"#2A2024\" d=\"M2 1h2v1h-2zM1 2h1v1h-1zM3 2h2v1h-2zM1 3h4v1h-4zM2 4h2v1h-2z\"/><path fill=\"#FFFFFF\" d=\"M2 2h1v1h-1z\"/>"
+ },
+ "eyeclosed": {
+  "w": 16,
+  "h": 8,
+  "body": "<path fill=\"#2A2024\" d=\"M0 3h1v1h-1zM15 3h1v1h-1zM1 4h2v1h-2zM13 4h2v1h-2zM3 5h10v1h-10zM4 6h1v1h-1zM7 6h1v1h-1zM10 6h1v1h-1zM13 6h1v1h-1z\"/>"
+ },
+ "eyemini": {
+  "w": 9,
+  "h": 5,
+  "body": "<path fill=\"#2A2024\" d=\"M2 0h5v1h-5zM1 1h1v1h-1zM7 1h1v1h-1zM0 2h1v1h-1zM4 2h1v1h-1zM8 2h1v1h-1zM1 3h1v1h-1zM7 3h1v1h-1zM2 4h5v1h-5z\"/><path fill=\"#FFFFFF\" d=\"M2 1h2v1h-2zM5 1h2v1h-2zM1 2h2v1h-2zM6 2h2v1h-2zM2 3h2v1h-2zM5 3h2v1h-2z\"/><path fill=\"#C76B7A\" d=\"M4 1h1v1h-1zM3 2h1v1h-1zM5 2h1v1h-1zM4 3h1v1h-1z\"/>"
  }
 };
 

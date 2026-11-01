@@ -67,7 +67,7 @@ img{max-width:100%;display:block}
 .wrap{max-width:var(--wrap);margin:0 auto;padding:0 var(--gutter)}
 .kicker{font-size:var(--t-xs);letter-spacing:var(--track-label);text-transform:uppercase;color:var(--brand);font-weight:600}
 html[lang="th"] .kicker,html[lang^="zh"] .kicker{letter-spacing:.04em}
-.kicker::before{content:"";display:inline-block;width:8px;height:8px;margin-right:10px;background:var(--brand);vertical-align:1px}
+.kicker::before{content:"";display:inline-block;width:18px;height:10px;margin-right:10px;background:url("/px-eye-mini.svg") 0 0/18px 10px no-repeat;vertical-align:0}
 .sec>.wrap{position:relative}
 .sec-px{position:absolute;right:var(--gutter);top:0;pointer-events:none}
 .px-scene{display:flex;align-items:flex-end;gap:4px}
@@ -80,6 +80,17 @@ html[lang="th"] .kicker,html[lang^="zh"] .kicker{letter-spacing:.04em}
 .px-found>svg:first-child{position:absolute;left:0;top:14px}
 .px-tick,.band-trail i.r{animation:px-tick 1.6s steps(1) infinite}
 .px-cat{margin-bottom:-8px}
+/* the eye = AI visibility: one big eye follows the visitor, small ones blink out of step */
+.watch-eye{position:relative;width:96px;height:60px;animation:eye-blink 5.2s infinite;transform-origin:50% 50%}
+.watch-eye>svg{display:block}
+.watch-iris{position:absolute;left:30px;top:12px;width:36px;height:36px;transition:transform .12s steps(2);animation:eye-look 9s steps(1) infinite}
+.watch-iris svg{display:block}
+.mini-eye svg,.mini-blink{animation:eye-blink 4.6s infinite;transform-origin:50% 50%}
+.mini-eye.b2 svg{animation-delay:-1.3s}.mini-eye.b3 svg{animation-delay:-2.7s}.mini-eye.b4 svg{animation:none}
+.px-watch{flex-direction:column;align-items:center;gap:4px}
+.proof-card{position:relative}
+.proof-px{position:absolute;right:18px;top:20px;line-height:0}
+@keyframes eye-look{0%,100%{transform:none}20%{transform:translate(-12px,0)}40%{transform:translate(-12px,6px)}60%{transform:translate(12px,-6px)}80%{transform:translate(6px,0)}}
 .band{position:relative}
 .band-trail{display:flex;justify-content:center;align-items:center;gap:8px;margin-bottom:14px;pointer-events:none}
 @keyframes px-fly{0%,100%{transform:translate(0,0)}50%{transform:translate(18px,-10px)}}
@@ -98,7 +109,7 @@ button:not(:disabled):active,.btn-primary:active,.btn-ghost:active,.nav-cta:acti
 .mc-bloom{position:relative;isolation:isolate}
 .mc-bloom::after{content:"";position:absolute;inset:0;border-radius:inherit;background:radial-gradient(circle at 50% 50%,rgba(255,255,255,.35),transparent 62%);opacity:0;transition:opacity var(--dur-base) var(--ease-signature);pointer-events:none}
 .mc-bloom:active::after{opacity:1;transition-duration:0ms}
-@media(prefers-reduced-motion:reduce){.reveal,.reveal.visible,.mc-enter,.eye,.island-msg.swap,.hero-sky .float,.hero-sky .wander,.px-bob,.px-fly,.px-tick,.band-trail i.r{animation:none;opacity:1}.win:hover{transform:none}button,.btn-primary,.btn-ghost{transition:none}button:not(:disabled):active{transform:none}}
+@media(prefers-reduced-motion:reduce){.reveal,.reveal.visible,.mc-enter,.eye,.island-msg.swap,.hero-sky .float,.hero-sky .wander,.px-bob,.px-fly,.px-tick,.band-trail i.r,.watch-eye,.watch-iris,.mini-eye svg,.mini-blink{animation:none;opacity:1}.win:hover{transform:none}button,.btn-primary,.btn-ghost{transition:none}button:not(:disabled):active{transform:none}}
 /* ── nav ── */
 .nav{position:fixed;inset:0 0 auto 0;z-index:50;background:rgba(244,236,230,.86);backdrop-filter:blur(14px);border-bottom:1px solid var(--edge)}
 .nav-in{max-width:var(--wrap);margin:0 auto;padding:0 var(--gutter);height:64px;display:flex;align-items:center;gap:var(--s-6)}
@@ -570,6 +581,24 @@ if(island){
   islandPanel.addEventListener('click',e=>e.stopPropagation());
   document.addEventListener('click',()=>setOpen(false));
   document.addEventListener('keydown',e=>{if(e.key==='Escape')setOpen(false)});
+}
+// The visibility eye follows the pointer in whole-pixel steps (desktop pointers only).
+const watchers=document.querySelectorAll('.watch-eye');
+if(watchers.length&&matchMedia('(pointer: fine)').matches){
+  let raf=0,mx=0,my=0;
+  addEventListener('mousemove',e=>{
+    mx=e.clientX;my=e.clientY;
+    if(raf)return;
+    raf=requestAnimationFrame(()=>{
+      raf=0;
+      watchers.forEach(w=>{
+        const r=w.getBoundingClientRect(),dx=mx-(r.left+r.width/2),dy=my-(r.top+r.height/2),d=Math.hypot(dx,dy)||1,k=Math.min(1,d/180);
+        const iris=w.querySelector('.watch-iris');
+        iris.style.animation='none';
+        iris.style.transform=`translate(${Math.round(dx/d*2*k)*6}px,${Math.round(dy/d*k)*6}px)`;
+      });
+    });
+  },{passive:true});
 }
 const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('visible');io.unobserve(x.target)}}),{threshold:.12});
 document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
