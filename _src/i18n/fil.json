@@ -19,7 +19,7 @@
     "offer_desc": "Buwanang plan bawat brand × merkado (scheduled scans, prompt library, engines, reports) at credit pack para sa on-demand scans. Ang mga agency partner ay may workspace bawat kliyente, rollup reports at wholesale pricing."
   },
   "nav": {
-    "philosophy": "Bakit GEO",
+    "philosophy": "Bakit kami",
     "tech": "Platform",
     "market": "Mga Merkado",
     "process": "Paano tumatakbo",
@@ -28,7 +28,8 @@
     "cta": "Humiling ng access",
     "about": "Tungkol",
     "guide": "Gabay",
-    "us": "US line"
+    "us": "US line",
+    "methods": "Pamamaraan"
   },
   "hero": {
     "scroll_label": "MAG-SCROLL",
@@ -73,74 +74,76 @@
     ]
   },
   "tagline": {
-    "main": "<span class=\"brand\">MemeCMO</span> — Gawing sagot ng AI ang iyong brand.",
-    "sub": "Sukatin. Bumuo. Mag-report. Bawat linggo."
+    "main": "<span class=\"brand\">MemeCMO</span> — hindi namin hinuhulaan kung ano ang sinasabi ng AI tungkol sa iyo. Sinusukat namin ito, inaayos, at pinapatunayang may gumalaw.",
+    "sub": "Limang engine · sampung agent · isang pampublikong pamantayan sa pagsukat"
   },
   "philosophy": {
-    "tag": "BAKIT GEO, BAKIT NGAYON",
-    "title": "Ang kamalayan ang asset. Ang pagiging nauna ang moat.",
-    "desc": "Lumilipat ang organic traffic sa mga sagot ng AI. Ang presensya ng brand sa mga sagot na iyon ay hindi traffic na inuupahan — kapag naitatag na, gumagana ito 24/7, sa iba't ibang wika, sa zero marginal cost, at lumalago.",
+    "tag": "PAKIKIPAGTRABAHO SA AMIN",
+    "title": "Anim na pangako, nakapaloob sa serbisyo.",
+    "desc": "Ito ang maaari mong panghawakan sa amin. Bawat isa ay nakikita mo sa workspace, hindi linya sa isang slide.",
     "cards": [
       {
-        "icon": "🧬",
-        "title": "Ang kamalayan ang asset",
-        "desc": "May malakas na Matthew effect ang mga sagot ng AI tungkol sa brand — kung mas maaga kang na-cite, mas mahirap kang mapalitan. Lumalago ang presensya; lumalago rin ang kawalan."
+        "icon": "",
+        "title": "Deliverables, hindi payo",
+        "desc": "Bawat agent ay naghahatid ng maaari mong i-publish: isang pahina, isang schema block, isang placement kit, isang encyclopedia draft. Ikaw ang nagre-review at nagpa-publish; hindi kami kailanman nagpo-post para sa iyo."
       },
       {
-        "icon": "🎯",
-        "title": "Ang pagiging nauna ang moat",
-        "desc": "Ang mga huli ay nahaharap sa 3–5× na gastos at 6–12 buwan para ma-overwrite ang tumigas na naratibo. Bukas ngayon ang window sa mga emerging-language market."
+        "icon": "",
+        "title": "Mga fact mula lamang sa iyong site",
+        "desc": "Sumusulat lamang ang mga agent mula sa mga fact na pampubliko na sa iyong site at sa mga dokumentong ibinibigay mo sa amin. Ang numerong walang source ay nagiging blangkong pupunan mo."
       },
       {
-        "icon": "🔬",
-        "title": "Standard metrics, hindi black box",
-        "desc": "Presence, share of voice, citation rate, AI sentiment, answer accuracy — sinusukat bawat engine sa frozen prompt panel para totoo ang galaw scan-to-scan, hindi ingay."
+        "icon": "",
+        "title": "Permanente ang iyong mga edit",
+        "desc": "Mag-re-tag ng kakumpitensya, baguhin ang wording ng isang tanong, ayusin ang isang pangungusap — itinatala ito kasama ang dahilan at muling inilalapat sa bawat re-run. Naiipon ang paghuhusga ng iyong team sa halip na mawala."
       },
       {
-        "icon": "🌏",
-        "title": "Localization ≠ translation",
-        "desc": "Ang multi-language brand narrative ay hindi machine translation — bawat merkado ay may sariling prompt library, mga sagot at citations, muling na-code para sa kultural na konteksto nito."
+        "icon": "",
+        "title": "Isang digest bawat linggo, isang card na aaksyunan",
+        "desc": "Isang digest sa simpleng wika bawat linggo, at ang pinakamahalagang aksyon bilang card sa chat ng iyong team: kumpirmahin ito sa isang tap at papasok ito sa ledger para masukat."
       },
       {
-        "icon": "⚡",
-        "title": "Nagde-deliver ang mga agent",
-        "desc": "Hindi namin ibinibigay sa iyo ang to-do list. Bawat agent ay gumagawa ng asset mismo — mga sagot, schema, pahina, placements — handang i-publish at nakabatay sa verified na facts."
+        "icon": "",
+        "title": "Isang pamantayang masusuri mo",
+        "desc": "Bawat rate ay may numerator at denominator, na binigyang-kahulugan sa pampublikong Measurement Standard (v1.1). Nagkakaiba ang mga plan sa saklaw, hindi kailanman sa pamamaraan."
       },
       {
-        "icon": "🏗️",
-        "title": "Iyong account, iyong team",
-        "desc": "Kinokontrol ang usage sa antas ng account, hindi kailanman bawat seat: imbitahan ang buong team bilang viewers at members nang walang dagdag na bayad."
+        "icon": "",
+        "title": "Walang ranking na ibinebenta, walang pangako tungkol sa AI",
+        "desc": "Hindi kami nagbebenta ng puwesto sa mga sagot ng AI o naggagarantiya kung ano ang sasabihin ng isang engine. Tapat kaming sumusukat, inilalathala namin ang aming mga listahan ng source at nakikipagtulungan kami sa media na binabasa na ng AI."
       }
     ]
   },
   "tech": {
-    "tag": "ANG PLATFORM",
-    "title": "Sampung agent,<br>isang closed loop",
-    "desc": "Tuklasin kung ano ang tinatanong ng mga mamimili → sukatin ang sagot ng AI → buuin ang kulang → ipamahagi → sukatin muli. Bawat hakbang ay isang agent; bawat agent ay nag-iiwan ng deliverable sa iyong workspace.",
+    "tag": "SAMPUNG AGENT",
+    "title": "Sampung agent.<br>Bawat isa ay nag-iiwan ng deliverable.",
+    "desc": "Tuklasin kung ano ang tinatanong ng mga mamimili → sukatin ang sagot ng AI → buuin ang kulang mula sa sarili mong mga fact → i-log kung ano ang naging live → sukatin muli sa parehong panel.",
     "stack_title": "Ang agent suite",
     "center_text": "10<br>agent",
     "items": [
       {
-        "strong": "Discovery + Standard Answers",
-        "rest": "100+ tanong ng mamimili bawat merkado, naka-tag na high-intent vs educational; bilingual na canonical-answer library na nakabatay sa iyong verified na brand facts."
+        "strong": "Profile · Discovery · Standard Answers",
+        "rest": "Isang fact base na binuo lamang mula sa iyong mga pampublikong pahina at dokumento; 110 tanong ng mamimili bawat merkado sa wika ng mamimili, 20 rito ang pangunahin; canonical answers na nakabatay sa mga fact na iyon."
       },
       {
-        "strong": "Monitor — limang engine, tunay na surfaces",
-        "rest": "ChatGPT, Gemini, Perplexity, Claude at ang tunay na Google AI Overview page. Presence, share of voice, citation rate, sentiment, answer accuracy — bawat engine, bawat intent."
+        "strong": "Monitor",
+        "rest": "Limang engine, tunay na surfaces, isang frozen panel. Presence sa paglipas ng panahon, share of voice, bawat engine at bawat tanong — bawat cell ay nagbubukas ng sagot sa likod nito."
       },
       {
-        "strong": "Site + Schema",
-        "rest": "Binabasa ang iyong homepage, nagbabalik ng paste-in JSON-LD (Organization, Service, FAQPage, LocalBusiness) at konkretong page edits — may step-by-step na gabay."
+        "strong": "Report · Full Scan",
+        "rest": "Ano ang nagbago, bakit ito mahalaga, ano ang susunod na gagawin — may kalakip na ebidensya, at isang lingguhang digest na isinulat para sa yugtong kinaroroonan ng iyong brand. Pinapatakbo ng Full Scan ang Discovery → Monitor → Report sa isang takbo."
       },
       {
-        "strong": "Content + Distribute + Encyclopedia",
-        "rest": "Gap pages at FAQs, ready-to-send placements para sa mga source na talagang sini-cite ng AI sa iyong merkado, at encyclopedia entries na may citations."
+        "strong": "Site · Optimize",
+        "rest": "Paste-in JSON-LD at konkretong edits para sa sarili mong mga pahina; publish-ready na mga pahina at FAQs para sa mga tanong na napapanalunan ng mga kakumpitensya ngayon."
       },
       {
-        "strong": "Report + lingguhang digest",
-        "rest": "Stage-aware client digests bawat linggo, buwanang deep reports, alerts sa malalaking pagbaba, at one-page rollups sa lahat ng iyong brand."
+        "strong": "Distribute · Encyclopedia",
+        "rest": "Placement kits para sa mga source na sini-cite na ng AI sa iyong merkado, hindi kasama ang mga kakumpitensya, at encyclopedia drafts na may compliant na proseso."
       }
-    ]
+    ],
+    "quote_title": "Hindi dashboard —<br>kundi <span class=\"hl\">isang agent team na naghahatid.</span>",
+    "quote_desc": "Isang owner sa panig mo, sampung agent sa panig namin: nagbabasa, sumusukat, bumubuo at nagtatala sila, at ang iyong team ang nagre-review at nagpapasya. Walang kailangang i-hire na engineer sa panig mo."
   },
   "market": {
     "tag": "MGA MERKADO",
@@ -238,7 +241,7 @@
       },
       {
         "q": "Paano naiiba ang MemeCMO sa Semrush, Profound o ibang GEO tools?",
-        "a": "Karamihan ng GEO tools ay humihinto sa monitoring: bibigyan ka ng dashboard at iiwan sa iyo ang trabaho. Ang sampung agent ng MemeCMO ay gumagawa rin ng deliverables — standard answers, JSON-LD schema, gap content, third-party placements, encyclopedia entries — nakabatay sa iyong verified na brand facts. Dalawa pang pagkakaiba: Answer Accuracy (sinusuri bawat engine kung tama ang product facts na ibinibigay ng AI sa iyong customers — support-cost metric na wala sa monitoring-only tools) at lalim ng merkado kung saan manipis ang iba: mga wika ng Timog-Silangang Asya at US state-by-state measurement na may state regulatory frames. <a href=\"/compare/\">Kumpletong paghahambing na may mga source →</a>"
+        "a": "Karamihan ng GEO tools ay humihinto sa dashboard. Lumalampas pa ng tatlong hakbang ang MemeCMO. Ang sampung agent nito ang gumagawa ng deliverables — standard answers, JSON-LD, gap content, placements, encyclopedia drafts — mula lamang sa iyong mga pampublikong fact. Lumalampas sa score ang pagsusuri nito: inuuri ang mga engine ayon sa kung nagbabasa sila ng web, kinukuha at sinusuri ang mga na-cite na pahina, ikinukumpara ang mga sagot ng AI sa sarili mong site, at sinusukat ang bawat aksyon laban sa mga tanong na hindi mo ginalaw. At bawat numero ay sumusunod sa isang pampublikong pamantayan sa pagsukat, sa mga wika ng Timog-Silangang Asya at sa US bawat estado. <a href=\"/compare/\">Kumpletong paghahambing na may mga source →</a>"
       }
     ]
   },
@@ -303,5 +306,132 @@
   },
   "hero_scan_ph": "yourbrand.ph",
   "hero_scan_btn": "Alamin kung ano ang sabi ng AI",
-  "hero_scan_note": "Libreng preview scan · totoong sagot mula sa ChatGPT at Google AI Overview · walang credit card"
+  "hero_scan_note": "Libreng preview scan · totoong sagot mula sa ChatGPT at Google AI Overview · walang credit card",
+  "story": {
+    "nav": "Sa loob",
+    "hero_alt": "MemeCMO monitor: limang AI engine, limang metric, presence sa paglipas ng panahon",
+    "sections": [
+      {
+        "id": "measure",
+        "tag": "SUKATIN · LIMANG ENGINE · ISANG FROZEN PANEL",
+        "title": "Itanong sa AI ang itinatanong ng iyong mga mamimili. Bawat linggo, parehong mga tanong.",
+        "desc": "Sa bawat scan, itinatanong namin ang mga tanong na talagang itinatanong ng iyong mga mamimili — sa sarili nilang wika, sa bawat yugto ng pagbili — sa ChatGPT, Gemini, Perplexity, Claude at sa live na Google AI Overview page. Hindi nagbabago ang panel, kaya ang pagbabago sa score ay pagbabago sa AI, hindi sa test.",
+        "bullets": [
+          "Presence, share of voice, prominence, sentiment at citation — bawat rate ay may kasamang numerator at denominator",
+          "Bawat engine nang hiwalay: ang parehong brand ay maaaring nangunguna sa isa at wala sa susunod",
+          "Bawat numero ay nagbubukas ng buong sagot sa likod nito at ng mga pahinang sini-cite ng engine"
+        ],
+        "shot": "monitor",
+        "alt": "MemeCMO monitor dashboard: presence sa paglipas ng panahon, brand visibility table, presence bawat engine"
+      },
+      {
+        "id": "sources",
+        "tag": "MGA SOURCE · SAAN TUMITINGIN ANG AI",
+        "title": "Binabasa namin ang mga pahinang binabasa ng AI.",
+        "desc": "Sa bawat merkado, umaasa ang mga engine sa maikling listahan ng mga site. Niraranggo namin ang mga ito sa bawat scan, kinukuha ang mga pahinang sini-cite nila at sinusuri ang mga ito — structure, freshness, schema, haba — para ang “kung ano ang nasi-cite” ay maging pamantayang sinusundan ng iyong content, hindi hula.",
+        "bullets": [
+          "Ang mga domain na inaasahan ng bawat engine sa iyong merkado, niraranggo sa bawat scan",
+          "Ang pagkakapareho ng mga na-cite na pahina, bawat engine at ayon sa dalas ng pag-cite sa kanila",
+          "Isang pampublikong buwanang listahan ng mga source na sini-cite ng AI sa Vietnam, malayang magamit muli (CC BY 4.0)"
+        ],
+        "shot": "sources",
+        "alt": "Mga source na sini-cite ng mga AI engine, kasama ang page features bawat domain",
+        "cta": "Mga source na sini-cite ng AI sa Vietnam",
+        "cta_href": "https://app.memecmo.ai/sources/vietnam"
+      },
+      {
+        "id": "act",
+        "tag": "KUMILOS · SAMPUNG AGENT · MGA DELIVERABLE",
+        "title": "Sampung agent ang naghahatid ng mga sagot na kulang.",
+        "desc": "Standard answers, page edits, paste-in schema, gap content, placement kits at encyclopedia drafts — sa wika ng mamimili, isinulat ayon sa citation profile ng iyong merkado, mula sa mga fact na pampubliko na sa iyong site. Ang numerong walang source ay nagiging blangkong pupunan mo, hindi kailanman inimbento.",
+        "bullets": [
+          "Mag-dispatch ng agent sa kaliwa, mag-review sa stage, panoorin ang live activity sa kanan",
+          "Bawat draft ay nakabatay sa kung ano talaga ang sini-cite ng mga engine sa iyong merkado",
+          "Ang in-edit ng iyong team ay nananatiling edited — iginagalang ito ng bawat re-run"
+        ],
+        "shot": "workspace",
+        "alt": "MemeCMO workspace na may card-style na deliverables at live activity panel"
+      },
+      {
+        "id": "prove",
+        "tag": "PATUNAYAN · BAGO AT PAGKATAPOS",
+        "title": "Patunay, hindi pakiramdam.",
+        "desc": "I-log kung ano ang naging live. Kinukuha namin ang pahina, kinukuhanan ito ng fingerprint at binabantayan kung sinisimulan itong gamitin ng mga engine. Ipinapakita ng mga susunod na scan kung ano ang gumalaw — bawat tanong at bawat engine — katabi ng mga tanong na hindi mo ginalaw.",
+        "bullets": [
+          "Bawat na-log na aksyon ay vine-verify na live, at sinusubaybayan ang mga pagbabago nito sa paglipas ng panahon",
+          "Before/after bawat tanong at engine, kasama ang site coverage at contradictions sa bawat report",
+          "Isang pampublikong pamantayan sa pagsukat (v1.1) sa likod ng bawat numerong inilalathala namin"
+        ],
+        "shot": "report",
+        "alt": "MemeCMO report na may naka-collapse na recommendations, site coverage at verified actions",
+        "cta": "Basahin ang pamantayan sa pagsukat",
+        "cta_href": "https://app.memecmo.ai/standard/MemeCMO_AI_Visibility_Measurement_Standard_v1.1.pdf"
+      }
+    ]
+  },
+  "engines": {
+    "tag": "ANG MGA ENGINE",
+    "title": "Tatlong uri ng sagot ng AI.<br>Tatlong magkaibang paraan para baguhin ito.",
+    "desc": "Hindi lahat ng engine ay nagbabasa ng web. Inuuri namin ang bawat isa ayon sa ipinapakita mismo ng scan — ilan sa mga sagot nito ang may kasamang source — dahil iba-iba ang nagpapagalaw sa kanila.",
+    "classes": [
+      {
+        "name": "Nagbabasa ng web, at ng iyong site",
+        "engines": [
+          "perplexity",
+          "aio"
+        ],
+        "body": "Binubuo ang mga sagot mula sa mga pahinang kinukuha nang live, kasama ang sa iyo. Ang sarili mong mga pahina, structured data at freshness ang unang nakapagpapagalaw sa mga ito.",
+        "lever": "Pagtuunan: ang iyong site, at ang mga pahinang ikinukumpara rito"
+      },
+      {
+        "name": "Nagbabasa ng web, bihira ang iyong site",
+        "engines": [
+          "claude"
+        ],
+        "body": "Naghahanap muna bago sumagot, pero sa aming mga scan, mas malaki ang pag-asa nito sa mga encyclopedia, balita at directory kaysa sa mga site ng brand.",
+        "lever": "Pagtuunan: mga pinagkakatiwalaang third-party na pahina na naglalaman ng iyong mga fact"
+      },
+      {
+        "name": "Sumasagot mula sa training",
+        "engines": [
+          "chatgpt",
+          "gemini"
+        ],
+        "body": "Sumasagot mula sa natutunan na ng model. Gumagalaw ito ayon sa kung ano ang malawak at tuloy-tuloy na nailalathala tungkol sa iyo — ang pinakamabagal na paraan, at ang pinakamatagal ang epekto.",
+        "lever": "Pagtuunan: parehong mga fact, nailalathala nang malawak at tuloy-tuloy"
+      }
+    ],
+    "note": "Nagmumula ang mga uri sa bawat scan, hindi sa nakapirming listahan: kapag binago ng isang engine kung paano ito sumasagot, nagbabago rin ang uri nito."
+  },
+  "methods": {
+    "tag": "ANG PAGSUSURI",
+    "title": "Anim na pagsusuri sa likod ng bawat report.",
+    "desc": "Ang visibility score ay simula pa lang ng trabaho. Ito ang mga pagsusuring nagsasabi kung ano ang susunod na gagawin — at kung gumana ito.",
+    "items": [
+      {
+        "title": "Kung saan nagbabasa ang AI, sa bawat yugto",
+        "body": "Hinahati namin ang bawat tanong ayon sa yugto ng mamimili. Bago makilala ng mamimili ang isang brand, 0.7% lang ng binabasa ng AI ang sariling site nito (12 brand, 3,011 sagot na may citation sa Vietnam). Kaya ipinapakita namin kung aling mga third-party na pahina ang nagpapasya sa unang sagot — at nagpaplano kami para sa mga ito."
+      },
+      {
+        "title": "Ang mga na-cite na pahina, binuksan at sinukat",
+        "body": "Kinukuha namin ang mga pahinang sini-cite ng bawat engine at sinusuri ang structure, freshness, schema at haba. Nagkakaroon ang iyong content ng nasukat na pamantayang dapat abutin sa halip na isang style guide."
+      },
+      {
+        "title": "Ang iyong site laban sa sinasabi ng AI",
+        "body": "Binabasa namin ang iyong mga pampublikong pahina at itinatabi sa mga sagot: kung saan sinasalungat ka ng AI, kung saan wala itong sinasabi, kung saan nilalaktawan nito ang inilalathala mo. Sa source napupunta ang pag-aayos — sa iyong site — hindi sa aming database."
+      },
+      {
+        "title": "Bago at pagkatapos, laban sa isang control",
+        "body": "Bawat aksyong ini-log mo ay may petsa at vine-verify nang live. Ang galaw sa mga tanong na tinarget nito ay ikinukumpara sa mga tanong na hindi mo ginalaw, sa parehong frozen panel; ang mga pagtaas lang na higit sa 10 puntos sa itaas ng control ang binibilang."
+      },
+      {
+        "title": "Isang scoring model na sinusuri laban sa human labels",
+        "body": "Isang model ang nag-i-score sa mga sagot, at sinusuri ang model na iyon laban sa blind human labels sa bawat wika. Ginagamit lang ang bagong scoring model kapag tumutugma ito sa mga iyon."
+      },
+      {
+        "title": "Ang bigong sagot ay hindi kailanman “hindi nabanggit”",
+        "body": "Kapag hindi sumagot ang isang engine o hindi nag-load ang isang pahina, minamarkahang bigo ang sagot — hindi kailanman binibilang na wala ang iyong brand — at nakasaad sa bawat report ang coverage nito."
+      }
+    ]
+  }
 }

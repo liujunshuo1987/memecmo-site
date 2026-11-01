@@ -9,9 +9,11 @@
 <link rel="canonical" href="https://memecmo.ai/fil/">
   <link rel="alternate" hreflang="en" href="https://memecmo.ai/">
   <link rel="alternate" hreflang="zh" href="https://memecmo.ai/zh/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://memecmo.ai/zh-hant/">
   <link rel="alternate" hreflang="vi" href="https://memecmo.ai/vi/">
-  <link rel="alternate" hreflang="fil" href="https://memecmo.ai/fil/">
+  <link rel="alternate" hreflang="id" href="https://memecmo.ai/id/">
   <link rel="alternate" hreflang="th" href="https://memecmo.ai/th/">
+  <link rel="alternate" hreflang="fil" href="https://memecmo.ai/fil/">
   <link rel="alternate" hreflang="ms" href="https://memecmo.ai/ms/">
   <link rel="alternate" hreflang="x-default" href="https://memecmo.ai/">
 <meta property="og:type" content="website">
@@ -22,7 +24,9 @@
 <meta property="og:locale" content="tl_PH">
   <meta property="og:locale:alternate" content="en_US">
   <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="zh_TW">
   <meta property="og:locale:alternate" content="vi_VN">
+  <meta property="og:locale:alternate" content="id_ID">
   <meta property="og:locale:alternate" content="th_TH">
   <meta property="og:locale:alternate" content="ms_MY">
 <meta name="twitter:card" content="summary_large_image">
@@ -94,7 +98,9 @@
   "knowsLanguage": [
     "en",
     "zh",
+    "zh-Hant",
     "vi",
+    "id",
     "fil",
     "th",
     "ms"
@@ -146,7 +152,9 @@
       "availableLanguage": [
         "en",
         "zh",
+        "zh-Hant",
         "vi",
+        "id",
         "fil",
         "th",
         "ms"
@@ -204,9 +212,11 @@
   "inLanguage": [
     "en",
     "zh",
+    "zh-Hant",
     "vi",
-    "fil",
+    "id",
     "th",
+    "fil",
     "ms"
   ]
 }
@@ -322,7 +332,7 @@
       "name": "Paano naiiba ang MemeCMO sa Semrush, Profound o ibang GEO tools?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Karamihan ng GEO tools ay humihinto sa monitoring: bibigyan ka ng dashboard at iiwan sa iyo ang trabaho. Ang sampung agent ng MemeCMO ay gumagawa rin ng deliverables — standard answers, JSON-LD schema, gap content, third-party placements, encyclopedia entries — nakabatay sa iyong verified na brand facts. Dalawa pang pagkakaiba: Answer Accuracy (sinusuri bawat engine kung tama ang product facts na ibinibigay ng AI sa iyong customers — support-cost metric na wala sa monitoring-only tools) at lalim ng merkado kung saan manipis ang iba: mga wika ng Timog-Silangang Asya at US state-by-state measurement na may state regulatory frames. <a href=\"/compare/\">Kumpletong paghahambing na may mga source →</a>"
+        "text": "Karamihan ng GEO tools ay humihinto sa dashboard. Lumalampas pa ng tatlong hakbang ang MemeCMO. Ang sampung agent nito ang gumagawa ng deliverables — standard answers, JSON-LD, gap content, placements, encyclopedia drafts — mula lamang sa iyong mga pampublikong fact. Lumalampas sa score ang pagsusuri nito: inuuri ang mga engine ayon sa kung nagbabasa sila ng web, kinukuha at sinusuri ang mga na-cite na pahina, ikinukumpara ang mga sagot ng AI sa sarili mong site, at sinusukat ang bawat aksyon laban sa mga tanong na hindi mo ginalaw. At bawat numero ay sumusunod sa isang pampublikong pamantayan sa pagsukat, sa mga wika ng Timog-Silangang Asya at sa US bawat estado. <a href=\"/compare/\">Kumpletong paghahambing na may mga source →</a>"
       }
     }
   ]
@@ -362,13 +372,17 @@
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{font-family:var(--sans);background:var(--canvas);color:var(--ink);line-height:var(--lh-normal);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body{font-family:var(--sans);background:var(--canvas) radial-gradient(rgba(42,32,36,.06) 1px,transparent 1.3px) 0 0/24px 24px;color:var(--ink);line-height:var(--lh-normal);-webkit-font-smoothing:antialiased;overflow-x:hidden}
 a{color:inherit;text-decoration:none}
 img{max-width:100%;display:block}
 ::selection{background:var(--brand-soft)}
 :focus-visible{outline:2px solid var(--brand);outline-offset:2px;border-radius:var(--r-xs)}
 .wrap{max-width:var(--wrap);margin:0 auto;padding:0 var(--gutter)}
 .kicker{font-size:var(--t-xs);letter-spacing:var(--track-label);text-transform:uppercase;color:var(--brand);font-weight:600}
+html[lang="th"] .kicker,html[lang^="zh"] .kicker{letter-spacing:.04em}
+.kicker::before{content:"";display:inline-block;width:8px;height:8px;margin-right:10px;background:var(--brand);vertical-align:1px}
+.sec>.wrap{position:relative}
+.sec-px{position:absolute;right:var(--gutter);top:0;pointer-events:none}
 .sec{padding:var(--s-24) 0}
 .sec-title{font-size:var(--t-h2);font-weight:700;letter-spacing:-.02em;line-height:1.18;margin:var(--s-4) 0 var(--s-3)}
 .sec-desc{font-size:var(--t-md);color:var(--dim);max-width:var(--measure)}
@@ -383,7 +397,7 @@ button:not(:disabled):active,.btn-primary:active,.btn-ghost:active,.nav-cta:acti
 .mc-bloom{position:relative;isolation:isolate}
 .mc-bloom::after{content:"";position:absolute;inset:0;border-radius:inherit;background:radial-gradient(circle at 50% 50%,rgba(255,255,255,.35),transparent 62%);opacity:0;transition:opacity var(--dur-base) var(--ease-signature);pointer-events:none}
 .mc-bloom:active::after{opacity:1;transition-duration:0ms}
-@media(prefers-reduced-motion:reduce){.reveal,.reveal.visible,.mc-enter,.eye,.island-msg.swap{animation:none;opacity:1}button,.btn-primary,.btn-ghost{transition:none}button:not(:disabled):active{transform:none}}
+@media(prefers-reduced-motion:reduce){.reveal,.reveal.visible,.mc-enter,.eye,.island-msg.swap,.hero-sky .float,.hero-sky .wander{animation:none;opacity:1}.win:hover{transform:none}button,.btn-primary,.btn-ghost{transition:none}button:not(:disabled):active{transform:none}}
 /* ── nav ── */
 .nav{position:fixed;inset:0 0 auto 0;z-index:50;background:rgba(244,236,230,.86);backdrop-filter:blur(14px);border-bottom:1px solid var(--edge)}
 .nav-in{max-width:var(--wrap);margin:0 auto;padding:0 var(--gutter);height:64px;display:flex;align-items:center;gap:var(--s-6)}
@@ -410,15 +424,21 @@ button:not(:disabled):active,.btn-primary:active,.btn-ghost:active,.nav-cta:acti
 .nav-hamburger span{display:block;width:20px;height:2px;background:var(--ink);margin:4px 0;border-radius:2px}
 /* ── hero (v2 "Island", 2026-11): one centred column; the island is the page's live anchor,
    pixel marks are quiet accents, never type ── */
-.hero{position:relative;padding:calc(64px + var(--s-12)) 0 var(--s-16);background-image:radial-gradient(rgba(42,32,36,.06) 1px,transparent 1.3px);background-size:24px 24px}
-.hero-center{position:relative;display:flex;flex-direction:column;align-items:center;gap:var(--s-6);text-align:center}
+.hero{position:relative;padding:calc(64px + var(--s-12)) 0 var(--s-16)}
+.hero-center{position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;gap:var(--s-6);text-align:center}
 .hero h1{font-size:clamp(38px,5.4vw,56px);font-weight:700;letter-spacing:-.025em;line-height:1.12;max-width:15em;margin-top:var(--s-2);text-wrap:balance}
 .hero h1 .u{padding-bottom:4px;background:repeating-linear-gradient(90deg,var(--brand) 0 6px,transparent 6px 9px) 0 100%/100% 4px no-repeat}
 html[lang^="zh"] .hero h1{letter-spacing:0;line-height:1.25}
 html[lang="th"] .hero h1{letter-spacing:0;line-height:1.4}
 html[lang="th"] body{line-height:1.7}
 .hero-desc{font-size:19px;line-height:1.55;color:var(--dim);max-width:640px;margin-top:-6px}
-.hero-px{position:absolute;pointer-events:none}
+.hero-sky{position:absolute;left:50%;top:64px;width:min(1360px,100%);height:min(700px,80%);transform:translateX(-50%);pointer-events:none}
+.hero-sky .float,.hero-sky .wander{position:absolute;display:flex;flex-direction:column;align-items:center;gap:6px}
+.hero-sky .float{animation:sky-bob 5s steps(10) infinite;animation-delay:var(--d,0s)}
+.hero-sky .wander{animation:sky-wander 16s steps(32) infinite}
+.hero-sky span{padding:1px 7px;background:var(--surface);border:1px solid var(--ink);font-size:11.5px;font-weight:600;white-space:nowrap}
+@keyframes sky-bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+@keyframes sky-wander{0%,100%{transform:translate(0,0)}25%{transform:translate(44px,-18px)}50%{transform:translate(88px,6px)}75%{transform:translate(34px,22px)}}
 .island-wrap{position:relative;z-index:5}
 .island{display:flex;align-items:center;gap:14px;height:46px;max-width:calc(100vw - 32px);padding:0 6px 0 16px;background:var(--island);color:var(--island-ink);border:0;border-radius:var(--r-pill);box-shadow:0 10px 28px rgba(31,23,25,.24);font:inherit;font-size:14px;font-weight:500;cursor:pointer}
 .island:hover{box-shadow:0 14px 34px rgba(31,23,25,.3)}
@@ -465,14 +485,23 @@ html[lang^="zh"] .engines-label,html[lang="th"] .engines-label,html[lang^="zh"] 
 .btn-primary:hover{background:var(--brand-press)}
 .btn-ghost{border:1px solid var(--edge-strong);color:var(--ink);font-size:14.5px;padding:13px 22px;border-radius:var(--r-sm);display:inline-block;background:var(--surface)}
 .btn-ghost:hover{border-color:var(--brand);color:var(--brand)}
-/* ── Mac frame: the product shown on a screen, never a fake mock ── */
-.mac{background:var(--bezel);border-radius:var(--r-lg);padding:10px 10px 14px;box-shadow:var(--shadow-float),0 0 0 1px rgba(0,0,0,.35) inset;position:relative}
-.mac::after{content:"";position:absolute;left:50%;bottom:-14px;width:38%;height:14px;transform:translateX(-50%);background:linear-gradient(180deg,var(--bezel-hi),var(--bezel));border-radius:0 0 12px 12px;opacity:.9}
-.mac-bar{display:flex;align-items:center;gap:var(--s-2);padding:2px 6px 8px;font-size:var(--t-xs);color:rgba(243,231,225,.55)}
-.mac-bar .dots i{display:inline-block;width:9px;height:9px;border-radius:99px;margin-right:5px;background:rgba(243,231,225,.28)}
-.mac-bar .dots i:nth-child(1){background:#E08594}.mac-bar .dots i:nth-child(2){background:#E3BC7E}.mac-bar .dots i:nth-child(3){background:#9DC3A6}
-.mac-title{margin-left:auto;margin-right:auto;letter-spacing:.06em}
-.mac-screen{background:var(--canvas);border-radius:var(--r-sm);overflow:hidden;aspect-ratio:16/10;box-shadow:inset 0 0 0 1px rgba(0,0,0,.25)}
+/* ── Mac window: one frame for every card and product shot below the hero —
+   pinstripe title bar, close box, ink outline, hard shadow. Text stays in Inter. ── */
+.win{position:relative;display:flex;flex-direction:column;background:var(--surface);border:2px solid var(--ink);border-radius:8px;box-shadow:5px 5px 0 var(--ink);transition:transform var(--dur-base) var(--ease-signature),box-shadow var(--dur-base) var(--ease-signature)}
+.win:hover{transform:translate(-2px,-2px);box-shadow:7px 7px 0 var(--ink)}
+.win-bar,.mac-bar{display:flex;align-items:center;gap:8px;height:26px;padding:0 8px;border-bottom:2px solid var(--ink);border-radius:6px 6px 0 0;background:repeating-linear-gradient(180deg,var(--ink) 0 1px,var(--surface) 1px 3px)}
+.win-bar i{width:13px;height:13px;flex:none;box-sizing:border-box;border:2px solid var(--ink);background:var(--surface)}
+.win-bar b,.mac-title{margin:0 auto;padding:0 10px;max-width:78%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;background:var(--surface);color:var(--ink);font-size:11.5px;font-weight:600;letter-spacing:.06em;font-variant-numeric:tabular-nums}
+.win-bar::after,.mac-bar::after{content:"";width:13px;flex:none}
+.win-body{flex:1;display:flex;flex-direction:column;gap:var(--s-2);padding:var(--s-5) var(--s-6) var(--s-6)}
+.win-body h3{font-size:16px;font-weight:600;letter-spacing:-.01em;line-height:1.35}
+.win-body p{font-size:13.5px;color:var(--dim)}
+.win-px{margin-bottom:var(--s-2)}
+.mac{background:var(--surface);border:2px solid var(--ink);border-radius:8px;box-shadow:8px 8px 0 var(--ink)}
+.mac-bar .dots{display:flex}
+.mac-bar .dots i{width:13px;height:13px;box-sizing:border-box;border:2px solid var(--ink);background:var(--surface)}
+.mac-bar .dots i+i{display:none}
+.mac-screen{background:var(--canvas);border-radius:0 0 6px 6px;overflow:hidden;aspect-ratio:16/10}
 .mac-screen img{width:100%;height:100%;object-fit:cover;object-position:top left}
 /* ── tagline band ── */
 .band{background:var(--soft);border-top:1px solid var(--edge);border-bottom:1px solid var(--edge);padding:var(--s-10) 0;text-align:center}
@@ -496,39 +525,45 @@ html[lang^="zh"] .engines-label,html[lang="th"] .engines-label,html[lang^="zh"] 
 .card .n{font-size:var(--t-xs);font-weight:700;color:var(--gold);font-variant-numeric:tabular-nums;letter-spacing:.1em}
 .card h3{font-size:15.5px;margin:var(--s-2) 0;letter-spacing:-.01em}
 .card p{font-size:13px;color:var(--dim)}
+/* engines: three kinds of AI answer */
+.eng-classes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--s-5);margin-top:var(--s-10)}
+.eng-class .win-body{gap:var(--s-3)}
+.eng-chips{display:flex;flex-wrap:wrap;gap:8px}
+.eng-chip{display:inline-flex;align-items:center;gap:8px;padding:4px 12px 4px 4px;background:var(--canvas);border-radius:var(--r-pill);font-size:13px;font-weight:600}
+.eng-chip i{width:26px;height:26px;display:flex;align-items:center;justify-content:center;border-radius:8px}
+.eng-class h3{font-size:18px;font-weight:600;letter-spacing:-.01em;line-height:1.35}
+.eng-class p{font-size:14px;color:var(--dim)}
+.eng-lever{margin-top:auto;padding-top:var(--s-2);font-size:13px;font-weight:600;color:#9E3F50}
+.eng-note{margin-top:var(--s-5);font-size:13px;color:var(--dim)}
+/* methods */
 /* agents steps */
-.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:var(--s-4);margin-top:var(--s-10)}
-.step{background:var(--surface);border:1px solid var(--edge);border-radius:var(--r);padding:var(--s-5);box-shadow:var(--shadow-raise-sm)}
-.step .n{font-size:var(--t-xs);font-weight:700;color:var(--brand);font-variant-numeric:tabular-nums}
-.step h3{font-size:13.5px;margin:var(--s-2) 0;line-height:1.35}
-.step p{font-size:12px;color:var(--dim)}
-.quote{margin-top:var(--s-12);background:var(--soft);border:1px solid var(--edge);border-radius:var(--r);padding:var(--s-8);text-align:center;box-shadow:var(--shadow-inset)}
+.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:var(--s-5);margin-top:var(--s-10)}
+.step .win-body{padding:var(--s-4) var(--s-4) var(--s-5)}
+.step h3{font-size:14.5px}
+.step p{font-size:12.5px}
+.quote{margin-top:var(--s-12)}
+.quote .win-body{align-items:center;text-align:center;padding:var(--s-8)}
 .quote h3{font-size:clamp(19px,2.6vw,26px);font-weight:700;letter-spacing:-.015em}
 .quote h3 .hl{color:var(--brand)}
 .quote p{font-size:13.5px;color:var(--dim);margin-top:var(--s-2)}
 /* markets */
 .market-cards{display:grid;grid-template-columns:repeat(5,1fr);gap:var(--s-4);margin-top:var(--s-10)}
-.market-card{background:var(--surface);border:1px solid var(--edge);border-radius:var(--r);padding:var(--s-5);box-shadow:var(--shadow-raise-sm)}
-.market-card:last-child{border-color:rgba(182,134,58,.45);background:linear-gradient(180deg,var(--surface),var(--gold-soft))}
+.market-card{background:var(--surface);border:2px solid var(--ink);border-radius:8px;padding:var(--s-5);box-shadow:4px 4px 0 var(--ink)}
+.market-card:last-child{background:linear-gradient(180deg,var(--surface),var(--gold-soft))}
 .market-flag{font-size:24px}
 .market-name{font-weight:700;font-size:14.5px;margin-top:var(--s-2)}
 .market-lang{font-size:var(--t-xs);color:var(--gold);margin:2px 0 var(--s-2)}
 .market-desc{font-size:12px;color:var(--dim)}
-.market-insight{margin-top:var(--s-6);background:var(--surface);border:1px solid var(--edge);border-left:3px solid var(--brand);border-radius:var(--r-sm);padding:var(--s-5) var(--s-6)}
+.market-insight{margin-top:var(--s-6);background:var(--surface);border:2px solid var(--ink);border-radius:8px;box-shadow:4px 4px 0 var(--ink);padding:var(--s-5) var(--s-6)}
 .market-insight h3{font-size:14.5px;margin-bottom:6px}
 .market-insight p{font-size:13.5px;color:var(--dim)}
 .market-insight .hl{color:var(--brand);font-weight:600}
 /* process */
 .process-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s-5);margin-top:var(--s-10)}
-.pstep{background:var(--surface);border:1px solid var(--edge);border-radius:var(--r);padding:var(--s-6);box-shadow:var(--shadow-raise-sm)}
-.pstep .phase{font-size:10.5px;letter-spacing:.16em;color:var(--gold);font-weight:700;text-transform:uppercase}
-.pstep h3{font-size:16px;margin:var(--s-3) 0 var(--s-2)}
-.pstep p{font-size:13px;color:var(--dim)}
 /* faq */
 .faq-list{margin-top:var(--s-10);display:grid;gap:var(--s-3);max-width:840px}
-.faq-item{background:var(--surface);border:1px solid var(--edge);border-radius:var(--r-sm);padding:0 var(--s-5)}
-.faq-item:hover{border-color:var(--edge-strong)}
-.faq-item[open]{border-color:rgba(199,107,122,.4);box-shadow:var(--shadow-sm)}
+.faq-item{background:var(--surface);border:2px solid var(--ink);border-radius:8px;padding:0 var(--s-5);box-shadow:3px 3px 0 var(--ink)}
+.faq-item[open]{box-shadow:5px 5px 0 var(--ink)}
 .faq-item summary{cursor:pointer;font-size:14.5px;font-weight:600;padding:var(--s-4) 0;list-style:none;display:flex;justify-content:space-between;gap:var(--s-4)}
 .faq-item summary::-webkit-details-marker{display:none}
 .faq-item summary::after{content:"+";color:var(--brand);font-weight:400;font-size:18px}
@@ -538,7 +573,7 @@ html[lang^="zh"] .engines-label,html[lang="th"] .engines-label,html[lang^="zh"] 
 .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--s-12);margin-top:var(--s-10)}
 .c-label{font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--faint);margin-bottom:4px}
 .c-value{font-size:14.5px;margin-bottom:var(--s-5)}
-.form-card{background:var(--surface);border:1px solid var(--edge);border-radius:var(--r);padding:var(--s-8);box-shadow:var(--shadow-raise-sm)}
+.form-card{background:var(--surface);border:2px solid var(--ink);border-radius:8px;padding:var(--s-8);box-shadow:6px 6px 0 var(--ink)}
 .form-card h3{font-size:16px;margin-bottom:2px}
 .form-card .sub{font-size:var(--t-sm);color:var(--faint);margin-bottom:var(--s-5)}
 .f-row{display:grid;grid-template-columns:1fr 1fr;gap:var(--s-3)}
@@ -556,8 +591,8 @@ footer{border-top:1px solid var(--edge);padding:var(--s-8) 0 var(--s-10);margin-
 /* ── adaptive layout: one column under 960, tighter gutters on phones ── */
 @media(max-width:1200px){.nav-brand span{display:none}.nav-links{gap:var(--s-4)}}
 @media(max-width:960px){
-  .story-grid,.story-flip .story-grid,.proof-grid{grid-template-columns:1fr}
-  .hero-px{display:none}
+  .story-grid,.story-flip .story-grid,.proof-grid,.eng-classes{grid-template-columns:1fr}
+  .hero-sky,.sec-px{display:none}
   .story-flip .story-copy{order:0}
   .steps,.market-cards{grid-template-columns:repeat(2,1fr)}
   .grid3,.process-steps,.contact-grid,.f-row{grid-template-columns:1fr}
@@ -589,8 +624,9 @@ footer{border-top:1px solid var(--edge);padding:var(--s-8) 0 var(--s-10);margin-
   <div class="nav-in">
     <a class="nav-brand" href="https://memecmo.ai/fil/"><img src="/favicon.svg?v=2" alt="MemeCMO"><b>MEMECMO.AI</b><span>The answer in AI</span></a>
     <div class="nav-links" id="navLinks">
-      <a href="#philosophy">Bakit GEO</a>
+      <a href="#methods">Pamamaraan</a>
       <a href="#geo-tech">Platform</a>
+      <a href="#philosophy">Bakit kami</a>
       <a href="#market">Mga Merkado</a>
       <a href="/about/">Tungkol</a>
       <a href="https://app.memecmo.ai/guide">Gabay</a>
@@ -604,9 +640,11 @@ footer{border-top:1px solid var(--edge);padding:var(--s-8) 0 var(--s-10);margin-
       <ul class="lang-menu" role="menu">
       <li><a href="/" lang="en" hreflang="en">English</a></li>
       <li><a href="/zh/" lang="zh" hreflang="zh">中文</a></li>
+      <li><a href="/zh-hant/" lang="zh-Hant" hreflang="zh-Hant">繁體中文</a></li>
       <li><a href="/vi/" lang="vi" hreflang="vi">Tiếng Việt</a></li>
-      <li class="current"><a href="/fil/" lang="fil" hreflang="fil">Filipino</a></li>
+      <li><a href="/id/" lang="id" hreflang="id">Bahasa Indonesia</a></li>
       <li><a href="/th/" lang="th" hreflang="th">ภาษาไทย</a></li>
+      <li class="current"><a href="/fil/" lang="fil" hreflang="fil">Filipino</a></li>
       <li><a href="/ms/" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
       </ul>
     </div>
@@ -616,12 +654,20 @@ footer{border-top:1px solid var(--edge);padding:var(--s-8) 0 var(--s-10);margin-
 </nav>
 
 <header class="hero" id="hero">
+  <div class="hero-sky" aria-hidden="true">
+      <div class="float" style="left:5%;top:4%;--d:-.4s"><svg width="64" height="72" viewBox="0 0 16 18" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2A2024" d="M2 0h12v1h-12zM1 1h1v1h-1zM14 1h1v1h-1zM1 2h1v1h-1zM3 2h10v1h-10zM14 2h1v1h-1zM1 3h1v1h-1zM3 3h1v1h-1zM12 3h1v1h-1zM14 3h1v1h-1zM1 4h1v1h-1zM3 4h1v1h-1zM12 4h1v1h-1zM14 4h1v1h-1zM1 5h1v1h-1zM3 5h1v1h-1zM6 5h1v1h-1zM9 5h1v1h-1zM12 5h1v1h-1zM14 5h1v1h-1zM1 6h1v1h-1zM3 6h1v1h-1zM6 6h1v1h-1zM9 6h1v1h-1zM12 6h1v1h-1zM14 6h1v1h-1zM1 7h1v1h-1zM3 7h1v1h-1zM12 7h1v1h-1zM14 7h1v1h-1zM1 8h1v1h-1zM3 8h1v1h-1zM5 8h1v1h-1zM10 8h1v1h-1zM12 8h1v1h-1zM14 8h1v1h-1zM1 9h1v1h-1zM3 9h1v1h-1zM6 9h4v1h-4zM12 9h1v1h-1zM14 9h1v1h-1zM1 10h1v1h-1zM3 10h1v1h-1zM12 10h1v1h-1zM14 10h1v1h-1zM1 11h1v1h-1zM3 11h10v1h-10zM14 11h1v1h-1zM1 12h1v1h-1zM14 12h1v1h-1zM1 13h1v1h-1zM8 13h5v1h-5zM14 13h1v1h-1zM1 14h1v1h-1zM14 14h1v1h-1zM1 15h14v1h-14zM1 16h1v1h-1zM14 16h1v1h-1zM1 17h14v1h-14z"/><path fill="#FFFFFF" d="M2 1h12v1h-12zM2 2h1v1h-1zM13 2h1v1h-1zM2 3h1v1h-1zM13 3h1v1h-1zM2 4h1v1h-1zM13 4h1v1h-1zM2 5h1v1h-1zM13 5h1v1h-1zM2 6h1v1h-1zM13 6h1v1h-1zM2 7h1v1h-1zM13 7h1v1h-1zM2 8h1v1h-1zM13 8h1v1h-1zM2 9h1v1h-1zM13 9h1v1h-1zM2 10h1v1h-1zM13 10h1v1h-1zM2 11h1v1h-1zM13 11h1v1h-1zM2 12h12v1h-12zM2 13h1v1h-1zM4 13h4v1h-4zM13 13h1v1h-1zM2 14h12v1h-12z"/><path fill="#F4ECE6" d="M4 3h8v1h-8zM4 4h8v1h-8zM4 5h2v1h-2zM7 5h2v1h-2zM10 5h2v1h-2zM4 6h2v1h-2zM7 6h2v1h-2zM10 6h2v1h-2zM4 7h8v1h-8zM4 8h1v1h-1zM6 8h4v1h-4zM11 8h1v1h-1zM4 9h2v1h-2zM10 9h2v1h-2zM4 10h8v1h-8z"/><path fill="#C76B7A" d="M3 13h1v1h-1z"/><path fill="#6E625F" d="M2 16h12v1h-12z"/></svg></div>
+      <div class="float" style="left:2%;top:38%;--d:-2.6s"><svg width="48" height="48" viewBox="0 0 16 16" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2A2024" d="M3 0h6v1h-6zM2 1h1v1h-1zM9 1h1v1h-1zM1 2h1v1h-1zM10 2h1v1h-1zM0 3h1v1h-1zM11 3h1v1h-1zM0 4h1v1h-1zM11 4h1v1h-1zM0 5h1v1h-1zM11 5h1v1h-1zM0 6h1v1h-1zM11 6h1v1h-1zM0 7h1v1h-1zM11 7h1v1h-1zM1 8h1v1h-1zM10 8h1v1h-1zM2 9h1v1h-1zM9 9h3v1h-3zM3 10h6v1h-6zM10 10h3v1h-3zM10 11h3v1h-3z"/><path fill="#F4ECE6" d="M3 1h6v1h-6zM2 2h1v1h-1zM5 2h5v1h-5zM1 3h1v1h-1zM3 3h8v1h-8zM1 4h1v1h-1zM3 4h8v1h-8zM1 5h10v1h-10zM1 6h10v1h-10zM1 7h10v1h-10zM2 8h8v1h-8zM3 9h6v1h-6z"/><path fill="#FFFFFF" d="M3 2h2v1h-2zM2 3h1v1h-1zM2 4h1v1h-1z"/><path fill="#C76B7A" d="M11 12h3v1h-3zM12 13h3v1h-3zM13 14h2v1h-2z"/></svg><span>Tanong ng mamimili</span></div>
+      <div class="float" style="left:10%;top:68%;--d:-3.8s"><svg width="36" height="42" viewBox="0 0 12 14" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2A2024" d="M0 0h9v1h-9zM0 1h1v1h-1zM8 1h2v1h-2zM0 2h1v1h-1zM8 2h1v1h-1zM10 2h1v1h-1zM0 3h1v1h-1zM8 3h4v1h-4zM0 4h1v1h-1zM11 4h1v1h-1zM0 5h1v1h-1zM11 5h1v1h-1zM0 6h1v1h-1zM11 6h1v1h-1zM0 7h1v1h-1zM11 7h1v1h-1zM0 8h1v1h-1zM11 8h1v1h-1zM0 9h1v1h-1zM11 9h1v1h-1zM0 10h1v1h-1zM11 10h1v1h-1zM0 11h1v1h-1zM11 11h1v1h-1zM0 12h1v1h-1zM11 12h1v1h-1zM0 13h12v1h-12z"/><path fill="#FFFFFF" d="M1 1h7v1h-7zM1 2h7v1h-7zM9 2h1v1h-1zM1 3h7v1h-7zM1 4h10v1h-10zM1 5h1v1h-1zM8 5h3v1h-3zM1 6h10v1h-10zM1 7h1v1h-1zM10 7h1v1h-1zM1 8h10v1h-10zM1 9h1v1h-1zM7 9h4v1h-4zM1 10h10v1h-10zM1 11h1v1h-1zM5 11h6v1h-6zM1 12h10v1h-10z"/><path fill="#6E625F" d="M2 5h6v1h-6zM2 7h8v1h-8zM2 9h5v1h-5z"/><path fill="#C76B7A" d="M2 11h3v1h-3z"/></svg><span>Mga source na na-cite</span></div>
+      <div class="float" style="left:20%;top:1%;--d:-4.2s"><svg width="36" height="42" viewBox="0 0 12 14" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2A2024" d="M0 0h12v1h-12zM0 1h1v1h-1zM11 1h1v1h-1zM1 2h1v1h-1zM10 2h1v1h-1zM1 3h1v1h-1zM10 3h1v1h-1zM2 4h1v1h-1zM9 4h1v1h-1zM3 5h1v1h-1zM8 5h1v1h-1zM4 6h1v1h-1zM7 6h1v1h-1zM4 7h1v1h-1zM7 7h1v1h-1zM3 8h1v1h-1zM8 8h1v1h-1zM2 9h1v1h-1zM9 9h1v1h-1zM1 10h1v1h-1zM10 10h1v1h-1zM1 11h1v1h-1zM10 11h1v1h-1zM0 12h1v1h-1zM11 12h1v1h-1zM0 13h12v1h-12z"/><path fill="#6E625F" d="M1 1h10v1h-10zM1 12h10v1h-10z"/><path fill="#FFFFFF" d="M2 2h8v1h-8zM2 3h1v1h-1zM9 3h1v1h-1zM3 4h1v1h-1zM8 4h1v1h-1zM4 5h1v1h-1zM7 5h1v1h-1zM5 7h2v1h-2zM4 8h4v1h-4zM3 9h3v1h-3zM7 9h2v1h-2zM2 10h3v1h-3zM8 10h2v1h-2zM2 11h1v1h-1zM9 11h1v1h-1z"/><path fill="#B6863A" d="M3 3h6v1h-6zM4 4h4v1h-4zM5 5h2v1h-2zM5 6h2v1h-2zM6 9h1v1h-1zM5 10h3v1h-3zM3 11h6v1h-6z"/></svg></div>
+      <div class="float" style="left:3%;top:90%;--d:-3.3s"><svg width="39" height="39" viewBox="0 0 13 13" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2A2024" d="M6 0h1v1h-1zM6 1h1v1h-1zM5 2h1v1h-1zM7 2h1v1h-1zM5 3h1v1h-1zM7 3h1v1h-1zM4 4h1v1h-1zM8 4h1v1h-1zM1 5h3v1h-3zM9 5h3v1h-3zM0 6h1v1h-1zM12 6h1v1h-1zM1 7h3v1h-3zM9 7h3v1h-3zM4 8h1v1h-1zM8 8h1v1h-1zM5 9h1v1h-1zM7 9h1v1h-1zM5 10h1v1h-1zM7 10h1v1h-1zM6 11h1v1h-1zM6 12h1v1h-1z"/><path fill="#C76B7A" d="M6 2h1v1h-1zM6 3h1v1h-1zM5 4h3v1h-3zM4 5h5v1h-5zM1 6h11v1h-11zM4 7h5v1h-5zM5 8h3v1h-3zM6 9h1v1h-1zM6 10h1v1h-1z"/></svg></div>
+      <div class="wander" style="left:19%;top:86%"><svg width="30" height="48" viewBox="0 0 10 16" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2A2024" d="M0 0h1v1h-1zM0 1h2v1h-2zM0 2h1v1h-1zM2 2h1v1h-1zM0 3h1v1h-1zM3 3h1v1h-1zM0 4h1v1h-1zM4 4h1v1h-1zM0 5h1v1h-1zM5 5h1v1h-1zM0 6h1v1h-1zM6 6h1v1h-1zM0 7h1v1h-1zM7 7h1v1h-1zM0 8h1v1h-1zM8 8h1v1h-1zM0 9h1v1h-1zM5 9h5v1h-5zM0 10h1v1h-1zM3 10h1v1h-1zM6 10h1v1h-1zM0 11h1v1h-1zM2 11h1v1h-1zM4 11h1v1h-1zM7 11h1v1h-1zM0 12h2v1h-2zM4 12h1v1h-1zM7 12h1v1h-1zM0 13h1v1h-1zM5 13h1v1h-1zM8 13h1v1h-1zM5 14h1v1h-1zM8 14h1v1h-1zM6 15h2v1h-2z"/><path fill="#FFFFFF" d="M1 2h1v1h-1zM1 3h2v1h-2zM1 4h3v1h-3zM1 5h4v1h-4zM1 6h5v1h-5zM1 7h6v1h-6zM1 8h7v1h-7zM1 9h4v1h-4zM1 10h2v1h-2zM4 10h2v1h-2zM1 11h1v1h-1zM5 11h2v1h-2zM5 12h2v1h-2zM6 13h2v1h-2zM6 14h2v1h-2z"/></svg></div>
+      <div class="float" style="right:6%;top:4%;--d:-1.5s"><svg width="56" height="48" viewBox="0 0 14 12" shape-rendering="crispEdges" aria-hidden="true"><path fill="#B6863A" d="M11 0h3v1h-3zM11 1h3v1h-3zM11 2h3v1h-3zM11 3h3v1h-3zM11 4h3v1h-3zM11 5h3v1h-3zM11 6h3v1h-3zM11 7h3v1h-3zM11 8h3v1h-3zM11 9h3v1h-3zM11 10h3v1h-3z"/><path fill="#C76B7A" d="M7 3h3v1h-3zM7 4h3v1h-3zM7 5h3v1h-3zM7 6h3v1h-3zM7 7h3v1h-3zM7 8h3v1h-3zM7 9h3v1h-3zM7 10h3v1h-3z"/><path fill="#6E625F" d="M3 6h3v1h-3zM3 7h3v1h-3zM3 8h3v1h-3zM3 9h3v1h-3zM3 10h3v1h-3z"/><path fill="#2A2024" d="M0 9h1v1h-1zM0 10h1v1h-1zM0 11h14v1h-14z"/></svg></div>
+      <div class="float" style="right:20%;top:0;--d:-2.1s"><svg width="30" height="21" viewBox="0 0 10 7" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2A2024" d="M0 0h4v1h-4zM5 0h4v1h-4zM0 1h1v1h-1zM3 1h1v1h-1zM5 1h1v1h-1zM8 1h1v1h-1zM0 2h1v1h-1zM3 2h1v1h-1zM5 2h1v1h-1zM8 2h1v1h-1zM0 3h4v1h-4zM5 3h4v1h-4zM2 4h2v1h-2zM7 4h2v1h-2zM1 5h2v1h-2zM6 5h2v1h-2zM0 6h2v1h-2zM5 6h2v1h-2z"/><path fill="#C76B7A" d="M1 1h2v1h-2zM6 1h2v1h-2zM1 2h2v1h-2zM6 2h2v1h-2z"/></svg></div>
+      <div class="float" style="right:2%;top:34%;--d:-.9s"><svg width="64" height="40" viewBox="0 0 16 10" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2A2024" d="M5 0h6v1h-6zM3 1h2v1h-2zM11 1h2v1h-2zM2 2h1v1h-1zM13 2h1v1h-1zM1 3h1v1h-1zM7 3h2v1h-2zM14 3h1v1h-1zM0 4h1v1h-1zM6 4h4v1h-4zM15 4h1v1h-1zM0 5h1v1h-1zM6 5h1v1h-1zM8 5h2v1h-2zM15 5h1v1h-1zM1 6h1v1h-1zM7 6h2v1h-2zM14 6h1v1h-1zM2 7h1v1h-1zM13 7h1v1h-1zM3 8h2v1h-2zM11 8h2v1h-2zM5 9h6v1h-6z"/><path fill="#FFFFFF" d="M5 1h6v1h-6zM3 2h3v1h-3zM10 2h3v1h-3zM2 3h3v1h-3zM11 3h3v1h-3zM1 4h3v1h-3zM12 4h3v1h-3zM1 5h3v1h-3zM7 5h1v1h-1zM12 5h3v1h-3zM2 6h3v1h-3zM11 6h3v1h-3zM3 7h3v1h-3zM10 7h3v1h-3zM5 8h6v1h-6z"/><path fill="#C76B7A" d="M6 2h4v1h-4zM5 3h2v1h-2zM9 3h2v1h-2zM4 4h2v1h-2zM10 4h2v1h-2zM4 5h2v1h-2zM10 5h2v1h-2zM5 6h2v1h-2zM9 6h2v1h-2zM6 7h4v1h-4z"/></svg><span>Visibility</span></div>
+      <div class="float" style="right:10%;top:64%;--d:-1.9s"><svg width="42" height="42" viewBox="0 0 14 14" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2A2024" d="M5 0h4v1h-4zM3 1h3v1h-3zM8 1h3v1h-3zM2 2h2v1h-2zM10 2h2v1h-2zM1 3h2v1h-2zM11 3h2v1h-2zM1 4h1v1h-1zM12 4h1v1h-1zM0 5h2v1h-2zM12 5h2v1h-2zM0 6h1v1h-1zM13 6h1v1h-1zM0 7h1v1h-1zM13 7h1v1h-1zM0 8h2v1h-2zM12 8h2v1h-2zM1 9h1v1h-1zM12 9h1v1h-1zM1 10h2v1h-2zM11 10h2v1h-2zM2 11h2v1h-2zM10 11h2v1h-2zM3 12h3v1h-3zM8 12h3v1h-3zM5 13h4v1h-4z"/><path fill="#B6863A" d="M6 1h2v1h-2zM6 2h4v1h-4zM6 3h5v1h-5zM7 4h5v1h-5zM7 5h5v1h-5zM7 6h6v1h-6z"/><path fill="#C76B7A" d="M4 2h2v1h-2zM3 3h3v1h-3zM2 4h5v1h-5zM2 5h5v1h-5zM1 6h6v1h-6zM1 7h5v1h-5zM2 8h1v1h-1z"/><path fill="#6E625F" d="M6 7h7v1h-7zM3 8h9v1h-9zM2 9h10v1h-10zM3 10h8v1h-8zM4 11h6v1h-6zM6 12h2v1h-2z"/></svg><span>Share of voice</span></div>
+      <div class="float" style="right:2%;top:86%;--d:-2.9s"><svg width="42" height="48" viewBox="0 0 14 16" shape-rendering="crispEdges" aria-hidden="true"><path fill="#C76B7A" d="M6 0h2v1h-2z"/><path fill="#2A2024" d="M6 1h2v1h-2zM2 2h10v1h-10zM1 3h1v1h-1zM12 3h1v1h-1zM1 4h1v1h-1zM3 4h8v1h-8zM12 4h1v1h-1zM0 5h1v1h-1zM2 5h1v1h-1zM11 5h1v1h-1zM13 5h1v1h-1zM0 6h1v1h-1zM2 6h1v1h-1zM11 6h1v1h-1zM13 6h1v1h-1zM0 7h1v1h-1zM2 7h1v1h-1zM11 7h1v1h-1zM13 7h1v1h-1zM0 8h1v1h-1zM2 8h1v1h-1zM11 8h1v1h-1zM13 8h1v1h-1zM0 9h1v1h-1zM2 9h1v1h-1zM5 9h4v1h-4zM11 9h1v1h-1zM13 9h1v1h-1zM0 10h1v1h-1zM2 10h1v1h-1zM11 10h1v1h-1zM13 10h1v1h-1zM1 11h1v1h-1zM3 11h8v1h-8zM12 11h1v1h-1zM1 12h1v1h-1zM12 12h1v1h-1zM2 13h10v1h-10zM3 14h1v1h-1zM5 14h1v1h-1zM8 14h1v1h-1zM10 14h1v1h-1zM3 15h3v1h-3zM8 15h3v1h-3z"/><path fill="#FFFFFF" d="M2 3h10v1h-10zM2 4h1v1h-1zM11 4h1v1h-1zM1 5h1v1h-1zM12 5h1v1h-1zM1 6h1v1h-1zM12 6h1v1h-1zM1 7h1v1h-1zM12 7h1v1h-1zM1 8h1v1h-1zM12 8h1v1h-1zM1 9h1v1h-1zM12 9h1v1h-1zM1 10h1v1h-1zM12 10h1v1h-1zM2 11h1v1h-1zM11 11h1v1h-1zM2 12h10v1h-10zM4 14h1v1h-1zM9 14h1v1h-1z"/><path fill="#F4ECE6" d="M3 5h8v1h-8zM3 6h1v1h-1zM6 6h2v1h-2zM10 6h1v1h-1zM3 7h1v1h-1zM6 7h2v1h-2zM10 7h1v1h-1zM3 8h8v1h-8zM3 9h2v1h-2zM9 9h2v1h-2zM3 10h8v1h-8z"/><path fill="#B6863A" d="M4 6h2v1h-2zM8 6h2v1h-2zM4 7h2v1h-2zM8 7h2v1h-2z"/></svg><span>AI agent</span></div>
+  </div>
   <div class="wrap hero-center">
-    <svg class="hero-px" style="left:2%;top:16%" width="32" height="32" viewBox="0 0 16 16" shape-rendering="crispEdges" aria-hidden="true"><path fill="#D9CCC2" d="M3 0h6v1h-6zM2 1h1v1h-1zM9 1h1v1h-1zM1 2h1v1h-1zM10 2h1v1h-1zM0 3h1v5h-1zM11 3h1v5h-1zM1 8h1v1h-1zM10 8h1v1h-1zM2 9h1v1h-1zM9 9h3v1h-3zM3 10h6v1h-6zM10 10h3v2h-3zM11 12h3v1h-3zM12 13h3v1h-3zM13 14h2v1h-2z"/></svg>
-    <svg class="hero-px" style="right:4%;top:20%" width="30" height="21" viewBox="0 0 10 7" shape-rendering="crispEdges" aria-hidden="true"><path fill="#D9CCC2" d="M0 0h4v4h-4zM5 0h4v4h-4zM2 4h2v1h-2zM7 4h2v1h-2zM1 5h2v1h-2zM6 5h2v1h-2zM0 6h2v1h-2zM5 6h2v1h-2z"/></svg>
-    <svg class="hero-px" style="left:5%;top:52%" width="24" height="28" viewBox="0 0 12 14" shape-rendering="crispEdges" aria-hidden="true"><path fill="#D9CCC2" d="M0 0h9v1h-9zM0 1h1v12h-1zM8 1h2v1h-2zM8 2h1v1h-1zM10 2h1v1h-1zM8 3h4v1h-4zM11 4h1v9h-1zM0 13h12v1h-12zM2 6h7v1h-7zM2 8h8v1h-8zM2 10h5v1h-5z"/></svg>
-    <svg class="hero-px" style="right:6%;top:50%" width="28" height="24" viewBox="0 0 14 12" shape-rendering="crispEdges" aria-hidden="true"><path fill="#D9CCC2" d="M3 6h3v5h-3zM7 3h3v8h-3zM0 11h14v1h-14z"/><path fill="#C9A86C" d="M11 0h3v11h-3z"/></svg>
-
     <div class="island-wrap mc-enter" style="--i:0">
       <button type="button" class="island" id="island" aria-expanded="false" aria-controls="islandPanel" aria-label="Mga numero mula sa aming pagsukat — tingnan ang mga source na pinakamadalas i-cite" data-msgs="[&quot;Binabantayan ang 5 AI engine&quot;,&quot;Parehong mga tanong, nasusukat bawat round&quot;,&quot;Halimbawa sa Vietnam: 0.7% lang ang site ng brand&quot;,&quot;Halimbawa sa Vietnam: vnexpress.net sa 19.2% ng sagot&quot;]">
         <svg class="eye" width="24" height="15" viewBox="0 0 16 10" shape-rendering="crispEdges" aria-hidden="true"><path fill="#F4ECE6" d="M5 0h6v1h-6zM3 1h2v1h-2zM11 1h2v1h-2zM2 2h1v1h-1zM13 2h1v1h-1zM1 3h1v1h-1zM7 3h2v1h-2zM14 3h1v1h-1zM0 4h1v1h-1zM6 4h4v1h-4zM15 4h1v1h-1zM0 5h1v1h-1zM6 5h1v1h-1zM8 5h2v1h-2zM15 5h1v1h-1zM1 6h1v1h-1zM7 6h2v1h-2zM14 6h1v1h-1zM2 7h1v1h-1zM13 7h1v1h-1zM3 8h2v1h-2zM11 8h2v1h-2zM5 9h6v1h-6z"/><path fill="#E59CA6" d="M6 2h4v1h-4zM5 3h2v1h-2zM9 3h2v1h-2zM4 4h2v1h-2zM10 4h2v1h-2zM4 5h2v1h-2zM10 5h2v1h-2zM5 6h2v1h-2zM9 6h2v1h-2zM6 7h4v1h-4z"/></svg>
@@ -677,27 +723,27 @@ footer{border-top:1px solid var(--edge);padding:var(--s-8) 0 var(--s-10);margin-
 </header>
 
 <div class="band">
-  <div class="main"><span class="brand">MemeCMO</span> — Gawing sagot ng AI ang iyong brand.</div>
-  <div class="sub">Sukatin. Bumuo. Mag-report. Bawat linggo.</div>
+  <div class="main"><span class="brand">MemeCMO</span> — hindi namin hinuhulaan kung ano ang sinasabi ng AI tungkol sa iyo. Sinusukat namin ito, inaayos, at pinapatunayang may gumalaw.</div>
+  <div class="sub">Limang engine · sampung agent · isang pampublikong pamantayan sa pagsukat</div>
 </div>
 
 
 <section class="sec story" id="measure">
   <div class="wrap story-grid">
     <div class="story-copy reveal">
-      <span class="kicker">MEASURE · FIVE ENGINES · FIVE METRICS</span>
-      <h2 class="sec-title">See exactly how AI sees you.</h2>
-      <p class="sec-desc">Every scan asks ChatGPT, Gemini, Claude, Perplexity and Google AI Overview the questions your buyers really ask, in their language, on a frozen panel — so week-to-week movement is real, not noise.</p>
+      <span class="kicker">SUKATIN · LIMANG ENGINE · ISANG FROZEN PANEL</span>
+      <h2 class="sec-title">Itanong sa AI ang itinatanong ng iyong mga mamimili. Bawat linggo, parehong mga tanong.</h2>
+      <p class="sec-desc">Sa bawat scan, itinatanong namin ang mga tanong na talagang itinatanong ng iyong mga mamimili — sa sarili nilang wika, sa bawat yugto ng pagbili — sa ChatGPT, Gemini, Perplexity, Claude at sa live na Google AI Overview page. Hindi nagbabago ang panel, kaya ang pagbabago sa score ay pagbabago sa AI, hindi sa test.</p>
       <ul class="story-points">
-        <li>Presence, share of voice, prominence, sentiment and citation — each shown with its denominator</li>
-        <li>One engine at a time: the same tables re-sliced per engine, because the same brand differs sharply between them</li>
-        <li>Every cell opens the answer behind it, with the sources the engine cited</li>
+        <li>Presence, share of voice, prominence, sentiment at citation — bawat rate ay may kasamang numerator at denominator</li>
+        <li>Bawat engine nang hiwalay: ang parehong brand ay maaaring nangunguna sa isa at wala sa susunod</li>
+        <li>Bawat numero ay nagbubukas ng buong sagot sa likod nito at ng mga pahinang sini-cite ng engine</li>
       </ul>
 
     </div>
     <figure class="mac reveal" style="--i:1">
       <div class="mac-bar"><span class="dots"><i></i><i></i><i></i></span><span class="mac-title">app.memecmo.ai</span></div>
-      <div class="mac-screen"><img src="/shots/monitor.webp" alt="MemeCMO monitor dashboard: presence over time, brand visibility table, presence by engine" loading="lazy" width="1440" height="900"></div>
+      <div class="mac-screen"><img src="/shots/monitor.webp" alt="MemeCMO monitor dashboard: presence sa paglipas ng panahon, brand visibility table, presence bawat engine" loading="lazy" width="1440" height="900"></div>
     </figure>
   </div>
 </section>
@@ -705,19 +751,19 @@ footer{border-top:1px solid var(--edge);padding:var(--s-8) 0 var(--s-10);margin-
 <section class="sec story story-flip" id="sources">
   <div class="wrap story-grid">
     <div class="story-copy reveal">
-      <span class="kicker">SOURCES · WHERE AI LOOKS</span>
-      <h2 class="sec-title">Know where AI looks for answers — and be there.</h2>
-      <p class="sec-desc">We read the pages the engines cite: structure, freshness, length, schema. What gets cited becomes a measured bar for your content, not a guess.</p>
+      <span class="kicker">MGA SOURCE · SAAN TUMITINGIN ANG AI</span>
+      <h2 class="sec-title">Binabasa namin ang mga pahinang binabasa ng AI.</h2>
+      <p class="sec-desc">Sa bawat merkado, umaasa ang mga engine sa maikling listahan ng mga site. Niraranggo namin ang mga ito sa bawat scan, kinukuha ang mga pahinang sini-cite nila at sinusuri ang mga ito — structure, freshness, schema, haba — para ang “kung ano ang nasi-cite” ay maging pamantayang sinusundan ng iyong content, hindi hula.</p>
       <ul class="story-points">
-        <li>The domains each engine leans on in your market, with citations across every scan</li>
-        <li>Page features of the cited pages — schema, FAQ, update date — per engine and by citation intensity</li>
-        <li>A public monthly list of the sources AI cites in Vietnam, released under CC BY 4.0</li>
+        <li>Ang mga domain na inaasahan ng bawat engine sa iyong merkado, niraranggo sa bawat scan</li>
+        <li>Ang pagkakapareho ng mga na-cite na pahina, bawat engine at ayon sa dalas ng pag-cite sa kanila</li>
+        <li>Isang pampublikong buwanang listahan ng mga source na sini-cite ng AI sa Vietnam, malayang magamit muli (CC BY 4.0)</li>
       </ul>
-      <a class="btn-ghost story-cta" href="https://app.memecmo.ai/sources/vietnam">Sources AI cites in Vietnam →</a>
+      <a class="btn-ghost story-cta" href="https://app.memecmo.ai/sources/vietnam">Mga source na sini-cite ng AI sa Vietnam →</a>
     </div>
     <figure class="mac reveal" style="--i:1">
       <div class="mac-bar"><span class="dots"><i></i><i></i><i></i></span><span class="mac-title">app.memecmo.ai</span></div>
-      <div class="mac-screen"><img src="/shots/sources.webp" alt="Sources the AI engines cite, with page features per domain" loading="lazy" width="1440" height="900"></div>
+      <div class="mac-screen"><img src="/shots/sources.webp" alt="Mga source na sini-cite ng mga AI engine, kasama ang page features bawat domain" loading="lazy" width="1440" height="900"></div>
     </figure>
   </div>
 </section>
@@ -725,19 +771,19 @@ footer{border-top:1px solid var(--edge);padding:var(--s-8) 0 var(--s-10);margin-
 <section class="sec story" id="act">
   <div class="wrap story-grid">
     <div class="story-copy reveal">
-      <span class="kicker">ACT · BUILD WHAT'S MISSING</span>
-      <h2 class="sec-title">Build the missing answers, in the buyer's language.</h2>
-      <p class="sec-desc">Content, site upgrades, distribution kits and encyclopedia drafts come out of the same workspace, briefed by what the engines actually cite in your market. What your team edits, a re-run never overwrites.</p>
+      <span class="kicker">KUMILOS · SAMPUNG AGENT · MGA DELIVERABLE</span>
+      <h2 class="sec-title">Sampung agent ang naghahatid ng mga sagot na kulang.</h2>
+      <p class="sec-desc">Standard answers, page edits, paste-in schema, gap content, placement kits at encyclopedia drafts — sa wika ng mamimili, isinulat ayon sa citation profile ng iyong merkado, mula sa mga fact na pampubliko na sa iyong site. Ang numerong walang source ay nagiging blangkong pupunan mo, hindi kailanman inimbento.</p>
       <ul class="story-points">
-        <li>Ten agents, one workspace: dispatch on the left, review on the stage, live activity on the right</li>
-        <li>Every draft is written to the measured citation profile of your market — structure, depth, freshness</li>
-        <li>Human edits are kept on top of every regeneration</li>
+        <li>Mag-dispatch ng agent sa kaliwa, mag-review sa stage, panoorin ang live activity sa kanan</li>
+        <li>Bawat draft ay nakabatay sa kung ano talaga ang sini-cite ng mga engine sa iyong merkado</li>
+        <li>Ang in-edit ng iyong team ay nananatiling edited — iginagalang ito ng bawat re-run</li>
       </ul>
 
     </div>
     <figure class="mac reveal" style="--i:1">
       <div class="mac-bar"><span class="dots"><i></i><i></i><i></i></span><span class="mac-title">app.memecmo.ai</span></div>
-      <div class="mac-screen"><img src="/shots/workspace.webp" alt="MemeCMO workspace with card-style deliverables and the live activity panel" loading="lazy" width="1440" height="900"></div>
+      <div class="mac-screen"><img src="/shots/workspace.webp" alt="MemeCMO workspace na may card-style na deliverables at live activity panel" loading="lazy" width="1440" height="900"></div>
     </figure>
   </div>
 </section>
@@ -745,19 +791,19 @@ footer{border-top:1px solid var(--edge);padding:var(--s-8) 0 var(--s-10);margin-
 <section class="sec story story-flip" id="prove">
   <div class="wrap story-grid">
     <div class="story-copy reveal">
-      <span class="kicker">PROVE · CLOSE THE LOOP</span>
-      <h2 class="sec-title">Every action verified. Every change attributed.</h2>
-      <p class="sec-desc">Log what went live; we fetch it, hash it and watch whether the engines start citing it. The next scans show what moved — by question, by engine — on the same frozen panel.</p>
+      <span class="kicker">PATUNAYAN · BAGO AT PAGKATAPOS</span>
+      <h2 class="sec-title">Patunay, hindi pakiramdam.</h2>
+      <p class="sec-desc">I-log kung ano ang naging live. Kinukuha namin ang pahina, kinukuhanan ito ng fingerprint at binabantayan kung sinisimulan itong gamitin ng mga engine. Ipinapakita ng mga susunod na scan kung ano ang gumalaw — bawat tanong at bawat engine — katabi ng mga tanong na hindi mo ginalaw.</p>
       <ul class="story-points">
-        <li>Actions verified live, with word count and content changes over time</li>
-        <li>Before/after outcomes per question and engine, plus site coverage and contradictions in every report</li>
-        <li>One public measurement standard (v1.1) behind every number we publish</li>
+        <li>Bawat na-log na aksyon ay vine-verify na live, at sinusubaybayan ang mga pagbabago nito sa paglipas ng panahon</li>
+        <li>Before/after bawat tanong at engine, kasama ang site coverage at contradictions sa bawat report</li>
+        <li>Isang pampublikong pamantayan sa pagsukat (v1.1) sa likod ng bawat numerong inilalathala namin</li>
       </ul>
-      <a class="btn-ghost story-cta" href="https://app.memecmo.ai/standard/MemeCMO_AI_Visibility_Measurement_Standard_v1.1.pdf">Read the measurement standard →</a>
+      <a class="btn-ghost story-cta" href="https://app.memecmo.ai/standard/MemeCMO_AI_Visibility_Measurement_Standard_v1.1.pdf">Basahin ang pamantayan sa pagsukat →</a>
     </div>
     <figure class="mac reveal" style="--i:1">
       <div class="mac-bar"><span class="dots"><i></i><i></i><i></i></span><span class="mac-title">app.memecmo.ai</span></div>
-      <div class="mac-screen"><img src="/shots/report.webp" alt="MemeCMO report with collapsed recommendations, site coverage and verified actions" loading="lazy" width="1440" height="900"></div>
+      <div class="mac-screen"><img src="/shots/report.webp" alt="MemeCMO report na may naka-collapse na recommendations, site coverage at verified actions" loading="lazy" width="1440" height="900"></div>
     </figure>
   </div>
 </section>
@@ -769,43 +815,75 @@ footer{border-top:1px solid var(--edge);padding:var(--s-8) 0 var(--s-10);margin-
   </div>
 </section>
 
-<section class="sec" id="philosophy" style="background:var(--surface);border-top:1px solid var(--edge);border-bottom:1px solid var(--edge)">
+<section class="sec" id="engines" style="background:var(--surface);border-top:1px solid var(--edge);border-bottom:1px solid var(--edge)">
   <div class="wrap">
-    <span class="kicker">BAKIT GEO, BAKIT NGAYON</span>
-    <h2 class="sec-title">Ang kamalayan ang asset. Ang pagiging nauna ang moat.</h2>
-    <p class="sec-desc">Lumilipat ang organic traffic sa mga sagot ng AI. Ang presensya ng brand sa mga sagot na iyon ay hindi traffic na inuupahan — kapag naitatag na, gumagana ito 24/7, sa iba't ibang wika, sa zero marginal cost, at lumalago.</p>
+    <svg class="sec-px" width="60" height="60" viewBox="0 0 15 15" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2A2024" d="M5 0h5v1h-5zM3 1h3v1h-3zM9 1h3v1h-3zM2 2h2v1h-2zM11 2h2v1h-2zM1 3h2v1h-2zM12 3h2v1h-2zM1 4h1v1h-1zM13 4h1v1h-1zM0 5h2v1h-2zM13 5h2v1h-2zM0 6h1v1h-1zM14 6h1v1h-1zM0 7h1v1h-1zM14 7h1v1h-1zM0 8h1v1h-1zM14 8h1v1h-1zM0 9h2v1h-2zM13 9h2v1h-2zM1 10h1v1h-1zM13 10h1v1h-1zM1 11h2v1h-2zM12 11h2v1h-2zM2 12h2v1h-2zM11 12h2v1h-2zM3 13h3v1h-3zM9 13h3v1h-3zM5 14h5v1h-5z"/><path fill="#F4ECE6" d="M6 1h1v1h-1zM8 1h1v1h-1zM5 2h2v1h-2zM8 2h2v1h-2zM3 3h1v1h-1zM5 3h2v1h-2zM8 3h2v1h-2zM11 3h1v1h-1zM2 4h1v1h-1zM5 4h2v1h-2zM8 4h2v1h-2zM12 4h1v1h-1zM2 5h1v1h-1zM4 5h3v1h-3zM8 5h3v1h-3zM12 5h1v1h-1zM1 6h2v1h-2zM4 6h3v1h-3zM8 6h3v1h-3zM12 6h2v1h-2zM1 8h2v1h-2zM4 8h3v1h-3zM8 8h3v1h-3zM12 8h2v1h-2zM2 9h1v1h-1zM4 9h3v1h-3zM8 9h3v1h-3zM12 9h1v1h-1zM2 10h1v1h-1zM5 10h2v1h-2zM8 10h2v1h-2zM12 10h1v1h-1zM3 11h1v1h-1zM5 11h2v1h-2zM8 11h2v1h-2zM11 11h1v1h-1zM5 12h2v1h-2zM8 12h2v1h-2zM6 13h1v1h-1zM8 13h1v1h-1z"/><path fill="#5B7FA6" d="M7 1h1v1h-1zM4 2h1v1h-1zM7 2h1v1h-1zM10 2h1v1h-1zM4 3h1v1h-1zM7 3h1v1h-1zM10 3h1v1h-1zM3 4h2v1h-2zM7 4h1v1h-1zM10 4h2v1h-2zM3 5h1v1h-1zM7 5h1v1h-1zM11 5h1v1h-1zM3 6h1v1h-1zM7 6h1v1h-1zM11 6h1v1h-1zM1 7h13v1h-13zM3 8h1v1h-1zM7 8h1v1h-1zM11 8h1v1h-1zM3 9h1v1h-1zM7 9h1v1h-1zM11 9h1v1h-1zM3 10h2v1h-2zM7 10h1v1h-1zM10 10h2v1h-2zM4 11h1v1h-1zM7 11h1v1h-1zM10 11h1v1h-1zM4 12h1v1h-1zM7 12h1v1h-1zM10 12h1v1h-1zM7 13h1v1h-1z"/></svg>
+    <span class="kicker">ANG MGA ENGINE</span>
+    <h2 class="sec-title">Tatlong uri ng sagot ng AI.<br>Tatlong magkaibang paraan para baguhin ito.</h2>
+    <p class="sec-desc">Hindi lahat ng engine ay nagbabasa ng web. Inuuri namin ang bawat isa ayon sa ipinapakita mismo ng scan — ilan sa mga sagot nito ang may kasamang source — dahil iba-iba ang nagpapagalaw sa kanila.</p>
+    <div class="eng-classes">
+      <div class="win eng-class reveal" style="--i:0"><div class="win-bar"><i></i><b>01</b></div><div class="win-body"><div class="eng-chips"><span class="eng-chip"><i style="background:#8E6C9E"><svg width="16" height="14" viewBox="0 0 9 8" shape-rendering="crispEdges" aria-hidden="true"><path fill="#FFFFFF" d="M1 0h4v1h-4zM0 1h1v3h-1zM5 1h1v3h-1zM1 4h6v1h-6zM5 5h2v1h-2zM6 6h2v1h-2zM7 7h2v1h-2z"/></svg></i>Perplexity</span><span class="eng-chip"><i style="background:#7E8F3A"><svg width="16" height="12" viewBox="0 0 9 7" shape-rendering="crispEdges" aria-hidden="true"><path fill="#FFFFFF" d="M0 0h9v1h-9zM0 1h1v5h-1zM8 1h1v5h-1zM2 2h5v1h-5zM2 4h4v1h-4zM0 6h9v1h-9z"/></svg></i>Google AI Overview</span></div><h3>Nagbabasa ng web, at ng iyong site</h3><p>Binubuo ang mga sagot mula sa mga pahinang kinukuha nang live, kasama ang sa iyo. Ang sarili mong mga pahina, structured data at freshness ang unang nakapagpapagalaw sa mga ito.</p><span class="eng-lever">Pagtuunan: ang iyong site, at ang mga pahinang ikinukumpara rito</span></div></div>
+      <div class="win eng-class reveal" style="--i:1"><div class="win-bar"><i></i><b>02</b></div><div class="win-body"><div class="eng-chips"><span class="eng-chip"><i style="background:#A85C3B"><svg width="16" height="11" viewBox="0 0 9 6" shape-rendering="crispEdges" aria-hidden="true"><path fill="#FFFFFF" d="M1 0h2v1h-2zM6 0h2v1h-2zM0 1h1v4h-1zM3 1h1v1h-1zM5 1h1v1h-1zM8 1h1v4h-1zM4 2h1v3h-1zM0 5h9v1h-9z"/></svg></i>Claude</span></div><h3>Nagbabasa ng web, bihira ang iyong site</h3><p>Naghahanap muna bago sumagot, pero sa aming mga scan, mas malaki ang pag-asa nito sa mga encyclopedia, balita at directory kaysa sa mga site ng brand.</p><span class="eng-lever">Pagtuunan: mga pinagkakatiwalaang third-party na pahina na naglalaman ng iyong mga fact</span></div></div>
+      <div class="win eng-class reveal" style="--i:2"><div class="win-bar"><i></i><b>03</b></div><div class="win-body"><div class="eng-chips"><span class="eng-chip"><i style="background:#4F8A8B"><svg width="16" height="12" viewBox="0 0 9 7" shape-rendering="crispEdges" aria-hidden="true"><path fill="#FFFFFF" d="M1 0h7v1h-7zM0 1h9v1h-9zM0 2h2v1h-2zM3 2h1v1h-1zM5 2h1v1h-1zM7 2h2v1h-2zM0 3h9v1h-9zM1 4h7v1h-7zM2 5h2v1h-2zM2 6h1v1h-1z"/></svg></i>ChatGPT</span><span class="eng-chip"><i style="background:#5B7FA6"><svg width="16" height="16" viewBox="0 0 9 9" shape-rendering="crispEdges" aria-hidden="true"><path fill="#FFFFFF" d="M4 0h1v2h-1zM3 2h3v1h-3zM2 3h5v1h-5zM0 4h9v1h-9zM2 5h5v1h-5zM3 6h3v1h-3zM4 7h1v2h-1z"/></svg></i>Gemini</span></div><h3>Sumasagot mula sa training</h3><p>Sumasagot mula sa natutunan na ng model. Gumagalaw ito ayon sa kung ano ang malawak at tuloy-tuloy na nailalathala tungkol sa iyo — ang pinakamabagal na paraan, at ang pinakamatagal ang epekto.</p><span class="eng-lever">Pagtuunan: parehong mga fact, nailalathala nang malawak at tuloy-tuloy</span></div></div>
+    </div>
+    <p class="eng-note">Nagmumula ang mga uri sa bawat scan, hindi sa nakapirming listahan: kapag binago ng isang engine kung paano ito sumasagot, nagbabago rin ang uri nito.</p>
+  </div>
+</section>
+
+<section class="sec" id="methods">
+  <div class="wrap">
+    <svg class="sec-px" width="64" height="64" viewBox="0 0 16 16" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2A2024" d="M3 0h6v1h-6zM2 1h1v1h-1zM9 1h1v1h-1zM1 2h1v1h-1zM10 2h1v1h-1zM0 3h1v1h-1zM11 3h1v1h-1zM0 4h1v1h-1zM11 4h1v1h-1zM0 5h1v1h-1zM11 5h1v1h-1zM0 6h1v1h-1zM11 6h1v1h-1zM0 7h1v1h-1zM11 7h1v1h-1zM1 8h1v1h-1zM10 8h1v1h-1zM2 9h1v1h-1zM9 9h3v1h-3zM3 10h6v1h-6zM10 10h3v1h-3zM10 11h3v1h-3z"/><path fill="#F4ECE6" d="M3 1h6v1h-6zM2 2h1v1h-1zM5 2h5v1h-5zM1 3h1v1h-1zM3 3h8v1h-8zM1 4h1v1h-1zM3 4h8v1h-8zM1 5h10v1h-10zM1 6h10v1h-10zM1 7h10v1h-10zM2 8h8v1h-8zM3 9h6v1h-6z"/><path fill="#FFFFFF" d="M3 2h2v1h-2zM2 3h1v1h-1zM2 4h1v1h-1z"/><path fill="#C76B7A" d="M11 12h3v1h-3zM12 13h3v1h-3zM13 14h2v1h-2z"/></svg>
+    <span class="kicker">ANG PAGSUSURI</span>
+    <h2 class="sec-title">Anim na pagsusuri sa likod ng bawat report.</h2>
+    <p class="sec-desc">Ang visibility score ay simula pa lang ng trabaho. Ito ang mga pagsusuring nagsasabi kung ano ang susunod na gagawin — at kung gumana ito.</p>
     <div class="grid3">
-      <div class="card reveal"><div class="n">01</div><h3>Ang kamalayan ang asset</h3><p>May malakas na Matthew effect ang mga sagot ng AI tungkol sa brand — kung mas maaga kang na-cite, mas mahirap kang mapalitan. Lumalago ang presensya; lumalago rin ang kawalan.</p></div>
-      <div class="card reveal"><div class="n">02</div><h3>Ang pagiging nauna ang moat</h3><p>Ang mga huli ay nahaharap sa 3–5× na gastos at 6–12 buwan para ma-overwrite ang tumigas na naratibo. Bukas ngayon ang window sa mga emerging-language market.</p></div>
-      <div class="card reveal"><div class="n">03</div><h3>Standard metrics, hindi black box</h3><p>Presence, share of voice, citation rate, AI sentiment, answer accuracy — sinusukat bawat engine sa frozen prompt panel para totoo ang galaw scan-to-scan, hindi ingay.</p></div>
-      <div class="card reveal"><div class="n">04</div><h3>Localization ≠ translation</h3><p>Ang multi-language brand narrative ay hindi machine translation — bawat merkado ay may sariling prompt library, mga sagot at citations, muling na-code para sa kultural na konteksto nito.</p></div>
-      <div class="card reveal"><div class="n">05</div><h3>Nagde-deliver ang mga agent</h3><p>Hindi namin ibinibigay sa iyo ang to-do list. Bawat agent ay gumagawa ng asset mismo — mga sagot, schema, pahina, placements — handang i-publish at nakabatay sa verified na facts.</p></div>
-      <div class="card reveal"><div class="n">06</div><h3>Iyong account, iyong team</h3><p>Kinokontrol ang usage sa antas ng account, hindi kailanman bawat seat: imbitahan ang buong team bilang viewers at members nang walang dagdag na bayad.</p></div>
+      <div class="win reveal" style="--i:0"><div class="win-bar"><i></i><b>01</b></div><div class="win-body"><svg class="win-px" width="28" height="24" viewBox="0 0 14 12" shape-rendering="crispEdges" aria-hidden="true"><path fill="#B6863A" d="M11 0h3v1h-3zM11 1h3v1h-3zM11 2h3v1h-3zM11 3h3v1h-3zM11 4h3v1h-3zM11 5h3v1h-3zM11 6h3v1h-3zM11 7h3v1h-3zM11 8h3v1h-3zM11 9h3v1h-3zM11 10h3v1h-3z"/><path fill="#C76B7A" d="M7 3h3v1h-3zM7 4h3v1h-3zM7 5h3v1h-3zM7 6h3v1h-3zM7 7h3v1h-3zM7 8h3v1h-3zM7 9h3v1h-3zM7 10h3v1h-3z"/><path fill="#6E625F" d="M3 6h3v1h-3zM3 7h3v1h-3zM3 8h3v1h-3zM3 9h3v1h-3zM3 10h3v1h-3z"/><path fill="#2A2024" d="M0 9h1v1h-1zM0 10h1v1h-1zM0 11h14v1h-14z"/></svg><h3>Kung saan nagbabasa ang AI, sa bawat yugto</h3><p>Hinahati namin ang bawat tanong ayon sa yugto ng mamimili. Bago makilala ng mamimili ang isang brand, 0.7% lang ng binabasa ng AI ang sariling site nito (12 brand, 3,011 sagot na may citation sa Vietnam). Kaya ipinapakita namin kung aling mga third-party na pahina ang nagpapasya sa unang sagot — at nagpaplano kami para sa mga ito.</p></div></div>
+      <div class="win reveal" style="--i:1"><div class="win-bar"><i></i><b>02</b></div><div class="win-body"><svg class="win-px" width="24" height="28" viewBox="0 0 12 14" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2A2024" d="M0 0h9v1h-9zM0 1h1v1h-1zM8 1h2v1h-2zM0 2h1v1h-1zM8 2h1v1h-1zM10 2h1v1h-1zM0 3h1v1h-1zM8 3h4v1h-4zM0 4h1v1h-1zM11 4h1v1h-1zM0 5h1v1h-1zM11 5h1v1h-1zM0 6h1v1h-1zM11 6h1v1h-1zM0 7h1v1h-1zM11 7h1v1h-1zM0 8h1v1h-1zM11 8h1v1h-1zM0 9h1v1h-1zM11 9h1v1h-1zM0 10h1v1h-1zM11 10h1v1h-1zM0 11h1v1h-1zM11 11h1v1h-1zM0 12h1v1h-1zM11 12h1v1h-1zM0 13h12v1h-12z"/><path fill="#FFFFFF" d="M1 1h7v1h-7zM1 2h7v1h-7zM9 2h1v1h-1zM1 3h7v1h-7zM1 4h10v1h-10zM1 5h1v1h-1zM8 5h3v1h-3zM1 6h10v1h-10zM1 7h1v1h-1zM10 7h1v1h-1zM1 8h10v1h-10zM1 9h1v1h-1zM7 9h4v1h-4zM1 10h10v1h-10zM1 11h1v1h-1zM5 11h6v1h-6zM1 12h10v1h-10z"/><path fill="#6E625F" d="M2 5h6v1h-6zM2 7h8v1h-8zM2 9h5v1h-5z"/><path fill="#C76B7A" d="M2 11h3v1h-3z"/></svg><h3>Ang mga na-cite na pahina, binuksan at sinukat</h3><p>Kinukuha namin ang mga pahinang sini-cite ng bawat engine at sinusuri ang structure, freshness, schema at haba. Nagkakaroon ang iyong content ng nasukat na pamantayang dapat abutin sa halip na isang style guide.</p></div></div>
+      <div class="win reveal" style="--i:2"><div class="win-bar"><i></i><b>03</b></div><div class="win-body"><svg class="win-px" width="32" height="20" viewBox="0 0 16 10" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2A2024" d="M5 0h6v1h-6zM3 1h2v1h-2zM11 1h2v1h-2zM2 2h1v1h-1zM13 2h1v1h-1zM1 3h1v1h-1zM7 3h2v1h-2zM14 3h1v1h-1zM0 4h1v1h-1zM6 4h4v1h-4zM15 4h1v1h-1zM0 5h1v1h-1zM6 5h1v1h-1zM8 5h2v1h-2zM15 5h1v1h-1zM1 6h1v1h-1zM7 6h2v1h-2zM14 6h1v1h-1zM2 7h1v1h-1zM13 7h1v1h-1zM3 8h2v1h-2zM11 8h2v1h-2zM5 9h6v1h-6z"/><path fill="#FFFFFF" d="M5 1h6v1h-6zM3 2h3v1h-3zM10 2h3v1h-3zM2 3h3v1h-3zM11 3h3v1h-3zM1 4h3v1h-3zM12 4h3v1h-3zM1 5h3v1h-3zM7 5h1v1h-1zM12 5h3v1h-3zM2 6h3v1h-3zM11 6h3v1h-3zM3 7h3v1h-3zM10 7h3v1h-3zM5 8h6v1h-6z"/><path fill="#C76B7A" d="M6 2h4v1h-4zM5 3h2v1h-2zM9 3h2v1h-2zM4 4h2v1h-2zM10 4h2v1h-2zM4 5h2v1h-2zM10 5h2v1h-2zM5 6h2v1h-2zM9 6h2v1h-2zM6 7h4v1h-4z"/></svg><h3>Ang iyong site laban sa sinasabi ng AI</h3><p>Binabasa namin ang iyong mga pampublikong pahina at itinatabi sa mga sagot: kung saan sinasalungat ka ng AI, kung saan wala itong sinasabi, kung saan nilalaktawan nito ang inilalathala mo. Sa source napupunta ang pag-aayos — sa iyong site — hindi sa aming database.</p></div></div>
+      <div class="win reveal" style="--i:0"><div class="win-bar"><i></i><b>04</b></div><div class="win-body"><svg class="win-px" width="24" height="22" viewBox="0 0 12 11" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2A2024" d="M0 0h12v1h-12zM0 1h1v1h-1zM11 1h1v1h-1zM0 2h1v1h-1zM11 2h1v1h-1zM0 3h1v1h-1zM11 3h1v1h-1zM0 4h1v1h-1zM11 4h1v1h-1zM0 5h1v1h-1zM11 5h1v1h-1zM0 6h1v1h-1zM11 6h1v1h-1zM0 7h1v1h-1zM11 7h1v1h-1zM0 8h1v1h-1zM11 8h1v1h-1zM0 9h1v1h-1zM11 9h1v1h-1zM0 10h12v1h-12z"/><path fill="#FFFFFF" d="M1 1h10v1h-10zM1 2h9v1h-9zM1 3h8v1h-8zM1 4h7v1h-7zM10 4h1v1h-1zM1 5h1v1h-1zM3 5h4v1h-4zM9 5h2v1h-2zM1 6h1v1h-1zM4 6h2v1h-2zM8 6h3v1h-3zM1 7h2v1h-2zM7 7h4v1h-4zM1 8h3v1h-3zM6 8h5v1h-5zM1 9h10v1h-10z"/><path fill="#5E9E76" d="M10 2h1v1h-1zM9 3h2v1h-2zM8 4h2v1h-2zM2 5h1v1h-1zM7 5h2v1h-2zM2 6h2v1h-2zM6 6h2v1h-2zM3 7h4v1h-4zM4 8h2v1h-2z"/></svg><h3>Bago at pagkatapos, laban sa isang control</h3><p>Bawat aksyong ini-log mo ay may petsa at vine-verify nang live. Ang galaw sa mga tanong na tinarget nito ay ikinukumpara sa mga tanong na hindi mo ginalaw, sa parehong frozen panel; ang mga pagtaas lang na higit sa 10 puntos sa itaas ng control ang binibilang.</p></div></div>
+      <div class="win reveal" style="--i:1"><div class="win-bar"><i></i><b>05</b></div><div class="win-body"><svg class="win-px" width="20" height="14" viewBox="0 0 10 7" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2A2024" d="M0 0h4v1h-4zM5 0h4v1h-4zM0 1h1v1h-1zM3 1h1v1h-1zM5 1h1v1h-1zM8 1h1v1h-1zM0 2h1v1h-1zM3 2h1v1h-1zM5 2h1v1h-1zM8 2h1v1h-1zM0 3h4v1h-4zM5 3h4v1h-4zM2 4h2v1h-2zM7 4h2v1h-2zM1 5h2v1h-2zM6 5h2v1h-2zM0 6h2v1h-2zM5 6h2v1h-2z"/><path fill="#C76B7A" d="M1 1h2v1h-2zM6 1h2v1h-2zM1 2h2v1h-2zM6 2h2v1h-2z"/></svg><h3>Isang scoring model na sinusuri laban sa human labels</h3><p>Isang model ang nag-i-score sa mga sagot, at sinusuri ang model na iyon laban sa blind human labels sa bawat wika. Ginagamit lang ang bagong scoring model kapag tumutugma ito sa mga iyon.</p></div></div>
+      <div class="win reveal" style="--i:2"><div class="win-bar"><i></i><b>06</b></div><div class="win-body"><svg class="win-px" width="24" height="28" viewBox="0 0 12 14" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2A2024" d="M0 0h12v1h-12zM0 1h1v1h-1zM11 1h1v1h-1zM1 2h1v1h-1zM10 2h1v1h-1zM1 3h1v1h-1zM10 3h1v1h-1zM2 4h1v1h-1zM9 4h1v1h-1zM3 5h1v1h-1zM8 5h1v1h-1zM4 6h1v1h-1zM7 6h1v1h-1zM4 7h1v1h-1zM7 7h1v1h-1zM3 8h1v1h-1zM8 8h1v1h-1zM2 9h1v1h-1zM9 9h1v1h-1zM1 10h1v1h-1zM10 10h1v1h-1zM1 11h1v1h-1zM10 11h1v1h-1zM0 12h1v1h-1zM11 12h1v1h-1zM0 13h12v1h-12z"/><path fill="#6E625F" d="M1 1h10v1h-10zM1 12h10v1h-10z"/><path fill="#FFFFFF" d="M2 2h8v1h-8zM2 3h1v1h-1zM9 3h1v1h-1zM3 4h1v1h-1zM8 4h1v1h-1zM4 5h1v1h-1zM7 5h1v1h-1zM5 7h2v1h-2zM4 8h4v1h-4zM3 9h3v1h-3zM7 9h2v1h-2zM2 10h3v1h-3zM8 10h2v1h-2zM2 11h1v1h-1zM9 11h1v1h-1z"/><path fill="#B6863A" d="M3 3h6v1h-6zM4 4h4v1h-4zM5 5h2v1h-2zM5 6h2v1h-2zM6 9h1v1h-1zM5 10h3v1h-3zM3 11h6v1h-6z"/></svg><h3>Ang bigong sagot ay hindi kailanman “hindi nabanggit”</h3><p>Kapag hindi sumagot ang isang engine o hindi nag-load ang isang pahina, minamarkahang bigo ang sagot — hindi kailanman binibilang na wala ang iyong brand — at nakasaad sa bawat report ang coverage nito.</p></div></div>
     </div>
   </div>
 </section>
 
-<section class="sec" id="geo-tech">
+<section class="sec" id="geo-tech" style="background:var(--surface);border-top:1px solid var(--edge);border-bottom:1px solid var(--edge)">
   <div class="wrap">
-    <span class="kicker">ANG PLATFORM</span>
-    <h2 class="sec-title">Sampung agent,<br>isang closed loop</h2>
-    <p class="sec-desc">Tuklasin kung ano ang tinatanong ng mga mamimili → sukatin ang sagot ng AI → buuin ang kulang → ipamahagi → sukatin muli. Bawat hakbang ay isang agent; bawat agent ay nag-iiwan ng deliverable sa iyong workspace.</p>
+    <svg class="sec-px" width="56" height="64" viewBox="0 0 14 16" shape-rendering="crispEdges" aria-hidden="true"><path fill="#C76B7A" d="M6 0h2v1h-2z"/><path fill="#2A2024" d="M6 1h2v1h-2zM2 2h10v1h-10zM1 3h1v1h-1zM12 3h1v1h-1zM1 4h1v1h-1zM3 4h8v1h-8zM12 4h1v1h-1zM0 5h1v1h-1zM2 5h1v1h-1zM11 5h1v1h-1zM13 5h1v1h-1zM0 6h1v1h-1zM2 6h1v1h-1zM11 6h1v1h-1zM13 6h1v1h-1zM0 7h1v1h-1zM2 7h1v1h-1zM11 7h1v1h-1zM13 7h1v1h-1zM0 8h1v1h-1zM2 8h1v1h-1zM11 8h1v1h-1zM13 8h1v1h-1zM0 9h1v1h-1zM2 9h1v1h-1zM5 9h4v1h-4zM11 9h1v1h-1zM13 9h1v1h-1zM0 10h1v1h-1zM2 10h1v1h-1zM11 10h1v1h-1zM13 10h1v1h-1zM1 11h1v1h-1zM3 11h8v1h-8zM12 11h1v1h-1zM1 12h1v1h-1zM12 12h1v1h-1zM2 13h10v1h-10zM3 14h1v1h-1zM5 14h1v1h-1zM8 14h1v1h-1zM10 14h1v1h-1zM3 15h3v1h-3zM8 15h3v1h-3z"/><path fill="#FFFFFF" d="M2 3h10v1h-10zM2 4h1v1h-1zM11 4h1v1h-1zM1 5h1v1h-1zM12 5h1v1h-1zM1 6h1v1h-1zM12 6h1v1h-1zM1 7h1v1h-1zM12 7h1v1h-1zM1 8h1v1h-1zM12 8h1v1h-1zM1 9h1v1h-1zM12 9h1v1h-1zM1 10h1v1h-1zM12 10h1v1h-1zM2 11h1v1h-1zM11 11h1v1h-1zM2 12h10v1h-10zM4 14h1v1h-1zM9 14h1v1h-1z"/><path fill="#F4ECE6" d="M3 5h8v1h-8zM3 6h1v1h-1zM6 6h2v1h-2zM10 6h1v1h-1zM3 7h1v1h-1zM6 7h2v1h-2zM10 7h1v1h-1zM3 8h8v1h-8zM3 9h2v1h-2zM9 9h2v1h-2zM3 10h8v1h-8z"/><path fill="#B6863A" d="M4 6h2v1h-2zM8 6h2v1h-2zM4 7h2v1h-2zM8 7h2v1h-2z"/></svg>
+    <span class="kicker">SAMPUNG AGENT</span>
+    <h2 class="sec-title">Sampung agent.<br>Bawat isa ay nag-iiwan ng deliverable.</h2>
+    <p class="sec-desc">Tuklasin kung ano ang tinatanong ng mga mamimili → sukatin ang sagot ng AI → buuin ang kulang mula sa sarili mong mga fact → i-log kung ano ang naging live → sukatin muli sa parehong panel.</p>
     <div class="steps">
-      <div class="step reveal"><div class="n">01</div><h3>Discovery + Standard Answers</h3><p>100+ tanong ng mamimili bawat merkado, naka-tag na high-intent vs educational; bilingual na canonical-answer library na nakabatay sa iyong verified na brand facts.</p></div>
-      <div class="step reveal"><div class="n">02</div><h3>Monitor — limang engine, tunay na surfaces</h3><p>ChatGPT, Gemini, Perplexity, Claude at ang tunay na Google AI Overview page. Presence, share of voice, citation rate, sentiment, answer accuracy — bawat engine, bawat intent.</p></div>
-      <div class="step reveal"><div class="n">03</div><h3>Site + Schema</h3><p>Binabasa ang iyong homepage, nagbabalik ng paste-in JSON-LD (Organization, Service, FAQPage, LocalBusiness) at konkretong page edits — may step-by-step na gabay.</p></div>
-      <div class="step reveal"><div class="n">04</div><h3>Content + Distribute + Encyclopedia</h3><p>Gap pages at FAQs, ready-to-send placements para sa mga source na talagang sini-cite ng AI sa iyong merkado, at encyclopedia entries na may citations.</p></div>
-      <div class="step reveal"><div class="n">05</div><h3>Report + lingguhang digest</h3><p>Stage-aware client digests bawat linggo, buwanang deep reports, alerts sa malalaking pagbaba, at one-page rollups sa lahat ng iyong brand.</p></div>
+      <div class="win step reveal" style="--i:0"><div class="win-bar"><i></i><b>01</b></div><div class="win-body"><svg class="win-px" width="32" height="36" viewBox="0 0 16 18" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2A2024" d="M2 0h12v1h-12zM1 1h1v1h-1zM14 1h1v1h-1zM1 2h1v1h-1zM3 2h10v1h-10zM14 2h1v1h-1zM1 3h1v1h-1zM3 3h1v1h-1zM12 3h1v1h-1zM14 3h1v1h-1zM1 4h1v1h-1zM3 4h1v1h-1zM12 4h1v1h-1zM14 4h1v1h-1zM1 5h1v1h-1zM3 5h1v1h-1zM6 5h1v1h-1zM9 5h1v1h-1zM12 5h1v1h-1zM14 5h1v1h-1zM1 6h1v1h-1zM3 6h1v1h-1zM6 6h1v1h-1zM9 6h1v1h-1zM12 6h1v1h-1zM14 6h1v1h-1zM1 7h1v1h-1zM3 7h1v1h-1zM12 7h1v1h-1zM14 7h1v1h-1zM1 8h1v1h-1zM3 8h1v1h-1zM5 8h1v1h-1zM10 8h1v1h-1zM12 8h1v1h-1zM14 8h1v1h-1zM1 9h1v1h-1zM3 9h1v1h-1zM6 9h4v1h-4zM12 9h1v1h-1zM14 9h1v1h-1zM1 10h1v1h-1zM3 10h1v1h-1zM12 10h1v1h-1zM14 10h1v1h-1zM1 11h1v1h-1zM3 11h10v1h-10zM14 11h1v1h-1zM1 12h1v1h-1zM14 12h1v1h-1zM1 13h1v1h-1zM8 13h5v1h-5zM14 13h1v1h-1zM1 14h1v1h-1zM14 14h1v1h-1zM1 15h14v1h-14zM1 16h1v1h-1zM14 16h1v1h-1zM1 17h14v1h-14z"/><path fill="#FFFFFF" d="M2 1h12v1h-12zM2 2h1v1h-1zM13 2h1v1h-1zM2 3h1v1h-1zM13 3h1v1h-1zM2 4h1v1h-1zM13 4h1v1h-1zM2 5h1v1h-1zM13 5h1v1h-1zM2 6h1v1h-1zM13 6h1v1h-1zM2 7h1v1h-1zM13 7h1v1h-1zM2 8h1v1h-1zM13 8h1v1h-1zM2 9h1v1h-1zM13 9h1v1h-1zM2 10h1v1h-1zM13 10h1v1h-1zM2 11h1v1h-1zM13 11h1v1h-1zM2 12h12v1h-12zM2 13h1v1h-1zM4 13h4v1h-4zM13 13h1v1h-1zM2 14h12v1h-12z"/><path fill="#F4ECE6" d="M4 3h8v1h-8zM4 4h8v1h-8zM4 5h2v1h-2zM7 5h2v1h-2zM10 5h2v1h-2zM4 6h2v1h-2zM7 6h2v1h-2zM10 6h2v1h-2zM4 7h8v1h-8zM4 8h1v1h-1zM6 8h4v1h-4zM11 8h1v1h-1zM4 9h2v1h-2zM10 9h2v1h-2zM4 10h8v1h-8z"/><path fill="#C76B7A" d="M3 13h1v1h-1z"/><path fill="#6E625F" d="M2 16h12v1h-12z"/></svg><h3>Profile · Discovery · Standard Answers</h3><p>Isang fact base na binuo lamang mula sa iyong mga pampublikong pahina at dokumento; 110 tanong ng mamimili bawat merkado sa wika ng mamimili, 20 rito ang pangunahin; canonical answers na nakabatay sa mga fact na iyon.</p></div></div>
+      <div class="win step reveal" style="--i:1"><div class="win-bar"><i></i><b>02</b></div><div class="win-body"><svg class="win-px" width="32" height="20" viewBox="0 0 16 10" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2A2024" d="M5 0h6v1h-6zM3 1h2v1h-2zM11 1h2v1h-2zM2 2h1v1h-1zM13 2h1v1h-1zM1 3h1v1h-1zM7 3h2v1h-2zM14 3h1v1h-1zM0 4h1v1h-1zM6 4h4v1h-4zM15 4h1v1h-1zM0 5h1v1h-1zM6 5h1v1h-1zM8 5h2v1h-2zM15 5h1v1h-1zM1 6h1v1h-1zM7 6h2v1h-2zM14 6h1v1h-1zM2 7h1v1h-1zM13 7h1v1h-1zM3 8h2v1h-2zM11 8h2v1h-2zM5 9h6v1h-6z"/><path fill="#FFFFFF" d="M5 1h6v1h-6zM3 2h3v1h-3zM10 2h3v1h-3zM2 3h3v1h-3zM11 3h3v1h-3zM1 4h3v1h-3zM12 4h3v1h-3zM1 5h3v1h-3zM7 5h1v1h-1zM12 5h3v1h-3zM2 6h3v1h-3zM11 6h3v1h-3zM3 7h3v1h-3zM10 7h3v1h-3zM5 8h6v1h-6z"/><path fill="#C76B7A" d="M6 2h4v1h-4zM5 3h2v1h-2zM9 3h2v1h-2zM4 4h2v1h-2zM10 4h2v1h-2zM4 5h2v1h-2zM10 5h2v1h-2zM5 6h2v1h-2zM9 6h2v1h-2zM6 7h4v1h-4z"/></svg><h3>Monitor</h3><p>Limang engine, tunay na surfaces, isang frozen panel. Presence sa paglipas ng panahon, share of voice, bawat engine at bawat tanong — bawat cell ay nagbubukas ng sagot sa likod nito.</p></div></div>
+      <div class="win step reveal" style="--i:2"><div class="win-bar"><i></i><b>03</b></div><div class="win-body"><svg class="win-px" width="28" height="24" viewBox="0 0 14 12" shape-rendering="crispEdges" aria-hidden="true"><path fill="#B6863A" d="M11 0h3v1h-3zM11 1h3v1h-3zM11 2h3v1h-3zM11 3h3v1h-3zM11 4h3v1h-3zM11 5h3v1h-3zM11 6h3v1h-3zM11 7h3v1h-3zM11 8h3v1h-3zM11 9h3v1h-3zM11 10h3v1h-3z"/><path fill="#C76B7A" d="M7 3h3v1h-3zM7 4h3v1h-3zM7 5h3v1h-3zM7 6h3v1h-3zM7 7h3v1h-3zM7 8h3v1h-3zM7 9h3v1h-3zM7 10h3v1h-3z"/><path fill="#6E625F" d="M3 6h3v1h-3zM3 7h3v1h-3zM3 8h3v1h-3zM3 9h3v1h-3zM3 10h3v1h-3z"/><path fill="#2A2024" d="M0 9h1v1h-1zM0 10h1v1h-1zM0 11h14v1h-14z"/></svg><h3>Report · Full Scan</h3><p>Ano ang nagbago, bakit ito mahalaga, ano ang susunod na gagawin — may kalakip na ebidensya, at isang lingguhang digest na isinulat para sa yugtong kinaroroonan ng iyong brand. Pinapatakbo ng Full Scan ang Discovery → Monitor → Report sa isang takbo.</p></div></div>
+      <div class="win step reveal" style="--i:0"><div class="win-bar"><i></i><b>04</b></div><div class="win-body"><svg class="win-px" width="24" height="28" viewBox="0 0 12 14" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2A2024" d="M0 0h9v1h-9zM0 1h1v1h-1zM8 1h2v1h-2zM0 2h1v1h-1zM8 2h1v1h-1zM10 2h1v1h-1zM0 3h1v1h-1zM8 3h4v1h-4zM0 4h1v1h-1zM11 4h1v1h-1zM0 5h1v1h-1zM11 5h1v1h-1zM0 6h1v1h-1zM11 6h1v1h-1zM0 7h1v1h-1zM11 7h1v1h-1zM0 8h1v1h-1zM11 8h1v1h-1zM0 9h1v1h-1zM11 9h1v1h-1zM0 10h1v1h-1zM11 10h1v1h-1zM0 11h1v1h-1zM11 11h1v1h-1zM0 12h1v1h-1zM11 12h1v1h-1zM0 13h12v1h-12z"/><path fill="#FFFFFF" d="M1 1h7v1h-7zM1 2h7v1h-7zM9 2h1v1h-1zM1 3h7v1h-7zM1 4h10v1h-10zM1 5h1v1h-1zM8 5h3v1h-3zM1 6h10v1h-10zM1 7h1v1h-1zM10 7h1v1h-1zM1 8h10v1h-10zM1 9h1v1h-1zM7 9h4v1h-4zM1 10h10v1h-10zM1 11h1v1h-1zM5 11h6v1h-6zM1 12h10v1h-10z"/><path fill="#6E625F" d="M2 5h6v1h-6zM2 7h8v1h-8zM2 9h5v1h-5z"/><path fill="#C76B7A" d="M2 11h3v1h-3z"/></svg><h3>Site · Optimize</h3><p>Paste-in JSON-LD at konkretong edits para sa sarili mong mga pahina; publish-ready na mga pahina at FAQs para sa mga tanong na napapanalunan ng mga kakumpitensya ngayon.</p></div></div>
+      <div class="win step reveal" style="--i:1"><div class="win-bar"><i></i><b>05</b></div><div class="win-body"><svg class="win-px" width="30" height="30" viewBox="0 0 15 15" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2A2024" d="M5 0h5v1h-5zM3 1h3v1h-3zM9 1h3v1h-3zM2 2h2v1h-2zM11 2h2v1h-2zM1 3h2v1h-2zM12 3h2v1h-2zM1 4h1v1h-1zM13 4h1v1h-1zM0 5h2v1h-2zM13 5h2v1h-2zM0 6h1v1h-1zM14 6h1v1h-1zM0 7h1v1h-1zM14 7h1v1h-1zM0 8h1v1h-1zM14 8h1v1h-1zM0 9h2v1h-2zM13 9h2v1h-2zM1 10h1v1h-1zM13 10h1v1h-1zM1 11h2v1h-2zM12 11h2v1h-2zM2 12h2v1h-2zM11 12h2v1h-2zM3 13h3v1h-3zM9 13h3v1h-3zM5 14h5v1h-5z"/><path fill="#F4ECE6" d="M6 1h1v1h-1zM8 1h1v1h-1zM5 2h2v1h-2zM8 2h2v1h-2zM3 3h1v1h-1zM5 3h2v1h-2zM8 3h2v1h-2zM11 3h1v1h-1zM2 4h1v1h-1zM5 4h2v1h-2zM8 4h2v1h-2zM12 4h1v1h-1zM2 5h1v1h-1zM4 5h3v1h-3zM8 5h3v1h-3zM12 5h1v1h-1zM1 6h2v1h-2zM4 6h3v1h-3zM8 6h3v1h-3zM12 6h2v1h-2zM1 8h2v1h-2zM4 8h3v1h-3zM8 8h3v1h-3zM12 8h2v1h-2zM2 9h1v1h-1zM4 9h3v1h-3zM8 9h3v1h-3zM12 9h1v1h-1zM2 10h1v1h-1zM5 10h2v1h-2zM8 10h2v1h-2zM12 10h1v1h-1zM3 11h1v1h-1zM5 11h2v1h-2zM8 11h2v1h-2zM11 11h1v1h-1zM5 12h2v1h-2zM8 12h2v1h-2zM6 13h1v1h-1zM8 13h1v1h-1z"/><path fill="#5B7FA6" d="M7 1h1v1h-1zM4 2h1v1h-1zM7 2h1v1h-1zM10 2h1v1h-1zM4 3h1v1h-1zM7 3h1v1h-1zM10 3h1v1h-1zM3 4h2v1h-2zM7 4h1v1h-1zM10 4h2v1h-2zM3 5h1v1h-1zM7 5h1v1h-1zM11 5h1v1h-1zM3 6h1v1h-1zM7 6h1v1h-1zM11 6h1v1h-1zM1 7h13v1h-13zM3 8h1v1h-1zM7 8h1v1h-1zM11 8h1v1h-1zM3 9h1v1h-1zM7 9h1v1h-1zM11 9h1v1h-1zM3 10h2v1h-2zM7 10h1v1h-1zM10 10h2v1h-2zM4 11h1v1h-1zM7 11h1v1h-1zM10 11h1v1h-1zM4 12h1v1h-1zM7 12h1v1h-1zM10 12h1v1h-1zM7 13h1v1h-1z"/></svg><h3>Distribute · Encyclopedia</h3><p>Placement kits para sa mga source na sini-cite na ng AI sa iyong merkado, hindi kasama ang mga kakumpitensya, at encyclopedia drafts na may compliant na proseso.</p></div></div>
     </div>
-    <div class="quote reveal">
-      <h3>Hindi dashboard —<br>isang <span class="hl">agent team na nagde-deliver.</span></h3>
-      <p>Hindi namin ibinibigay sa iyo ang to-do list. Bawat agent ay gumagawa ng asset mismo — mga sagot, schema, pahina, placements — handang i-publish at nakabatay sa verified na facts.</p>
+    <div class="win quote reveal"><div class="win-bar"><i></i><b>memecmo.ai</b></div><div class="win-body"><svg class="win-px" width="32" height="36" viewBox="0 0 16 18" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2A2024" d="M2 0h12v1h-12zM1 1h1v1h-1zM14 1h1v1h-1zM1 2h1v1h-1zM3 2h10v1h-10zM14 2h1v1h-1zM1 3h1v1h-1zM3 3h1v1h-1zM12 3h1v1h-1zM14 3h1v1h-1zM1 4h1v1h-1zM3 4h1v1h-1zM12 4h1v1h-1zM14 4h1v1h-1zM1 5h1v1h-1zM3 5h1v1h-1zM6 5h1v1h-1zM9 5h1v1h-1zM12 5h1v1h-1zM14 5h1v1h-1zM1 6h1v1h-1zM3 6h1v1h-1zM6 6h1v1h-1zM9 6h1v1h-1zM12 6h1v1h-1zM14 6h1v1h-1zM1 7h1v1h-1zM3 7h1v1h-1zM12 7h1v1h-1zM14 7h1v1h-1zM1 8h1v1h-1zM3 8h1v1h-1zM5 8h1v1h-1zM10 8h1v1h-1zM12 8h1v1h-1zM14 8h1v1h-1zM1 9h1v1h-1zM3 9h1v1h-1zM6 9h4v1h-4zM12 9h1v1h-1zM14 9h1v1h-1zM1 10h1v1h-1zM3 10h1v1h-1zM12 10h1v1h-1zM14 10h1v1h-1zM1 11h1v1h-1zM3 11h10v1h-10zM14 11h1v1h-1zM1 12h1v1h-1zM14 12h1v1h-1zM1 13h1v1h-1zM8 13h5v1h-5zM14 13h1v1h-1zM1 14h1v1h-1zM14 14h1v1h-1zM1 15h14v1h-14zM1 16h1v1h-1zM14 16h1v1h-1zM1 17h14v1h-14z"/><path fill="#FFFFFF" d="M2 1h12v1h-12zM2 2h1v1h-1zM13 2h1v1h-1zM2 3h1v1h-1zM13 3h1v1h-1zM2 4h1v1h-1zM13 4h1v1h-1zM2 5h1v1h-1zM13 5h1v1h-1zM2 6h1v1h-1zM13 6h1v1h-1zM2 7h1v1h-1zM13 7h1v1h-1zM2 8h1v1h-1zM13 8h1v1h-1zM2 9h1v1h-1zM13 9h1v1h-1zM2 10h1v1h-1zM13 10h1v1h-1zM2 11h1v1h-1zM13 11h1v1h-1zM2 12h12v1h-12zM2 13h1v1h-1zM4 13h4v1h-4zM13 13h1v1h-1zM2 14h12v1h-12z"/><path fill="#F4ECE6" d="M4 3h8v1h-8zM4 4h8v1h-8zM4 5h2v1h-2zM7 5h2v1h-2zM10 5h2v1h-2zM4 6h2v1h-2zM7 6h2v1h-2zM10 6h2v1h-2zM4 7h8v1h-8zM4 8h1v1h-1zM6 8h4v1h-4zM11 8h1v1h-1zM4 9h2v1h-2zM10 9h2v1h-2zM4 10h8v1h-8z"/><path fill="#C76B7A" d="M3 13h1v1h-1z"/><path fill="#6E625F" d="M2 16h12v1h-12z"/></svg><h3>Hindi dashboard —<br>kundi <span class="hl">isang agent team na naghahatid.</span></h3><p>Isang owner sa panig mo, sampung agent sa panig namin: nagbabasa, sumusukat, bumubuo at nagtatala sila, at ang iyong team ang nagre-review at nagpapasya. Walang kailangang i-hire na engineer sa panig mo.</p></div></div>
+  </div>
+</section>
+
+<section class="sec" id="philosophy">
+  <div class="wrap">
+    <svg class="sec-px" width="48" height="44" viewBox="0 0 12 11" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2A2024" d="M0 0h12v1h-12zM0 1h1v1h-1zM11 1h1v1h-1zM0 2h1v1h-1zM11 2h1v1h-1zM0 3h1v1h-1zM11 3h1v1h-1zM0 4h1v1h-1zM11 4h1v1h-1zM0 5h1v1h-1zM11 5h1v1h-1zM0 6h1v1h-1zM11 6h1v1h-1zM0 7h1v1h-1zM11 7h1v1h-1zM0 8h1v1h-1zM11 8h1v1h-1zM0 9h1v1h-1zM11 9h1v1h-1zM0 10h12v1h-12z"/><path fill="#FFFFFF" d="M1 1h10v1h-10zM1 2h9v1h-9zM1 3h8v1h-8zM1 4h7v1h-7zM10 4h1v1h-1zM1 5h1v1h-1zM3 5h4v1h-4zM9 5h2v1h-2zM1 6h1v1h-1zM4 6h2v1h-2zM8 6h3v1h-3zM1 7h2v1h-2zM7 7h4v1h-4zM1 8h3v1h-3zM6 8h5v1h-5zM1 9h10v1h-10z"/><path fill="#5E9E76" d="M10 2h1v1h-1zM9 3h2v1h-2zM8 4h2v1h-2zM2 5h1v1h-1zM7 5h2v1h-2zM2 6h2v1h-2zM6 6h2v1h-2zM3 7h4v1h-4zM4 8h2v1h-2z"/></svg>
+    <span class="kicker">PAKIKIPAGTRABAHO SA AMIN</span>
+    <h2 class="sec-title">Anim na pangako, nakapaloob sa serbisyo.</h2>
+    <p class="sec-desc">Ito ang maaari mong panghawakan sa amin. Bawat isa ay nakikita mo sa workspace, hindi linya sa isang slide.</p>
+    <div class="grid3">
+      <div class="win reveal" style="--i:0"><div class="win-bar"><i></i><b>01</b></div><div class="win-body"><svg class="win-px" width="28" height="20" viewBox="0 0 14 10" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2A2024" d="M1 0h5v1h-5zM0 1h1v1h-1zM6 1h1v1h-1zM0 2h1v1h-1zM8 2h6v1h-6zM0 3h1v1h-1zM13 3h1v1h-1zM0 4h1v1h-1zM13 4h1v1h-1zM0 5h1v1h-1zM13 5h1v1h-1zM0 6h1v1h-1zM13 6h1v1h-1zM0 7h1v1h-1zM13 7h1v1h-1zM0 8h1v1h-1zM13 8h1v1h-1zM0 9h14v1h-14z"/><path fill="#B6863A" d="M1 1h5v1h-5zM1 2h7v1h-7zM2 4h10v1h-10zM2 5h10v1h-10zM2 6h10v1h-10zM2 7h10v1h-10zM2 8h10v1h-10z"/><path fill="#FFFFFF" d="M1 3h12v1h-12zM1 4h1v1h-1zM12 4h1v1h-1zM1 5h1v1h-1zM12 5h1v1h-1zM1 6h1v1h-1zM12 6h1v1h-1zM1 7h1v1h-1zM12 7h1v1h-1zM1 8h1v1h-1zM12 8h1v1h-1z"/></svg><h3>Deliverables, hindi payo</h3><p>Bawat agent ay naghahatid ng maaari mong i-publish: isang pahina, isang schema block, isang placement kit, isang encyclopedia draft. Ikaw ang nagre-review at nagpa-publish; hindi kami kailanman nagpo-post para sa iyo.</p></div></div>
+      <div class="win reveal" style="--i:1"><div class="win-bar"><i></i><b>02</b></div><div class="win-body"><svg class="win-px" width="24" height="28" viewBox="0 0 12 14" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2A2024" d="M0 0h9v1h-9zM0 1h1v1h-1zM8 1h2v1h-2zM0 2h1v1h-1zM8 2h1v1h-1zM10 2h1v1h-1zM0 3h1v1h-1zM8 3h4v1h-4zM0 4h1v1h-1zM11 4h1v1h-1zM0 5h1v1h-1zM11 5h1v1h-1zM0 6h1v1h-1zM11 6h1v1h-1zM0 7h1v1h-1zM11 7h1v1h-1zM0 8h1v1h-1zM11 8h1v1h-1zM0 9h1v1h-1zM11 9h1v1h-1zM0 10h1v1h-1zM11 10h1v1h-1zM0 11h1v1h-1zM11 11h1v1h-1zM0 12h1v1h-1zM11 12h1v1h-1zM0 13h12v1h-12z"/><path fill="#FFFFFF" d="M1 1h7v1h-7zM1 2h7v1h-7zM9 2h1v1h-1zM1 3h7v1h-7zM1 4h10v1h-10zM1 5h1v1h-1zM8 5h3v1h-3zM1 6h10v1h-10zM1 7h1v1h-1zM10 7h1v1h-1zM1 8h10v1h-10zM1 9h1v1h-1zM7 9h4v1h-4zM1 10h10v1h-10zM1 11h1v1h-1zM5 11h6v1h-6zM1 12h10v1h-10z"/><path fill="#6E625F" d="M2 5h6v1h-6zM2 7h8v1h-8zM2 9h5v1h-5z"/><path fill="#C76B7A" d="M2 11h3v1h-3z"/></svg><h3>Mga fact mula lamang sa iyong site</h3><p>Sumusulat lamang ang mga agent mula sa mga fact na pampubliko na sa iyong site at sa mga dokumentong ibinibigay mo sa amin. Ang numerong walang source ay nagiging blangkong pupunan mo.</p></div></div>
+      <div class="win reveal" style="--i:2"><div class="win-bar"><i></i><b>03</b></div><div class="win-body"><svg class="win-px" width="28" height="24" viewBox="0 0 14 12" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2A2024" d="M0 0h13v1h-13zM0 1h1v1h-1zM2 1h1v1h-1zM8 1h1v1h-1zM10 1h1v1h-1zM13 1h1v1h-1zM0 2h1v1h-1zM2 2h1v1h-1zM8 2h1v1h-1zM10 2h1v1h-1zM13 2h1v1h-1zM0 3h1v1h-1zM2 3h1v1h-1zM8 3h1v1h-1zM10 3h1v1h-1zM13 3h1v1h-1zM0 4h1v1h-1zM2 4h7v1h-7zM10 4h1v1h-1zM13 4h1v1h-1zM0 5h1v1h-1zM13 5h1v1h-1zM0 6h1v1h-1zM2 6h10v1h-10zM13 6h1v1h-1zM0 7h1v1h-1zM2 7h1v1h-1zM11 7h1v1h-1zM13 7h1v1h-1zM0 8h1v1h-1zM2 8h1v1h-1zM11 8h1v1h-1zM13 8h1v1h-1zM0 9h1v1h-1zM2 9h1v1h-1zM11 9h1v1h-1zM13 9h1v1h-1zM0 10h1v1h-1zM2 10h1v1h-1zM11 10h1v1h-1zM13 10h1v1h-1zM0 11h14v1h-14z"/><path fill="#FFFFFF" d="M1 1h1v1h-1zM3 1h5v1h-5zM9 1h1v1h-1zM11 1h2v1h-2zM1 2h1v1h-1zM3 2h5v1h-5zM11 2h2v1h-2zM1 3h1v1h-1zM3 3h5v1h-5zM11 3h2v1h-2zM1 4h1v1h-1zM9 4h1v1h-1zM11 4h2v1h-2zM1 5h12v1h-12zM1 6h1v1h-1zM12 6h1v1h-1zM1 7h1v1h-1zM12 7h1v1h-1zM1 8h1v1h-1zM3 8h8v1h-8zM12 8h1v1h-1zM1 9h1v1h-1zM3 9h1v1h-1zM10 9h1v1h-1zM12 9h1v1h-1zM1 10h1v1h-1zM3 10h8v1h-8zM12 10h1v1h-1z"/><path fill="#6E625F" d="M9 2h1v1h-1zM9 3h1v1h-1zM4 9h6v1h-6z"/><path fill="#C76B7A" d="M3 7h8v1h-8z"/></svg><h3>Permanente ang iyong mga edit</h3><p>Mag-re-tag ng kakumpitensya, baguhin ang wording ng isang tanong, ayusin ang isang pangungusap — itinatala ito kasama ang dahilan at muling inilalapat sa bawat re-run. Naiipon ang paghuhusga ng iyong team sa halip na mawala.</p></div></div>
+      <div class="win reveal" style="--i:0"><div class="win-bar"><i></i><b>04</b></div><div class="win-body"><svg class="win-px" width="28" height="20" viewBox="0 0 14 10" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2A2024" d="M1 0h12v1h-12zM0 1h1v1h-1zM13 1h1v1h-1zM0 2h1v1h-1zM13 2h1v1h-1zM0 3h1v1h-1zM3 3h2v1h-2zM6 3h2v1h-2zM9 3h2v1h-2zM13 3h1v1h-1zM0 4h1v1h-1zM3 4h2v1h-2zM6 4h2v1h-2zM9 4h2v1h-2zM13 4h1v1h-1zM0 5h1v1h-1zM13 5h1v1h-1zM0 6h1v1h-1zM13 6h1v1h-1zM1 7h5v1h-5zM8 7h5v1h-5zM5 8h1v1h-1zM7 8h1v1h-1zM5 9h2v1h-2z"/><path fill="#FFFFFF" d="M1 1h12v1h-12zM1 2h12v1h-12zM1 3h2v1h-2zM5 3h1v1h-1zM8 3h1v1h-1zM11 3h2v1h-2zM1 4h2v1h-2zM5 4h1v1h-1zM8 4h1v1h-1zM11 4h2v1h-2zM1 5h12v1h-12zM1 6h12v1h-12zM6 7h2v1h-2zM6 8h1v1h-1z"/></svg><h3>Isang digest bawat linggo, isang card na aaksyunan</h3><p>Isang digest sa simpleng wika bawat linggo, at ang pinakamahalagang aksyon bilang card sa chat ng iyong team: kumpirmahin ito sa isang tap at papasok ito sa ledger para masukat.</p></div></div>
+      <div class="win reveal" style="--i:1"><div class="win-bar"><i></i><b>05</b></div><div class="win-body"><svg class="win-px" width="24" height="22" viewBox="0 0 12 11" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2A2024" d="M1 0h2v1h-2zM10 0h2v1h-2zM0 1h1v1h-1zM3 1h1v1h-1zM9 1h2v1h-2zM0 2h1v1h-1zM3 2h1v1h-1zM8 2h2v1h-2zM1 3h2v1h-2zM7 3h2v1h-2zM6 4h2v1h-2zM5 5h2v1h-2zM4 6h2v1h-2zM3 7h2v1h-2zM9 7h2v1h-2zM2 8h2v1h-2zM8 8h1v1h-1zM11 8h1v1h-1zM1 9h2v1h-2zM8 9h1v1h-1zM11 9h1v1h-1zM0 10h2v1h-2zM9 10h2v1h-2z"/><path fill="#C76B7A" d="M1 1h2v1h-2zM1 2h2v1h-2zM9 8h2v1h-2zM9 9h2v1h-2z"/></svg><h3>Isang pamantayang masusuri mo</h3><p>Bawat rate ay may numerator at denominator, na binigyang-kahulugan sa pampublikong Measurement Standard (v1.1). Nagkakaiba ang mga plan sa saklaw, hindi kailanman sa pamamaraan.</p></div></div>
+      <div class="win reveal" style="--i:2"><div class="win-bar"><i></i><b>06</b></div><div class="win-body"><svg class="win-px" width="24" height="22" viewBox="0 0 12 11" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2A2024" d="M0 0h2v1h-2zM0 1h1v1h-1zM0 2h1v1h-1zM0 3h1v1h-1zM0 4h1v1h-1zM0 5h1v1h-1zM0 6h1v1h-1zM0 7h1v1h-1zM0 8h1v1h-1zM0 9h1v1h-1zM0 10h3v1h-3z"/><path fill="#C76B7A" d="M1 1h8v1h-8zM1 2h10v1h-10zM1 3h8v1h-8zM1 4h10v1h-10zM1 5h8v1h-8z"/></svg><h3>Walang ranking na ibinebenta, walang pangako tungkol sa AI</h3><p>Hindi kami nagbebenta ng puwesto sa mga sagot ng AI o naggagarantiya kung ano ang sasabihin ng isang engine. Tapat kaming sumusukat, inilalathala namin ang aming mga listahan ng source at nakikipagtulungan kami sa media na binabasa na ng AI.</p></div></div>
     </div>
   </div>
 </section>
 
 <section class="sec" id="market" style="background:var(--surface);border-top:1px solid var(--edge);border-bottom:1px solid var(--edge)">
   <div class="wrap">
+    <svg class="sec-px" width="48" height="44" viewBox="0 0 12 11" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2A2024" d="M0 0h2v1h-2zM0 1h1v1h-1zM0 2h1v1h-1zM0 3h1v1h-1zM0 4h1v1h-1zM0 5h1v1h-1zM0 6h1v1h-1zM0 7h1v1h-1zM0 8h1v1h-1zM0 9h1v1h-1zM0 10h3v1h-3z"/><path fill="#C76B7A" d="M1 1h8v1h-8zM1 2h10v1h-10zM1 3h8v1h-8zM1 4h10v1h-10zM1 5h8v1h-8z"/></svg>
     <span class="kicker">MGA MERKADO</span>
     <h2 class="sec-title">Timog-Silangang Asya, anim na merkado.<br>Estados Unidos, bawat estado.</h2>
     <p class="sec-desc">Ang isang project ay isang brand × isang merkado. Sa Timog-Silangang Asya, halos walang laman ang AI knowledge layer sa mga lokal na wika; sa US, binabago ng batas ng estado ang tamang sagot — kaya bawat estado ay sariling merkado.</p>
@@ -825,19 +903,21 @@ footer{border-top:1px solid var(--edge);padding:var(--s-8) 0 var(--s-10);margin-
 
 <section class="sec" id="process">
   <div class="wrap">
+    <svg class="sec-px" width="48" height="56" viewBox="0 0 12 14" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2A2024" d="M0 0h12v1h-12zM0 1h1v1h-1zM11 1h1v1h-1zM1 2h1v1h-1zM10 2h1v1h-1zM1 3h1v1h-1zM10 3h1v1h-1zM2 4h1v1h-1zM9 4h1v1h-1zM3 5h1v1h-1zM8 5h1v1h-1zM4 6h1v1h-1zM7 6h1v1h-1zM4 7h1v1h-1zM7 7h1v1h-1zM3 8h1v1h-1zM8 8h1v1h-1zM2 9h1v1h-1zM9 9h1v1h-1zM1 10h1v1h-1zM10 10h1v1h-1zM1 11h1v1h-1zM10 11h1v1h-1zM0 12h1v1h-1zM11 12h1v1h-1zM0 13h12v1h-12z"/><path fill="#6E625F" d="M1 1h10v1h-10zM1 12h10v1h-10z"/><path fill="#FFFFFF" d="M2 2h8v1h-8zM2 3h1v1h-1zM9 3h1v1h-1zM3 4h1v1h-1zM8 4h1v1h-1zM4 5h1v1h-1zM7 5h1v1h-1zM5 7h2v1h-2zM4 8h4v1h-4zM3 9h3v1h-3zM7 9h2v1h-2zM2 10h3v1h-3zM8 10h2v1h-2zM2 11h1v1h-1zM9 11h1v1h-1z"/><path fill="#B6863A" d="M3 3h6v1h-6zM4 4h4v1h-4zM5 5h2v1h-2zM5 6h2v1h-2zM6 9h1v1h-1zM5 10h3v1h-3zM3 11h6v1h-6z"/></svg>
     <span class="kicker">PAANO TUMATAKBO</span>
     <h2 class="sec-title">Baseline. Bumuo. Sukatin muli — bawat linggo.</h2>
     <p class="sec-desc">Tumatakbo ang scans ayon sa iskedyul bilang bahagi ng serbisyo; bumubuo ang mga agent sa pagitan; dumarating ang digest sa iyong inbox tuwing Martes.</p>
     <div class="process-steps">
-      <div class="pstep reveal"><div class="phase">ARAW 0 · BASELINE</div><h3>Full scan</h3><p>Binubuo ng Discovery ang iyong prompt library; sinusukat ng Monitor ang limang engine; inuuna ng Report ang mga gap. Ang iyong baseline sa halos apat na minuto.</p></div>
-      <div class="pstep reveal"><div class="phase">LINGGO 1–4 · BUMUO</div><h3>I-deliver ang mga asset</h3><p>Standard answers, JSON-LD schema, gap content, third-party placements, encyclopedia entries — bawat isa ay publish-ready deliverable, bawat isa ay bine-verify mo bago ilabas.</p></div>
-      <div class="pstep reveal"><div class="phase">BAWAT LINGGO · SUKATIN MULI</div><h3>Digest, report, ayusin</h3><p>Pinapanatiling maikukumpara ang scores ng scheduled scans sa frozen prompt panel. Lingguhang digest, buwanang report, alerts sa pagbaba. Kailangan ng scan ngayon? Sagot ng credits ang on-demand runs.</p></div>
+      <div class="win pstep reveal" style="--i:0"><div class="win-bar"><i></i><b>ARAW 0 · BASELINE</b></div><div class="win-body"><h3>Full scan</h3><p>Binubuo ng Discovery ang iyong prompt library; sinusukat ng Monitor ang limang engine; inuuna ng Report ang mga gap. Ang iyong baseline sa halos apat na minuto.</p></div></div>
+      <div class="win pstep reveal" style="--i:1"><div class="win-bar"><i></i><b>LINGGO 1–4 · BUMUO</b></div><div class="win-body"><h3>I-deliver ang mga asset</h3><p>Standard answers, JSON-LD schema, gap content, third-party placements, encyclopedia entries — bawat isa ay publish-ready deliverable, bawat isa ay bine-verify mo bago ilabas.</p></div></div>
+      <div class="win pstep reveal" style="--i:2"><div class="win-bar"><i></i><b>BAWAT LINGGO · SUKATIN MULI</b></div><div class="win-body"><h3>Digest, report, ayusin</h3><p>Pinapanatiling maikukumpara ang scores ng scheduled scans sa frozen prompt panel. Lingguhang digest, buwanang report, alerts sa pagbaba. Kailangan ng scan ngayon? Sagot ng credits ang on-demand runs.</p></div></div>
     </div>
   </div>
 </section>
 
 <section class="sec" id="faq" style="background:var(--surface);border-top:1px solid var(--edge);border-bottom:1px solid var(--edge)">
   <div class="wrap">
+    <svg class="sec-px" width="56" height="40" viewBox="0 0 14 10" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2A2024" d="M1 0h12v1h-12zM0 1h1v1h-1zM13 1h1v1h-1zM0 2h1v1h-1zM13 2h1v1h-1zM0 3h1v1h-1zM3 3h2v1h-2zM6 3h2v1h-2zM9 3h2v1h-2zM13 3h1v1h-1zM0 4h1v1h-1zM3 4h2v1h-2zM6 4h2v1h-2zM9 4h2v1h-2zM13 4h1v1h-1zM0 5h1v1h-1zM13 5h1v1h-1zM0 6h1v1h-1zM13 6h1v1h-1zM1 7h5v1h-5zM8 7h5v1h-5zM5 8h1v1h-1zM7 8h1v1h-1zM5 9h2v1h-2z"/><path fill="#FFFFFF" d="M1 1h12v1h-12zM1 2h12v1h-12zM1 3h2v1h-2zM5 3h1v1h-1zM8 3h1v1h-1zM11 3h2v1h-2zM1 4h2v1h-2zM5 4h1v1h-1zM8 4h1v1h-1zM11 4h2v1h-2zM1 5h12v1h-12zM1 6h12v1h-12zM6 7h2v1h-2zM6 8h1v1h-1z"/></svg>
     <span class="kicker">FAQ · MGA SAGOT</span>
     <h2 class="sec-title">Mga tanong, nasagot.</h2>
     <p class="sec-desc">Ang mga sagot na pinakamadalas naming ibigay — isinulat para malinis ding ma-quote ng mga AI engine.</p>
@@ -849,13 +929,14 @@ footer{border-top:1px solid var(--edge);padding:var(--s-8) 0 var(--s-10);margin-
       <details class="faq-item reveal"><summary>Aling mga AI engine at merkado ang sakop?</summary><div class="faq-a">ChatGPT, Gemini, Perplexity, Claude at ang tunay na Google AI Overview page, location-targeted. Mga merkado: Vietnam, Thailand, Indonesia, Malaysia, Singapore at Pilipinas sa kanilang lokal na wika, at Estados Unidos bawat estado (Tier-1: California, Texas, Florida, New York) na may state regulatory frames para sa regulated verticals.</div></details>
       <details class="faq-item reveal"><summary>Paano ang pricing?</summary><div class="faq-a">Itinatakda ng buwanang plan bawat brand × merkado ang scan cadence, laki ng prompt library, engines at reports; kasama na ang scheduled scans at reports. Sagot ng credits ang on-demand scans at dagdag na content runs. May workspace bawat kliyente, rollup reports, walang limitasyong seats at wholesale pricing ang mga agency partner.</div></details>
       <details class="faq-item reveal"><summary>Para kanino ang MemeCMO?</summary><div class="faq-a">Mga brand na papasok sa Timog-Silangang Asya — lalo na ang mga kumpanyang Tsino na nagpapalawak — mga regional brand na nagtatanggol ng home market, mga US brand sa regulated verticals kung saan nag-iiba ang sagot bawat estado, at ang mga agency at media group na naglilingkod sa kanila bilang channel partners.</div></details>
-      <details class="faq-item reveal"><summary>Paano naiiba ang MemeCMO sa Semrush, Profound o ibang GEO tools?</summary><div class="faq-a">Karamihan ng GEO tools ay humihinto sa monitoring: bibigyan ka ng dashboard at iiwan sa iyo ang trabaho. Ang sampung agent ng MemeCMO ay gumagawa rin ng deliverables — standard answers, JSON-LD schema, gap content, third-party placements, encyclopedia entries — nakabatay sa iyong verified na brand facts. Dalawa pang pagkakaiba: Answer Accuracy (sinusuri bawat engine kung tama ang product facts na ibinibigay ng AI sa iyong customers — support-cost metric na wala sa monitoring-only tools) at lalim ng merkado kung saan manipis ang iba: mga wika ng Timog-Silangang Asya at US state-by-state measurement na may state regulatory frames. <a href="/compare/">Kumpletong paghahambing na may mga source →</a></div></details>
+      <details class="faq-item reveal"><summary>Paano naiiba ang MemeCMO sa Semrush, Profound o ibang GEO tools?</summary><div class="faq-a">Karamihan ng GEO tools ay humihinto sa dashboard. Lumalampas pa ng tatlong hakbang ang MemeCMO. Ang sampung agent nito ang gumagawa ng deliverables — standard answers, JSON-LD, gap content, placements, encyclopedia drafts — mula lamang sa iyong mga pampublikong fact. Lumalampas sa score ang pagsusuri nito: inuuri ang mga engine ayon sa kung nagbabasa sila ng web, kinukuha at sinusuri ang mga na-cite na pahina, ikinukumpara ang mga sagot ng AI sa sarili mong site, at sinusukat ang bawat aksyon laban sa mga tanong na hindi mo ginalaw. At bawat numero ay sumusunod sa isang pampublikong pamantayan sa pagsukat, sa mga wika ng Timog-Silangang Asya at sa US bawat estado. <a href="/compare/">Kumpletong paghahambing na may mga source →</a></div></details>
     </div>
   </div>
 </section>
 
 <section class="sec" id="contact">
   <div class="wrap">
+    <svg class="sec-px" width="56" height="48" viewBox="0 0 14 12" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2A2024" d="M0 0h13v1h-13zM0 1h1v1h-1zM2 1h1v1h-1zM8 1h1v1h-1zM10 1h1v1h-1zM13 1h1v1h-1zM0 2h1v1h-1zM2 2h1v1h-1zM8 2h1v1h-1zM10 2h1v1h-1zM13 2h1v1h-1zM0 3h1v1h-1zM2 3h1v1h-1zM8 3h1v1h-1zM10 3h1v1h-1zM13 3h1v1h-1zM0 4h1v1h-1zM2 4h7v1h-7zM10 4h1v1h-1zM13 4h1v1h-1zM0 5h1v1h-1zM13 5h1v1h-1zM0 6h1v1h-1zM2 6h10v1h-10zM13 6h1v1h-1zM0 7h1v1h-1zM2 7h1v1h-1zM11 7h1v1h-1zM13 7h1v1h-1zM0 8h1v1h-1zM2 8h1v1h-1zM11 8h1v1h-1zM13 8h1v1h-1zM0 9h1v1h-1zM2 9h1v1h-1zM11 9h1v1h-1zM13 9h1v1h-1zM0 10h1v1h-1zM2 10h1v1h-1zM11 10h1v1h-1zM13 10h1v1h-1zM0 11h14v1h-14z"/><path fill="#FFFFFF" d="M1 1h1v1h-1zM3 1h5v1h-5zM9 1h1v1h-1zM11 1h2v1h-2zM1 2h1v1h-1zM3 2h5v1h-5zM11 2h2v1h-2zM1 3h1v1h-1zM3 3h5v1h-5zM11 3h2v1h-2zM1 4h1v1h-1zM9 4h1v1h-1zM11 4h2v1h-2zM1 5h12v1h-12zM1 6h1v1h-1zM12 6h1v1h-1zM1 7h1v1h-1zM12 7h1v1h-1zM1 8h1v1h-1zM3 8h8v1h-8zM12 8h1v1h-1zM1 9h1v1h-1zM3 9h1v1h-1zM10 9h1v1h-1zM12 9h1v1h-1zM1 10h1v1h-1zM3 10h8v1h-8zM12 10h1v1h-1z"/><path fill="#6E625F" d="M9 2h1v1h-1zM9 3h1v1h-1zM4 9h6v1h-6z"/><path fill="#C76B7A" d="M3 7h8v1h-8z"/></svg>
     <span class="kicker">KONTAK</span>
     <h2 class="sec-title">Ang unang linya ng iyong brand sa usapan ng AI —<br>ikaw ang magpapasya kung ano ang sasabihin nito.</h2>
     <p class="sec-desc">Humiling ng platform access o ng usapang partner. Sabihin sa amin ang brand at merkado; patatakbuhin namin ang baseline scan at gagabayan ka sa mga resulta.</p>

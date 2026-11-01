@@ -67,7 +67,7 @@ function orgBlock(lang) {
       addressCountry: 'HK',
     },
     areaServed: ['HK', 'VN', 'TH', 'ID', 'MY', 'PH', 'SG', 'CN', 'US'],
-    knowsLanguage: ['en', 'zh', 'vi', 'fil', 'th', 'ms'],
+    knowsLanguage: ['en', 'zh', 'zh-Hant', 'vi', 'id', 'fil', 'th', 'ms'],
     knowsAbout: [
       'Generative Engine Optimization',
       'AI Mindset Positioning Theory',
@@ -97,7 +97,7 @@ function orgBlock(lang) {
         '@type': 'ContactPoint',
         contactType: 'sales',
         email: 'samchan@memecmo.ai',
-        availableLanguage: ['en', 'zh', 'vi', 'fil', 'th', 'ms'],
+        availableLanguage: ['en', 'zh', 'zh-Hant', 'vi', 'id', 'fil', 'th', 'ms'],
       },
     ],
   };
@@ -143,6 +143,8 @@ const PAGES = [
   { file: 'fil/index.html', lang: 'en', addFaq: false },
   { file: 'th/index.html', lang: 'en', addFaq: false },
   { file: 'ms/index.html', lang: 'en', addFaq: false },
+  { file: 'zh-hant/index.html', lang: 'en', addFaq: false },
+  { file: 'id/index.html', lang: 'en', addFaq: false },
 ];
 
 for (const page of PAGES) {

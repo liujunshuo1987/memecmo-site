@@ -19,7 +19,7 @@
     "offer_desc": "Starter US$99, Growth US$199 and Scale US$1,999+ per brand × market per month (scheduled scans, prompt panel, engines, reports, deliverables), plus credit packs for on-demand runs. Agency partners get workspaces per client, rollup reports and wholesale pricing."
   },
   "nav": {
-    "philosophy": "Why GEO",
+    "philosophy": "Why us",
     "tech": "Platform",
     "market": "Markets",
     "process": "How it runs",
@@ -29,7 +29,8 @@
     "about": "About",
     "guide": "Guide",
     "us": "US line",
-    "inside": "Inside"
+    "inside": "Inside",
+    "methods": "Methods"
   },
   "hero": {
     "scroll_label": "SCROLL",
@@ -74,74 +75,76 @@
     ]
   },
   "tagline": {
-    "main": "<span class=\"brand\">MemeCMO</span> — Make your brand the answer in AI.",
-    "sub": "Measured to a public standard. Built from your own facts. Proven on a frozen panel."
+    "main": "<span class=\"brand\">MemeCMO</span> — we don't guess what AI says about you. We measure it, fix it, and prove it moved.",
+    "sub": "Five engines · ten agents · one public measurement standard"
   },
   "philosophy": {
-    "tag": "WHAT WE BELIEVE",
-    "title": "Six principles, written into the product.",
-    "desc": "GEO is not a trick played on the engines. It is the discipline of putting true, findable facts where AI looks — and measuring honestly whether AI picks them up. Every principle below is a feature in the workspace, not a line on a slide.",
+    "tag": "WORKING WITH US",
+    "title": "Six promises, built into the service.",
+    "desc": "What you can hold us to. Each one is something you can see in the workspace, not a line on a slide.",
     "cards": [
       {
-        "icon": "🏠",
-        "title": "Facts live on your site, not in our app",
-        "desc": "AI can only repeat what is public. So the platform never becomes the place where truth is kept: it reads your own pages, shows where AI contradicts them or finds nothing, and sends you back to fix the source. No hidden database of “verified facts”."
+        "icon": "",
+        "title": "Deliverables, not advice",
+        "desc": "Every agent ships something you can publish: a page, a schema block, a placement kit, an encyclopedia draft. You review and publish; we never post on your behalf."
       },
       {
-        "icon": "📏",
-        "title": "Define the standard; don't compete on scale",
-        "desc": "Presence, share of voice, prominence, sentiment, citation — every rate published with its numerator and denominator, sample sizes and confidence labels, in a public Measurement Standard (v1.1) anyone can check. Plans differ in scope, never in method."
+        "icon": "",
+        "title": "Facts from your site only",
+        "desc": "Agents write only from facts already public on your site and the documents you hand us. A figure without a source becomes a blank for you to fill."
       },
       {
-        "icon": "🔬",
-        "title": "Honest measurement",
-        "desc": "A frozen prompt panel per market, the real Google AI Overview page, judged answers you can open and re-check. An effect is reported only when the targeted prompts beat the control prompts by more than 10 points. We never promise rankings or sales."
+        "icon": "",
+        "title": "Your edits are permanent",
+        "desc": "Re-tag a competitor, reword a question, fix a sentence — it is recorded with its reason and re-applied on every re-run. Your team's judgement compounds instead of evaporating."
       },
       {
-        "icon": "🧠",
-        "title": "Feedback kept in the system becomes an asset",
-        "desc": "Every competitor you re-tag, every prompt you reword, every action you log is recorded with its reason and re-applied on every re-run. Your team's judgement compounds inside the platform instead of evaporating in chat threads."
+        "icon": "",
+        "title": "One digest a week, one card to act on",
+        "desc": "A plain-language digest every week, and the one action that matters most as a card in your team chat: confirm it with a tap and it goes into the ledger to be measured."
       },
       {
-        "icon": "⚙️",
-        "title": "One person + AI helpers closes a loop",
-        "desc": "The workspace is built for a minimal unit: one owner and scoped agents that sense, judge, act, measure and record on their own. Your team specifies and gives feedback; the platform side builds the agents. No engineering hires on your side."
+        "icon": "",
+        "title": "A standard you can check",
+        "desc": "Every rate with its numerator and denominator, defined in a public Measurement Standard (v1.1). Plans differ in scope, never in method."
       },
       {
-        "icon": "📡",
-        "title": "Be the source",
-        "desc": "AI trusts a short list of domains in each market. We rank them across every scan, fetch and profile the pages they cite, publish the Vietnam list monthly, and verify what you put live — so your pages and the media AI already cites carry your facts."
+        "icon": "",
+        "title": "No rankings for sale, no promises about AI",
+        "desc": "We don't sell positions in AI answers or guarantee what an engine will say. We measure honestly, publish our source lists and work with the media AI already reads."
       }
     ]
   },
   "tech": {
-    "tag": "THE PLATFORM",
-    "title": "Ten agents,<br>one closed loop",
-    "desc": "Discover what buyers ask → measure what AI answers → build what is missing from your own facts → log what went live → re-measure on the same panel. Every step is an agent; every agent leaves a deliverable in your workspace.",
+    "tag": "TEN AGENTS",
+    "title": "Ten agents.<br>Each one leaves a deliverable.",
+    "desc": "Discover what buyers ask → measure what AI answers → build what is missing from your own facts → log what went live → measure again on the same panel.",
     "stack_title": "The agent suite",
     "center_text": "10<br>agents",
     "items": [
       {
-        "strong": "Profile + Discovery + Standard answers",
-        "rest": "A public fact base built from your own pages and documents; 110 buyer questions per market in the buyer's language, 20 of them key; canonical answers grounded only in those facts."
+        "strong": "Profile · Discovery · Standard Answers",
+        "rest": "A fact base built only from your public pages and documents; 110 buyer questions per market in the buyer's language, 20 of them key; canonical answers grounded in those facts."
       },
       {
-        "strong": "Monitor — five engines, real surfaces, one frozen panel",
-        "rest": "ChatGPT, Gemini, Perplexity, Claude and the real Google AI Overview page. Presence over time, brand visibility, share of voice, presence by engine and by question — every cell opens the answer behind it."
+        "strong": "Monitor",
+        "rest": "Five engines, real surfaces, one frozen panel. Presence over time, share of voice, by engine and by question — every cell opens the answer behind it."
       },
       {
-        "strong": "Sources + cited pages",
-        "rest": "The domains AI cites in your market, ranked across scans; the cited pages fetched and profiled (structure, freshness, schema) so content is written to a measured bar. Your own pages join the corpus: site coverage and contradictions in every report."
+        "strong": "Report · Full Scan",
+        "rest": "What changed, why it matters, what to do next — evidence attached, and a weekly digest written for the stage your brand is in. Full Scan runs Discovery → Monitor → Report in one go."
       },
       {
-        "strong": "Content + Site + Distribute + Encyclopedia",
-        "rest": "Publish-ready pages and FAQ, paste-in JSON-LD, placement kits for the sources AI trusts (competitors excluded), encyclopedia drafts with a compliant path. Numbers without a source become placeholders, never inventions."
+        "strong": "Site · Optimize",
+        "rest": "Paste-in JSON-LD and concrete edits for your own pages; publish-ready pages and FAQs for the questions competitors win today."
       },
       {
-        "strong": "Actions + Report + digest",
-        "rest": "Log what went live; we fetch it, hash it and attribute what moved by question and engine. Stage-aware weekly digests, monthly reports, alerts on drops — and your edits survive every re-run."
+        "strong": "Distribute · Encyclopedia",
+        "rest": "Placement kits for the sources AI already cites in your market, competitors excluded, and encyclopedia drafts with a compliant path."
       }
-    ]
+    ],
+    "quote_title": "Not a dashboard —<br>an <span class=\"hl\">agent team that ships.</span>",
+    "quote_desc": "One owner on your side, ten agents on ours: they read, measure, build and record, and your team reviews and decides. No engineering hires on your side."
   },
   "market": {
     "tag": "MARKETS",
@@ -247,7 +250,7 @@
       },
       {
         "q": "How is MemeCMO different from Semrush, Profound or other GEO tools?",
-        "a": "Most GEO tools stop at monitoring: they show you a dashboard and leave the work to you. MemeCMO's ten agents also produce the deliverables — standard answers, JSON-LD schema, gap content, placements, encyclopedia entries — grounded only in your public facts, and then verify what you publish and attribute what moved. Two more differences: a public measurement standard behind every number, and market depth others lack — Southeast Asian languages and US state-by-state measurement. <a href=\"/compare/\">Full comparison with sources →</a>"
+        "a": "Most GEO tools stop at a dashboard. MemeCMO goes three steps further. Its ten agents produce the deliverables — standard answers, JSON-LD, gap content, placements, encyclopedia drafts — from your public facts only. Its analysis goes past the score: engines sorted by whether they read the web, the cited pages fetched and profiled, AI's answers checked against your own site, and every action measured against questions you didn't touch. And every number follows a public measurement standard, in Southeast Asian languages and US state by state. <a href=\"/compare/\">Full comparison with sources →</a>"
       }
     ]
   },
@@ -319,13 +322,13 @@
     "sections": [
       {
         "id": "measure",
-        "tag": "MEASURE · FIVE ENGINES · FIVE METRICS",
-        "title": "See exactly how AI sees you.",
-        "desc": "Every scan asks ChatGPT, Gemini, Claude, Perplexity and Google AI Overview the questions your buyers really ask, in their language, on a frozen panel — so week-to-week movement is real, not noise.",
+        "tag": "MEASURE · FIVE ENGINES · ONE FROZEN PANEL",
+        "title": "Ask AI what your buyers ask. Every week, the same questions.",
+        "desc": "Each scan puts the questions your buyers really ask — in their language, at every buying stage — to ChatGPT, Gemini, Perplexity, Claude and the live Google AI Overview page. The panel stays frozen, so a change in the score is a change in AI, not in the test.",
         "bullets": [
-          "Presence, share of voice, prominence, sentiment and citation — each shown with its denominator",
-          "One engine at a time: the same tables re-sliced per engine, because the same brand differs sharply between them",
-          "Every cell opens the answer behind it, with the sources the engine cited"
+          "Presence, share of voice, prominence, sentiment and citation — every rate printed with its numerator and denominator",
+          "Each engine on its own: the same brand can lead on one and be missing on the next",
+          "Every number opens the full answer behind it and the pages the engine cited"
         ],
         "shot": "monitor",
         "alt": "MemeCMO monitor dashboard: presence over time, brand visibility table, presence by engine"
@@ -333,12 +336,12 @@
       {
         "id": "sources",
         "tag": "SOURCES · WHERE AI LOOKS",
-        "title": "Know where AI looks for answers — and be there.",
-        "desc": "We read the pages the engines cite: structure, freshness, length, schema. What gets cited becomes a measured bar for your content, not a guess.",
+        "title": "We read the pages AI reads.",
+        "desc": "In every market the engines lean on a short list of sites. We rank them across every scan, fetch the pages they cite and profile them — structure, freshness, schema, length — so “what gets cited” becomes a bar your content is written to, not a hunch.",
         "bullets": [
-          "The domains each engine leans on in your market, with citations across every scan",
-          "Page features of the cited pages — schema, FAQ, update date — per engine and by citation intensity",
-          "A public monthly list of the sources AI cites in Vietnam, released under CC BY 4.0"
+          "The domains each engine leans on in your market, ranked across every scan",
+          "What cited pages have in common, per engine and by how often they are cited",
+          "A public monthly list of the sources AI cites in Vietnam, free to reuse (CC BY 4.0)"
         ],
         "shot": "sources",
         "alt": "Sources the AI engines cite, with page features per domain",
@@ -347,31 +350,96 @@
       },
       {
         "id": "act",
-        "tag": "ACT · BUILD WHAT'S MISSING",
-        "title": "Build the missing answers, in the buyer's language.",
-        "desc": "Content, site upgrades, distribution kits and encyclopedia drafts come out of the same workspace, briefed by what the engines actually cite in your market. What your team edits, a re-run never overwrites.",
+        "tag": "ACT · TEN AGENTS · DELIVERABLES",
+        "title": "Ten agents ship the missing answers.",
+        "desc": "Standard answers, page edits, paste-in schema, gap content, placement kits and encyclopedia drafts — in the buyer's language, written to the citation profile of your market, from facts already public on your site. A number without a source becomes a blank for you to fill, never an invention.",
         "bullets": [
-          "Ten agents, one workspace: dispatch on the left, review on the stage, live activity on the right",
-          "Every draft is written to the measured citation profile of your market — structure, depth, freshness",
-          "Human edits are kept on top of every regeneration"
+          "Dispatch an agent on the left, review on the stage, watch live activity on the right",
+          "Every draft is briefed by what the engines actually cite in your market",
+          "What your team edits stays edited — every re-run respects it"
         ],
         "shot": "workspace",
         "alt": "MemeCMO workspace with card-style deliverables and the live activity panel"
       },
       {
         "id": "prove",
-        "tag": "PROVE · CLOSE THE LOOP",
-        "title": "Every action verified. Every change attributed.",
-        "desc": "Log what went live; we fetch it, hash it and watch whether the engines start citing it. The next scans show what moved — by question, by engine — on the same frozen panel.",
+        "tag": "PROVE · BEFORE AND AFTER",
+        "title": "Proof, not a feeling.",
+        "desc": "Log what went live. We fetch the page, fingerprint it and watch whether the engines start using it. The next scans show what moved — by question and by engine — next to the questions you didn't touch.",
         "bullets": [
-          "Actions verified live, with word count and content changes over time",
-          "Before/after outcomes per question and engine, plus site coverage and contradictions in every report",
+          "Every logged action verified live, with its changes tracked over time",
+          "Before/after per question and engine, plus site coverage and contradictions in every report",
           "One public measurement standard (v1.1) behind every number we publish"
         ],
         "shot": "report",
         "alt": "MemeCMO report with collapsed recommendations, site coverage and verified actions",
         "cta": "Read the measurement standard",
         "cta_href": "https://app.memecmo.ai/standard/MemeCMO_AI_Visibility_Measurement_Standard_v1.1.pdf"
+      }
+    ]
+  },
+  "engines": {
+    "tag": "THE ENGINES",
+    "title": "Three kinds of AI answer.<br>Three different levers.",
+    "desc": "Not every engine reads the web. We sort each one by what the scan itself shows — how many of its answers come back with sources — because what moves it is different.",
+    "classes": [
+      {
+        "name": "Reads the web, and your site",
+        "engines": [
+          "perplexity",
+          "aio"
+        ],
+        "body": "Answers are assembled from pages fetched live, yours included. Your own pages, structured data and freshness move these first.",
+        "lever": "Lever: your site, and the pages it is compared with"
+      },
+      {
+        "name": "Reads the web, rarely your site",
+        "engines": [
+          "claude"
+        ],
+        "body": "Searches before it answers, but in our scans it leans on encyclopedias, news and directories far more than on brand sites.",
+        "lever": "Lever: trusted third-party pages that carry your facts"
+      },
+      {
+        "name": "Answers from training",
+        "engines": [
+          "chatgpt",
+          "gemini"
+        ],
+        "body": "Answers from what the model already learned. It moves with what is widely and consistently published about you — the slowest lever, and the longest-lasting.",
+        "lever": "Lever: the same facts, published widely and consistently"
+      }
+    ],
+    "note": "Classes come from each scan, not from a fixed list: when an engine changes how it answers, its class changes with it."
+  },
+  "methods": {
+    "tag": "THE ANALYSIS",
+    "title": "Six analyses behind every report.",
+    "desc": "A visibility score is where the work starts. These are the analyses that tell you what to do next — and whether it worked.",
+    "items": [
+      {
+        "title": "Where AI reads, stage by stage",
+        "body": "We split every question by buyer stage. Before buyers know a brand, its own site is 0.7% of what AI reads (12 brands, 3,011 cited answers in Vietnam). So we show which third-party pages decide the first answer — and plan for them."
+      },
+      {
+        "title": "The cited pages, opened and measured",
+        "body": "We fetch the pages each engine cites and profile structure, freshness, schema and length. Your content gets a measured bar to meet instead of a style guide."
+      },
+      {
+        "title": "Your site against what AI says",
+        "body": "We read your public pages and set them beside the answers: where AI contradicts you, where it says nothing, where it leaves out what you publish. The fix goes to the source — your site — not into our database."
+      },
+      {
+        "title": "Before and after, against a control",
+        "body": "Every action you log is dated and checked live. Movement on the questions it targeted is set against the questions you didn't touch, on the same frozen panel; only gains more than 10 points above the control count."
+      },
+      {
+        "title": "A scoring model held to human labels",
+        "body": "Answers are scored by a model, and that model is checked against blind human labels in each language. A new scoring model is adopted only when it agrees with them."
+      },
+      {
+        "title": "A failed answer is never “not mentioned”",
+        "body": "If an engine doesn't answer or a page fails to load, the answer is marked as failed — never counted as your brand being absent — and every report states its coverage."
       }
     ]
   }

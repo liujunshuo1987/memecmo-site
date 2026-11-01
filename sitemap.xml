@@ -8,9 +8,11 @@
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://memecmo.ai/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://memecmo.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://memecmo.ai/zh-hant/"/>
     <xhtml:link rel="alternate" hreflang="vi" href="https://memecmo.ai/vi/"/>
-    <xhtml:link rel="alternate" hreflang="fil" href="https://memecmo.ai/fil/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://memecmo.ai/id/"/>
     <xhtml:link rel="alternate" hreflang="th" href="https://memecmo.ai/th/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://memecmo.ai/fil/"/>
     <xhtml:link rel="alternate" hreflang="ms" href="https://memecmo.ai/ms/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://memecmo.ai/"/>
   </url>
@@ -21,9 +23,26 @@
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://memecmo.ai/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://memecmo.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://memecmo.ai/zh-hant/"/>
     <xhtml:link rel="alternate" hreflang="vi" href="https://memecmo.ai/vi/"/>
-    <xhtml:link rel="alternate" hreflang="fil" href="https://memecmo.ai/fil/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://memecmo.ai/id/"/>
     <xhtml:link rel="alternate" hreflang="th" href="https://memecmo.ai/th/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://memecmo.ai/fil/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://memecmo.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://memecmo.ai/"/>
+  </url>
+  <url>
+    <loc>https://memecmo.ai/zh-hant/</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://memecmo.ai/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://memecmo.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://memecmo.ai/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://memecmo.ai/vi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://memecmo.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://memecmo.ai/th/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://memecmo.ai/fil/"/>
     <xhtml:link rel="alternate" hreflang="ms" href="https://memecmo.ai/ms/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://memecmo.ai/"/>
   </url>
@@ -34,22 +53,26 @@
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://memecmo.ai/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://memecmo.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://memecmo.ai/zh-hant/"/>
     <xhtml:link rel="alternate" hreflang="vi" href="https://memecmo.ai/vi/"/>
-    <xhtml:link rel="alternate" hreflang="fil" href="https://memecmo.ai/fil/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://memecmo.ai/id/"/>
     <xhtml:link rel="alternate" hreflang="th" href="https://memecmo.ai/th/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://memecmo.ai/fil/"/>
     <xhtml:link rel="alternate" hreflang="ms" href="https://memecmo.ai/ms/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://memecmo.ai/"/>
   </url>
   <url>
-    <loc>https://memecmo.ai/fil/</loc>
+    <loc>https://memecmo.ai/id/</loc>
     <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://memecmo.ai/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://memecmo.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://memecmo.ai/zh-hant/"/>
     <xhtml:link rel="alternate" hreflang="vi" href="https://memecmo.ai/vi/"/>
-    <xhtml:link rel="alternate" hreflang="fil" href="https://memecmo.ai/fil/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://memecmo.ai/id/"/>
     <xhtml:link rel="alternate" hreflang="th" href="https://memecmo.ai/th/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://memecmo.ai/fil/"/>
     <xhtml:link rel="alternate" hreflang="ms" href="https://memecmo.ai/ms/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://memecmo.ai/"/>
   </url>
@@ -60,9 +83,26 @@
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://memecmo.ai/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://memecmo.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://memecmo.ai/zh-hant/"/>
     <xhtml:link rel="alternate" hreflang="vi" href="https://memecmo.ai/vi/"/>
-    <xhtml:link rel="alternate" hreflang="fil" href="https://memecmo.ai/fil/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://memecmo.ai/id/"/>
     <xhtml:link rel="alternate" hreflang="th" href="https://memecmo.ai/th/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://memecmo.ai/fil/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://memecmo.ai/ms/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://memecmo.ai/"/>
+  </url>
+  <url>
+    <loc>https://memecmo.ai/fil/</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://memecmo.ai/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://memecmo.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://memecmo.ai/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://memecmo.ai/vi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://memecmo.ai/id/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://memecmo.ai/th/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://memecmo.ai/fil/"/>
     <xhtml:link rel="alternate" hreflang="ms" href="https://memecmo.ai/ms/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://memecmo.ai/"/>
   </url>
@@ -73,9 +113,11 @@
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://memecmo.ai/"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://memecmo.ai/zh/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://memecmo.ai/zh-hant/"/>
     <xhtml:link rel="alternate" hreflang="vi" href="https://memecmo.ai/vi/"/>
-    <xhtml:link rel="alternate" hreflang="fil" href="https://memecmo.ai/fil/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://memecmo.ai/id/"/>
     <xhtml:link rel="alternate" hreflang="th" href="https://memecmo.ai/th/"/>
+    <xhtml:link rel="alternate" hreflang="fil" href="https://memecmo.ai/fil/"/>
     <xhtml:link rel="alternate" hreflang="ms" href="https://memecmo.ai/ms/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://memecmo.ai/"/>
   </url>
@@ -86,8 +128,10 @@
   <url><loc>https://memecmo.ai/zh/geo-vietnam/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://memecmo.ai/vi/doi-tac-truyen-thong/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://memecmo.ai/zh/about/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://memecmo.ai/zh-hant/about/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://memecmo.ai/vi/about/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://memecmo.ai/fil/about/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://memecmo.ai/id/about/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://memecmo.ai/th/about/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://memecmo.ai/fil/about/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://memecmo.ai/ms/about/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 </urlset>

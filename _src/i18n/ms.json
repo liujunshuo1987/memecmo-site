@@ -19,7 +19,7 @@
     "offer_desc": "Pelan bulanan setiap jenama × pasaran (imbasan berjadual, perpustakaan prompt, enjin, laporan) serta pek kredit untuk imbasan atas permintaan. Rakan agensi mendapat ruang kerja setiap pelanggan, laporan gabungan dan harga borong."
   },
   "nav": {
-    "philosophy": "Mengapa GEO",
+    "philosophy": "Mengapa kami",
     "tech": "Platform",
     "market": "Pasaran",
     "process": "Cara ia berjalan",
@@ -28,7 +28,8 @@
     "cta": "Mohon akses",
     "about": "Tentang kami",
     "guide": "Panduan",
-    "us": "Barisan AS"
+    "us": "Barisan AS",
+    "methods": "Kaedah"
   },
   "hero": {
     "scroll_label": "TATAL",
@@ -73,74 +74,76 @@
     ]
   },
   "tagline": {
-    "main": "<span class=\"brand\">MemeCMO</span> — Jadikan jenama anda jawapan AI.",
-    "sub": "Ukur. Bina. Lapor. Setiap minggu."
+    "main": "<span class=\"brand\">MemeCMO</span> — kami tidak meneka apa yang AI katakan tentang anda. Kami mengukurnya, membetulkannya dan membuktikan ada perubahan.",
+    "sub": "Lima enjin · sepuluh ejen · satu standard pengukuran awam"
   },
   "philosophy": {
-    "tag": "MENGAPA GEO, MENGAPA SEKARANG",
-    "title": "Kognisi ialah aset. Pendahulu ialah parit pertahanan.",
-    "desc": "Trafik organik sedang berhijrah ke dalam jawapan AI. Kehadiran jenama dalam jawapan itu bukan trafik yang disewa — setelah terbina, ia berfungsi 24/7, merentas bahasa, pada kos marginal sifar, dan berkompaun.",
+    "tag": "BEKERJA DENGAN KAMI",
+    "title": "Enam janji, terbina dalam perkhidmatan.",
+    "desc": "Perkara yang boleh anda tuntut daripada kami. Setiap satu boleh anda lihat dalam ruang kerja, bukan sekadar baris pada slaid.",
     "cards": [
       {
-        "icon": "🧬",
-        "title": "Kognisi ialah aset",
-        "desc": "Jawapan AI tentang jenama menunjukkan kesan Matthew yang kuat — semakin awal anda dipetik, semakin sukar anda digantikan. Kehadiran berkompaun; ketiadaan juga berkompaun."
+        "icon": "",
+        "title": "Hasil kerja, bukan nasihat",
+        "desc": "Setiap ejen menghasilkan sesuatu yang boleh anda terbitkan: halaman, blok skema, kit penempatan, draf ensiklopedia. Anda menyemak dan menerbitkan; kami tidak pernah menyiarkan bagi pihak anda."
       },
       {
-        "icon": "🎯",
-        "title": "Pendahulu ialah parit pertahanan",
-        "desc": "Yang terkemudian berdepan kos 3–5× dan 6–12 bulan untuk menulis semula naratif yang sudah keras. Tingkap di pasaran bahasa baharu terbuka sekarang."
+        "icon": "",
+        "title": "Fakta daripada laman anda sahaja",
+        "desc": "Ejen menulis hanya daripada fakta yang sudah diterbitkan di laman anda dan dokumen yang anda serahkan kepada kami. Angka tanpa sumber menjadi ruang kosong untuk anda isi."
       },
       {
-        "icon": "🔬",
-        "title": "Metrik standard, bukan kotak hitam",
-        "desc": "Kehadiran, share of voice, kadar petikan, sentimen AI, ketepatan jawapan — diukur mengikut enjin pada panel prompt beku supaya pergerakan antara imbasan adalah benar, bukan hingar."
+        "icon": "",
+        "title": "Suntingan anda kekal",
+        "desc": "Tanda semula pesaing, ubah ayat soalan, betulkan satu ayat — ia direkodkan bersama sebabnya dan digunakan semula pada setiap larian semula. Pertimbangan pasukan anda terkumpul, bukan hilang."
       },
       {
-        "icon": "🌏",
-        "title": "Penyetempatan ≠ terjemahan",
-        "desc": "Naratif jenama berbilang bahasa bukan terjemahan mesin — setiap pasaran ada perpustakaan prompt, jawapan dan petikan sendiri, dikod semula untuk konteks budayanya."
+        "icon": "",
+        "title": "Satu ringkasan seminggu, satu kad untuk bertindak",
+        "desc": "Ringkasan dalam bahasa mudah setiap minggu, dan satu tindakan paling penting sebagai kad dalam sembang pasukan anda: sahkan dengan satu ketikan dan ia masuk ke lejar untuk diukur."
       },
       {
-        "icon": "⚡",
-        "title": "Ejen menghasilkan kerja",
-        "desc": "Kami tidak menyerahkan senarai tugasan. Setiap ejen menghasilkan aset itu sendiri — jawapan, skema, halaman, penempatan — sedia terbit dan berasaskan fakta yang disahkan."
+        "icon": "",
+        "title": "Standard yang boleh anda semak",
+        "desc": "Setiap kadar bersama pengangka dan penyebutnya, ditakrifkan dalam Standard Pengukuran awam (v1.1). Pelan berbeza dari segi skop, tidak sekali-kali dari segi kaedah."
       },
       {
-        "icon": "🏗️",
-        "title": "Akaun anda, pasukan anda",
-        "desc": "Penggunaan dikawal pada peringkat akaun, bukan setiap tempat duduk: jemput seluruh pasukan sebagai pemerhati dan ahli tanpa kos tambahan."
+        "icon": "",
+        "title": "Tiada kedudukan untuk dijual, tiada janji tentang AI",
+        "desc": "Kami tidak menjual kedudukan dalam jawapan AI atau menjamin apa yang akan dikatakan enjin. Kami mengukur dengan jujur, menerbitkan senarai sumber kami dan bekerjasama dengan media yang sudah dibaca AI."
       }
     ]
   },
   "tech": {
-    "tag": "PLATFORM",
-    "title": "Sepuluh ejen,<br>satu gelung tertutup",
-    "desc": "Temui apa yang pembeli tanya → ukur apa yang AI jawab → bina apa yang kurang → edarkan → ukur semula. Setiap langkah ialah ejen; setiap ejen meninggalkan hasil kerja dalam ruang kerja anda.",
+    "tag": "SEPULUH EJEN",
+    "title": "Sepuluh ejen.<br>Setiap satu meninggalkan hasil kerja.",
+    "desc": "Temui apa yang pembeli tanya → ukur apa yang AI jawab → bina apa yang kurang daripada fakta anda sendiri → catat apa yang sudah disiarkan → ukur semula pada panel yang sama.",
     "stack_title": "Suite ejen",
     "center_text": "10<br>ejen",
     "items": [
       {
-        "strong": "Penemuan + Jawapan Standard",
-        "rest": "100+ soalan pembeli setiap pasaran, ditanda niat tinggi vs pendidikan; perpustakaan jawapan kanonik dwibahasa berasaskan fakta jenama yang disahkan."
+        "strong": "Profile · Discovery · Standard Answers",
+        "rest": "Pangkalan fakta yang dibina hanya daripada halaman awam dan dokumen anda; 110 soalan pembeli setiap pasaran dalam bahasa pembeli, 20 daripadanya soalan utama; jawapan kanonik yang berasaskan fakta tersebut."
       },
       {
-        "strong": "Pemantau — lima enjin, permukaan sebenar",
-        "rest": "ChatGPT, Gemini, Perplexity, Claude dan halaman Google AI Overview sebenar. Kehadiran, share of voice, kadar petikan, sentimen, ketepatan jawapan — mengikut enjin, mengikut niat."
+        "strong": "Monitor",
+        "rest": "Lima enjin, permukaan sebenar, satu panel beku. Kehadiran dari masa ke masa, share of voice, mengikut enjin dan mengikut soalan — setiap sel membuka jawapan di sebaliknya."
       },
       {
-        "strong": "Laman + Skema",
-        "rest": "Membaca laman utama anda, memulangkan JSON-LD sedia tampal (Organization, Service, FAQPage, LocalBusiness) dan suntingan halaman konkrit — dengan panduan langkah demi langkah."
+        "strong": "Report · Full Scan",
+        "rest": "Apa yang berubah, mengapa ia penting, apa yang perlu dilakukan seterusnya — dengan bukti dilampirkan, dan ringkasan mingguan yang ditulis untuk peringkat jenama anda sekarang. Imbasan Penuh menjalankan Penemuan → Pemantau → Laporan sekali gus."
       },
       {
-        "strong": "Kandungan + Edaran + Ensiklopedia",
-        "rest": "Halaman dan FAQ jurang, penempatan sedia hantar untuk sumber yang benar-benar dipetik AI di pasaran anda, dan entri ensiklopedia dengan petikan."
+        "strong": "Site · Optimize",
+        "rest": "JSON-LD sedia tampal dan suntingan konkrit untuk halaman anda sendiri; halaman dan FAQ sedia terbit untuk soalan yang dimenangi pesaing hari ini."
       },
       {
-        "strong": "Laporan + ringkasan mingguan",
-        "rest": "Ringkasan pelanggan mengikut peringkat setiap minggu, laporan mendalam bulanan, amaran penurunan ketara, dan gabungan satu muka merentas semua jenama anda."
+        "strong": "Distribute · Encyclopedia",
+        "rest": "Kit penempatan untuk sumber yang sudah dipetik AI di pasaran anda, tidak termasuk pesaing, dan draf ensiklopedia dengan laluan yang mematuhi peraturan."
       }
-    ]
+    ],
+    "quote_title": "Bukan papan pemuka —<br>tetapi <span class=\"hl\">pasukan ejen yang menghasilkan kerja.</span>",
+    "quote_desc": "Seorang pemilik di pihak anda, sepuluh ejen di pihak kami: mereka membaca, mengukur, membina dan merekod, dan pasukan anda menyemak serta membuat keputusan. Tiada pengambilan jurutera di pihak anda."
   },
   "market": {
     "tag": "PASARAN",
@@ -238,7 +241,7 @@
       },
       {
         "q": "Bagaimana MemeCMO berbeza daripada Semrush, Profound atau alat GEO lain?",
-        "a": "Kebanyakan alat GEO berhenti pada pemantauan: memberi anda papan pemuka dan meninggalkan kerja kepada anda. Sepuluh ejen MemeCMO turut menghasilkan kerja siap — jawapan standard, skema JSON-LD, kandungan jurang, penempatan pihak ketiga, entri ensiklopedia — berasaskan fakta jenama yang disahkan. Dua lagi perbezaan: Ketepatan Jawapan (menyemak mengikut enjin sama ada AI memberi fakta produk yang betul kepada pelanggan anda — metrik kos sokongan yang tiada pada alat pantau-sahaja) dan kedalaman pasaran di mana yang lain nipis: bahasa Asia Tenggara dan pengukuran AS mengikut negeri dengan kerangka peraturan negeri. <a href=\"/compare/\">Perbandingan penuh dengan sumber →</a>"
+        "a": "Kebanyakan alat GEO berhenti pada papan pemuka. MemeCMO pergi tiga langkah lebih jauh. Sepuluh ejennya menghasilkan kerja siap — jawapan standard, JSON-LD, kandungan jurang, penempatan, draf ensiklopedia — daripada fakta awam anda sahaja. Analisisnya melangkaui skor: enjin dikelaskan mengikut sama ada ia membaca web, halaman yang dipetik diambil dan diprofilkan, jawapan AI disemak berbanding laman anda sendiri, dan setiap tindakan diukur berbanding soalan yang tidak anda sentuh. Dan setiap angka mengikut standard pengukuran awam, dalam bahasa Asia Tenggara dan bagi AS mengikut negeri. <a href=\"/compare/\">Perbandingan penuh dengan sumber →</a>"
       }
     ]
   },
@@ -303,5 +306,132 @@
   },
   "hero_scan_ph": "jenamaanda.my",
   "hero_scan_btn": "Lihat apa kata AI tentang anda",
-  "hero_scan_note": "Imbasan pratonton percuma · jawapan sebenar ChatGPT & Google AI Overview · tanpa kad kredit"
+  "hero_scan_note": "Imbasan pratonton percuma · jawapan sebenar ChatGPT & Google AI Overview · tanpa kad kredit",
+  "story": {
+    "nav": "Di dalam",
+    "hero_alt": "Pemantau MemeCMO: lima enjin AI, lima metrik, kehadiran dari masa ke masa",
+    "sections": [
+      {
+        "id": "measure",
+        "tag": "UKUR · LIMA ENJIN · SATU PANEL BEKU",
+        "title": "Tanya AI apa yang pembeli anda tanya. Setiap minggu, soalan yang sama.",
+        "desc": "Setiap imbasan mengemukakan soalan yang benar-benar ditanya pembeli anda — dalam bahasa mereka, pada setiap peringkat pembelian — kepada ChatGPT, Gemini, Perplexity, Claude dan halaman Google AI Overview sebenar. Panel kekal beku, jadi perubahan skor ialah perubahan pada AI, bukan pada ujian.",
+        "bullets": [
+          "Kehadiran, share of voice, keterserlahan, sentimen dan petikan — setiap kadar dipaparkan bersama pengangka dan penyebutnya",
+          "Setiap enjin secara berasingan: jenama yang sama boleh mendahului pada satu enjin dan tiada langsung pada enjin seterusnya",
+          "Setiap angka membuka jawapan penuh di sebaliknya dan halaman yang dipetik enjin"
+        ],
+        "shot": "monitor",
+        "alt": "Papan pemuka pemantau MemeCMO: kehadiran dari masa ke masa, jadual keterlihatan jenama, kehadiran mengikut enjin"
+      },
+      {
+        "id": "sources",
+        "tag": "SUMBER · DI MANA AI MENCARI",
+        "title": "Kami membaca halaman yang dibaca AI.",
+        "desc": "Di setiap pasaran, enjin bergantung pada senarai laman yang pendek. Kami menyusun kedudukannya merentas setiap imbasan, mengambil halaman yang dipetik dan memprofilkannya — struktur, kebaharuan, skema, panjang — supaya “apa yang dipetik” menjadi piawai yang dituju kandungan anda, bukan tekaan.",
+        "bullets": [
+          "Domain yang menjadi sandaran setiap enjin di pasaran anda, disusun merentas setiap imbasan",
+          "Persamaan halaman yang dipetik, mengikut enjin dan mengikut kekerapan ia dipetik",
+          "Senarai bulanan awam sumber yang dipetik AI di Vietnam, bebas diguna semula (CC BY 4.0)"
+        ],
+        "shot": "sources",
+        "alt": "Sumber yang dipetik enjin AI, dengan ciri halaman bagi setiap domain",
+        "cta": "Sumber yang dipetik AI di Vietnam",
+        "cta_href": "https://app.memecmo.ai/sources/vietnam"
+      },
+      {
+        "id": "act",
+        "tag": "BERTINDAK · SEPULUH EJEN · HASIL KERJA",
+        "title": "Sepuluh ejen menghasilkan jawapan yang belum ada.",
+        "desc": "Jawapan standard, suntingan halaman, skema sedia tampal, kandungan jurang, kit penempatan dan draf ensiklopedia — dalam bahasa pembeli, ditulis mengikut profil petikan pasaran anda, daripada fakta yang sudah diterbitkan di laman anda. Angka tanpa sumber menjadi ruang kosong untuk anda isi, tidak sekali-kali direka.",
+        "bullets": [
+          "Hantar ejen di kiri, semak di pentas, lihat aktiviti langsung di kanan",
+          "Setiap draf berpandukan apa yang benar-benar dipetik enjin di pasaran anda",
+          "Apa yang disunting pasukan anda kekal — setiap larian semula menghormatinya"
+        ],
+        "shot": "workspace",
+        "alt": "Ruang kerja MemeCMO dengan hasil kerja gaya kad dan panel aktiviti langsung"
+      },
+      {
+        "id": "prove",
+        "tag": "BUKTIKAN · SEBELUM DAN SELEPAS",
+        "title": "Bukti, bukan perasaan.",
+        "desc": "Catat apa yang sudah disiarkan. Kami mengambil halaman itu, merekod cap jarinya dan memerhati sama ada enjin mula menggunakannya. Imbasan seterusnya menunjukkan apa yang berubah — mengikut soalan dan mengikut enjin — bersebelahan soalan yang tidak anda sentuh.",
+        "bullets": [
+          "Setiap tindakan yang dicatat disahkan secara langsung, dengan perubahannya dijejaki dari masa ke masa",
+          "Sebelum/selepas mengikut soalan dan enjin, serta liputan laman dan percanggahan dalam setiap laporan",
+          "Satu standard pengukuran awam (v1.1) di sebalik setiap angka yang kami terbitkan"
+        ],
+        "shot": "report",
+        "alt": "Laporan MemeCMO dengan cadangan yang dilipat, liputan laman dan tindakan yang disahkan",
+        "cta": "Baca standard pengukuran",
+        "cta_href": "https://app.memecmo.ai/standard/MemeCMO_AI_Visibility_Measurement_Standard_v1.1.pdf"
+      }
+    ]
+  },
+  "engines": {
+    "tag": "ENJIN",
+    "title": "Tiga jenis jawapan AI.<br>Tiga cara berbeza untuk menggerakkannya.",
+    "desc": "Bukan semua enjin membaca web. Kami mengelaskan setiap satu berdasarkan apa yang ditunjukkan imbasan itu sendiri — berapa banyak jawapannya disertakan sumber — kerana apa yang menggerakkannya berbeza.",
+    "classes": [
+      {
+        "name": "Membaca web, dan laman anda",
+        "engines": [
+          "perplexity",
+          "aio"
+        ],
+        "body": "Jawapan disusun daripada halaman yang diambil secara langsung, termasuk halaman anda. Halaman anda sendiri, data berstruktur dan kebaharuan kandungan menggerakkan enjin ini dahulu.",
+        "lever": "Tumpuan: laman anda, dan halaman yang dibandingkan dengannya"
+      },
+      {
+        "name": "Membaca web, jarang laman anda",
+        "engines": [
+          "claude"
+        ],
+        "body": "Mencari sebelum menjawab, tetapi dalam imbasan kami ia jauh lebih bergantung pada ensiklopedia, berita dan direktori berbanding laman jenama.",
+        "lever": "Tumpuan: halaman pihak ketiga yang dipercayai dan memuatkan fakta anda"
+      },
+      {
+        "name": "Menjawab daripada latihan",
+        "engines": [
+          "chatgpt",
+          "gemini"
+        ],
+        "body": "Menjawab daripada apa yang telah dipelajari model. Ia berubah mengikut apa yang diterbitkan secara meluas dan konsisten tentang anda — cara yang paling perlahan, dan paling tahan lama.",
+        "lever": "Tumpuan: fakta yang sama, diterbitkan secara meluas dan konsisten"
+      }
+    ],
+    "note": "Kelas ditentukan oleh setiap imbasan, bukan senarai tetap: apabila enjin mengubah cara ia menjawab, kelasnya turut berubah."
+  },
+  "methods": {
+    "tag": "ANALISIS",
+    "title": "Enam analisis di sebalik setiap laporan.",
+    "desc": "Skor keterlihatan ialah titik permulaan kerja. Inilah analisis yang memberitahu anda apa yang perlu dilakukan seterusnya — dan sama ada ia berkesan.",
+    "items": [
+      {
+        "title": "Di mana AI membaca, mengikut peringkat",
+        "body": "Kami membahagikan setiap soalan mengikut peringkat pembeli. Sebelum pembeli mengenali sesebuah jenama, laman jenama itu sendiri hanya 0.7% daripada apa yang dibaca AI (12 jenama, 3,011 jawapan bersumber di Vietnam). Jadi kami tunjukkan halaman pihak ketiga mana yang menentukan jawapan pertama — dan merancang untuknya."
+      },
+      {
+        "title": "Halaman yang dipetik, dibuka dan diukur",
+        "body": "Kami mengambil halaman yang dipetik setiap enjin dan memprofilkan struktur, kebaharuan, skema dan panjangnya. Kandungan anda mendapat piawai terukur untuk dicapai, bukan sekadar panduan gaya."
+      },
+      {
+        "title": "Laman anda berbanding apa yang dikatakan AI",
+        "body": "Kami membaca halaman awam anda dan meletakkannya bersebelahan jawapan: di mana AI bercanggah dengan anda, di mana ia tidak berkata apa-apa, di mana ia meninggalkan apa yang anda terbitkan. Pembetulan dibuat di sumbernya — laman anda — bukan dalam pangkalan data kami."
+      },
+      {
+        "title": "Sebelum dan selepas, berbanding kumpulan kawalan",
+        "body": "Setiap tindakan yang anda catat diberi tarikh dan disemak secara langsung. Pergerakan pada soalan yang disasarkannya dibandingkan dengan soalan yang tidak anda sentuh, pada panel beku yang sama; hanya kenaikan melebihi 10 mata di atas kawalan yang dikira."
+      },
+      {
+        "title": "Model pemarkahan yang diuji dengan label manusia",
+        "body": "Jawapan diberi skor oleh model, dan model itu disemak berbanding label manusia yang dibuat secara buta dalam setiap bahasa. Model pemarkahan baharu hanya digunakan apabila ia sepadan dengan label tersebut."
+      },
+      {
+        "title": "Jawapan gagal tidak pernah dikira “tidak disebut”",
+        "body": "Jika enjin tidak menjawab atau halaman gagal dimuatkan, jawapan itu ditanda gagal — tidak pernah dikira sebagai jenama anda tiada — dan setiap laporan menyatakan liputannya."
+      }
+    ]
+  }
 }

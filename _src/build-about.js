@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Build /about/ for all 6 locales from the EN master (about/index.html) by
+// Build /about/ for all 8 locales from the EN master (about/index.html) by
 // swapping localized strings. Facts (names, numbers, addresses) stay latin.
 // Run AFTER _src/build.js. EN master is hand-maintained; this file holds the
 // per-locale strings.
@@ -12,9 +12,10 @@ const EN = fs.readFileSync(path.join(ROOT, 'about', 'index.html'), 'utf8')
   .replace(/<link rel="canonical" href="[^"]*about\/">/, '<link rel="canonical" href="https://memecmo.ai/about/">');
 
 const SITE = 'https://memecmo.ai';
-const LOCS = { en: '', zh: 'zh/', vi: 'vi/', th: 'th/', fil: 'fil/', ms: 'ms/' };
+const LOCS = { en: '', zh: 'zh/', 'zh-hant': 'zh-hant/', vi: 'vi/', id: 'id/', th: 'th/', fil: 'fil/', ms: 'ms/' };
+const HREF = { 'zh-hant': 'zh-Hant' };
 const HREFLANG = Object.entries(LOCS).map(([lc, p]) =>
-  `<link rel="alternate" hreflang="${lc === 'zh' ? 'zh' : lc}" href="${SITE}/${p}about/">`).join('\n') +
+  `<link rel="alternate" hreflang="${HREF[lc] || lc}" href="${SITE}/${p}about/">`).join('\n') +
   `\n<link rel="alternate" hreflang="x-default" href="${SITE}/about/">`;
 
 const T = {
@@ -134,6 +135,9 @@ const T = {
     'Home': 'Laman utama', 'Guide': 'Panduan', 'US line': 'Barisan AS', 'Sign in →': 'Log masuk →',
   },
 };
+
+// Indonesian and Traditional Chinese strings live in i18n/about-extra.json.
+Object.assign(T, JSON.parse(fs.readFileSync(path.join(__dirname, 'i18n', 'about-extra.json'), 'utf8')));
 
 // EN gets hreflang injected too.
 function withHreflang(html, canonicalPath) {

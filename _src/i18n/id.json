@@ -1,0 +1,446 @@
+{
+  "lang_native": "Bahasa Indonesia",
+  "hreflang": "id",
+  "og_locale": "id_ID",
+  "dir": "ltr",
+  "meta": {
+    "title": "MemeCMO — Platform GEO yang menjadikan merek Anda jawaban di AI",
+    "description": "MemeCMO adalah platform Generative Engine Optimization (GEO): sepuluh agen AI mengukur cara ChatGPT, Gemini, Perplexity, Claude, dan Google AI Overview menggambarkan merek Anda, membangun apa yang belum ada (jawaban, skema, konten, sitasi), dan melaporkannya setiap minggu. Asia Tenggara di enam pasar; Amerika Serikat per negara bagian.",
+    "keywords": "platform GEO, generative engine optimization, AEO, visibilitas merek di AI, akurasi jawaban, share of voice di AI, tingkat sitasi, penyebutan merek di ChatGPT, pemantauan Google AI Overview, GEO Asia Tenggara, GEO Indonesia, GEO Vietnam, GEO negara bagian AS, platform GEO untuk agensi"
+  },
+  "og": {
+    "title": "MemeCMO — Platform GEO yang menjadikan merek Anda jawaban di AI",
+    "description": "Sepuluh agen AI mengukur, membangun, dan melaporkan visibilitas Anda di dalam ChatGPT, Gemini, Perplexity, Claude, dan Google AI Overview — Asia Tenggara dan Amerika Serikat, per negara bagian."
+  },
+  "service": {
+    "name": "Platform GEO MemeCMO",
+    "description": "Platform Generative Engine Optimization: rangkaian sepuluh agen yang mengukur visibilitas di AI dengan metrik standar (kehadiran, share of voice, tingkat sitasi, sentimen AI, akurasi jawaban), membangun aset yang belum ada (jawaban standar, skema JSON-LD, konten pengisi celah, penempatan di pihak ketiga, entri ensiklopedia), serta mengirimkan ringkasan mingguan dan laporan bulanan. Dua lini produk: Asia Tenggara (Vietnam, Thailand, Indonesia, Malaysia, Singapura, Filipina) dan Amerika Serikat, per negara bagian.",
+    "offer_name": "Paket langganan platform dan paket kredit",
+    "offer_desc": "Starter US$99, Growth US$199, dan Scale US$1.999+ per merek × pasar per bulan (pemindaian terjadwal, panel prompt, mesin AI, laporan, hasil kerja), ditambah paket kredit untuk proses sesuai permintaan. Mitra agensi mendapatkan ruang kerja per klien, laporan gabungan, dan harga grosir."
+  },
+  "nav": {
+    "philosophy": "Mengapa kami",
+    "tech": "Platform",
+    "market": "Pasar",
+    "process": "Cara kerja",
+    "contact": "Kontak",
+    "signin": "Masuk",
+    "cta": "Ajukan akses",
+    "about": "Tentang",
+    "guide": "Panduan",
+    "us": "Lini AS",
+    "inside": "Di dalam platform",
+    "methods": "Metode"
+  },
+  "hero": {
+    "scroll_label": "GULIR",
+    "pause_label_playing": "Diputar otomatis",
+    "pause_label_paused": "Dijeda · arahkan kursor untuk menjelajah",
+    "slides": [
+      {
+        "tag": "PLATFORM GEO · UKUR · BANGUN · LAPORKAN",
+        "title": "<span class=\"hl\">MemeCMO</span><br>Jadikan merek Anda jawaban di AI.",
+        "desc": "Ratusan juta pembeli kini bertanya kepada ChatGPT, Gemini, Perplexity, dan Google AI sebelum membuka kotak pencarian. MemeCMO mengukur dengan tepat cara mesin-mesin itu menggambarkan merek Anda, membangun apa yang belum ada, dan melaporkannya setiap minggu — satu platform, sepuluh agen.",
+        "btn": "Masuk ke platform",
+        "btn_href": "https://app.memecmo.ai/login"
+      },
+      {
+        "tag": "SEPULUH AGEN · HASIL KERJA, BUKAN SARAN",
+        "title": "Bukan sekadar dasbor —<br><span class=\"hl\">tim agen yang menyerahkan hasil.</span>",
+        "desc": "Penemuan prompt, pustaka jawaban standar, skema JSON-LD, konten pengisi celah, penempatan di pihak ketiga, entri ensiklopedia — setiap agen menghasilkan hasil kerja yang siap dipublikasikan, hanya berdasarkan fakta yang sudah publik di situs Anda. Angka tanpa sumber dibiarkan sebagai kolom kosong, tidak pernah dikarang.",
+        "btn": "Lihat kesepuluh agen",
+        "btn_href": "#geo-tech"
+      },
+      {
+        "tag": "SATU STANDAR PUBLIK · PENGUKURAN YANG JUJUR",
+        "title": "Diukur dengan standar<br>yang bisa Anda <span class=\"hl\">baca dan periksa.</span>",
+        "desc": "Kehadiran, share of voice, kemenonjolan, sentimen, sitasi — setiap rasio lengkap dengan pembilang dan penyebutnya, pada panel prompt tetap, dengan jawaban yang sudah dinilai dan bisa Anda buka. AI Visibility Measurement Standard v1.1 terbuka untuk publik; paket berbeda dalam cakupan, tidak pernah dalam metode.",
+        "btn": "Baca standarnya",
+        "btn_href": "https://app.memecmo.ai/standard/MemeCMO_AI_Visibility_Measurement_Standard_v1.1.pdf"
+      },
+      {
+        "tag": "DUA LINI PRODUK · ASIA TENGGARA · AMERIKA SERIKAT",
+        "title": "Enam pasar Asia Tenggara.<br><span class=\"hl\">Lima puluh negara bagian Amerika.</span>",
+        "desc": "Dalam bahasa Vietnam, Thai, Indonesia, Melayu, dan Filipino, lapisan pengetahuan AI masih hampir kosong — pihak yang bergerak lebih dulu yang menguasainya. Di Amerika Serikat, hukum negara bagian mengubah jawaban yang benar, sehingga kami mengukur dan membangun per negara bagian.",
+        "btn": "Jelajahi lini AS",
+        "btn_href": "https://us.memecmo.ai/"
+      },
+      {
+        "tag": "UNTUK AGENSI · MITRA SALURAN",
+        "title": "Jalankan GEO untuk <span class=\"hl\">setiap klien</span><br>dari satu ruang kerja.",
+        "desc": "Satu ruang kerja per klien, pengguna tanpa batas, ringkasan mingguan ke kotak masuk mereka, laporan gabungan satu halaman untuk pimpinan, kredit untuk pemindaian sesuai permintaan — dan harga grosir bagi mitra yang menjual kembali.",
+        "btn": "Menjadi mitra",
+        "btn_href": "#contact"
+      }
+    ]
+  },
+  "tagline": {
+    "main": "<span class=\"brand\">MemeCMO</span> — kami tidak menebak apa yang dikatakan AI tentang Anda. Kami mengukurnya, memperbaikinya, dan membuktikan perubahannya.",
+    "sub": "Lima mesin · sepuluh agen · satu standar pengukuran publik"
+  },
+  "philosophy": {
+    "tag": "BEKERJA DENGAN KAMI",
+    "title": "Enam komitmen yang menjadi bagian dari layanan.",
+    "desc": "Komitmen yang bisa Anda pegang. Setiap komitmen bisa Anda lihat sendiri di ruang kerja, bukan sekadar kalimat di slide presentasi.",
+    "cards": [
+      {
+        "icon": "",
+        "title": "Hasil kerja, bukan saran",
+        "desc": "Setiap agen menghasilkan sesuatu yang bisa Anda publikasikan: halaman, blok skema, paket penempatan, draf ensiklopedia. Anda yang meninjau dan memublikasikan; kami tidak pernah mengunggah apa pun atas nama Anda."
+      },
+      {
+        "icon": "",
+        "title": "Fakta hanya dari situs Anda",
+        "desc": "Agen hanya menulis berdasarkan fakta yang sudah publik di situs Anda dan dokumen yang Anda serahkan kepada kami. Angka tanpa sumber menjadi kolom kosong untuk Anda isi."
+      },
+      {
+        "icon": "",
+        "title": "Suntingan Anda bersifat permanen",
+        "desc": "Menandai ulang pesaing, mengubah redaksi pertanyaan, memperbaiki satu kalimat — semuanya dicatat beserta alasannya dan diterapkan kembali setiap kali dijalankan ulang. Penilaian tim Anda terus terakumulasi, tidak hilang."
+      },
+      {
+        "icon": "",
+        "title": "Satu ringkasan per minggu, satu kartu untuk ditindaklanjuti",
+        "desc": "Ringkasan dalam bahasa yang mudah dipahami setiap minggu, dan satu tindakan yang paling penting dalam bentuk kartu di obrolan tim Anda: konfirmasi dengan sekali ketuk, lalu tindakan itu masuk ke log tindakan untuk diukur."
+      },
+      {
+        "icon": "",
+        "title": "Standar yang bisa Anda periksa",
+        "desc": "Setiap rasio disertai pembilang dan penyebutnya, didefinisikan dalam Standar Pengukuran (v1.1) yang terbuka untuk publik. Paket berbeda dalam cakupan, tidak pernah dalam metode."
+      },
+      {
+        "icon": "",
+        "title": "Tidak menjual peringkat, tidak menjanjikan apa pun soal AI",
+        "desc": "Kami tidak menjual posisi dalam jawaban AI dan tidak menjamin apa yang akan dikatakan sebuah mesin. Kami mengukur dengan jujur, memublikasikan daftar sumber kami, dan bekerja sama dengan media yang sudah dibaca AI."
+      }
+    ]
+  },
+  "tech": {
+    "tag": "SEPULUH AGEN",
+    "title": "Sepuluh agen.<br>Masing-masing menyerahkan hasil kerja.",
+    "desc": "Temukan apa yang ditanyakan pembeli → ukur apa yang dijawab AI → bangun yang belum ada dari fakta Anda sendiri → catat apa yang sudah tayang → ukur lagi pada panel yang sama.",
+    "stack_title": "Rangkaian agen",
+    "center_text": "10<br>agen",
+    "items": [
+      {
+        "strong": "Profile · Discovery · Standard Answers",
+        "rest": "Basis fakta yang dibangun hanya dari halaman publik dan dokumen Anda; 110 pertanyaan pembeli per pasar dalam bahasa pembeli, 20 di antaranya pertanyaan kunci; jawaban baku yang berlandaskan fakta tersebut."
+      },
+      {
+        "strong": "Monitor",
+        "rest": "Lima mesin, antarmuka asli, satu panel tetap. Kehadiran dari waktu ke waktu, share of voice, per mesin dan per pertanyaan — setiap sel membuka jawaban di baliknya."
+      },
+      {
+        "strong": "Report · Full Scan",
+        "rest": "Apa yang berubah, mengapa penting, apa langkah berikutnya — lengkap dengan bukti, plus ringkasan mingguan yang ditulis sesuai tahap merek Anda. Pemindaian Penuh menjalankan Penemuan → Pemantau → Laporan sekaligus."
+      },
+      {
+        "strong": "Site · Optimize",
+        "rest": "JSON-LD siap tempel dan perubahan konkret untuk halaman Anda sendiri; halaman dan FAQ siap dipublikasikan untuk pertanyaan yang saat ini dimenangkan pesaing."
+      },
+      {
+        "strong": "Distribute · Encyclopedia",
+        "rest": "Paket penempatan untuk sumber yang sudah dikutip AI di pasar Anda, tanpa situs pesaing, serta draf ensiklopedia dengan jalur pengajuan yang sesuai ketentuan."
+      }
+    ],
+    "quote_title": "Bukan sekadar dasbor —<br><span class=\"hl\">tim agen yang menyerahkan hasil.</span>",
+    "quote_desc": "Satu penanggung jawab di pihak Anda, sepuluh agen di pihak kami: mereka membaca, mengukur, membangun, dan mencatat, sementara tim Anda meninjau dan memutuskan. Anda tidak perlu merekrut tenaga teknis."
+  },
+  "market": {
+    "tag": "PASAR",
+    "title": "Asia Tenggara, enam pasar.<br>Amerika Serikat, per negara bagian.",
+    "desc": "Satu proyek adalah satu merek × satu pasar. Di Asia Tenggara, lapisan pengetahuan AI dalam bahasa lokal hampir kosong; di AS, hukum negara bagian mengubah jawaban yang benar — karena itu setiap negara bagian adalah pasar tersendiri.",
+    "cards": [
+      {
+        "flag": "🇻🇳",
+        "name": "Vietnam",
+        "lang": "Tiếng Việt",
+        "desc": "ChatGPT: 8 juta+ MAU. Persaingan GEO nyaris nol. Pasar unggulan kami."
+      },
+      {
+        "flag": "🇹🇭",
+        "name": "Thailand",
+        "lang": "ภาษาไทย",
+        "desc": "Ekosistem AI berbahasa Thai baru mulai tumbuh — peluang bagi merek masih terbuka lebar."
+      },
+      {
+        "flag": "🇮🇩",
+        "name": "Indonesia",
+        "lang": "Bahasa Indonesia",
+        "desc": "Pasar Anda: 270 juta penduduk dan pasar terbesar di kawasan ini — adopsi AI-nya terdepan di Asia Tenggara."
+      },
+      {
+        "flag": "🇲🇾",
+        "name": "Malaysia",
+        "lang": "Bahasa Melayu",
+        "desc": "Persimpangan bahasa Melayu / Inggris / Mandarin — GEO memerlukan koordinasi tiga bahasa."
+      },
+      {
+        "flag": "🇺🇸",
+        "name": "Amerika Serikat",
+        "lang": "Per negara bagian · us.memecmo.ai",
+        "desc": "50 negara bagian, Tier-1 CA · TX · FL · NY. Sektor teregulasi tempat hukum negara bagian mengubah jawaban: jasa hukum, asuransi, layanan kesehatan, jasa perawatan rumah, energi surya."
+      }
+    ],
+    "insight_title": "Mengapa pasar-pasar ini?",
+    "insight_body": "Pemahaman AI berbahasa Inggris tentang merek global sudah sangat padat persaingannya. Dalam <span class=\"hl\">bahasa Vietnam, Thai, Indonesia, Melayu, dan Filipino</span>, lapisan pengetahuan AI sebagian besar masih kosong — pihak yang bergerak lebih dulu yang menulis jawaban bawaannya. Dan di <span class=\"hl\">Amerika Serikat</span>, pembeli bertanya kepada AI sambil menyebut negara bagian (\"pengacara cedera terbaik di Texas\"), dan jawaban yang benar serta patuh aturan berbeda di setiap batas negara bagian — skor nasional menyembunyikan di mana Anda sebenarnya menang atau kalah."
+  },
+  "process": {
+    "tag": "CARA KERJA",
+    "title": "Titik awal. Bangun. Buktikan — pada panel yang sama.",
+    "desc": "Pemindaian terjadwal berjalan sesuai frekuensi paket Anda; agen membangun di sela-selanya; setiap tindakan yang Anda catat diverifikasi dan diatribusikan pada pemindaian berikutnya.",
+    "steps": [
+      {
+        "phase": "HARI 0 · TITIK AWAL",
+        "title": "Profil, panel, pemindaian pertama",
+        "desc": "Agen Profil membangun basis fakta dari situs Anda; agen Penemuan menyusun panel prompt dalam bahasa pembeli; agen Pemantau mengukur lima mesin; agen Laporan memprioritaskan celah. Titik awal Hari-0 Anda siap dalam sekitar lima menit, pada panel yang sejak itu tidak diubah."
+      },
+      {
+        "phase": "MINGGU 1–4 · BANGUN",
+        "title": "Hasilkan aset, catat tindakan",
+        "desc": "Jawaban standar, JSON-LD, konten pengisi celah, penempatan, draf ensiklopedia — masing-masing berlandaskan fakta Anda, masing-masing Anda sunting, dan setiap suntingan dipertahankan saat dijalankan ulang. Ketika sesuatu sudah tayang, catat: platform akan mengambil dan memverifikasi halamannya."
+      },
+      {
+        "phase": "SETIAP PERIODE · BUKTIKAN",
+        "title": "Ukur ulang, atribusikan, sesuaikan",
+        "desc": "Pemindaian terjadwal pada panel tetap menjaga skor tetap sebanding. Efek = perubahan pada prompt yang Anda targetkan dikurangi perubahan pada prompt kontrol; hanya perubahan di atas 10 poin yang dihitung. Ringkasan ke kotak masuk, peringatan saat angka turun, kredit untuk “jalankan sekarang”."
+      }
+    ]
+  },
+  "faq": {
+    "tag": "FAQ · JAWABAN",
+    "title": "Jawaban atas pertanyaan Anda.",
+    "desc": "Jawaban yang paling sering kami berikan — ditulis agar mesin AI juga bisa mengutipnya dengan rapi.",
+    "items": [
+      {
+        "q": "Apa itu GEO (Generative Engine Optimization)?",
+        "a": "GEO adalah praktik mengoptimalkan cara sebuah merek ditampilkan di dalam mesin AI generatif seperti ChatGPT, Gemini, Perplexity, Claude, dan Google AI Overview. Jika SEO menyasar daftar tautan yang diurutkan, GEO menyasar jawabannya itu sendiri — apakah merek Anda disebut, seberapa menonjol, seberapa akurat, dan sumber mana yang dikutip mesin tersebut."
+      },
+      {
+        "q": "Apa bedanya GEO dengan SEO?",
+        "a": "SEO mengoptimalkan peringkat dalam daftar tautan biru; GEO mengoptimalkan agar merek disebut, akurat, dan menonjol di dalam jawaban yang dihasilkan. Caranya pun berbeda: data terstruktur, sitasi pihak ketiga yang otoritatif, jawaban baku untuk pertanyaan pembeli, dan konten yang ditulis untuk dikutip — bukan backlink dan kepadatan kata kunci."
+      },
+      {
+        "q": "Apa yang diukur MemeCMO, dan bagaimana caranya?",
+        "a": "Lima metrik standar per mesin, masing-masing dengan pembilang dan penyebutnya: kehadiran (jawaban yang menyebut Anda ÷ semua jawaban), share of voice (sebutan Anda ÷ semua sebutan merek yang dipantau, totalnya 100%), kemenonjolan, sentimen saat disebut, dan sitasi (jawaban yang mengutip domain Anda sendiri). Ditambah tingkat top-of-mind dan daftar celah pada pertanyaan dengan niat beli tinggi. Semuanya diukur pada panel prompt tetap per pasar dan didefinisikan dalam AI Visibility Measurement Standard v1.1 yang terbuka untuk publik."
+      },
+      {
+        "q": "Bagaimana Anda mencegah AI mengarang fakta?",
+        "a": "Agen konten hanya boleh menggunakan angka dari profil merek Anda dan dokumen yang Anda unggah; angka apa pun tanpa sumber menjadi kolom kosong untuk Anda isi. Domain pesaing dan vendor dikecualikan dari target penempatan, terjemahan kata per kata ditulis ulang sesuai gaya bahasa pasar, klaim tanpa sumber ditandai, dan tidak ada yang kami publikasikan sendiri — Anda yang memublikasikan, lalu mencatat tindakannya, dan kami memverifikasinya."
+      },
+      {
+        "q": "Apa itu Standar Pengukuran?",
+        "a": "Dokumen publik (v1.1, September 2026) yang mendefinisikan setiap metrik, desain pengambilan sampel, label tingkat keyakinan, cakupan sitasi (4/5 mesin), perbandingan dengan halaman publik milik klien sendiri, verifikasi tindakan yang dicatat, dan aturan publikasi daftar sumber. Setiap angka yang ditampilkan platform dapat ditelusuri ke dokumen ini. <a href=\"https://app.memecmo.ai/standard/MemeCMO_AI_Visibility_Measurement_Standard_v1.1.pdf\">Baca standarnya →</a>"
+      },
+      {
+        "q": "Mesin AI dan pasar mana saja yang dicakup?",
+        "a": "ChatGPT, Gemini, Perplexity, Claude, dan halaman Google AI Overview yang asli, dengan target lokasi. Pasar: Vietnam, Thailand, Indonesia, Malaysia, Singapura, dan Filipina dalam bahasa lokal masing-masing, serta Amerika Serikat per negara bagian (Tier-1: California, Texas, Florida, New York), dengan kerangka hukum negara bagian untuk sektor teregulasi."
+      },
+      {
+        "q": "Bagaimana sistem harganya?",
+        "a": "Tiga paket per merek × pasar: Starter US$99, Growth US$199, dan Scale US$1.999+ per bulan. Paket menentukan frekuensi pemindaian terjadwal, ukuran panel prompt, mesin, jumlah proyek, frekuensi laporan, dan kredit yang disertakan; pemindaian terjadwal dan laporan sudah termasuk. Kredit hanya dipakai untuk proses yang Anda jalankan sendiri. Jumlah pengguna tidak dibatasi; mitra agensi mendapatkan ruang kerja per klien dan harga grosir. <a href=\"https://app.memecmo.ai/pricing\">Paket, kredit, dan item layanan →</a>"
+      },
+      {
+        "q": "Siapa pemilik data — dan masukannya?",
+        "a": "Fakta, merek dagang, dan dokumen merek Anda tetap milik Anda; platform, metode prompt, dan aturan penilaian adalah milik kami. Setiap koreksi yang dilakukan tim Anda — pesaing yang ditandai ulang, prompt yang diubah redaksinya, tindakan yang dicatat — direkam beserta alasannya dan digunakan kembali, sehingga masukan itu menjadi aset proyek Anda. Anda dapat mengekspor seluruh riwayat Anda hingga 12 bulan setelah kontrak berakhir, dan setiap angka yang kami publikasikan berasal dari minimal 5 merek yang telah dianonimkan."
+      },
+      {
+        "q": "Untuk siapa MemeCMO?",
+        "a": "Merek yang masuk ke Asia Tenggara — terutama perusahaan Tiongkok yang berekspansi global — merek regional yang mempertahankan pasar dalam negerinya, merek AS di sektor teregulasi yang jawabannya berbeda per negara bagian, serta agensi dan grup media yang melayani mereka sebagai mitra saluran."
+      },
+      {
+        "q": "Apa bedanya MemeCMO dengan Semrush, Profound, atau alat GEO lainnya?",
+        "a": "Sebagian besar alat GEO berhenti di dasbor. MemeCMO melangkah tiga tahap lebih jauh. Sepuluh agennya menghasilkan hasil kerja — jawaban standar, JSON-LD, konten pengisi celah, penempatan, draf ensiklopedia — hanya dari fakta publik Anda. Analisisnya melampaui skor: mesin dikelompokkan berdasarkan apakah mesin itu membaca web, halaman yang dikutip diambil dan diprofilkan, jawaban AI dicocokkan dengan situs Anda sendiri, dan setiap tindakan diukur terhadap pertanyaan yang tidak Anda sentuh. Dan setiap angka mengikuti standar pengukuran publik, dalam bahasa-bahasa Asia Tenggara dan per negara bagian di AS. <a href=\"/compare/\">Perbandingan lengkap dengan sumber →</a>"
+      }
+    ]
+  },
+  "contact": {
+    "tag": "KONTAK",
+    "title": "Kalimat pertama merek Anda dalam percakapan AI —<br>Anda yang menentukan isinya.",
+    "lead": "Ajukan akses platform atau diskusi kemitraan. Sebutkan merek dan pasarnya; kami akan menjalankan pemindaian titik awal dan memandu Anda membaca hasilnya.",
+    "email_label": "EMAIL",
+    "hq_label": "KANTOR PUSAT",
+    "hq_value": "Hong Kong · beroperasi di Asia Tenggara dan Amerika Serikat",
+    "form_title": "Ajukan akses",
+    "form_sub": "Kami membalas dalam 24 jam.",
+    "f_name": "Nama",
+    "f_name_ph": "Nama Anda",
+    "f_company": "Perusahaan",
+    "f_company_ph": "Nama perusahaan",
+    "f_email": "Email",
+    "f_email_ph": "nama@perusahaan.co.id",
+    "f_market": "Pasar sasaran",
+    "f_market_ph": "Indonesia, Vietnam, Thailand, Texas…",
+    "f_msg": "Pesan",
+    "f_msg_ph": "Jelaskan singkat merek dan kebutuhan Anda…",
+    "submit": "Kirim permintaan",
+    "submit_loading": "Mengirim…",
+    "submit_done": "Terkirim — terima kasih!",
+    "submit_error": "Gagal mengirim. Silakan kirim email langsung ke samchan@memecmo.ai."
+  },
+  "footer": {
+    "back_top": "Kembali ke atas",
+    "license": "MemeCMO Tech Limited · Hong Kong CR No. 80218619"
+  },
+  "stats": {
+    "items": [
+      {
+        "val": "10",
+        "label": "Agen"
+      },
+      {
+        "val": "5",
+        "label": "Mesin AI"
+      },
+      {
+        "val": "6+50",
+        "label": "Pasar Asia Tenggara + negara bagian AS"
+      },
+      {
+        "val": "v1.1",
+        "label": "Standar pengukuran publik"
+      }
+    ]
+  },
+  "ws": {
+    "tag": "DI DALAM PLATFORM",
+    "title": "Satu ruang kerja. Seluruh hasil kerja.",
+    "desc": "Antarmuka yang sama dengan yang dipakai tim Anda setiap minggu: jalankan agen di sisi kiri, tinjau hasilnya di area utama, catat apa yang sudah tayang di sisi kanan — dan setiap hasil tetap tersimpan di ruang kerja, dinilai, dapat diekspor, dan Anda sunting.",
+    "b1": "Ruang kerja berbasis kartu: jalankan agen · area utama · aktivitas langsung dan log tindakan",
+    "b2": "Antarmuka 中文 / EN / VN; hasil kerja dalam bahasa pasar, dengan terjemahan langsung di tempat",
+    "b3": "Setiap hasil dapat diekspor sebagai PDF bermerek; suntingan Anda tetap bertahan di setiap proses ulang",
+    "mock_note": "Diukur per mesin pada panel prompt tetap — pergerakannya nyata, bukan fluktuasi acak.",
+    "demo": "Buka demo langsung",
+    "demo_sub": "Merek nyata, diukur sungguhan — diperbarui setiap minggu, tanpa perlu mendaftar."
+  },
+  "hero_scan_ph": "merekanda.co.id",
+  "hero_scan_btn": "Lihat cara AI melihat Anda",
+  "hero_scan_note": "Pemindaian pratinjau gratis · jawaban asli ChatGPT & Google AI Overview · tanpa kartu kredit",
+  "story": {
+    "nav": "Di dalam platform",
+    "hero_alt": "Pemantau MemeCMO: lima mesin AI, lima metrik, kehadiran dari waktu ke waktu",
+    "sections": [
+      {
+        "id": "measure",
+        "tag": "UKUR · LIMA MESIN · SATU PANEL TETAP",
+        "title": "Tanyakan kepada AI apa yang ditanyakan pembeli Anda. Setiap minggu, pertanyaan yang sama.",
+        "desc": "Setiap pemindaian mengajukan pertanyaan yang benar-benar ditanyakan pembeli Anda — dalam bahasa mereka, di setiap tahap pembelian — kepada ChatGPT, Gemini, Perplexity, Claude, dan halaman Google AI Overview secara langsung. Panelnya tetap, sehingga perubahan skor berarti perubahan pada AI, bukan pada pengujiannya.",
+        "bullets": [
+          "Kehadiran, share of voice, kemenonjolan, sentimen, dan sitasi — setiap rasio ditampilkan dengan pembilang dan penyebutnya",
+          "Setiap mesin dinilai terpisah: merek yang sama bisa memimpin di satu mesin dan tidak muncul di mesin berikutnya",
+          "Setiap angka membuka jawaban lengkap di baliknya dan halaman-halaman yang dikutip mesin tersebut"
+        ],
+        "shot": "monitor",
+        "alt": "Dasbor pemantau MemeCMO: kehadiran dari waktu ke waktu, tabel visibilitas merek, kehadiran per mesin"
+      },
+      {
+        "id": "sources",
+        "tag": "SUMBER · TEMPAT AI MENCARI",
+        "title": "Kami membaca halaman yang dibaca AI.",
+        "desc": "Di setiap pasar, mesin AI bertumpu pada daftar situs yang pendek. Kami memeringkatnya dari setiap pemindaian, mengambil halaman yang mereka kutip, dan memprofilkannya — struktur, kebaruan, skema, panjang — sehingga “apa yang dikutip” menjadi tolok ukur bagi penulisan konten Anda, bukan sekadar firasat.",
+        "bullets": [
+          "Domain yang diandalkan setiap mesin di pasar Anda, diperingkat dari seluruh pemindaian",
+          "Kesamaan halaman-halaman yang dikutip, per mesin dan menurut seberapa sering dikutip",
+          "Daftar bulanan publik tentang sumber yang dikutip AI di Vietnam, bebas digunakan ulang (CC BY 4.0)"
+        ],
+        "shot": "sources",
+        "alt": "Sumber yang dikutip mesin AI, dengan karakteristik halaman per domain",
+        "cta": "Sumber yang dikutip AI di Vietnam",
+        "cta_href": "https://app.memecmo.ai/sources/vietnam"
+      },
+      {
+        "id": "act",
+        "tag": "BERTINDAK · SEPULUH AGEN · HASIL KERJA",
+        "title": "Sepuluh agen menyiapkan jawaban yang belum ada.",
+        "desc": "Jawaban standar, perubahan halaman, skema siap tempel, konten pengisi celah, paket penempatan, dan draf ensiklopedia — dalam bahasa pembeli, ditulis mengikuti profil sitasi di pasar Anda, dari fakta yang sudah publik di situs Anda. Angka tanpa sumber menjadi kolom kosong untuk Anda isi, tidak pernah dikarang.",
+        "bullets": [
+          "Jalankan agen di sisi kiri, tinjau di area utama, pantau aktivitas langsung di sisi kanan",
+          "Setiap draf disusun berdasarkan apa yang benar-benar dikutip mesin di pasar Anda",
+          "Apa yang disunting tim Anda tetap seperti itu — setiap proses ulang mempertahankannya"
+        ],
+        "shot": "workspace",
+        "alt": "Ruang kerja MemeCMO dengan hasil kerja berbentuk kartu dan panel aktivitas langsung"
+      },
+      {
+        "id": "prove",
+        "tag": "BUKTIKAN · SEBELUM DAN SESUDAH",
+        "title": "Bukti, bukan perasaan.",
+        "desc": "Catat apa yang sudah tayang. Kami mengambil halamannya, membuat sidik jari digitalnya, dan memantau apakah mesin AI mulai menggunakannya. Pemindaian berikutnya menunjukkan apa yang bergerak — per pertanyaan dan per mesin — berdampingan dengan pertanyaan yang tidak Anda sentuh.",
+        "bullets": [
+          "Setiap tindakan yang dicatat diverifikasi secara langsung, dan perubahannya dilacak dari waktu ke waktu",
+          "Sebelum/sesudah per pertanyaan dan mesin, plus cakupan situs dan kontradiksi di setiap laporan",
+          "Satu standar pengukuran publik (v1.1) di balik setiap angka yang kami publikasikan"
+        ],
+        "shot": "report",
+        "alt": "Laporan MemeCMO dengan rekomendasi yang diringkas, cakupan situs, dan tindakan terverifikasi",
+        "cta": "Baca standar pengukurannya",
+        "cta_href": "https://app.memecmo.ai/standard/MemeCMO_AI_Visibility_Measurement_Standard_v1.1.pdf"
+      }
+    ]
+  },
+  "engines": {
+    "tag": "MESIN AI",
+    "title": "Tiga jenis jawaban AI.<br>Tiga faktor penggerak yang berbeda.",
+    "desc": "Tidak semua mesin membaca web. Kami mengelompokkan setiap mesin berdasarkan apa yang ditunjukkan oleh pemindaian itu sendiri — berapa banyak jawabannya yang disertai sumber — karena hal yang menggerakkannya berbeda-beda.",
+    "classes": [
+      {
+        "name": "Membaca web, termasuk situs Anda",
+        "engines": [
+          "perplexity",
+          "aio"
+        ],
+        "body": "Jawaban disusun dari halaman yang diambil secara langsung, termasuk halaman Anda. Halaman Anda sendiri, data terstruktur, dan kebaruan konten yang paling dulu menggerakkan mesin ini.",
+        "lever": "Faktor penggerak: situs Anda, dan halaman yang menjadi pembandingnya"
+      },
+      {
+        "name": "Membaca web, jarang membaca situs Anda",
+        "engines": [
+          "claude"
+        ],
+        "body": "Mencari dulu sebelum menjawab, tetapi dalam pemindaian kami mesin ini jauh lebih banyak bertumpu pada ensiklopedia, berita, dan direktori daripada situs merek.",
+        "lever": "Faktor penggerak: halaman pihak ketiga tepercaya yang memuat fakta Anda"
+      },
+      {
+        "name": "Menjawab dari data pelatihan",
+        "engines": [
+          "chatgpt",
+          "gemini"
+        ],
+        "body": "Menjawab dari apa yang sudah dipelajari model. Mesin ini bergerak mengikuti apa yang dipublikasikan tentang Anda secara luas dan konsisten — faktor penggerak yang paling lambat, sekaligus yang paling tahan lama.",
+        "lever": "Faktor penggerak: fakta yang sama, dipublikasikan secara luas dan konsisten"
+      }
+    ],
+    "note": "Kelompok ini ditentukan dari setiap pemindaian, bukan dari daftar tetap: ketika sebuah mesin mengubah cara menjawabnya, kelompoknya ikut berubah."
+  },
+  "methods": {
+    "tag": "ANALISIS",
+    "title": "Enam analisis di balik setiap laporan.",
+    "desc": "Skor visibilitas adalah titik awal pekerjaan. Inilah analisis yang menunjukkan apa langkah Anda berikutnya — dan apakah langkah itu berhasil.",
+    "items": [
+      {
+        "title": "Tempat AI membaca, tahap demi tahap",
+        "body": "Kami memilah setiap pertanyaan menurut tahap pembeli. Sebelum pembeli mengenal sebuah merek, situs merek itu sendiri hanya 0,7% dari apa yang dibaca AI (12 merek, 3.011 jawaban bersitasi di Vietnam). Karena itu kami menunjukkan halaman pihak ketiga mana yang menentukan jawaban pertama — dan merencanakan langkah untuk halaman-halaman itu."
+      },
+      {
+        "title": "Halaman yang dikutip, dibuka dan diukur",
+        "body": "Kami mengambil halaman yang dikutip setiap mesin dan memprofilkan struktur, kebaruan, skema, dan panjangnya. Konten Anda mendapat tolok ukur terukur untuk dipenuhi, bukan sekadar panduan gaya."
+      },
+      {
+        "title": "Situs Anda dibandingkan dengan kata AI",
+        "body": "Kami membaca halaman publik Anda dan menyandingkannya dengan jawaban AI: di mana AI bertentangan dengan Anda, di mana AI tidak berkata apa-apa, di mana AI melewatkan apa yang Anda publikasikan. Perbaikannya dilakukan di sumbernya — situs Anda — bukan di basis data kami."
+      },
+      {
+        "title": "Sebelum dan sesudah, dibandingkan dengan kontrol",
+        "body": "Setiap tindakan yang Anda catat diberi tanggal dan diperiksa secara langsung. Pergerakan pada pertanyaan yang ditargetkan dibandingkan dengan pertanyaan yang tidak Anda sentuh, pada panel tetap yang sama; hanya kenaikan lebih dari 10 poin di atas kontrol yang dihitung."
+      },
+      {
+        "title": "Model penilai yang diuji terhadap label manusia",
+        "body": "Jawaban dinilai oleh sebuah model, dan model itu diperiksa terhadap pelabelan buta oleh manusia di setiap bahasa. Model penilai baru hanya diadopsi jika hasilnya sejalan dengan label tersebut."
+      },
+      {
+        "title": "Jawaban yang gagal tidak pernah dianggap “tidak disebut”",
+        "body": "Jika sebuah mesin tidak menjawab atau halaman gagal dimuat, jawaban itu ditandai gagal — tidak pernah dihitung sebagai merek Anda tidak hadir — dan setiap laporan mencantumkan cakupannya."
+      }
+    ]
+  }
+}

@@ -9,13 +9,15 @@
  */
 const fs = require('fs');
 const path = require('path');
+const { px } = require('./pixel-icons');
 
 const ROOT = path.resolve(__dirname, '..');
 const TPL = fs.readFileSync(path.join(__dirname, 'template.html'), 'utf8');
 const I18N_DIR = path.join(__dirname, 'i18n');
 
-const LOCALES = ['en', 'zh', 'vi', 'fil', 'th', 'ms'];
+const LOCALES = ['en', 'zh', 'zh-hant', 'vi', 'id', 'th', 'fil', 'ms'];
 const DEFAULT_LOCALE = 'en';
+const APP_LANGS = { zh: 'zh-CN', 'zh-hant': 'zh-TW' };
 const SITE_URL = 'https://memecmo.ai';
 
 // load all i18n
@@ -187,17 +189,42 @@ function slidesHtml(d) {
 }
 
 // philosophy cards
+// Every card below the hero is a classic Mac window: pinstripe title bar,
+// close box, ink outline, hard shadow. Text stays in Inter; pixels are imagery.
+function win(title, body, cls = '', i = 0) {
+  return `      <div class="win${cls ? ' ' + cls : ''} reveal" style="--i:${i % 3}"><div class="win-bar"><i></i><b>${title}</b></div><div class="win-body">${body}</div></div>`;
+}
+const PROMISE_ICONS = ['folder', 'doc', 'floppy', 'chat', 'percent', 'flag'];
 function phiCards(d) {
-  return d.philosophy.cards.map((c, i) => `      <div class="card reveal"><div class="n">0${i + 1}</div><h3>${c.title}</h3><p>${c.desc}</p></div>`).join('\n');
+  return d.philosophy.cards.map((c, i) => win(`0${i + 1}`, `${px(PROMISE_ICONS[i] || 'check', 2, 'win-px')}<h3>${c.title}</h3><p>${c.desc}</p>`, '', i)).join('\n');
+}
+// The hero's desktop: GEO icons floating around the slogan, some with labels.
+function heroSky(h) {
+  const L = h.icons || {};
+  const icon = (name, scale, pos, label, cls = 'float') =>
+    `      <div class="${cls}" style="${pos}">${px(name, scale)}${label ? `<span>${label}</span>` : ''}</div>`;
+  return [
+    icon('mac', 4, 'left:5%;top:4%;--d:-.4s'),
+    icon('magnifier', 3, 'left:2%;top:38%;--d:-2.6s', L.questions),
+    icon('doc', 3, 'left:10%;top:68%;--d:-3.8s', L.sources),
+    icon('hourglass', 3, 'left:20%;top:1%;--d:-4.2s'),
+    icon('sparkle', 3, 'left:3%;top:90%;--d:-3.3s'),
+    icon('cursor', 3, 'left:19%;top:86%', '', 'wander'),
+    icon('bars', 4, 'right:6%;top:4%;--d:-1.5s'),
+    icon('quote', 3, 'right:20%;top:0;--d:-2.1s'),
+    icon('eye', 4, 'right:2%;top:34%;--d:-.9s', L.visibility),
+    icon('pie', 3, 'right:10%;top:64%;--d:-1.9s', L.sov),
+    icon('agent', 3, 'right:2%;top:86%;--d:-2.9s', L.agents)
+  ].join('\n');
 }
 
 // Island source list: the public September 2026 Vietnam list (1,992 cited
-// answers). Vietnamese writes 1.992 and 19,2%.
+// answers). Vietnamese and Indonesian write 1.992 and 19,2%.
 const TOP_SOURCES = [['vnexpress.net', 382], ['brandsvietnam.com', 241], ['vietnam.vn', 226], ['cafef.vn', 208]];
 const SOURCE_BASE = 1992;
 function fmtNum(locale, n, decimals) {
   const s = decimals ? n.toFixed(decimals) : String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
-  if (locale !== 'vi') return s;
+  if (locale !== 'vi' && locale !== 'id') return s;
   return decimals ? s.replace('.', ',') : s.replace(/,/g, '.');
 }
 function islandSources(locale) {
@@ -209,7 +236,34 @@ function proofCards(h) {
   return h.proof.map((p, i) => `        <div class="proof-card"><b${i === 1 ? ' class="warn"' : ''}>${p.num}</b><span>${p.text}</span><small>${p.src}</small></div>`).join('\n');
 }
 // Inter for Latin and Vietnamese; Chinese and Thai get their Noto face first in line.
-const SCRIPT_FONT = { zh: ['Noto Sans SC', 'Noto+Sans+SC:wght@400;500;700'], th: ['Noto Sans Thai', 'Noto+Sans+Thai:wght@400;500;600;700'] };
+const SCRIPT_FONT = {
+  zh: ['Noto Sans SC', 'Noto+Sans+SC:wght@400;500;700'],
+  'zh-hant': ['Noto Sans TC', 'Noto+Sans+TC:wght@400;500;700'],
+  th: ['Noto Sans Thai', 'Noto+Sans+Thai:wght@400;500;600;700']
+};
+
+// Engines and the pixel marks the site uses for them (our own glyphs, not the
+// engines' logos). The AI Overview label is localized via hero.json.
+const ENGINE_MARKS = {
+  chatgpt: ['ChatGPT', '#4F8A8B', '<svg width="16" height="12" viewBox="0 0 9 7" shape-rendering="crispEdges" aria-hidden="true"><path fill="#FFFFFF" d="M1 0h7v1h-7zM0 1h9v1h-9zM0 2h2v1h-2zM3 2h1v1h-1zM5 2h1v1h-1zM7 2h2v1h-2zM0 3h9v1h-9zM1 4h7v1h-7zM2 5h2v1h-2zM2 6h1v1h-1z"/></svg>'],
+  gemini: ['Gemini', '#5B7FA6', '<svg width="16" height="16" viewBox="0 0 9 9" shape-rendering="crispEdges" aria-hidden="true"><path fill="#FFFFFF" d="M4 0h1v2h-1zM3 2h3v1h-3zM2 3h5v1h-5zM0 4h9v1h-9zM2 5h5v1h-5zM3 6h3v1h-3zM4 7h1v2h-1z"/></svg>'],
+  perplexity: ['Perplexity', '#8E6C9E', '<svg width="16" height="14" viewBox="0 0 9 8" shape-rendering="crispEdges" aria-hidden="true"><path fill="#FFFFFF" d="M1 0h4v1h-4zM0 1h1v3h-1zM5 1h1v3h-1zM1 4h6v1h-6zM5 5h2v1h-2zM6 6h2v1h-2zM7 7h2v1h-2z"/></svg>'],
+  claude: ['Claude', '#A85C3B', '<svg width="16" height="11" viewBox="0 0 9 6" shape-rendering="crispEdges" aria-hidden="true"><path fill="#FFFFFF" d="M1 0h2v1h-2zM6 0h2v1h-2zM0 1h1v4h-1zM3 1h1v1h-1zM5 1h1v1h-1zM8 1h1v4h-1zM4 2h1v3h-1zM0 5h9v1h-9z"/></svg>'],
+  aio: [null, '#7E8F3A', '<svg width="16" height="12" viewBox="0 0 9 7" shape-rendering="crispEdges" aria-hidden="true"><path fill="#FFFFFF" d="M0 0h9v1h-9zM0 1h1v5h-1zM8 1h1v5h-1zM2 2h5v1h-5zM2 4h4v1h-4zM0 6h9v1h-9z"/></svg>']
+};
+function engClasses(d) {
+  return d.engines.classes.map((c, i) => {
+    const chips = c.engines.map(id => {
+      const [name, color, svg] = ENGINE_MARKS[id];
+      return `<span class="eng-chip"><i style="background:${color}">${svg}</i>${name || d.hero2.aio}</span>`;
+    }).join('');
+    return win(`0${i + 1}`, `<div class="eng-chips">${chips}</div><h3>${c.name}</h3><p>${c.body}</p><span class="eng-lever">${c.lever}</span>`, 'eng-class', i);
+  }).join('\n');
+}
+const METHOD_ICONS = ['bars', 'doc', 'eye', 'check', 'quote', 'hourglass'];
+function metItems(d) {
+  return d.methods.items.map((m, i) => win(`0${i + 1}`, `${px(METHOD_ICONS[i], 2, 'win-px')}<h3>${m.title}</h3><p>${m.body}</p>`, '', i)).join('\n');
+}
 function fontLink(locale) {
   const extra = SCRIPT_FONT[locale] ? `&family=${SCRIPT_FONT[locale][1]}` : '';
   return `https://fonts.googleapis.com/css2?family=Inter:wght@400..800${extra}&display=swap`;
@@ -221,7 +275,8 @@ function fontStack(locale) {
 
 // tech list
 function techList(d) {
-  return d.tech.items.map((it, i) => `      <div class="step reveal"><div class="n">0${i + 1}</div><h3>${it.strong}</h3><p>${it.rest}</p></div>`).join('\n');
+  const icons = ['mac', 'eye', 'bars', 'doc', 'globe'];
+  return d.tech.items.map((it, i) => win(`0${i + 1}`, `${px(icons[i], 2, 'win-px')}<h3>${it.strong}</h3><p>${it.rest}</p>`, 'step', i)).join('\n');
 }
 
 // market cards
@@ -231,7 +286,7 @@ function marketCards(d) {
 
 // process steps
 function processSteps(d) {
-  return d.process.steps.map(s => `      <div class="pstep reveal"><div class="phase">${s.phase}</div><h3>${s.title}</h3><p>${s.desc}</p></div>`).join('\n');
+  return d.process.steps.map((s, i) => win(s.phase, `<h3>${s.title}</h3><p>${s.desc}</p>`, 'pstep', i)).join('\n');
 }
 
 // faq HTML
@@ -286,8 +341,8 @@ function buildLocale(locale) {
     PAUSE_LABEL_PAUSED_JSON: JSON.stringify(d.hero.pause_label_paused),
 
     NAV_ABOUT: (d.nav && d.nav.about) || 'About',
-    GEO_VN_URL: locale === 'vi' ? '/vi/geo-viet-nam/' : locale === 'zh' ? '/zh/geo-vietnam/' : '/geo-vietnam/',
-    GEO_VN_LABEL: locale === 'vi' ? 'GEO tại Việt Nam' : locale === 'zh' ? '越南 GEO' : 'GEO in Vietnam',
+    GEO_VN_URL: locale === 'vi' ? '/vi/geo-viet-nam/' : locale.startsWith('zh') ? '/zh/geo-vietnam/' : '/geo-vietnam/',
+    GEO_VN_LABEL: locale === 'vi' ? 'GEO tại Việt Nam' : locale === 'zh' ? '越南 GEO' : locale === 'zh-hant' ? '越南 GEO' : 'GEO in Vietnam',
     NAV_GUIDE: (d.nav && d.nav.guide) || 'Guide',
     NAV_US: (d.nav && d.nav.us) || 'US',
     FONT_LINK: fontLink(locale),
@@ -308,6 +363,16 @@ function buildLocale(locale) {
     AIO_LABEL: d.hero2.aio,
     PROOF_NOTE: d.hero2.proof_note ? `      <p class="proof-note">${d.hero2.proof_note}</p>` : '',
     PROOF_CARDS: proofCards(d.hero2),
+    HERO_SKY: heroSky(d.hero2),
+    PX_ENGINES: px('globe', 4, 'sec-px'),
+    PX_METHODS: px('magnifier', 4, 'sec-px'),
+    PX_AGENTS: px('agent', 4, 'sec-px'),
+    PX_PROMISES: px('check', 4, 'sec-px'),
+    PX_MARKETS: px('flag', 4, 'sec-px'),
+    PX_PROCESS: px('hourglass', 4, 'sec-px'),
+    PX_FAQ: px('chat', 4, 'sec-px'),
+    PX_CONTACT: px('floppy', 4, 'sec-px'),
+    PX_WINDOW: px('mac', 2, 'win-px'),
     HERO_MOCK_NOTE: (d.ws && d.ws.mock_note) || '',
     STORY_SECTIONS: storyHtml(d),
     STORY_NAV: (d.story && d.story.nav) || 'Inside',
@@ -319,8 +384,19 @@ function buildLocale(locale) {
     WS_B3: (d.ws && d.ws.b3) || '',
     WS_DEMO: (d.ws && d.ws.demo) || 'Open the live demo',
     WS_DEMO_SUB: (d.ws && d.ws.demo_sub) || '',
-    QUOTE_TITLE: d.hero.slides[1].title,
-    QUOTE_DESC: d.philosophy.cards[4].desc,
+    QUOTE_TITLE: d.tech.quote_title,
+    QUOTE_DESC: d.tech.quote_desc,
+
+    NAV_METHODS: d.nav.methods,
+    ENG_TAG: d.engines.tag,
+    ENG_TITLE: d.engines.title,
+    ENG_DESC: d.engines.desc,
+    ENG_CLASSES: engClasses(d),
+    ENG_NOTE: d.engines.note,
+    MET_TAG: d.methods.tag,
+    MET_TITLE: d.methods.title,
+    MET_DESC: d.methods.desc,
+    MET_ITEMS: metItems(d),
     TAGLINE_MAIN: d.tagline.main,
     TAGLINE_SUB: d.tagline.sub,
 
@@ -382,8 +458,8 @@ function buildLocale(locale) {
     HERO_SCAN_PH: d.hero_scan_ph,
     HERO_SCAN_BTN: d.hero_scan_btn,
     HERO_SCAN_NOTE: d.hero_scan_note,
-    APP_LANG: ({ zh: 'zh-TW' })[locale] || 'en',
-    APP_MARKET: ({ vi: 'Vietnam', th: 'Thailand', ms: 'Malaysia', fil: 'Philippines' })[locale] || '',
+    APP_LANG: APP_LANGS[locale] || 'en',
+    APP_MARKET: ({ vi: 'Vietnam', id: 'Indonesia', th: 'Thailand', ms: 'Malaysia', fil: 'Philippines' })[locale] || '',
 
     YEAR: '2026'
   };
@@ -395,9 +471,9 @@ function buildLocale(locale) {
 
   // Cross-domain language handoff: localStorage doesn't cross memecmo.ai →
   // app.memecmo.ai, so auth links carry the locale explicitly. App-side
-  // languages are en / zh-CN / zh-TW (site zh is Traditional); vi/th/fil/ms
-  // fall back to en until the app grows those dictionaries.
-  const APP_LANG = { zh: 'zh-TW' }[locale] || 'en';
+  // languages are en / zh-CN / zh-TW (site zh is Simplified, zh-hant is
+  // Traditional); the other locales fall back to en until the app grows them.
+  const APP_LANG = APP_LANGS[locale] || 'en';
   out = out
     .split('https://app.memecmo.ai/login').join(`https://app.memecmo.ai/login?lang=${APP_LANG}`)
     .split('https://app.memecmo.ai/signup').join(`https://app.memecmo.ai/signup?lang=${APP_LANG}`);

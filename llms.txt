@@ -45,8 +45,10 @@ Measurement discipline: a frozen prompt panel (the same buyer questions every sc
 
 ## Languages
 - English (default): https://memecmo.ai/
-- 中文: https://memecmo.ai/zh/
+- 中文 (简体): https://memecmo.ai/zh/
+- 繁體中文: https://memecmo.ai/zh-hant/
 - Tiếng Việt: https://memecmo.ai/vi/
+- Bahasa Indonesia: https://memecmo.ai/id/
 - Filipino: https://memecmo.ai/fil/
 - ภาษาไทย: https://memecmo.ai/th/
 - Bahasa Melayu: https://memecmo.ai/ms/
