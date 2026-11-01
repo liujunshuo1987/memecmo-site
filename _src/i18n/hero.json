@@ -136,11 +136,11 @@
     ]
   },
   "zh-hant": {
-    "icons": {"questions": "買家問題", "sources": "被引來源", "visibility": "能見度", "sov": "聲量份額", "agents": "AI 智能體"},
+    "icons": {"questions": "買家問題", "sources": "被引來源", "visibility": "能見度", "sov": "聲量佔比", "agents": "AI 代理"},
     "title": "讓你的品牌，<br>成為 AI 給出的<span class=\"u\">答案</span>。",
     "desc": "品牌進軍東南亞，買家會直接問 ChatGPT、Gemini、Perplexity、Claude 和 Google AI 概覽。看清它們怎麼介紹你，又讀了哪些來源。",
     "scan_label": "你的品牌官網",
-    "island_aria": "我們的實測數據——查看最常被引用的來源",
+    "island_aria": "我們的實測資料——查看最常被引用的來源",
     "island": ["正在觀察越南的 5 個 AI 引擎", "9 月讀完 1,992 則帶引用的 AI 回答", "探索階段：品牌官網只佔來源的 0.7%", "vnexpress.net 出現在 19.2% 的回答中"],
     "island_pill": "越南 · 2026 年 9 月",
     "src_title": "AI 在越南最常引用的網站",
