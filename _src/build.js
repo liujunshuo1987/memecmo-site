@@ -37,6 +37,11 @@ function deepMerge(base, over) {
 }
 for (const lc of LOCALES) if (lc !== DEFAULT_LOCALE) dicts[lc] = deepMerge(dicts[DEFAULT_LOCALE], dicts[lc]);
 
+// Homepage hero (v2 "Island") copy lives in one file, one block per locale,
+// English filling any gap.
+const HERO = JSON.parse(fs.readFileSync(path.join(I18N_DIR, 'hero.json'), 'utf8'));
+for (const lc of LOCALES) dicts[lc].hero2 = deepMerge(HERO[DEFAULT_LOCALE], HERO[lc] || {});
+
 // helper: deep get with dotted path
 function get(obj, p) {
   return p.split('.').reduce((o, k) => (o == null ? undefined : o[k]), obj);
@@ -186,8 +191,32 @@ function phiCards(d) {
   return d.philosophy.cards.map((c, i) => `      <div class="card reveal"><div class="n">0${i + 1}</div><h3>${c.title}</h3><p>${c.desc}</p></div>`).join('\n');
 }
 
-function heroStats(d) {
-  return (d.stats && d.stats.items ? d.stats.items : []).map(it => `        <div class="stat"><b>${it.val}</b><span>${it.label}</span></div>`).join('\n');
+// Island source list: the public September 2026 Vietnam list (1,992 cited
+// answers). Vietnamese writes 1.992 and 19,2%.
+const TOP_SOURCES = [['vnexpress.net', 382], ['brandsvietnam.com', 241], ['vietnam.vn', 226], ['cafef.vn', 208]];
+const SOURCE_BASE = 1992;
+function fmtNum(locale, n, decimals) {
+  const s = decimals ? n.toFixed(decimals) : String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  if (locale !== 'vi') return s;
+  return decimals ? s.replace('.', ',') : s.replace(/,/g, '.');
+}
+function islandSources(locale) {
+  return TOP_SOURCES.map(([domain, n]) =>
+    `        <div class="ip-row"><span>${domain}</span><span class="ip-bar"><i style="width:${Math.round(n / TOP_SOURCES[0][1] * 100)}%"></i></span><span class="ip-val"><b>${fmtNum(locale, n / SOURCE_BASE * 100, 1)}%</b> ${n}/${fmtNum(locale, SOURCE_BASE)}</span></div>`
+  ).join('\n');
+}
+function proofCards(h) {
+  return h.proof.map((p, i) => `        <div class="proof-card"><b${i === 1 ? ' class="warn"' : ''}>${p.num}</b><span>${p.text}</span><small>${p.src}</small></div>`).join('\n');
+}
+// Inter for Latin and Vietnamese; Chinese and Thai get their Noto face first in line.
+const SCRIPT_FONT = { zh: ['Noto Sans SC', 'Noto+Sans+SC:wght@400;500;700'], th: ['Noto Sans Thai', 'Noto+Sans+Thai:wght@400;500;600;700'] };
+function fontLink(locale) {
+  const extra = SCRIPT_FONT[locale] ? `&family=${SCRIPT_FONT[locale][1]}` : '';
+  return `https://fonts.googleapis.com/css2?family=Inter:wght@400..800${extra}&display=swap`;
+}
+function fontStack(locale) {
+  const extra = SCRIPT_FONT[locale] ? `"${SCRIPT_FONT[locale][0]}",` : '';
+  return `"Inter",${extra}-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Noto Sans",sans-serif`;
 }
 
 // tech list
@@ -261,16 +290,26 @@ function buildLocale(locale) {
     GEO_VN_LABEL: locale === 'vi' ? 'GEO tại Việt Nam' : locale === 'zh' ? '越南 GEO' : 'GEO in Vietnam',
     NAV_GUIDE: (d.nav && d.nav.guide) || 'Guide',
     NAV_US: (d.nav && d.nav.us) || 'US',
-    HERO_TAG: d.hero.slides[0].tag,
-    HERO_TITLE: d.hero.slides[0].title,
-    HERO_DESC: d.hero.slides[0].desc,
-    HERO_BTN: d.hero.slides[0].btn,
-    HERO_BTN_HREF: d.hero.slides[0].btn_href,
-    HERO_BTN2: d.hero.slides[1].btn,
-    HERO_STATS: heroStats(d),
+    FONT_LINK: fontLink(locale),
+    FONT_STACK: fontStack(locale),
+    HERO_TITLE: d.hero2.title,
+    HERO_DESC: d.hero2.desc,
+    HERO_SCAN_LABEL: d.hero2.scan_label,
+    ISLAND_ARIA: esc(d.hero2.island_aria),
+    ISLAND_MSGS: esc(JSON.stringify(d.hero2.island)),
+    ISLAND_MSG0: d.hero2.island[0],
+    ISLAND_PILL: d.hero2.island_pill,
+    ISLAND_SRC_TITLE: d.hero2.src_title,
+    ISLAND_SOURCES: islandSources(locale),
+    ISLAND_SRC_NOTE: d.hero2.src_note,
+    ISLAND_SRC_LINK: d.hero2.src_link,
+    ISLAND_SRC_HREF: d.hero2.src_href,
+    ENGINES_LABEL: d.hero2.engines_label,
+    AIO_LABEL: d.hero2.aio,
+    PROOF_NOTE: d.hero2.proof_note ? `      <p class="proof-note">${d.hero2.proof_note}</p>` : '',
+    PROOF_CARDS: proofCards(d.hero2),
     HERO_MOCK_NOTE: (d.ws && d.ws.mock_note) || '',
     STORY_SECTIONS: storyHtml(d),
-    HERO_SHOT_ALT: esc((d.story && d.story.hero_alt) || 'MemeCMO monitor dashboard'),
     STORY_NAV: (d.story && d.story.nav) || 'Inside',
     WS_TAG: (d.ws && d.ws.tag) || '',
     WS_TITLE: (d.ws && d.ws.title) || '',

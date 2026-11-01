@@ -1,0 +1,113 @@
+{
+  "_note": "Homepage hero (v2 'Island' design, 2026-11). One block per locale; a missing key falls back to English. Figures are the public Vietnam measurements: September 2026 source list (1,992 cited answers) and the buyer-stage study (12 brands, 3,011 cited answers, Jun–Oct 2026).",
+  "en": {
+    "title": "Make your brand the <span class=\"u\">answer</span> in AI.",
+    "desc": "See what ChatGPT, Gemini, Perplexity, Claude and Google AI Overview tell your buyers — and which sources they read to say it.",
+    "scan_label": "Your brand's website",
+    "island_aria": "Live figures from our measurements — show the most-cited sources",
+    "island": ["Watching 5 AI engines in Vietnam", "1,992 cited answers read in September", "Brand sites: 0.7% of sources at discovery", "vnexpress.net cited in 19.2% of answers"],
+    "island_pill": "Vietnam · Sep 2026",
+    "src_title": "Sites AI cites most in Vietnam",
+    "src_note": "Share of 1,992 cited answers · 10 brand panels · 6 industries · September 2026",
+    "src_link": "See the full monthly list →",
+    "src_href": "https://app.memecmo.ai/sources/vietnam",
+    "engines_label": "Measured on five AI engines",
+    "aio": "Google AI Overview",
+    "proof_note": "",
+    "proof": [
+      { "num": "1,992", "text": "cited AI answers we read in Vietnam in September, across 10 brand panels in 6 industries.", "src": "September 2026 · 4 engines" },
+      { "num": "0.7%", "text": "of what AI reads is the brand's own site, when buyers don't know the brand yet.", "src": "12 brands · 3,011 cited answers · Jun–Oct 2026" },
+      { "num": "19.2%", "text": "of cited answers cite vnexpress.net — the source AI leans on most in Vietnam.", "src": "382 of 1,992 · September 2026" }
+    ]
+  },
+  "vi": {
+    "title": "Đưa thương hiệu của bạn trở thành <span class=\"u\">câu trả lời</span> của AI.",
+    "desc": "Xem ChatGPT, Gemini, Perplexity, Claude và Google AI Overview nói gì với khách hàng của bạn — và chúng đọc nguồn nào trước khi trả lời.",
+    "scan_label": "Website thương hiệu của bạn",
+    "island_aria": "Số liệu đo của chúng tôi — xem các nguồn được trích dẫn nhiều nhất",
+    "island": ["Đang theo dõi 5 công cụ AI tại Việt Nam", "Đã đọc 1.992 câu trả lời có trích dẫn trong tháng 9", "Website thương hiệu: 0,7% nguồn ở giai đoạn tìm hiểu", "vnexpress.net có mặt trong 19,2% câu trả lời"],
+    "island_pill": "Việt Nam · 9/2026",
+    "src_title": "Trang AI trích dẫn nhiều nhất tại Việt Nam",
+    "src_note": "Tỷ lệ trên 1.992 câu trả lời có trích dẫn · 10 bảng thương hiệu · 6 ngành · tháng 9/2026",
+    "src_link": "Xem danh sách đầy đủ hằng tháng →",
+    "src_href": "https://app.memecmo.ai/sources/vietnam/vi",
+    "engines_label": "Đo trên năm công cụ AI",
+    "proof": [
+      { "num": "1.992", "text": "câu trả lời AI có trích dẫn mà chúng tôi đã đọc tại Việt Nam trong tháng 9, trên 10 bảng thương hiệu thuộc 6 ngành.", "src": "Tháng 9/2026 · 4 công cụ" },
+      { "num": "0,7%", "text": "nguồn AI đọc là website của chính thương hiệu, khi người mua chưa biết thương hiệu.", "src": "12 thương hiệu · 3.011 câu trả lời có trích dẫn · tháng 6–10/2026" },
+      { "num": "19,2%", "text": "câu trả lời có trích dẫn nhắc tới vnexpress.net — nguồn AI dựa vào nhiều nhất tại Việt Nam.", "src": "382/1.992 · tháng 9/2026" }
+    ]
+  },
+  "zh": {
+    "title": "让你的品牌，<br>成为 AI 给出的<span class=\"u\">答案</span>。",
+    "desc": "品牌出海东南亚，买家会直接问 ChatGPT、Gemini、Perplexity、Claude 和 Google AI 概览。看清它们怎么介绍你，又读了哪些来源。",
+    "scan_label": "你的品牌官网",
+    "island_aria": "我们的实测数据——查看最常被引用的来源",
+    "island": ["正在观察越南的 5 个 AI 引擎", "9 月读完 1,992 条带引用的 AI 回答", "探索阶段：品牌官网只占来源的 0.7%", "vnexpress.net 出现在 19.2% 的回答里"],
+    "island_pill": "越南 · 2026 年 9 月",
+    "src_title": "AI 在越南最常引用的网站",
+    "src_note": "占 1,992 条带引用回答的比例 · 10 个品牌面板 · 6 个行业 · 2026 年 9 月",
+    "src_link": "查看完整月度榜单 →",
+    "engines_label": "在五个 AI 引擎上测量",
+    "aio": "Google AI 概览",
+    "proof": [
+      { "num": "1,992", "text": "条带引用的 AI 回答，是我们 9 月在越南读完的，覆盖 6 个行业的 10 个品牌面板。", "src": "2026 年 9 月 · 4 个引擎" },
+      { "num": "0.7%", "text": "买家还不认识品牌时，AI 读到的来源里只有这么多来自品牌官网。", "src": "12 个品牌 · 3,011 条带引用回答 · 2026 年 6–10 月" },
+      { "num": "19.2%", "text": "的带引用回答引用了 vnexpress.net，它是 AI 在越南最依赖的来源。", "src": "1,992 条中的 382 条 · 2026 年 9 月" }
+    ]
+  },
+  "th": {
+    "title": "ทำให้แบรนด์ของคุณ<br>เป็น<span class=\"u\">คำตอบ</span>ใน AI",
+    "desc": "ดูว่า ChatGPT, Gemini, Perplexity, Claude และ Google AI Overview บอกอะไรกับลูกค้าของคุณ และอ่านจากแหล่งไหนบ้างก่อนจะตอบ",
+    "scan_label": "เว็บไซต์แบรนด์ของคุณ",
+    "island_aria": "ตัวเลขจากการวัดผลของเรา — ดูแหล่งข้อมูลที่ถูกอ้างอิงมากที่สุด",
+    "island": ["กำลังติดตาม AI 5 ตัว", "ชุดคำถามเดิม วัดซ้ำและเทียบได้ทุกรอบ", "ตัวอย่างเวียดนาม: เว็บแบรนด์มีแค่ 0.7% ของแหล่งข้อมูล", "ตัวอย่างเวียดนาม: vnexpress.net อยู่ใน 19.2% ของคำตอบ"],
+    "island_pill": "ตัวอย่าง: เวียดนาม · ก.ย. 2026",
+    "src_title": "เว็บไซต์ที่ AI อ้างอิงมากที่สุดในเวียดนาม · ตัวอย่าง",
+    "src_note": "สัดส่วนจาก 1,992 คำตอบที่มีการอ้างอิง · 10 กลุ่มแบรนด์ · 6 อุตสาหกรรม · กันยายน 2026",
+    "src_link": "ดูรายชื่อฉบับเต็ม (ภาษาอังกฤษ) →",
+    "engines_label": "วัดผลบน AI 5 ตัว",
+    "proof_note": "ตัวอย่างจากเวียดนาม ตลาดแรกที่เราเปิดเผยข้อมูลต่อสาธารณะ · รายชื่อของประเทศไทยยังไม่เผยแพร่",
+    "proof": [
+      { "num": "1,992", "text": "คำตอบจาก AI ที่มีการอ้างอิง ซึ่งเราอ่านในเวียดนามเมื่อเดือนกันยายน จาก 10 กลุ่มแบรนด์ใน 6 อุตสาหกรรม", "src": "กันยายน 2026 · AI 4 ตัว" },
+      { "num": "0.7%", "text": "ของแหล่งที่ AI อ่าน มาจากเว็บไซต์ของแบรนด์เอง ในช่วงที่ผู้ซื้อยังไม่รู้จักแบรนด์", "src": "12 แบรนด์ · 3,011 คำตอบที่มีการอ้างอิง · มิ.ย.–ต.ค. 2026" },
+      { "num": "19.2%", "text": "ของคำตอบที่มีการอ้างอิง อ้างถึง vnexpress.net ซึ่งเป็นแหล่งที่ AI พึ่งพามากที่สุดในเวียดนาม", "src": "382 จาก 1,992 · กันยายน 2026" }
+    ]
+  },
+  "fil": {
+    "title": "Gawing <span class=\"u\">sagot</span> ng AI ang iyong brand.",
+    "desc": "Tingnan kung ano ang sinasabi ng ChatGPT, Gemini, Perplexity, Claude at Google AI Overview sa iyong mga mamimili — at kung aling mga source ang binabasa nila bago sumagot.",
+    "scan_label": "Website ng iyong brand",
+    "island_aria": "Mga numero mula sa aming pagsukat — tingnan ang mga source na pinakamadalas i-cite",
+    "island": ["Binabantayan ang 5 AI engine", "Parehong mga tanong, nasusukat bawat round", "Halimbawa sa Vietnam: 0.7% lang ang site ng brand", "Halimbawa sa Vietnam: vnexpress.net sa 19.2% ng sagot"],
+    "island_pill": "Halimbawa: Vietnam · Set 2026",
+    "src_title": "Mga site na pinakamadalas i-cite ng AI sa Vietnam · halimbawa",
+    "src_note": "Bahagi ng 1,992 sagot na may citation · 10 brand panel · 6 na industriya · Setyembre 2026",
+    "src_link": "Tingnan ang buong listahan (Ingles) →",
+    "engines_label": "Sinusukat sa limang AI engine",
+    "proof_note": "Halimbawa mula sa Vietnam, ang unang market na inilalathala namin · Hindi pa nailalathala ang listahan para sa Pilipinas",
+    "proof": [
+      { "num": "1,992", "text": "na sagot ng AI na may citation ang binasa namin sa Vietnam noong Setyembre, mula sa 10 brand panel sa 6 na industriya.", "src": "Setyembre 2026 · 4 na engine" },
+      { "num": "0.7%", "text": "ng binabasa ng AI ay galing sa sariling website ng brand, kapag hindi pa kilala ng mamimili ang brand.", "src": "12 brand · 3,011 sagot na may citation · Hunyo–Oktubre 2026" },
+      { "num": "19.2%", "text": "ng mga sagot na may citation ang bumabanggit sa vnexpress.net — ang source na pinakaaasahan ng AI sa Vietnam.", "src": "382 sa 1,992 · Setyembre 2026" }
+    ]
+  },
+  "ms": {
+    "title": "Jadikan jenama anda <span class=\"u\">jawapan</span> AI.",
+    "desc": "Lihat apa yang dikatakan ChatGPT, Gemini, Perplexity, Claude dan Google AI Overview kepada pembeli anda — dan sumber mana yang mereka baca sebelum menjawab.",
+    "scan_label": "Laman web jenama anda",
+    "island_aria": "Angka daripada pengukuran kami — lihat sumber yang paling kerap dipetik",
+    "island": ["Memantau 5 enjin AI", "Soalan yang sama, diukur setiap pusingan", "Contoh Vietnam: laman jenama hanya 0.7% sumber", "Contoh Vietnam: vnexpress.net dalam 19.2% jawapan"],
+    "island_pill": "Contoh: Vietnam · Sep 2026",
+    "src_title": "Laman yang paling kerap dipetik AI di Vietnam · contoh",
+    "src_note": "Bahagian daripada 1,992 jawapan bersumber · 10 panel jenama · 6 industri · September 2026",
+    "src_link": "Lihat senarai penuh (Bahasa Inggeris) →",
+    "engines_label": "Diukur pada lima enjin AI",
+    "proof_note": "Contoh dari Vietnam, pasaran pertama yang kami terbitkan · Senarai untuk Malaysia belum diterbitkan",
+    "proof": [
+      { "num": "1,992", "text": "jawapan AI bersumber yang kami baca di Vietnam pada September, merentas 10 panel jenama dalam 6 industri.", "src": "September 2026 · 4 enjin" },
+      { "num": "0.7%", "text": "daripada apa yang dibaca AI ialah laman web jenama itu sendiri, ketika pembeli belum mengenali jenama tersebut.", "src": "12 jenama · 3,011 jawapan bersumber · Jun–Okt 2026" },
+      { "num": "19.2%", "text": "jawapan bersumber memetik vnexpress.net — sumber yang paling diharapkan AI di Vietnam.", "src": "382 daripada 1,992 · September 2026" }
+    ]
+  }
+}
