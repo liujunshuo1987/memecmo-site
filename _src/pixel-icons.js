@@ -90,6 +90,36 @@ const ICONS = {
   "w": 12,
   "h": 11,
   "body": "<path fill=\"#2A2024\" d=\"M1 0h2v1h-2zM10 0h2v1h-2zM0 1h1v1h-1zM3 1h1v1h-1zM9 1h2v1h-2zM0 2h1v1h-1zM3 2h1v1h-1zM8 2h2v1h-2zM1 3h2v1h-2zM7 3h2v1h-2zM6 4h2v1h-2zM5 5h2v1h-2zM4 6h2v1h-2zM3 7h2v1h-2zM9 7h2v1h-2zM2 8h2v1h-2zM8 8h1v1h-1zM11 8h1v1h-1zM1 9h2v1h-2zM8 9h1v1h-1zM11 9h1v1h-1zM0 10h2v1h-2zM9 10h2v1h-2z\"/><path fill=\"#C76B7A\" d=\"M1 1h2v1h-2zM1 2h2v1h-2zM9 8h2v1h-2zM9 9h2v1h-2z\"/>"
+ },
+ "cat": {
+  "w": 12,
+  "h": 11,
+  "body": "<path fill=\"#2A2024\" d=\"M1 0h1v1h-1zM10 0h1v1h-1zM0 1h1v1h-1zM2 1h1v1h-1zM9 1h1v1h-1zM11 1h1v1h-1zM0 2h1v1h-1zM3 2h6v1h-6zM11 2h1v1h-1zM0 3h1v1h-1zM11 3h1v1h-1zM0 4h1v1h-1zM2 4h2v1h-2zM8 4h2v1h-2zM11 4h1v1h-1zM0 5h1v1h-1zM2 5h2v1h-2zM8 5h2v1h-2zM11 5h1v1h-1zM0 6h1v1h-1zM11 6h1v1h-1zM0 7h1v1h-1zM4 7h1v1h-1zM7 7h1v1h-1zM11 7h1v1h-1zM0 8h1v1h-1zM5 8h2v1h-2zM11 8h1v1h-1zM1 9h1v1h-1zM10 9h1v1h-1zM2 10h8v1h-8z\"/><path fill=\"#C76B7A\" d=\"M1 1h1v1h-1zM10 1h1v1h-1zM1 2h2v1h-2zM9 2h2v1h-2zM5 6h2v1h-2z\"/><path fill=\"#FFFFFF\" d=\"M1 3h10v1h-10zM1 4h1v1h-1zM4 4h4v1h-4zM10 4h1v1h-1zM1 5h1v1h-1zM4 5h4v1h-4zM10 5h1v1h-1zM1 6h4v1h-4zM7 6h4v1h-4zM1 7h3v1h-3zM5 7h2v1h-2zM8 7h3v1h-3zM1 8h4v1h-4zM7 8h4v1h-4zM2 9h8v1h-8z\"/>"
+ },
+ "catcool": {
+  "w": 12,
+  "h": 11,
+  "body": "<path fill=\"#2A2024\" d=\"M1 0h1v1h-1zM10 0h1v1h-1zM0 1h1v1h-1zM2 1h1v1h-1zM9 1h1v1h-1zM11 1h1v1h-1zM0 2h1v1h-1zM3 2h6v1h-6zM11 2h1v1h-1zM0 3h1v1h-1zM11 3h1v1h-1zM0 4h12v1h-12zM0 5h1v1h-1zM2 5h3v1h-3zM7 5h3v1h-3zM11 5h1v1h-1zM0 6h1v1h-1zM11 6h1v1h-1zM0 7h1v1h-1zM4 7h1v1h-1zM7 7h1v1h-1zM11 7h1v1h-1zM0 8h1v1h-1zM5 8h2v1h-2zM11 8h1v1h-1zM1 9h1v1h-1zM10 9h1v1h-1zM2 10h8v1h-8z\"/><path fill=\"#C76B7A\" d=\"M1 1h1v1h-1zM10 1h1v1h-1zM1 2h2v1h-2zM9 2h2v1h-2zM5 6h2v1h-2z\"/><path fill=\"#FFFFFF\" d=\"M1 3h10v1h-10zM1 5h1v1h-1zM5 5h2v1h-2zM10 5h1v1h-1zM1 6h4v1h-4zM7 6h4v1h-4zM1 7h3v1h-3zM5 7h2v1h-2zM8 7h3v1h-3zM1 8h4v1h-4zM7 8h4v1h-4zM2 9h8v1h-8z\"/>"
+ },
+ "news": {
+  "w": 14,
+  "h": 11,
+  "body": "<path fill=\"#2A2024\" d=\"M0 0h14v1h-14zM0 1h1v1h-1zM13 1h1v1h-1zM0 2h1v1h-1zM13 2h1v1h-1zM0 3h1v1h-1zM13 3h1v1h-1zM0 4h1v1h-1zM13 4h1v1h-1zM0 5h1v1h-1zM13 5h1v1h-1zM0 6h1v1h-1zM13 6h1v1h-1zM0 7h1v1h-1zM13 7h1v1h-1zM0 8h1v1h-1zM13 8h1v1h-1zM0 9h1v1h-1zM13 9h1v1h-1zM0 10h14v1h-14z\"/><path fill=\"#FFFFFF\" d=\"M1 1h12v1h-12zM1 2h1v1h-1zM12 2h1v1h-1zM1 3h12v1h-12zM1 4h1v1h-1zM6 4h2v1h-2zM12 4h1v1h-1zM1 5h1v1h-1zM6 5h2v1h-2zM12 5h1v1h-1zM1 6h1v1h-1zM6 6h2v1h-2zM12 6h1v1h-1zM1 7h12v1h-12zM1 8h1v1h-1zM12 8h1v1h-1zM1 9h12v1h-12z\"/><path fill=\"#C76B7A\" d=\"M2 2h10v1h-10z\"/><path fill=\"#6E625F\" d=\"M2 4h4v1h-4zM8 4h4v1h-4zM2 5h4v1h-4zM8 5h4v1h-4zM2 6h4v1h-4zM8 6h4v1h-4zM2 8h10v1h-10z\"/>"
+ },
+ "star": {
+  "w": 11,
+  "h": 10,
+  "body": "<path fill=\"#2A2024\" d=\"M5 0h1v1h-1zM4 1h1v1h-1zM6 1h1v1h-1zM4 2h1v1h-1zM6 2h1v1h-1zM1 3h4v1h-4zM6 3h4v1h-4zM0 4h1v1h-1zM10 4h1v1h-1zM1 5h1v1h-1zM9 5h1v1h-1zM2 6h1v1h-1zM8 6h1v1h-1zM2 7h1v1h-1zM5 7h1v1h-1zM8 7h1v1h-1zM1 8h1v1h-1zM3 8h1v1h-1zM7 8h1v1h-1zM9 8h1v1h-1zM1 9h2v1h-2zM8 9h2v1h-2z\"/><path fill=\"#B6863A\" d=\"M5 1h1v1h-1zM5 2h1v1h-1zM5 3h1v1h-1zM1 4h9v1h-9zM2 5h7v1h-7zM3 6h5v1h-5zM3 7h2v1h-2zM6 7h2v1h-2zM2 8h1v1h-1zM8 8h1v1h-1z\"/>"
+ },
+ "plane": {
+  "w": 14,
+  "h": 11,
+  "body": "<path fill=\"#2A2024\" d=\"M13 0h1v1h-1zM11 1h2v1h-2zM9 2h2v1h-2zM12 2h1v1h-1zM7 3h2v1h-2zM11 3h1v1h-1zM5 4h2v1h-2zM10 4h1v1h-1zM3 5h2v1h-2zM9 5h1v1h-1zM1 6h2v1h-2zM8 6h1v1h-1zM0 7h1v1h-1zM7 7h1v1h-1zM1 8h2v1h-2zM6 8h1v1h-1zM3 9h2v1h-2zM6 9h1v1h-1zM5 10h2v1h-2z\"/><path fill=\"#FFFFFF\" d=\"M11 2h1v1h-1zM9 3h2v1h-2zM7 4h3v1h-3zM5 5h3v1h-3zM3 6h4v1h-4zM1 7h4v1h-4zM3 8h2v1h-2zM5 9h1v1h-1z\"/><path fill=\"#C76B7A\" d=\"M8 5h1v1h-1zM7 6h1v1h-1zM5 7h2v1h-2zM5 8h1v1h-1z\"/>"
+ },
+ "heart": {
+  "w": 9,
+  "h": 8,
+  "body": "<path fill=\"#2A2024\" d=\"M1 0h2v1h-2zM6 0h2v1h-2zM0 1h1v1h-1zM3 1h1v1h-1zM5 1h1v1h-1zM8 1h1v1h-1zM0 2h1v1h-1zM4 2h1v1h-1zM8 2h1v1h-1zM0 3h1v1h-1zM8 3h1v1h-1zM1 4h1v1h-1zM7 4h1v1h-1zM2 5h1v1h-1zM6 5h1v1h-1zM3 6h1v1h-1zM5 6h1v1h-1zM4 7h1v1h-1z\"/><path fill=\"#C76B7A\" d=\"M1 1h2v1h-2zM6 1h2v1h-2zM1 2h3v1h-3zM5 2h3v1h-3zM1 3h7v1h-7zM2 4h5v1h-5zM3 5h3v1h-3zM4 6h1v1h-1z\"/>"
  }
 };
 

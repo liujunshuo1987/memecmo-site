@@ -198,13 +198,25 @@ const PROMISE_ICONS = ['folder', 'doc', 'floppy', 'chat', 'percent', 'flag'];
 function phiCards(d) {
   return d.philosophy.cards.map((c, i) => win(`0${i + 1}`, `${px(PROMISE_ICONS[i] || 'check', 2, 'win-px')}<h3>${c.title}</h3><p>${c.desc}</p>`, '', i)).join('\n');
 }
+// Fun pixel scenes, one per section corner; each shows one thing the product does.
+const CITED = (s) => `<svg width="${14 * s}" height="${10 * s}" viewBox="0 0 14 10" shape-rendering="crispEdges" aria-hidden="true"><path fill="#2A2024" d="M1 0h12v1h-12zM0 1h1v6h-1zM13 1h1v6h-1zM1 7h5v1h-5zM8 7h5v1h-5zM5 8h1v1h-1zM7 8h1v1h-1zM5 9h2v1h-2z"/><path fill="#FFFFFF" d="M1 1h12v6h-12zM6 7h2v1h-2zM6 8h1v1h-1z"/><path fill="#C76B7A" d="M5 2h1v1h-1zM8 2h1v1h-1zM4 3h3v1h-3zM7 3h3v1h-3zM4 4h6v1h-6zM5 5h4v1h-4zM6 6h2v1h-2z"/></svg>`;
+const SCENES = {
+  engines: `<div class="sec-px px-scene px-bob" aria-hidden="true">${px('agent', 4)}${px('news', 4)}</div>`,
+  methods: `<div class="sec-px px-found" aria-hidden="true">${px('magnifier', 5)}${px('star', 4, 'px-star px-tick')}</div>`,
+  agents: `<div class="sec-px px-scene px-fly" aria-hidden="true"><i></i><i></i><i class="r"></i>${px('plane', 4)}</div>`,
+  promises: `<div class="sec-px px-scene px-bob" aria-hidden="true">${px('cat', 5)}</div>`,
+  process: `<div class="sec-px px-scene" aria-hidden="true">${px('hourglass', 4, 'px-tick')}${px('bars', 4)}</div>`,
+  faq: `<div class="sec-px px-scene px-bob" aria-hidden="true">${CITED(4)}</div>`
+};
+const TRAIL = `<div class="band-trail" aria-hidden="true">${px('news', 3)}<i class="r"></i><i></i><i class="r"></i><i></i><i class="r"></i>${CITED(3)}</div>`;
+
 // The hero's desktop: GEO icons floating around the slogan, some with labels.
 function heroSky(h) {
   const L = h.icons || {};
   const icon = (name, scale, pos, label, cls = 'float') =>
     `      <div class="${cls}" style="${pos}">${px(name, scale)}${label ? `<span>${label}</span>` : ''}</div>`;
   return [
-    icon('mac', 4, 'left:5%;top:4%;--d:-.4s'),
+    `      <div class="float" style="left:5%;top:2%;--d:-.4s">${px('catcool', 4, 'px-cat')}${px('mac', 4)}<span>meme.cat</span></div>`,
     icon('magnifier', 3, 'left:2%;top:38%;--d:-2.6s', L.questions),
     icon('doc', 3, 'left:10%;top:68%;--d:-3.8s', L.sources),
     icon('hourglass', 3, 'left:20%;top:1%;--d:-4.2s'),
@@ -364,13 +376,14 @@ function buildLocale(locale) {
     PROOF_NOTE: d.hero2.proof_note ? `      <p class="proof-note">${d.hero2.proof_note}</p>` : '',
     PROOF_CARDS: proofCards(d.hero2),
     HERO_SKY: heroSky(d.hero2),
-    PX_ENGINES: px('globe', 4, 'sec-px'),
-    PX_METHODS: px('magnifier', 4, 'sec-px'),
-    PX_AGENTS: px('agent', 4, 'sec-px'),
-    PX_PROMISES: px('check', 4, 'sec-px'),
+    PX_ENGINES: SCENES.engines,
+    PX_METHODS: SCENES.methods,
+    PX_AGENTS: SCENES.agents,
+    PX_PROMISES: SCENES.promises,
     PX_MARKETS: px('flag', 4, 'sec-px'),
-    PX_PROCESS: px('hourglass', 4, 'sec-px'),
-    PX_FAQ: px('chat', 4, 'sec-px'),
+    PX_PROCESS: SCENES.process,
+    PX_FAQ: SCENES.faq,
+    PX_TRAIL: TRAIL,
     PX_CONTACT: px('floppy', 4, 'sec-px'),
     PX_WINDOW: px('mac', 2, 'win-px'),
     HERO_MOCK_NOTE: (d.ws && d.ws.mock_note) || '',

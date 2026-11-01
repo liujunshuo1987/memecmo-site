@@ -59,7 +59,7 @@
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{font-family:var(--sans);background:var(--canvas) radial-gradient(rgba(42,32,36,.06) 1px,transparent 1.3px) 0 0/24px 24px;color:var(--ink);line-height:var(--lh-normal);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body{font-family:var(--sans);background:url("/px-watermark.svg") 0 0/480px 480px,radial-gradient(rgba(42,32,36,.06) 1px,transparent 1.3px) 0 0/24px 24px,var(--canvas);color:var(--ink);line-height:var(--lh-normal);-webkit-font-smoothing:antialiased;overflow-x:hidden}
 a{color:inherit;text-decoration:none}
 img{max-width:100%;display:block}
 ::selection{background:var(--brand-soft)}
@@ -70,6 +70,20 @@ html[lang="th"] .kicker,html[lang^="zh"] .kicker{letter-spacing:.04em}
 .kicker::before{content:"";display:inline-block;width:8px;height:8px;margin-right:10px;background:var(--brand);vertical-align:1px}
 .sec>.wrap{position:relative}
 .sec-px{position:absolute;right:var(--gutter);top:0;pointer-events:none}
+.px-scene{display:flex;align-items:flex-end;gap:4px}
+.px-bob{animation:sky-bob 5s steps(10) infinite}
+.px-fly{align-items:center;gap:6px;animation:px-fly 6s steps(24) infinite}
+.px-fly i,.band-trail i{width:7px;height:7px;background:var(--ink);opacity:.35}
+.px-fly i.r,.band-trail i.r{background:var(--brand);opacity:.8}
+.px-found{width:96px;height:90px}
+.px-found .px-star{position:absolute;left:46px;top:0}
+.px-found>svg:first-child{position:absolute;left:0;top:14px}
+.px-tick,.band-trail i.r{animation:px-tick 1.6s steps(1) infinite}
+.px-cat{margin-bottom:-8px}
+.band{position:relative}
+.band-trail{display:flex;justify-content:center;align-items:center;gap:8px;margin-bottom:14px;pointer-events:none}
+@keyframes px-fly{0%,100%{transform:translate(0,0)}50%{transform:translate(18px,-10px)}}
+@keyframes px-tick{0%,49%{opacity:1}50%,100%{opacity:.25}}
 .sec{padding:var(--s-24) 0}
 .sec-title{font-size:var(--t-h2);font-weight:700;letter-spacing:-.02em;line-height:1.18;margin:var(--s-4) 0 var(--s-3)}
 .sec-desc{font-size:var(--t-md);color:var(--dim);max-width:var(--measure)}
@@ -84,7 +98,7 @@ button:not(:disabled):active,.btn-primary:active,.btn-ghost:active,.nav-cta:acti
 .mc-bloom{position:relative;isolation:isolate}
 .mc-bloom::after{content:"";position:absolute;inset:0;border-radius:inherit;background:radial-gradient(circle at 50% 50%,rgba(255,255,255,.35),transparent 62%);opacity:0;transition:opacity var(--dur-base) var(--ease-signature);pointer-events:none}
 .mc-bloom:active::after{opacity:1;transition-duration:0ms}
-@media(prefers-reduced-motion:reduce){.reveal,.reveal.visible,.mc-enter,.eye,.island-msg.swap,.hero-sky .float,.hero-sky .wander{animation:none;opacity:1}.win:hover{transform:none}button,.btn-primary,.btn-ghost{transition:none}button:not(:disabled):active{transform:none}}
+@media(prefers-reduced-motion:reduce){.reveal,.reveal.visible,.mc-enter,.eye,.island-msg.swap,.hero-sky .float,.hero-sky .wander,.px-bob,.px-fly,.px-tick,.band-trail i.r{animation:none;opacity:1}.win:hover{transform:none}button,.btn-primary,.btn-ghost{transition:none}button:not(:disabled):active{transform:none}}
 /* ── nav ── */
 .nav{position:fixed;inset:0 0 auto 0;z-index:50;background:rgba(244,236,230,.86);backdrop-filter:blur(14px);border-bottom:1px solid var(--edge)}
 .nav-in{max-width:var(--wrap);margin:0 auto;padding:0 var(--gutter);height:64px;display:flex;align-items:center;gap:var(--s-6)}
@@ -279,7 +293,7 @@ footer{border-top:1px solid var(--edge);padding:var(--s-8) 0 var(--s-10);margin-
 @media(max-width:1200px){.nav-brand span{display:none}.nav-links{gap:var(--s-4)}}
 @media(max-width:960px){
   .story-grid,.story-flip .story-grid,.proof-grid,.eng-classes{grid-template-columns:1fr}
-  .hero-sky,.sec-px{display:none}
+  .hero-sky,.sec-px,.band-trail{display:none}
   .story-flip .story-copy{order:0}
   .steps,.market-cards{grid-template-columns:repeat(2,1fr)}
   .grid3,.process-steps,.contact-grid,.f-row{grid-template-columns:1fr}
@@ -388,6 +402,7 @@ footer{border-top:1px solid var(--edge);padding:var(--s-8) 0 var(--s-10);margin-
 </header>
 
 <div class="band">
+  {{PX_TRAIL}}
   <div class="main">{{TAGLINE_MAIN}}</div>
   <div class="sub">{{TAGLINE_SUB}}</div>
 </div>
